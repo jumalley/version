@@ -24,3 +24,13 @@ Each push to the `main` branch:
 
 
 </details>
+
+<details>
+<summary><strong>v1.2.36</strong> – 2025-05-07</summary>
+
+**Changed Files:**
+
+- .github/workflows/version.yml : 45e04d7 - Update version.yml ([View Commit](https://github.com/jumalley/adminmenu/commit/45e04d7))
+- notes.md : 500d0ed - Update notes.md ([View Commit](https://github.com/jumalley/adminmenu/commit/500d0ed))
+
+</details>
