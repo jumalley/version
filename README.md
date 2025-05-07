@@ -9,31 +9,6 @@ Each push to the `main` branch:
 
 ## 📌 Changelog History
 
-
-<details>
-<summary><strong>v1.2.25</strong> – 2025-05-07</summary>
-
-**Changed Files:**
-
-
-</details>
-
-<details>
-<summary><strong>v1.2.26</strong> – 2025-05-07</summary>
-
-**Changed Files:**
-
-
-</details>
-
-<details>
-<summary><strong>v1.2.27</strong> – 2025-05-07</summary>
-
-**Changed Files:**
-
-
-</details>
-
 <details>
 <summary><strong>v1.2.28</strong> – 2025-05-07</summary>
 
