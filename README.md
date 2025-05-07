@@ -35,3 +35,12 @@ Each push to the `main` branch:
 - client/modules/modes/modes.lua : 822b74c - Update modes.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/822b74c))
 
 </details>
+
+<details>
+<summary><strong>v1.2.50</strong> – 2025-05-07 17:17</summary>
+
+**Changed Files:**
+
+- client/functions.lua : a4a0d13 - Update functions.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/a4a0d13))
+
+</details>
