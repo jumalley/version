@@ -1,10 +1,17 @@
 {
-  "version": "1.2.45",
+  "version": "1.2.46",
   "descriptions": [
     {
       "file": "config/config.lua",
       "commit_info": "8c69862 - Update config.lua",
       "commit_url": "https://github.com/jumalley/adminmenu/commit/8c69862"
+    }
+  ],
+  "file_changes": [
+    {
+      "file": "config/config.lua",
+      "commit_info": "bc7609c - Merge branch 'main' of https://github.com/jumalley/adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bc7609c"
     }
   ]
 }
