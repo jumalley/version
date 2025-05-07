@@ -7,6 +7,8 @@ Each push to the `main` branch:
 - Generates a zip + GitHub Release
 - Stores changes in `adminmenu.json`
 
+## 📌 Changelog History
+
 <details>
 <summary><strong>v1.2.34</strong> – 2025-05-07</summary>
 
