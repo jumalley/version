@@ -17,3 +17,12 @@ Each push to the `main` branch:
 - config/config.lua : 8c69862 - Update config.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/8c69862))
 
 </details>
+
+<details>
+<summary><strong>v1.2.46</strong> – 2025-05-07 16:42</summary>
+
+**Changed Files:**
+
+- config/config.lua : bc7609c - Merge branch 'main' of https://github.com/jumalley/adminmenu ([View Commit](https://github.com/jumalley/adminmenu/commit/bc7609c))
+
+</details>
