@@ -26,3 +26,13 @@ Each push to the `main` branch:
 - client/functions.lua : 8b69c0d - Update functions.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/8b69c0d))
 
 </details>
+
+<details>
+<summary><strong>v1.2.39</strong> – 2025-05-07 13:32</summary>
+
+**Changed Files:**
+
+## What's Changed\n\n### 🔄 Other Changes\n- client/functions.lua : 1df7a9b - Update functions.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/1df7a9b))
+- config/indexes.lua : b34a641 - Update indexes.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/b34a641))
+\n
+</details>
