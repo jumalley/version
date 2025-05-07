@@ -1,8 +1,6 @@
 {
-  "version": "1.2.39",
+  "version": "1.2.40",
   "descriptions": [
-    "## What's Changed\\n\\n### 🔄 Other Changes\\n- client/functions.lua : 1df7a9b - Update functions.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/1df7a9b))",
-    "- config/indexes.lua : b34a641 - Update indexes.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/b34a641))",
-    "\\n"
+    "- client/utils.lua : 618f4f8 - Update utils.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/618f4f8))"
   ]
 }
