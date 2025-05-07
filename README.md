@@ -1,4 +1,4 @@
-# Version Repository for AdminMenu Project
+# Version Repository for adminmenu
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
