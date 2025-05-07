@@ -1,14 +1,14 @@
 {
-  "version": "1.2.48",
+  "version": "1.2.50",
   "descriptions": [
     "test",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "822b74c - Update modes.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/822b74c"
+      "file": "client/functions.lua",
+      "commit_info": "a4a0d13 - Update functions.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4a0d13"
     }
   ]
 }
