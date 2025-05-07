@@ -26,3 +26,12 @@ Each push to the `main` branch:
 - config/config.lua : bc7609c - Merge branch 'main' of https://github.com/jumalley/adminmenu ([View Commit](https://github.com/jumalley/adminmenu/commit/bc7609c))
 
 </details>
+
+<details>
+<summary><strong>v1.2.48</strong> – 2025-05-07 16:51</summary>
+
+**Changed Files:**
+
+- client/modules/modes/modes.lua : 822b74c - Update modes.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/822b74c))
+
+</details>
