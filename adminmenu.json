@@ -1,6 +1,12 @@
 {
   "version": "1.2.40",
   "descriptions": [
-    "- client/utils.lua : 618f4f8 - Update utils.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/618f4f8))"
+    "- Added ability to toggle admin mode.",
+    "- Fixed issue with ban list not updating."
+  ],
+  "changed_files": [
+    "client/admin.lua",
+    "server/banlist.lua",
+    "shared/config.lua"
   ]
 }
