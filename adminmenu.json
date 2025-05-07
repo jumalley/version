@@ -1,6 +1,10 @@
 {
-  "version": "1.2.41",
+  "version": "1.2.45",
   "descriptions": [
-    "- client/functions.lua : d991252 - Update functions.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/d991252))\\n"
+    {
+      "file": "config/config.lua",
+      "commit_info": "8c69862 - Update config.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8c69862"
+    }
   ]
 }
