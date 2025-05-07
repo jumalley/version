@@ -25,3 +25,11 @@ Each push to the `main` branch:
 
 
 </details>
+
+<details>
+<summary><strong>v1.2.27</strong> – 2025-05-07</summary>
+
+**Changed Files:**
+
+
+</details>
