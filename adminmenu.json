@@ -1,5 +1,5 @@
 {
-  "version": "1.2.50",
+  "version": "1.2.51",
   "descriptions": [
     "test",
     "changelog"
@@ -7,8 +7,8 @@
   "file_changes": [
     {
       "file": "client/functions.lua",
-      "commit_info": "a4a0d13 - Update functions.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4a0d13"
+      "commit_info": "2cad9f5 - Update functions.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2cad9f5"
     }
   ]
 }
