@@ -5,7 +5,7 @@ This repository is auto-updated from [adminmenu](https://github.com/jumalley/adm
 Each push to the `main` branch:
 - Auto-increments the version in `fxmanifest.lua`
 - Generates a zip + GitHub Release
-- Stores changes in `adminmenu.json`
+- Stores changes in `adminmenu.json` and below
 
 ## 📌 Changelog History
 
