@@ -45,3 +45,11 @@ Each push to the `main` branch:
 - client/utils.lua : 618f4f8 - Update utils.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/618f4f8))
 
 </details>
+
+<details>
+<summary><strong>v1.2.41</strong> – 2025-05-07 13:45</summary>
+
+**Changed Files:**
+
+- client/functions.lua : d991252 - Update functions.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/d991252))\n
+</details>
