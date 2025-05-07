@@ -36,3 +36,12 @@ Each push to the `main` branch:
 - config/indexes.lua : b34a641 - Update indexes.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/b34a641))
 \n
 </details>
+
+<details>
+<summary><strong>v1.2.40</strong> – 2025-05-07 13:37</summary>
+
+**Changed Files:**
+
+- client/utils.lua : 618f4f8 - Update utils.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/618f4f8))
+
+</details>
