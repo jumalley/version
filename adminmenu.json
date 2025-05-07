@@ -1,12 +1,6 @@
 {
   "version": "1.2.46",
-  "descriptions": [
-    {
-      "file": "config/config.lua",
-      "commit_info": "8c69862 - Update config.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8c69862"
-    }
-  ],
+  "descriptions": ["test", "changelog"],
   "file_changes": [
     {
       "file": "config/config.lua",
