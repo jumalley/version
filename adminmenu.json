@@ -1,11 +1,14 @@
 {
-  "version": "1.2.46",
-  "descriptions": ["test", "changelog"],
+  "version": "1.2.48",
+  "descriptions": [
+    "test",
+    "changelog"
+  ],
   "file_changes": [
     {
-      "file": "config/config.lua",
-      "commit_info": "bc7609c - Merge branch 'main' of https://github.com/jumalley/adminmenu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bc7609c"
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "822b74c - Update modes.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/822b74c"
     }
   ]
 }
