@@ -17,3 +17,12 @@ Each push to the `main` branch:
 - config/perms.lua : 9ab56eb - Update perms.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/9ab56eb))
 
 </details>
+
+<details>
+<summary><strong>v1.2.38</strong> – 2025-05-07</summary>
+
+**Changed Files:**
+
+- client/functions.lua : 8b69c0d - Update functions.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/8b69c0d))
+
+</details>
