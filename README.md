@@ -53,3 +53,13 @@ Each push to the `main` branch:
 - client/functions.lua : 2cad9f5 - Update functions.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/2cad9f5))
 
 </details>
+
+<details>
+<summary><strong>v1.2.52</strong> – 2025-05-07 17:28</summary>
+
+**Changed Files:**
+
+- client/functions.lua : 932492a - required ([View Commit](https://github.com/jumalley/adminmenu/commit/932492a))
+- config/options.lua : 932492a - required ([View Commit](https://github.com/jumalley/adminmenu/commit/932492a))
+
+</details>
