@@ -1,5 +1,5 @@
 {
-  "version": "1.2.51",
+  "version": "1.2.52",
   "descriptions": [
     "test",
     "changelog"
@@ -7,8 +7,13 @@
   "file_changes": [
     {
       "file": "client/functions.lua",
-      "commit_info": "2cad9f5 - Update functions.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2cad9f5"
+      "commit_info": "932492a - required",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/932492a"
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "932492a - required",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/932492a"
     }
   ]
 }
