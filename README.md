@@ -1,6 +1,6 @@
 # Version Repository for AdminMenu Project
 
-This repository is auto-updated from [AdminMenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
+This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
 Each push to the `main` branch:
 - Auto-increments the version in `fxmanifest.lua`
