@@ -1,7 +1,6 @@
 {
-  "version": "1.2.36",
+  "version": "1.2.37",
   "descriptions": [
-    "- .github/workflows/version.yml : 45e04d7 - Update version.yml ([View Commit](https://github.com/jumalley/adminmenu/commit/45e04d7))",
-    "- notes.md : 500d0ed - Update notes.md ([View Commit](https://github.com/jumalley/adminmenu/commit/500d0ed))"
+    "- config/perms.lua : 9ab56eb - Update perms.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/9ab56eb))"
   ]
 }
