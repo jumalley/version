@@ -8,3 +8,12 @@ Each push to the `main` branch:
 - Stores changes in `adminmenu.json`
 
 ## 📌 Changelog History
+
+<details>
+<summary><strong>v1.2.37</strong> – 2025-05-07</summary>
+
+**Changed Files:**
+
+- config/perms.lua : 9ab56eb - Update perms.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/9ab56eb))
+
+</details>
