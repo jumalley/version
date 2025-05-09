@@ -90,3 +90,12 @@ No significant changes in this version besides automatic version increment.
 - locales/fr.lua : 005c1c3 - pistol staff adjustements ([View Commit](https://github.com/jumalley/adminmenu/commit/005c1c3))
 
 </details>
+
+<details>
+<summary><strong>v1.2.60</strong> – 2025-05-09 16:46</summary>
+
+**Changed Files:**
+
+- server/modules/settings/cfg.lua : e74a248 - file creation logic improved ([View Commit](https://github.com/jumalley/adminmenu/commit/e74a248))
+
+</details>
