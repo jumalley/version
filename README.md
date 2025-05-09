@@ -66,13 +66,3 @@ Each push to the `main` branch:
 
 <details>
 <summary><strong>v1.2.53</strong> – 2025-05-09 11:36</summary>
-
-**Changed Files:**
-
-No significant changes in this version besides automatic version increment.
-</details>
-
-**Changed Files:**
-
-No significant changes in this version besides automatic version increment.
-</details>
