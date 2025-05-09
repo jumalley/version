@@ -79,3 +79,14 @@ No significant changes in this version besides automatic version increment.
 
 No significant changes in this version besides automatic version increment.
 </details>
+
+<details>
+<summary><strong>v1.2.59</strong> – 2025-05-09 16:16</summary>
+
+**Changed Files:**
+
+- client/modules/adminduty.lua : 005c1c3 - pistol staff adjustements ([View Commit](https://github.com/jumalley/adminmenu/commit/005c1c3))
+- locales/en.lua : 005c1c3 - pistol staff adjustements ([View Commit](https://github.com/jumalley/adminmenu/commit/005c1c3))
+- locales/fr.lua : 005c1c3 - pistol staff adjustements ([View Commit](https://github.com/jumalley/adminmenu/commit/005c1c3))
+
+</details>
