@@ -72,15 +72,6 @@ Each push to the `main` branch:
 No significant changes in this version besides automatic version increment.
 </details>
 
-<details>
-<summary><strong>v1.2.55</strong> – 2025-05-09 12:13 ![High Risk](https://img.shields.io/badge/Risk-High-red)</summary>
-
-**Impact Summary:**
-- Files changed: 1
-- Lua files changed: 1
-- Functions modified: 158
-- [Full Impact Analysis](impact_analysis_v1.2.55.md)
-
 **Changed Files:**
 
 No significant changes in this version besides automatic version increment.
