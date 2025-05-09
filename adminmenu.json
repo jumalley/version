@@ -1,24 +1,14 @@
 {
-  "version": "1.2.59",
+  "version": "1.2.60",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "005c1c3 - pistol staff adjustements",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/005c1c3"
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "005c1c3 - pistol staff adjustements",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/005c1c3"
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "005c1c3 - pistol staff adjustements",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/005c1c3"
+      "file": "server/modules/settings/cfg.lua",
+      "commit_info": "e74a248 - file creation logic improved",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e74a248"
     }
   ]
 }
