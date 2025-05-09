@@ -1,14 +1,14 @@
 {
-  "version": "1.2.56",
+  "version": "1.2.57",
   "descriptions": [
     "test",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "47f80ad - Update functions.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/47f80ad"
+      "file": "config/config.lua",
+      "commit_info": "021885a - Update config.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/021885a"
     }
   ],
   "impact_analysis": {
