@@ -63,3 +63,11 @@ Each push to the `main` branch:
 - config/options.lua : 932492a - required ([View Commit](https://github.com/jumalley/adminmenu/commit/932492a))
 
 </details>
+
+<details>
+<summary><strong>v1.2.56</strong> – 2025-05-09 12:22</summary>
+
+**Changed Files:**
+
+No significant changes in this version besides automatic version increment.
+</details>
