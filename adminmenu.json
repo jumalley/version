@@ -1,14 +1,19 @@
 {
-  "version": "1.2.66",
+  "version": "1.2.67",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/announce.lua",
-      "commit_info": "b0dd9f3 - Update announce.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0dd9f3"
+      "file": "server/modules/modes/spectate.lua",
+      "commit_info": "4497d17 - Update spectate.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4497d17"
+    },
+    {
+      "file": "server/modules/txadmin.lua",
+      "commit_info": "0be78b2 - Update txadmin.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0be78b2"
     }
   ]
 }

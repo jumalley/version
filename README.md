@@ -144,3 +144,16 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.65...v1.2.66
 </details>
+
+<details>
+<summary><strong>v1.2.67</strong> – 2025-05-12 11:46</summary>
+
+**Changed Files:**
+
+## Changelog for v1.2.67
+
+- **server/modules/modes/spectate.lua**: Updated server/modules/modes/spectate.lua: Update spectate.lua by [Ju](https://github.com/Ju) ([View Commit](https://github.com/jumalley/adminmenu/commit/4497d17))
+- **server/modules/txadmin.lua**: Updated server/modules/txadmin.lua: Update txadmin.lua by [Ju](https://github.com/Ju) ([View Commit](https://github.com/jumalley/adminmenu/commit/0be78b2))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.66...v1.2.67
+</details>
