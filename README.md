@@ -168,3 +168,13 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.67...v1.2.68
 </details>
+
+<details>
+<summary><strong>v1.2.69</strong> – 2025-05-12 11:56</summary>
+
+## Changelog for v1.2.69
+
+- [**client/custom/garage/loaf_garage.lua**](https://github.com/jumalley/adminmenu/blob/ba319d4/client/custom/garage/loaf_garage.lua): Updated client/custom/garage/loaf_garage.lua: Update loaf_garage.lua by [jumalley](https://github.com/jumalley) ([View Commit](https://github.com/jumalley/adminmenu/commit/ba319d4))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.68...v1.2.69
+</details>

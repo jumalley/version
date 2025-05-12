@@ -1,19 +1,14 @@
 {
-  "version": "1.2.68",
+  "version": "1.2.69",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/garage/cd_garage.lua",
-      "commit_info": "5975291 - Update cd_garage.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5975291"
-    },
-    {
-      "file": "client/custom/garage/jg-advancedgarages.lua",
-      "commit_info": "ecfc10c - Update jg-advancedgarages.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ecfc10c"
+      "file": "client/custom/garage/loaf_garage.lua",
+      "commit_info": "ba319d4 - Update loaf_garage.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ba319d4"
     }
   ]
 }
