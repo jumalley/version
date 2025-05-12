@@ -107,3 +107,12 @@ No significant changes in this version besides automatic version increment.
 
 No significant changes in this version besides automatic version increment.
 </details>
+
+<details>
+<summary><strong>v1.2.62</strong> – 2025-05-12 06:58</summary>
+
+**Changed Files:**
+
+- client/modules/adminduty.lua: 6a903c4 - Update adminduty.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/6a903c4))
+
+</details>

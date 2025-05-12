@@ -1,5 +1,5 @@
 {
-  "version": "1.2.61",
+  "version": "1.2.62",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,8 +7,8 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "2343d3f - Update adminduty.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2343d3f"
+      "commit_info": "6a903c4 - Update adminduty.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6a903c4"
     }
   ]
 }
