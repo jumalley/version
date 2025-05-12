@@ -157,3 +157,14 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.66...v1.2.67
 </details>
+
+<details>
+<summary><strong>v1.2.68</strong> – 2025-05-12 11:55</summary>
+
+## Changelog for v1.2.68
+
+- [**client/custom/garage/cd_garage.lua**](https://github.com/jumalley/adminmenu/blob/5975291/client/custom/garage/cd_garage.lua): Updated client/custom/garage/cd_garage.lua: Update cd_garage.lua by [jumalley](https://github.com/jumalley) ([View Commit](https://github.com/jumalley/adminmenu/commit/5975291))
+- [**client/custom/garage/jg-advancedgarages.lua**](https://github.com/jumalley/adminmenu/blob/ecfc10c/client/custom/garage/jg-advancedgarages.lua): Updated client/custom/garage/jg-advancedgarages.lua: Update jg-advancedgarages.lua by [jumalley](https://github.com/jumalley) ([View Commit](https://github.com/jumalley/adminmenu/commit/ecfc10c))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.67...v1.2.68
+</details>

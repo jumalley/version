@@ -1,19 +1,19 @@
 {
-  "version": "1.2.67",
+  "version": "1.2.68",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/modules/modes/spectate.lua",
-      "commit_info": "4497d17 - Update spectate.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4497d17"
+      "file": "client/custom/garage/cd_garage.lua",
+      "commit_info": "5975291 - Update cd_garage.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5975291"
     },
     {
-      "file": "server/modules/txadmin.lua",
-      "commit_info": "0be78b2 - Update txadmin.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0be78b2"
+      "file": "client/custom/garage/jg-advancedgarages.lua",
+      "commit_info": "ecfc10c - Update jg-advancedgarages.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ecfc10c"
     }
   ]
 }
