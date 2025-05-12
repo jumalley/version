@@ -116,3 +116,19 @@ No significant changes in this version besides automatic version increment.
 - client/modules/adminduty.lua: 6a903c4 - Update adminduty.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/6a903c4))
 
 </details>
+
+<details>
+<summary><strong>v1.2.63</strong> – 2025-05-12 07:06</summary>
+
+**Changed Files:**
+
+- client/modules/adminduty.lua: df19916 - Update adminduty.lua ([View Commit](https://github.com/jumalley/adminmenu/commit/df19916))
+  Changes:
+    diff --git a/client/modules/adminduty.lua b/client/modules/adminduty.lua
+    index ec9fbd6..a5fe512 100644
+    --- a/client/modules/adminduty.lua
+    +++ b/client/modules/adminduty.lua
+    @@ -310,30 +310,84 @@ function handleEntityDebug(entity, contextIdPrefix, debugTitle, nameLabel, nameI
+    ... (truncated, see commit for full diff)
+
+</details>
