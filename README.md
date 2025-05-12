@@ -132,3 +132,15 @@ No significant changes in this version besides automatic version increment.
     ... (truncated, see commit for full diff)
 
 </details>
+
+<details>
+<summary><strong>v1.2.66</strong> – 2025-05-12 11:28</summary>
+
+**Changed Files:**
+
+## Changelog for v1.2.66
+
+- **client/modules/announce.lua**: Updated client/modules/announce.lua: Update announce.lua (Ju) by Ju ([View Commit](https://github.com/jumalley/adminmenu/commit/b0dd9f3))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.65...v1.2.66
+</details>
