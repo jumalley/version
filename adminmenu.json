@@ -1,14 +1,14 @@
 {
-  "version": "1.2.60",
+  "version": "1.2.61",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/modules/settings/cfg.lua",
-      "commit_info": "e74a248 - file creation logic improved",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e74a248"
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "2343d3f - Update adminduty.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2343d3f"
     }
   ]
 }

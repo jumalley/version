@@ -99,3 +99,11 @@ No significant changes in this version besides automatic version increment.
 - server/modules/settings/cfg.lua : e74a248 - file creation logic improved ([View Commit](https://github.com/jumalley/adminmenu/commit/e74a248))
 
 </details>
+
+<details>
+<summary><strong>v1.2.61</strong> – 2025-05-12 06:46</summary>
+
+**Changed Files:**
+
+No significant changes in this version besides automatic version increment.
+</details>
