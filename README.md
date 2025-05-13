@@ -188,3 +188,13 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.69...v1.2.70
 </details>
+
+<details>
+<summary><strong>v1.2.71</strong> – 2025-05-13 07:05</summary>
+
+## Changelog for v1.2.71
+
+- [**client/custom/garage/okokGarage.lua**](https://github.com/jumalley/adminmenu/blob/c2935bc/client/custom/garage/okokGarage.lua): Update okokGarage.lua by [jumalley](https://github.com/jumalley). ([View Commit](https://github.com/jumalley/adminmenu/commit/c2935bc))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.70...v1.2.71
+</details>

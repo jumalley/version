@@ -1,14 +1,14 @@
 {
-  "version": "1.2.70",
+  "version": "1.2.71",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/garage/rcore_garage.lua",
-      "commit_info": "2d9dab6 - Update rcore_garage.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2d9dab6"
+      "file": "client/custom/garage/okokGarage.lua",
+      "commit_info": "c2935bc - Update okokGarage.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c2935bc"
     }
   ]
 }
