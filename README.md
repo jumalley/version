@@ -198,3 +198,13 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.70...v1.2.71
 </details>
+
+<details>
+<summary><strong>v1.2.73</strong> – 2025-05-13 07:44</summary>
+
+## Changelog for v1.2.73
+
+- [**client/custom/inventory/codem.lua**](https://github.com/jumalley/adminmenu/blob/1adc6b5/client/custom/inventory/codem.lua): Update codem.lua by [jumalley](https://github.com/jumalley). ([View Commit](https://github.com/jumalley/adminmenu/commit/1adc6b5))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.72...v1.2.73
+</details>
