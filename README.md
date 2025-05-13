@@ -178,3 +178,13 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.68...v1.2.69
 </details>
+
+<details>
+<summary><strong>v1.2.70</strong> – 2025-05-13 06:57</summary>
+
+## Changelog for v1.2.70
+
+- [**client/custom/garage/rcore_garage.lua**](https://github.com/jumalley/adminmenu/blob/2d9dab6/client/custom/garage/rcore_garage.lua): Update rcore_garage.lua by [jumalley](https://github.com/jumalley). **Summary of Changes**: ++ b/client/custom/garage/rcore_garage.lua. ([View Commit](https://github.com/jumalley/adminmenu/commit/2d9dab6))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.69...v1.2.70
+</details>

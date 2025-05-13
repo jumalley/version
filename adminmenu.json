@@ -1,14 +1,14 @@
 {
-  "version": "1.2.69",
+  "version": "1.2.70",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/garage/loaf_garage.lua",
-      "commit_info": "ba319d4 - Update loaf_garage.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ba319d4"
+      "file": "client/custom/garage/rcore_garage.lua",
+      "commit_info": "2d9dab6 - Update rcore_garage.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2d9dab6"
     }
   ]
 }
