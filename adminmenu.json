@@ -1,14 +1,14 @@
 {
-  "version": "1.2.74",
+  "version": "1.2.75",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "0674b99 - Update functions.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0674b99"
+      "file": "client/modules/scaleforms.lua",
+      "commit_info": "530b42b - Update scaleforms.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/530b42b"
     }
   ]
 }

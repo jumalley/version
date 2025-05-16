@@ -218,3 +218,13 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.73...v1.2.74
 </details>
+
+<details>
+<summary><strong>v1.2.75</strong> – 2025-05-16 09:14</summary>
+
+## Changelog for v1.2.75
+
+- [**client/modules/scaleforms.lua**](https://github.com/jumalley/adminmenu/blob/530b42b/client/modules/scaleforms.lua): Update scaleforms.lua by [jumalley](https://github.com/jumalley). **Code Changes**: end. ([View Commit](https://github.com/jumalley/adminmenu/commit/530b42b))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.74...v1.2.75
+</details>
