@@ -228,3 +228,14 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.74...v1.2.75
 </details>
+
+<details>
+<summary><strong>v1.2.79</strong> – 2025-05-16 22:22</summary>
+
+## Changelog for v1.2.79
+
+- [**client/modules/onlineplayers.lua**](https://github.com/jumalley/adminmenu/blob/ebc101d/client/modules/onlineplayers.lua): claude by [jumalley](https://github.com/jumalley). **Code Changes**: local PlayerListState = { |     sortBy = 'rpName', |     sortOrder = 'ASC', |     searchCriteria = {}, |     limit = 5,. ([View Commit](https://github.com/jumalley/adminmenu/commit/ebc101d))
+- [**client/modules/options.lua**](https://github.com/jumalley/adminmenu/blob/ebc101d/client/modules/options.lua): claude by [jumalley](https://github.com/jumalley). **Code Changes**: end. ([View Commit](https://github.com/jumalley/adminmenu/commit/ebc101d))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.78...v1.2.79
+</details>

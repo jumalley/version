@@ -1,14 +1,19 @@
 {
-  "version": "1.2.75",
+  "version": "1.2.79",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/scaleforms.lua",
-      "commit_info": "530b42b - Update scaleforms.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/530b42b"
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "ebc101d - claude",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ebc101d"
+    },
+    {
+      "file": "client/modules/options.lua",
+      "commit_info": "ebc101d - claude",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ebc101d"
     }
   ]
 }
