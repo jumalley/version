@@ -208,3 +208,13 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.72...v1.2.73
 </details>
+
+<details>
+<summary><strong>v1.2.74</strong> – 2025-05-16 07:17</summary>
+
+## Changelog for v1.2.74
+
+- [**client/functions.lua**](https://github.com/jumalley/adminmenu/blob/0674b99/client/functions.lua): Update functions.lua by [jumalley](https://github.com/jumalley). **Code Changes**:     local neonEnabled = {} |     for i = 0, 3 do |         neonEnabled[i] = IsVehicleNeonLightEnabled(entity, i) |     end | . ([View Commit](https://github.com/jumalley/adminmenu/commit/0674b99))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.73...v1.2.74
+</details>

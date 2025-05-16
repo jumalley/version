@@ -1,14 +1,14 @@
 {
-  "version": "1.2.73",
+  "version": "1.2.74",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/inventory/codem.lua",
-      "commit_info": "1adc6b5 - Update codem.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1adc6b5"
+      "file": "client/functions.lua",
+      "commit_info": "0674b99 - Update functions.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0674b99"
     }
   ]
 }
