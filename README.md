@@ -239,3 +239,15 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.78...v1.2.79
 </details>
+
+<details>
+<summary><strong>v1.2.80</strong> – 2025-05-19 06:40</summary>
+
+## Changelog for v1.2.80
+
+- [**client/custom/appearance/qb-clothing.lua**](https://github.com/jumalley/adminmenu/blob/4e29141/client/custom/appearance/qb-clothing.lua): Update qb-clothing.lua by [jumalley](https://github.com/jumalley). **Code Changes**: if Config.Appearance ~= 'qb-clothing' then  |     return  | end. ([View Commit](https://github.com/jumalley/adminmenu/commit/4e29141))
+- [**client/custom/framework/esx.lua**](https://github.com/jumalley/adminmenu/blob/f74cbe6/client/custom/framework/esx.lua): Update esx.lua by [jumalley](https://github.com/jumalley). **Code Changes**:     return lib.getNearbyVehicles(cache.coords, distance, true) | end. ([View Commit](https://github.com/jumalley/adminmenu/commit/f74cbe6))
+- [**client/custom/framework/qb.lua**](https://github.com/jumalley/adminmenu/blob/9098cfb/client/custom/framework/qb.lua): Update qb.lua by [jumalley](https://github.com/jumalley). **Code Changes**: function GetVehiclesInArea(distance) |     return lib.getNearbyVehicles(cache.coords, distance, true) | end | end. ([View Commit](https://github.com/jumalley/adminmenu/commit/9098cfb))
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.79...v1.2.80
+</details>
