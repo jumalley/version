@@ -251,3 +251,11 @@ No significant changes in this version besides automatic version increment.
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.79...v1.2.80
 </details>
+
+<details>
+<summary><strong>v1.2.81</strong> – 2025-05-22 09:21</summary>
+
+## Changelog for v1.2.81
+
+No significant changes in this release. This is likely a maintenance update or version increment.
+</details>

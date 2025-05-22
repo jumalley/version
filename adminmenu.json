@@ -1,24 +1,8 @@
 {
-  "version": "1.2.80",
+  "version": "1.2.81",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
-  "file_changes": [
-    {
-      "file": "client/custom/appearance/qb-clothing.lua",
-      "commit_info": "4e29141 - Update qb-clothing.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4e29141"
-    },
-    {
-      "file": "client/custom/framework/esx.lua",
-      "commit_info": "f74cbe6 - Update esx.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f74cbe6"
-    },
-    {
-      "file": "client/custom/framework/qb.lua",
-      "commit_info": "9098cfb - Update qb.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9098cfb"
-    }
-  ]
+  "file_changes": []
 }
