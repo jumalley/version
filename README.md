@@ -265,3 +265,9 @@ No significant changes in this release. This is likely a maintenance update or v
 
 
 </details>
+
+<details>
+<summary><strong>v1.2.93</strong> – 2025-05-23 11:59</summary>
+
+
+</details>

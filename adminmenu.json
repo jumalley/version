@@ -1,17 +1,17 @@
 {
-  "version": "1.2.92",
+  "version": "1.2.93",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/webhooks.lua",
-      "commit_info": "b07ccac - Update webhooks.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b07ccac",
-      "current_size": 1286,
-      "previous_size": 1278,
-      "size_diff": 8
+      "file": "client/modules/modes/utils.lua",
+      "commit_info": "c93f35f - Update utils.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c93f35f",
+      "current_size": 14218,
+      "previous_size": 14371,
+      "size_diff": -153
     }
   ]
 }
