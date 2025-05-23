@@ -316,3 +316,13 @@ No significant changes in this release. This is likely a maintenance update or v
 
 **Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.96...v1.2.97
 </details>
+
+<details>
+<summary><strong>v1.2.98</strong> – 2025-05-23 12:48</summary>
+
+## Changelog for v1.2.98
+
+client/modules/debug.lua: Delete client/modules/debug.lua by jumalley
+
+
+</details>
