@@ -1,17 +1,17 @@
 {
-  "version": "1.2.94",
+  "version": "1.2.95",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/modes/utils.lua",
-      "commit_info": "6df501d - Update utils.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6df501d",
-      "current_size": 14371,
-      "previous_size": 14218,
-      "size_diff": 153
+      "file": "client/modules/showdata/appearance.lua",
+      "commit_info": "e38fd4d - Update appearance.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e38fd4d",
+      "current_size": 19580,
+      "previous_size": 19554,
+      "size_diff": 26
     }
   ]
 }
