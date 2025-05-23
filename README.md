@@ -4,7 +4,6 @@ This repository is auto-updated from [adminmenu](https://github.com/jumalley/adm
 
 ![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.101-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-$(echo "$DATE" | sed 's/ /%20/g')-orange)
 
 Each push to the `main` branch:
 - Auto-increments the version in `fxmanifest.lua`
