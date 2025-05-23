@@ -1,17 +1,17 @@
 {
-  "version": "1.2.99",
+  "version": "1.2.100",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/weapons.lua",
-      "commit_info": "d1b15bd - Update weapons.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d1b15bd",
-      "current_size": 5532,
-      "previous_size": 4032,
-      "size_diff": 1500
+      "file": "client/modules/wiki.lua",
+      "commit_info": "bdb569b - Update wiki.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bdb569b",
+      "current_size": 551,
+      "previous_size": 574,
+      "size_diff": -23
     }
   ]
 }
