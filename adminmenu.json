@@ -1,17 +1,33 @@
 {
-  "version": "1.2.100",
+  "version": "1.2.101",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/wiki.lua",
-      "commit_info": "bdb569b - Update wiki.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bdb569b",
-      "current_size": 551,
-      "previous_size": 574,
-      "size_diff": -23
+      "file": "client/custom/weather/cd_easytime.lua",
+      "commit_info": "7808bff - Update cd_easytime.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7808bff",
+      "current_size": 588,
+      "previous_size": 771,
+      "size_diff": -183
+    },
+    {
+      "file": "client/custom/weather/qb-weathersync.lua",
+      "commit_info": "f340b46 - Update qb-weathersync.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f340b46",
+      "current_size": 601,
+      "previous_size": 784,
+      "size_diff": -183
+    },
+    {
+      "file": "client/custom/weather/vSync.lua",
+      "commit_info": "373c0f7 - Update vSync.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/373c0f7",
+      "current_size": 1070,
+      "previous_size": 1299,
+      "size_diff": -229
     }
   ]
 }
