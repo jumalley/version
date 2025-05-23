@@ -326,3 +326,13 @@ client/modules/debug.lua: Delete client/modules/debug.lua by jumalley
 
 
 </details>
+
+<details>
+<summary><strong>v1.2.99</strong> – 2025-05-23 12:51</summary>
+
+## Changelog for v1.2.99
+
+client/modules/weapons.lua: Update weapons.lua by jumalley
+
+
+</details>

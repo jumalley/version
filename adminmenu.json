@@ -1,17 +1,17 @@
 {
-  "version": "1.2.98",
+  "version": "1.2.99",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/debug.lua",
-      "commit_info": "4c15438 - Delete client/modules/debug.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4c15438",
-      "current_size": 0,
-      "previous_size": 1929,
-      "size_diff": -1929
+      "file": "client/modules/weapons.lua",
+      "commit_info": "d1b15bd - Update weapons.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d1b15bd",
+      "current_size": 5532,
+      "previous_size": 4032,
+      "size_diff": 1500
     }
   ]
 }
