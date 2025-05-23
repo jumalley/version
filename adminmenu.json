@@ -1,8 +1,17 @@
 {
-  "version": "1.2.81",
+  "version": "1.2.92",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
-  "file_changes": []
+  "file_changes": [
+    {
+      "file": "config/webhooks.lua",
+      "commit_info": "b07ccac - Update webhooks.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b07ccac",
+      "current_size": 1286,
+      "previous_size": 1278,
+      "size_diff": 8
+    }
+  ]
 }
