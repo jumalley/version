@@ -295,3 +295,24 @@ No significant changes in this release. This is likely a maintenance update or v
 
 
 </details>
+
+<details>
+<summary><strong>v1.2.97</strong> – 2025-05-23 12:21</summary>
+
+## Changelog for v1.2.97
+
+- [**client/modules/showdata/appearance.lua**](https://github.com/jumalley/adminmenu/blob/5da055d/client/modules/showdata/appearance.lua): Update appearance.lua by [jumalley](https://github.com/jumalley) 📈 +12B
+
+  **Code Changes:**
+  ```lua
+      lib.showContext(player_outfits .. targetId)
+  ```
+
+  ([View Commit](https://github.com/jumalley/adminmenu/commit/5da055d))
+
+---
+
+📈 **Total Size Increase**: +12B
+
+**Full Changelog**: https://github.com/jumalley/adminmenu/compare/v1.2.96...v1.2.97
+</details>
