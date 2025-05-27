@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.101-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.105-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -53,6 +53,17 @@ client/modules/car.lua: Update car.lua by jumalley
 ## Changelog for v1.2.104
 
 client/modules/devtools.lua: Update devtools.lua by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.105</strong> – 2025-05-27 07:40</summary>
+
+## Changelog for v1.2.105
+
+config/garages.lua: Update garages.lua by jumalley
 
 
 
