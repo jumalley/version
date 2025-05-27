@@ -1,5 +1,5 @@
 {
-  "version": "1.2.102",
+  "version": "1.2.103",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/car.lua",
-      "commit_info": "87fcf40 - Update car.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/87fcf40",
-      "current_size": 7897,
-      "previous_size": 4305,
-      "size_diff": 3592
+      "commit_info": "6a7ad1a - Update car.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6a7ad1a",
+      "current_size": 7889,
+      "previous_size": 7897,
+      "size_diff": -8
     }
   ]
 }
