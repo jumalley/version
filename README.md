@@ -46,3 +46,14 @@ client/modules/car.lua: Update car.lua by jumalley
 
 
 </details>
+
+<details>
+<summary><strong>v1.2.104</strong> – 2025-05-27 06:53</summary>
+
+## Changelog for v1.2.104
+
+client/modules/devtools.lua: Update devtools.lua by jumalley
+
+
+
+</details>
