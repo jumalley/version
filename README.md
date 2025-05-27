@@ -24,3 +24,14 @@ client/custom/weather/vSync.lua: Update vSync.lua by jumalley
 
 
 </details>
+
+<details>
+<summary><strong>v1.2.102</strong> – 2025-05-27 06:35</summary>
+
+## Changelog for v1.2.102
+
+client/modules/car.lua: Update car.lua by jumalley
+
+
+
+</details>
