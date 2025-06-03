@@ -1,17 +1,17 @@
 {
-  "version": "1.2.105",
+  "version": "1.2.106",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/garages.lua",
-      "commit_info": "a31bd4b - Update garages.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a31bd4b",
-      "current_size": 2886,
-      "previous_size": 2911,
-      "size_diff": -25
+      "file": "server/modules/settings/cfg.lua",
+      "commit_info": "1bfae48 - natives",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1bfae48",
+      "current_size": 19768,
+      "previous_size": 22668,
+      "size_diff": -2900
     }
   ]
 }
