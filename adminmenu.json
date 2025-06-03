@@ -1,5 +1,5 @@
 {
-  "version": "1.2.106",
+  "version": "1.2.107",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "server/modules/settings/cfg.lua",
-      "commit_info": "1bfae48 - natives",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1bfae48",
-      "current_size": 19768,
-      "previous_size": 22668,
-      "size_diff": -2900
+      "commit_info": "5e8670f - cfg creation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e8670f",
+      "current_size": 19413,
+      "previous_size": 19768,
+      "size_diff": -355
     }
   ]
 }
