@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.107-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.108-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -86,6 +86,17 @@ server/modules/settings/cfg.lua: natives by jumalley
 ## Changelog for v1.2.107
 
 server/modules/settings/cfg.lua: cfg creation by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.108</strong> – 2025-06-03 19:06</summary>
+
+## Changelog for v1.2.108
+
+server/modules/commands.lua: Update commands.lua by jumalley
 
 
 
