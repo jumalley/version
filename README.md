@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.113-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.114-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -158,6 +158,19 @@ client/modules/adminduty.lua: clean + fixes by jumalley
 client/modules/show.lua: clean + fixes by jumalley
 
 config/detect.lua: clean + fixes by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.114</strong> – 2025-06-07 20:24</summary>
+
+## Changelog for v1.2.114
+
+client/modules/modes/modes.lua: appearance typo by jumalley
+
+client/modules/showdata/appearance.lua: appearance typo by jumalley
 
 
 

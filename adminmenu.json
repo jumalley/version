@@ -1,33 +1,25 @@
 {
-  "version": "1.2.113",
+  "version": "1.2.114",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "819d6be - clean + fixes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/819d6be",
-      "current_size": 15780,
-      "previous_size": 15855,
-      "size_diff": -75
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "a114c2e - appearance typo",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a114c2e",
+      "current_size": 8563,
+      "previous_size": 8514,
+      "size_diff": 49
     },
     {
-      "file": "client/modules/show.lua",
-      "commit_info": "819d6be - clean + fixes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/819d6be",
-      "current_size": 9803,
-      "previous_size": 9791,
+      "file": "client/modules/showdata/appearance.lua",
+      "commit_info": "a114c2e - appearance typo",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a114c2e",
+      "current_size": 19616,
+      "previous_size": 19604,
       "size_diff": 12
-    },
-    {
-      "file": "config/detect.lua",
-      "commit_info": "819d6be - clean + fixes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/819d6be",
-      "current_size": 12749,
-      "previous_size": 12680,
-      "size_diff": 69
     }
   ]
 }
