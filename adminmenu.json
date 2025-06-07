@@ -1,17 +1,17 @@
 {
-  "version": "1.2.110",
+  "version": "1.2.111",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/modules/connectqueue.lua",
-      "commit_info": "14413d7 - Update connectqueue.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/14413d7",
-      "current_size": 56,
-      "previous_size": 59,
-      "size_diff": -3
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "bc5a7d8 - restoring functions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bc5a7d8",
+      "current_size": 8730,
+      "previous_size": 8348,
+      "size_diff": 382
     }
   ]
 }
