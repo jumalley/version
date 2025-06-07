@@ -1,25 +1,33 @@
 {
-  "version": "1.2.112",
+  "version": "1.2.113",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/callbacks.lua",
-      "commit_info": "ce4596a - restored missing callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ce4596a",
-      "current_size": 7974,
-      "previous_size": 8107,
-      "size_diff": -133
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "819d6be - clean + fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/819d6be",
+      "current_size": 15780,
+      "previous_size": 15855,
+      "size_diff": -75
     },
     {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "ce4596a - restored missing callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ce4596a",
-      "current_size": 68428,
-      "previous_size": 8730,
-      "size_diff": 59698
+      "file": "client/modules/show.lua",
+      "commit_info": "819d6be - clean + fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/819d6be",
+      "current_size": 9803,
+      "previous_size": 9791,
+      "size_diff": 12
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "819d6be - clean + fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/819d6be",
+      "current_size": 12749,
+      "previous_size": 12680,
+      "size_diff": 69
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.112-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.113-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -143,6 +143,21 @@ server/modules/callbacks.lua: restoring functions by jumalley
 client/modules/callbacks.lua: restored missing callbacks by jumalley
 
 server/modules/callbacks.lua: restored missing callbacks by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.113</strong> – 2025-06-07 20:07</summary>
+
+## Changelog for v1.2.113
+
+client/modules/adminduty.lua: clean + fixes by jumalley
+
+client/modules/show.lua: clean + fixes by jumalley
+
+config/detect.lua: clean + fixes by jumalley
 
 
 
