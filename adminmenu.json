@@ -1,17 +1,25 @@
 {
-  "version": "1.2.111",
+  "version": "1.2.112",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/callbacks.lua",
+      "commit_info": "ce4596a - restored missing callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ce4596a",
+      "current_size": 7974,
+      "previous_size": 8107,
+      "size_diff": -133
+    },
+    {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "bc5a7d8 - restoring functions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bc5a7d8",
-      "current_size": 8730,
-      "previous_size": 8348,
-      "size_diff": 382
+      "commit_info": "ce4596a - restored missing callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ce4596a",
+      "current_size": 68428,
+      "previous_size": 8730,
+      "size_diff": 59698
     }
   ]
 }
