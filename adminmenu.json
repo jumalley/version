@@ -1,25 +1,33 @@
 {
-  "version": "1.2.114",
+  "version": "1.2.115",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "a114c2e - appearance typo",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a114c2e",
-      "current_size": 8563,
-      "previous_size": 8514,
-      "size_diff": 49
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "b5c7574 - most popular jobs fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c7574",
+      "current_size": 14828,
+      "previous_size": 14842,
+      "size_diff": -14
     },
     {
-      "file": "client/modules/showdata/appearance.lua",
-      "commit_info": "a114c2e - appearance typo",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a114c2e",
-      "current_size": 19616,
-      "previous_size": 19604,
-      "size_diff": 12
+      "file": "locales/en.lua",
+      "commit_info": "b5c7574 - most popular jobs fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c7574",
+      "current_size": 129196,
+      "previous_size": 129142,
+      "size_diff": 54
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "b5c7574 - most popular jobs fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c7574",
+      "current_size": 142437,
+      "previous_size": 142375,
+      "size_diff": 62
     }
   ]
 }
