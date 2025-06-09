@@ -1,33 +1,33 @@
 {
-  "version": "1.2.115",
+  "version": "1.2.116",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "b5c7574 - most popular jobs fixes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c7574",
-      "current_size": 14828,
-      "previous_size": 14842,
-      "size_diff": -14
+      "file": "client/modules/settings/resources.lua",
+      "commit_info": "d06b074 - entities",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d06b074",
+      "current_size": 14896,
+      "previous_size": 9709,
+      "size_diff": 5187
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "b5c7574 - most popular jobs fixes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c7574",
-      "current_size": 129196,
-      "previous_size": 129142,
-      "size_diff": 54
+      "commit_info": "d06b074 - entities",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d06b074",
+      "current_size": 130330,
+      "previous_size": 129196,
+      "size_diff": 1134
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "b5c7574 - most popular jobs fixes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c7574",
-      "current_size": 142437,
-      "previous_size": 142375,
-      "size_diff": 62
+      "commit_info": "d06b074 - entities",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d06b074",
+      "current_size": 143555,
+      "previous_size": 142437,
+      "size_diff": 1118
     }
   ]
 }

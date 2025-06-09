@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.115-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.116-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -186,6 +186,21 @@ client/modules/onlineplayers.lua: most popular jobs fixes by jumalley
 locales/en.lua: most popular jobs fixes by jumalley
 
 locales/fr.lua: most popular jobs fixes by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.116</strong> – 2025-06-09 15:45</summary>
+
+## Changelog for v1.2.116
+
+client/modules/settings/resources.lua: entities by jumalley
+
+locales/en.lua: entities by jumalley
+
+locales/fr.lua: entities by jumalley
 
 
 
