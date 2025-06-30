@@ -1,17 +1,33 @@
 {
-  "version": "1.2.117",
+  "version": "1.2.118",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/modules/logs/logs.lua",
-      "commit_info": "dadf26b - Add files via upload",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dadf26b",
-      "current_size": 9246,
-      "previous_size": 4978,
-      "size_diff": 4268
+      "file": "client/modules/showdata/logs.lua",
+      "commit_info": "f43de5e - Add files via upload",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f43de5e",
+      "current_size": 13500,
+      "previous_size": 4000,
+      "size_diff": 9500
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "db7c316 - Add files via upload",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/db7c316",
+      "current_size": 132290,
+      "previous_size": 130330,
+      "size_diff": 1960
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "db7c316 - Add files via upload",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/db7c316",
+      "current_size": 145774,
+      "previous_size": 143555,
+      "size_diff": 2219
     }
   ]
 }
