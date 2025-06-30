@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.116-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.117-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -201,6 +201,17 @@ client/modules/settings/resources.lua: entities by jumalley
 locales/en.lua: entities by jumalley
 
 locales/fr.lua: entities by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.117</strong> – 2025-06-30 07:16</summary>
+
+## Changelog for v1.2.117
+
+server/modules/logs/logs.lua: Add files via upload by jumalley
 
 
 

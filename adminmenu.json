@@ -1,33 +1,17 @@
 {
-  "version": "1.2.116",
+  "version": "1.2.117",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/settings/resources.lua",
-      "commit_info": "d06b074 - entities",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d06b074",
-      "current_size": 14896,
-      "previous_size": 9709,
-      "size_diff": 5187
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "d06b074 - entities",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d06b074",
-      "current_size": 130330,
-      "previous_size": 129196,
-      "size_diff": 1134
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "d06b074 - entities",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d06b074",
-      "current_size": 143555,
-      "previous_size": 142437,
-      "size_diff": 1118
+      "file": "server/modules/logs/logs.lua",
+      "commit_info": "dadf26b - Add files via upload",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dadf26b",
+      "current_size": 9246,
+      "previous_size": 4978,
+      "size_diff": 4268
     }
   ]
 }
