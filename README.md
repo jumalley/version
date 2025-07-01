@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.123-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.124-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -304,6 +304,21 @@ client/modules/modes/modes.lua: Refactor admin pistol text UI handling by jumall
 client/modules/adminduty.lua: Improve admin duty pistol UI and entity handling by jumalley
 
 client/modules/modes/modes.lua: Improve admin duty pistol UI and entity handling by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.124</strong> – 2025-07-01 20:54</summary>
+
+## Changelog for v1.2.124
+
+client/modules/onlineplayers.lua: Add config option to enable or disable job features by jumalley
+
+config/config.lua: Add config option to enable or disable job features by jumalley
+
+server/modules/callbacks.lua: Add config option to enable or disable job features by jumalley
 
 
 

@@ -1,25 +1,33 @@
 {
-  "version": "1.2.123",
+  "version": "1.2.124",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "086bdde - Improve admin duty pistol UI and entity handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/086bdde",
-      "current_size": 16523,
-      "previous_size": 15751,
-      "size_diff": 772
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "a120824 - Add config option to enable or disable job features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a120824",
+      "current_size": 15917,
+      "previous_size": 14828,
+      "size_diff": 1089
     },
     {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "086bdde - Improve admin duty pistol UI and entity handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/086bdde",
-      "current_size": 8955,
-      "previous_size": 8884,
-      "size_diff": 71
+      "file": "config/config.lua",
+      "commit_info": "a120824 - Add config option to enable or disable job features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a120824",
+      "current_size": 18135,
+      "previous_size": 17458,
+      "size_diff": 677
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "a120824 - Add config option to enable or disable job features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a120824",
+      "current_size": 69351,
+      "previous_size": 68428,
+      "size_diff": 923
     }
   ]
 }
