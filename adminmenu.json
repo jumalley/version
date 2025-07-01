@@ -1,5 +1,5 @@
 {
-  "version": "1.2.122",
+  "version": "1.2.123",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,19 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "312a406 - Refactor admin pistol text UI handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/312a406",
-      "current_size": 15751,
-      "previous_size": 16157,
-      "size_diff": -406
+      "commit_info": "086bdde - Improve admin duty pistol UI and entity handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/086bdde",
+      "current_size": 16523,
+      "previous_size": 15751,
+      "size_diff": 772
     },
     {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "312a406 - Refactor admin pistol text UI handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/312a406",
-      "current_size": 8884,
-      "previous_size": 8563,
-      "size_diff": 321
+      "commit_info": "086bdde - Improve admin duty pistol UI and entity handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/086bdde",
+      "current_size": 8955,
+      "previous_size": 8884,
+      "size_diff": 71
     }
   ]
 }

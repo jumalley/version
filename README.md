@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.122-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.123-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -291,6 +291,19 @@ server/database.lua: Improve database table creation and error handling by jumal
 client/modules/adminduty.lua: Refactor admin pistol text UI handling by jumalley
 
 client/modules/modes/modes.lua: Refactor admin pistol text UI handling by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.123</strong> – 2025-07-01 20:47</summary>
+
+## Changelog for v1.2.123
+
+client/modules/adminduty.lua: Improve admin duty pistol UI and entity handling by jumalley
+
+client/modules/modes/modes.lua: Improve admin duty pistol UI and entity handling by jumalley
 
 
 
