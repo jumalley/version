@@ -1,17 +1,25 @@
 {
-  "version": "1.2.121",
+  "version": "1.2.122",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/database.lua",
-      "commit_info": "6f60671 - Improve database table creation and error handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6f60671",
-      "current_size": 19963,
-      "previous_size": 19866,
-      "size_diff": 97
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "312a406 - Refactor admin pistol text UI handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/312a406",
+      "current_size": 15751,
+      "previous_size": 16157,
+      "size_diff": -406
+    },
+    {
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "312a406 - Refactor admin pistol text UI handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/312a406",
+      "current_size": 8884,
+      "previous_size": 8563,
+      "size_diff": 321
     }
   ]
 }
