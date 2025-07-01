@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.119-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.120-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -244,6 +244,29 @@ client/custom/framework/esx.lua: logs by jumalley
 client/custom/framework/qb.lua: logs by jumalley
 
 server/modules/logs/logs.lua: logs by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.120</strong> – 2025-07-01 18:54</summary>
+
+## Changelog for v1.2.120
+
+client/modules/adminduty.lua: Add new feature to user profile page by jumalley
+
+client/modules/showdata/inventory.lua: Add new feature to user profile page by jumalley
+
+locales/en.lua: Add new feature to user profile page by jumalley
+
+locales/fr.lua: Add new feature to user profile page by jumalley
+
+server/database.lua: Add new feature to user profile page by jumalley
+
+server/modules/inventory.lua: Add new feature to user profile page by jumalley
+
+sql/adminmenu.sql: Add new feature to user profile page by jumalley
 
 
 
