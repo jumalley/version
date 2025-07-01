@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.120-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.121-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -267,6 +267,17 @@ server/database.lua: Add new feature to user profile page by jumalley
 server/modules/inventory.lua: Add new feature to user profile page by jumalley
 
 sql/adminmenu.sql: Add new feature to user profile page by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.121</strong> – 2025-07-01 19:53</summary>
+
+## Changelog for v1.2.121
+
+server/database.lua: Improve database table creation and error handling by jumalley
 
 
 

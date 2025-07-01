@@ -1,65 +1,17 @@
 {
-  "version": "1.2.120",
+  "version": "1.2.121",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "101ac3b - Add new feature to user profile page",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/101ac3b",
-      "current_size": 16157,
-      "previous_size": 15780,
-      "size_diff": 377
-    },
-    {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "101ac3b - Add new feature to user profile page",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/101ac3b",
-      "current_size": 30598,
-      "previous_size": 14866,
-      "size_diff": 15732
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "101ac3b - Add new feature to user profile page",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/101ac3b",
-      "current_size": 136545,
-      "previous_size": 132290,
-      "size_diff": 4255
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "101ac3b - Add new feature to user profile page",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/101ac3b",
-      "current_size": 150369,
-      "previous_size": 145774,
-      "size_diff": 4595
-    },
-    {
       "file": "server/database.lua",
-      "commit_info": "101ac3b - Add new feature to user profile page",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/101ac3b",
-      "current_size": 19866,
-      "previous_size": 18658,
-      "size_diff": 1208
-    },
-    {
-      "file": "server/modules/inventory.lua",
-      "commit_info": "101ac3b - Add new feature to user profile page",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/101ac3b",
-      "current_size": 8076,
-      "previous_size": 1836,
-      "size_diff": 6240
-    },
-    {
-      "file": "sql/adminmenu.sql",
-      "commit_info": "101ac3b - Add new feature to user profile page",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/101ac3b",
-      "current_size": 3511,
-      "previous_size": 2749,
-      "size_diff": 762
+      "commit_info": "6f60671 - Improve database table creation and error handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6f60671",
+      "current_size": 19963,
+      "previous_size": 19866,
+      "size_diff": 97
     }
   ]
 }
