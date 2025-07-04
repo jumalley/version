@@ -1,25 +1,33 @@
 {
-  "version": "1.2.126",
+  "version": "1.2.127",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "3c72622 - Enhance inventory UI with icon colors and kit logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3c72622",
-      "current_size": 16682,
-      "previous_size": 16607,
-      "size_diff": 75
+      "file": "client/modules/showdata/inventory.lua",
+      "commit_info": "6e3b5da - Enhance admin kit management and logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e3b5da",
+      "current_size": 33611,
+      "previous_size": 30917,
+      "size_diff": 2694
     },
     {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "3c72622 - Enhance inventory UI with icon colors and kit logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3c72622",
-      "current_size": 30917,
-      "previous_size": 30598,
-      "size_diff": 319
+      "file": "locales/en.lua",
+      "commit_info": "6e3b5da - Enhance admin kit management and logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e3b5da",
+      "current_size": 136860,
+      "previous_size": 136545,
+      "size_diff": 315
+    },
+    {
+      "file": "server/modules/inventory.lua",
+      "commit_info": "6e3b5da - Enhance admin kit management and logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e3b5da",
+      "current_size": 9713,
+      "previous_size": 8076,
+      "size_diff": 1637
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.126-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.127-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -343,6 +343,21 @@ client/modules/adminduty.lua: Fix entity highlight handling in admin duty module
 client/modules/adminduty.lua: Enhance inventory UI with icon colors and kit logging by jumalley
 
 client/modules/showdata/inventory.lua: Enhance inventory UI with icon colors and kit logging by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.127</strong> – 2025-07-04 17:14</summary>
+
+## Changelog for v1.2.127
+
+client/modules/showdata/inventory.lua: Enhance admin kit management and logging by jumalley
+
+locales/en.lua: Enhance admin kit management and logging by jumalley
+
+server/modules/inventory.lua: Enhance admin kit management and logging by jumalley
 
 
 
