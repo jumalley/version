@@ -1,33 +1,17 @@
 {
-  "version": "1.2.124",
+  "version": "1.2.125",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "a120824 - Add config option to enable or disable job features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a120824",
-      "current_size": 15917,
-      "previous_size": 14828,
-      "size_diff": 1089
-    },
-    {
-      "file": "config/config.lua",
-      "commit_info": "a120824 - Add config option to enable or disable job features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a120824",
-      "current_size": 18135,
-      "previous_size": 17458,
-      "size_diff": 677
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "a120824 - Add config option to enable or disable job features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a120824",
-      "current_size": 69351,
-      "previous_size": 68428,
-      "size_diff": 923
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "22df424 - Fix entity highlight handling in admin duty module",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22df424",
+      "current_size": 16607,
+      "previous_size": 16523,
+      "size_diff": 84
     }
   ]
 }

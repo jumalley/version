@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.124-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.125-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -319,6 +319,17 @@ client/modules/onlineplayers.lua: Add config option to enable or disable job fea
 config/config.lua: Add config option to enable or disable job features by jumalley
 
 server/modules/callbacks.lua: Add config option to enable or disable job features by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.125</strong> – 2025-07-04 16:22</summary>
+
+## Changelog for v1.2.125
+
+client/modules/adminduty.lua: Fix entity highlight handling in admin duty module by jumalley
 
 
 
