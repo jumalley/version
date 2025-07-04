@@ -1,5 +1,5 @@
 {
-  "version": "1.2.125",
+  "version": "1.2.126",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,19 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "22df424 - Fix entity highlight handling in admin duty module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/22df424",
-      "current_size": 16607,
-      "previous_size": 16523,
-      "size_diff": 84
+      "commit_info": "3c72622 - Enhance inventory UI with icon colors and kit logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3c72622",
+      "current_size": 16682,
+      "previous_size": 16607,
+      "size_diff": 75
+    },
+    {
+      "file": "client/modules/showdata/inventory.lua",
+      "commit_info": "3c72622 - Enhance inventory UI with icon colors and kit logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3c72622",
+      "current_size": 30917,
+      "previous_size": 30598,
+      "size_diff": 319
     }
   ]
 }

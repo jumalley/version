@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.125-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.126-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -330,6 +330,19 @@ server/modules/callbacks.lua: Add config option to enable or disable job feature
 ## Changelog for v1.2.125
 
 client/modules/adminduty.lua: Fix entity highlight handling in admin duty module by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.126</strong> – 2025-07-04 17:02</summary>
+
+## Changelog for v1.2.126
+
+client/modules/adminduty.lua: Enhance inventory UI with icon colors and kit logging by jumalley
+
+client/modules/showdata/inventory.lua: Enhance inventory UI with icon colors and kit logging by jumalley
 
 
 
