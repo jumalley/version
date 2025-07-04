@@ -1,5 +1,5 @@
 {
-  "version": "1.2.127",
+  "version": "1.2.128",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,27 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "6e3b5da - Enhance admin kit management and logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e3b5da",
-      "current_size": 33611,
-      "previous_size": 30917,
-      "size_diff": 2694
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "6e3b5da - Enhance admin kit management and logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e3b5da",
-      "current_size": 136860,
-      "previous_size": 136545,
-      "size_diff": 315
-    },
-    {
-      "file": "server/modules/inventory.lua",
-      "commit_info": "6e3b5da - Enhance admin kit management and logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e3b5da",
-      "current_size": 9713,
-      "previous_size": 8076,
-      "size_diff": 1637
+      "commit_info": "22b9955 - Make inventory utility functions globally accessible",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22b9955",
+      "current_size": 33688,
+      "previous_size": 33611,
+      "size_diff": 77
     }
   ]
 }
