@@ -1,17 +1,81 @@
 {
-  "version": "1.2.128",
+  "version": "1.2.129",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "22b9955 - Make inventory utility functions globally accessible",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/22b9955",
-      "current_size": 33688,
-      "previous_size": 33611,
-      "size_diff": 77
+      "file": "client/modules/callbacks.lua",
+      "commit_info": "5bb0ad8 - vehicle presets",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5bb0ad8",
+      "current_size": 8461,
+      "previous_size": 7974,
+      "size_diff": 487
+    },
+    {
+      "file": "client/modules/vehiclepresets.lua",
+      "commit_info": "31d76f3 - Update vehiclepresets.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/31d76f3",
+      "current_size": 13517,
+      "previous_size": 0,
+      "size_diff": 13517
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "5bb0ad8 - vehicle presets",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5bb0ad8",
+      "current_size": 19161,
+      "previous_size": 18781,
+      "size_diff": 380
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "5bb0ad8 - vehicle presets",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5bb0ad8",
+      "current_size": 6784,
+      "previous_size": 6620,
+      "size_diff": 164
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "5bb0ad8 - vehicle presets",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5bb0ad8",
+      "current_size": 140342,
+      "previous_size": 136860,
+      "size_diff": 3482
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "5bb0ad8 - vehicle presets",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5bb0ad8",
+      "current_size": 152427,
+      "previous_size": 150369,
+      "size_diff": 2058
+    },
+    {
+      "file": "server/database.lua",
+      "commit_info": "5bb0ad8 - vehicle presets",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5bb0ad8",
+      "current_size": 21161,
+      "previous_size": 19963,
+      "size_diff": 1198
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "5bb0ad8 - vehicle presets",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5bb0ad8",
+      "current_size": 71209,
+      "previous_size": 69351,
+      "size_diff": 1858
+    },
+    {
+      "file": "sql/adminmenu.sql",
+      "commit_info": "5bb0ad8 - vehicle presets",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5bb0ad8",
+      "current_size": 3920,
+      "previous_size": 3511,
+      "size_diff": 409
     }
   ]
 }

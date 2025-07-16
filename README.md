@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.128-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.129-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -369,6 +369,33 @@ server/modules/inventory.lua: Enhance admin kit management and logging by jumall
 ## Changelog for v1.2.128
 
 client/modules/showdata/inventory.lua: Make inventory utility functions globally accessible by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.129</strong> – 2025-07-16 13:03</summary>
+
+## Changelog for v1.2.129
+
+client/modules/callbacks.lua: vehicle presets by jumalley
+
+client/modules/vehiclepresets.lua: Update vehiclepresets.lua by jumalley
+
+config/options.lua: vehicle presets by jumalley
+
+config/perms.lua: vehicle presets by jumalley
+
+locales/en.lua: vehicle presets by jumalley
+
+locales/fr.lua: vehicle presets by jumalley
+
+server/database.lua: vehicle presets by jumalley
+
+server/modules/callbacks.lua: vehicle presets by jumalley
+
+sql/adminmenu.sql: vehicle presets by jumalley
 
 
 
