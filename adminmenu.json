@@ -1,33 +1,17 @@
 {
-  "version": "1.2.140",
+  "version": "1.2.141",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/database.lua",
-      "commit_info": "f7e7a50 - Improve startup logging and debug output control",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f7e7a50",
-      "current_size": 28051,
-      "previous_size": 27534,
-      "size_diff": 517
-    },
-    {
       "file": "server/startup_manager.lua",
-      "commit_info": "f7e7a50 - Improve startup logging and debug output control",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f7e7a50",
-      "current_size": 15227,
-      "previous_size": 14173,
-      "size_diff": 1054
-    },
-    {
-      "file": "shared/logger.lua",
-      "commit_info": "f7e7a50 - Improve startup logging and debug output control",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f7e7a50",
-      "current_size": 6136,
-      "previous_size": 6015,
-      "size_diff": 121
+      "commit_info": "fbd6e68 - Refactor startup step progression logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fbd6e68",
+      "current_size": 15261,
+      "previous_size": 15227,
+      "size_diff": 34
     }
   ]
 }
