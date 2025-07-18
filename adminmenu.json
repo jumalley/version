@@ -1,25 +1,33 @@
 {
-  "version": "1.2.132",
+  "version": "1.2.133",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/database.lua",
-      "commit_info": "d8caaf0 - Replace Logger with print for version and startup messages",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d8caaf0",
-      "current_size": 26361,
-      "previous_size": 26469,
-      "size_diff": -108
+      "file": "config/detect.lua",
+      "commit_info": "4bbfd21 - Enhance detection summary and logging features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4bbfd21",
+      "current_size": 19268,
+      "previous_size": 14451,
+      "size_diff": 4817
     },
     {
       "file": "server/startup_summary.lua",
-      "commit_info": "d8caaf0 - Replace Logger with print for version and startup messages",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d8caaf0",
-      "current_size": 335,
-      "previous_size": 2070,
-      "size_diff": -1735
+      "commit_info": "4bbfd21 - Enhance detection summary and logging features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4bbfd21",
+      "current_size": 0,
+      "previous_size": 335,
+      "size_diff": -335
+    },
+    {
+      "file": "shared/logger.lua",
+      "commit_info": "4bbfd21 - Enhance detection summary and logging features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4bbfd21",
+      "current_size": 5106,
+      "previous_size": 3878,
+      "size_diff": 1228
     }
   ]
 }
