@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.130-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.131-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -411,6 +411,33 @@ locales/en.lua: Improve database integrity check and localization by jumalley
 locales/fr.lua: Improve database integrity check and localization by jumalley
 
 server/database.lua: Improve database integrity check and localization by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.131</strong> – 2025-07-18 21:28</summary>
+
+## Changelog for v1.2.131
+
+client/modules/showdata/inventory.lua: Integrate centralized logger and refactor logging by jumalley
+
+client/modules/weapons.lua: Integrate centralized logger and refactor logging by jumalley
+
+client/utils.lua: Integrate centralized logger and refactor logging by jumalley
+
+config/detect.lua: Integrate centralized logger and refactor logging by jumalley
+
+server/database.lua: Integrate centralized logger and refactor logging by jumalley
+
+server/events.lua: Integrate centralized logger and refactor logging by jumalley
+
+server/modules/settings/cfg.lua: Integrate centralized logger and refactor logging by jumalley
+
+server/startup_summary.lua: Integrate centralized logger and refactor logging by jumalley
+
+shared/logger.lua: Integrate centralized logger and refactor logging by jumalley
 
 
 
