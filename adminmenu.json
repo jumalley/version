@@ -1,33 +1,49 @@
 {
-  "version": "1.2.138",
+  "version": "1.2.139",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "config/detect.lua",
+      "commit_info": "968c408 - Move detection summary to startup manager step 3",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/968c408",
+      "current_size": 12509,
+      "previous_size": 20475,
+      "size_diff": -7966
+    },
+    {
       "file": "server/database.lua",
-      "commit_info": "6d861b2 - Refactor startup sequence to use StartupManager",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6d861b2",
-      "current_size": 27682,
-      "previous_size": 27871,
-      "size_diff": -189
+      "commit_info": "968c408 - Move detection summary to startup manager step 3",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/968c408",
+      "current_size": 27534,
+      "previous_size": 27682,
+      "size_diff": -148
     },
     {
       "file": "server/modules/settings/cfg.lua",
-      "commit_info": "6d861b2 - Refactor startup sequence to use StartupManager",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6d861b2",
-      "current_size": 20076,
-      "previous_size": 19930,
-      "size_diff": 146
+      "commit_info": "183c4fe - Improve logging and feedback for config and startup",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/183c4fe",
+      "current_size": 22036,
+      "previous_size": 20076,
+      "size_diff": 1960
     },
     {
       "file": "server/startup_manager.lua",
-      "commit_info": "6d861b2 - Refactor startup sequence to use StartupManager",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6d861b2",
-      "current_size": 13641,
-      "previous_size": 12965,
-      "size_diff": 676
+      "commit_info": "968c408 - Move detection summary to startup manager step 3",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/968c408",
+      "current_size": 14173,
+      "previous_size": 13641,
+      "size_diff": 532
+    },
+    {
+      "file": "shared/logger.lua",
+      "commit_info": "183c4fe - Improve logging and feedback for config and startup",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/183c4fe",
+      "current_size": 6015,
+      "previous_size": 5896,
+      "size_diff": 119
     }
   ]
 }
