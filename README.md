@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.131-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.132-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -438,6 +438,19 @@ server/modules/settings/cfg.lua: Integrate centralized logger and refactor loggi
 server/startup_summary.lua: Integrate centralized logger and refactor logging by jumalley
 
 shared/logger.lua: Integrate centralized logger and refactor logging by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.132</strong> – 2025-07-18 21:35</summary>
+
+## Changelog for v1.2.132
+
+server/database.lua: Replace Logger with print for version and startup messages by jumalley
+
+server/startup_summary.lua: Replace Logger with print for version and startup messages by jumalley
 
 
 

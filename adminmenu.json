@@ -1,81 +1,25 @@
 {
-  "version": "1.2.131",
+  "version": "1.2.132",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "a28f938 - Integrate centralized logger and refactor logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a28f938",
-      "current_size": 33764,
-      "previous_size": 33688,
-      "size_diff": 76
-    },
-    {
-      "file": "client/modules/weapons.lua",
-      "commit_info": "a28f938 - Integrate centralized logger and refactor logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a28f938",
-      "current_size": 5659,
-      "previous_size": 5532,
-      "size_diff": 127
-    },
-    {
-      "file": "client/utils.lua",
-      "commit_info": "a28f938 - Integrate centralized logger and refactor logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a28f938",
-      "current_size": 7792,
-      "previous_size": 7716,
-      "size_diff": 76
-    },
-    {
-      "file": "config/detect.lua",
-      "commit_info": "a28f938 - Integrate centralized logger and refactor logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a28f938",
-      "current_size": 14451,
-      "previous_size": 12749,
-      "size_diff": 1702
-    },
-    {
       "file": "server/database.lua",
-      "commit_info": "a28f938 - Integrate centralized logger and refactor logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a28f938",
-      "current_size": 26469,
-      "previous_size": 26439,
-      "size_diff": 30
-    },
-    {
-      "file": "server/events.lua",
-      "commit_info": "a28f938 - Integrate centralized logger and refactor logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a28f938",
-      "current_size": 5497,
-      "previous_size": 5336,
-      "size_diff": 161
-    },
-    {
-      "file": "server/modules/settings/cfg.lua",
-      "commit_info": "a28f938 - Integrate centralized logger and refactor logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a28f938",
-      "current_size": 19827,
-      "previous_size": 19413,
-      "size_diff": 414
+      "commit_info": "d8caaf0 - Replace Logger with print for version and startup messages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d8caaf0",
+      "current_size": 26361,
+      "previous_size": 26469,
+      "size_diff": -108
     },
     {
       "file": "server/startup_summary.lua",
-      "commit_info": "a28f938 - Integrate centralized logger and refactor logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a28f938",
-      "current_size": 2070,
-      "previous_size": 0,
-      "size_diff": 2070
-    },
-    {
-      "file": "shared/logger.lua",
-      "commit_info": "a28f938 - Integrate centralized logger and refactor logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a28f938",
-      "current_size": 3878,
-      "previous_size": 0,
-      "size_diff": 3878
+      "commit_info": "d8caaf0 - Replace Logger with print for version and startup messages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d8caaf0",
+      "current_size": 335,
+      "previous_size": 2070,
+      "size_diff": -1735
     }
   ]
 }
