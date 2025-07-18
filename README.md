@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.142-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.143-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -613,6 +613,21 @@ server/startup_manager.lua: Refactor startup step progression logic by jumalley
 server/startup_manager.lua: Improve logging and add enhanced log function by jumalley
 
 shared/logger.lua: Improve logging and add enhanced log function by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.143</strong> – 2025-07-18 23:14</summary>
+
+## Changelog for v1.2.143
+
+server/database.lua: Improve logger category color handling and cleanup by jumalley
+
+server/startup_manager.lua: Improve logger category color handling and cleanup by jumalley
+
+shared/logger.lua: Improve logger category color handling and cleanup by jumalley
 
 
 

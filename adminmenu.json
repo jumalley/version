@@ -1,25 +1,33 @@
 {
-  "version": "1.2.142",
+  "version": "1.2.143",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "server/database.lua",
+      "commit_info": "42fedb7 - Improve logger category color handling and cleanup",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/42fedb7",
+      "current_size": 27838,
+      "previous_size": 28051,
+      "size_diff": -213
+    },
+    {
       "file": "server/startup_manager.lua",
-      "commit_info": "aa7990f - Improve logging and add enhanced log function",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa7990f",
-      "current_size": 14045,
-      "previous_size": 15261,
-      "size_diff": -1216
+      "commit_info": "42fedb7 - Improve logger category color handling and cleanup",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/42fedb7",
+      "current_size": 13981,
+      "previous_size": 14045,
+      "size_diff": -64
     },
     {
       "file": "shared/logger.lua",
-      "commit_info": "aa7990f - Improve logging and add enhanced log function",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa7990f",
-      "current_size": 7967,
-      "previous_size": 6136,
-      "size_diff": 1831
+      "commit_info": "42fedb7 - Improve logger category color handling and cleanup",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/42fedb7",
+      "current_size": 8465,
+      "previous_size": 7967,
+      "size_diff": 498
     }
   ]
 }
