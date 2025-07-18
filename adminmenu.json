@@ -1,5 +1,5 @@
 {
-  "version": "1.2.133",
+  "version": "1.2.134",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,27 +7,51 @@
   "file_changes": [
     {
       "file": "config/detect.lua",
-      "commit_info": "4bbfd21 - Enhance detection summary and logging features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4bbfd21",
-      "current_size": 19268,
-      "previous_size": 14451,
-      "size_diff": 4817
+      "commit_info": "f9308bb - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f9308bb",
+      "current_size": 19696,
+      "previous_size": 19268,
+      "size_diff": 428
+    },
+    {
+      "file": "server/database.lua",
+      "commit_info": "f9308bb - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f9308bb",
+      "current_size": 27581,
+      "previous_size": 26361,
+      "size_diff": 1220
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "f9308bb - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f9308bb",
+      "current_size": 5491,
+      "previous_size": 5497,
+      "size_diff": -6
+    },
+    {
+      "file": "server/modules/settings/cfg.lua",
+      "commit_info": "f9308bb - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f9308bb",
+      "current_size": 19799,
+      "previous_size": 19827,
+      "size_diff": -28
+    },
+    {
+      "file": "server/startup_manager.lua",
+      "commit_info": "f9308bb - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f9308bb",
+      "current_size": 5602,
+      "previous_size": 0,
+      "size_diff": 5602
     },
     {
       "file": "server/startup_summary.lua",
-      "commit_info": "4bbfd21 - Enhance detection summary and logging features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4bbfd21",
-      "current_size": 0,
-      "previous_size": 335,
-      "size_diff": -335
-    },
-    {
-      "file": "shared/logger.lua",
-      "commit_info": "4bbfd21 - Enhance detection summary and logging features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4bbfd21",
-      "current_size": 5106,
-      "previous_size": 3878,
-      "size_diff": 1228
+      "commit_info": "f9308bb - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f9308bb",
+      "current_size": 243,
+      "previous_size": 0,
+      "size_diff": 243
     }
   ]
 }
