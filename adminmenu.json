@@ -1,49 +1,49 @@
 {
-  "version": "1.2.135",
+  "version": "1.2.136",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "STARTUP_IMPROVEMENTS.md",
-      "commit_info": "7ee6f09 - Enhance startup sequence and detection summary",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7ee6f09",
-      "current_size": 1999,
-      "previous_size": 0,
-      "size_diff": 1999
-    },
-    {
       "file": "config/detect.lua",
-      "commit_info": "7ee6f09 - Enhance startup sequence and detection summary",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7ee6f09",
-      "current_size": 20268,
-      "previous_size": 19696,
-      "size_diff": 572
+      "commit_info": "277f339 - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/277f339",
+      "current_size": 20475,
+      "previous_size": 20268,
+      "size_diff": 207
     },
     {
       "file": "server/database.lua",
-      "commit_info": "7ee6f09 - Enhance startup sequence and detection summary",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7ee6f09",
-      "current_size": 27946,
-      "previous_size": 27581,
-      "size_diff": 365
+      "commit_info": "277f339 - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/277f339",
+      "current_size": 27871,
+      "previous_size": 27946,
+      "size_diff": -75
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "277f339 - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/277f339",
+      "current_size": 5500,
+      "previous_size": 5491,
+      "size_diff": 9
+    },
+    {
+      "file": "server/modules/settings/cfg.lua",
+      "commit_info": "277f339 - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/277f339",
+      "current_size": 19930,
+      "previous_size": 19799,
+      "size_diff": 131
     },
     {
       "file": "server/startup_manager.lua",
-      "commit_info": "7ee6f09 - Enhance startup sequence and detection summary",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7ee6f09",
-      "current_size": 5610,
-      "previous_size": 5602,
-      "size_diff": 8
-    },
-    {
-      "file": "shared/logger.lua",
-      "commit_info": "7ee6f09 - Enhance startup sequence and detection summary",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7ee6f09",
-      "current_size": 5896,
-      "previous_size": 5106,
-      "size_diff": 790
+      "commit_info": "277f339 - Refactor startup sequence with StartupManager",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/277f339",
+      "current_size": 13490,
+      "previous_size": 5610,
+      "size_diff": 7880
     }
   ]
 }
