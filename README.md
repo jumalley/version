@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.129-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.130-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -396,6 +396,21 @@ server/database.lua: vehicle presets by jumalley
 server/modules/callbacks.lua: vehicle presets by jumalley
 
 sql/adminmenu.sql: vehicle presets by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.130</strong> – 2025-07-18 04:02</summary>
+
+## Changelog for v1.2.130
+
+locales/en.lua: Improve database integrity check and localization by jumalley
+
+locales/fr.lua: Improve database integrity check and localization by jumalley
+
+server/database.lua: Improve database integrity check and localization by jumalley
 
 
 
