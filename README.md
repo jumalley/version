@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.134-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.135-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -487,6 +487,25 @@ server/modules/settings/cfg.lua: Refactor startup sequence with StartupManager b
 server/startup_manager.lua: Refactor startup sequence with StartupManager by jumalley
 
 server/startup_summary.lua: Refactor startup sequence with StartupManager by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.135</strong> – 2025-07-18 22:06</summary>
+
+## Changelog for v1.2.135
+
+STARTUP_IMPROVEMENTS.md: Enhance startup sequence and detection summary by jumalley
+
+config/detect.lua: Enhance startup sequence and detection summary by jumalley
+
+server/database.lua: Enhance startup sequence and detection summary by jumalley
+
+server/startup_manager.lua: Enhance startup sequence and detection summary by jumalley
+
+shared/logger.lua: Enhance startup sequence and detection summary by jumalley
 
 
 
