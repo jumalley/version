@@ -1,5 +1,5 @@
 {
-  "version": "1.2.141",
+  "version": "1.2.142",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,19 @@
   "file_changes": [
     {
       "file": "server/startup_manager.lua",
-      "commit_info": "fbd6e68 - Refactor startup step progression logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/fbd6e68",
-      "current_size": 15261,
-      "previous_size": 15227,
-      "size_diff": 34
+      "commit_info": "aa7990f - Improve logging and add enhanced log function",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa7990f",
+      "current_size": 14045,
+      "previous_size": 15261,
+      "size_diff": -1216
+    },
+    {
+      "file": "shared/logger.lua",
+      "commit_info": "aa7990f - Improve logging and add enhanced log function",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa7990f",
+      "current_size": 7967,
+      "previous_size": 6136,
+      "size_diff": 1831
     }
   ]
 }
