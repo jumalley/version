@@ -1,33 +1,17 @@
 {
-  "version": "1.2.143",
+  "version": "1.2.144",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/database.lua",
-      "commit_info": "42fedb7 - Improve logger category color handling and cleanup",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/42fedb7",
-      "current_size": 27838,
-      "previous_size": 28051,
-      "size_diff": -213
-    },
-    {
       "file": "server/startup_manager.lua",
-      "commit_info": "42fedb7 - Improve logger category color handling and cleanup",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/42fedb7",
-      "current_size": 13981,
-      "previous_size": 14045,
-      "size_diff": -64
-    },
-    {
-      "file": "shared/logger.lua",
-      "commit_info": "42fedb7 - Improve logger category color handling and cleanup",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/42fedb7",
-      "current_size": 8465,
-      "previous_size": 7967,
-      "size_diff": 498
+      "commit_info": "04a5dfb - Clean up startup manager logging and comments",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04a5dfb",
+      "current_size": 12689,
+      "previous_size": 13981,
+      "size_diff": -1292
     }
   ]
 }
