@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.147-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.148-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -706,6 +706,17 @@ config/config.lua: Add admin command to open greenscreener menu by jumalley
 locales/en.lua: Add admin command to open greenscreener menu by jumalley
 
 server/modules/commands.lua: Add admin command to open greenscreener menu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.148</strong> – 2025-07-21 22:09</summary>
+
+## Changelog for v1.2.148
+
+server/modules/greenscreener.lua: Add greenscreener server module for image handling by jumalley
 
 
 
