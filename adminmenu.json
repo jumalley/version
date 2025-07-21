@@ -1,5 +1,5 @@
 {
-  "version": "1.2.148",
+  "version": "1.2.149",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "server/modules/greenscreener.lua",
-      "commit_info": "c39e61c - Add greenscreener server module for image handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c39e61c",
-      "current_size": 6826,
-      "previous_size": 0,
-      "size_diff": 6826
+      "commit_info": "e5a1db6 - Normalize resource path by removing trailing slash",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5a1db6",
+      "current_size": 7250,
+      "previous_size": 6826,
+      "size_diff": 424
     }
   ]
 }

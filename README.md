@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.148-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.149-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -717,6 +717,17 @@ server/modules/commands.lua: Add admin command to open greenscreener menu by jum
 ## Changelog for v1.2.148
 
 server/modules/greenscreener.lua: Add greenscreener server module for image handling by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.149</strong> – 2025-07-21 22:15</summary>
+
+## Changelog for v1.2.149
+
+server/modules/greenscreener.lua: Normalize resource path by removing trailing slash by jumalley
 
 
 
