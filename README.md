@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.146-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.147-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -689,6 +689,23 @@ server/modules/greenscreener.lua: Add greenscreener image generation module by j
 client/custom/framework/esx.lua: Refactor notification handling to use lib.notify by jumalley
 
 client/custom/framework/qb.lua: Refactor notification handling to use lib.notify by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.147</strong> – 2025-07-21 21:47</summary>
+
+## Changelog for v1.2.147
+
+client/events.lua: Add admin command to open greenscreener menu by jumalley
+
+config/config.lua: Add admin command to open greenscreener menu by jumalley
+
+locales/en.lua: Add admin command to open greenscreener menu by jumalley
+
+server/modules/commands.lua: Add admin command to open greenscreener menu by jumalley
 
 
 

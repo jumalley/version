@@ -1,25 +1,41 @@
 {
-  "version": "1.2.146",
+  "version": "1.2.147",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/framework/esx.lua",
-      "commit_info": "4a24b21 - Refactor notification handling to use lib.notify",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4a24b21",
-      "current_size": 2451,
-      "previous_size": 2575,
-      "size_diff": -124
+      "file": "client/events.lua",
+      "commit_info": "4dab4d3 - Add admin command to open greenscreener menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4dab4d3",
+      "current_size": 2626,
+      "previous_size": 2518,
+      "size_diff": 108
     },
     {
-      "file": "client/custom/framework/qb.lua",
-      "commit_info": "4a24b21 - Refactor notification handling to use lib.notify",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4a24b21",
-      "current_size": 2357,
-      "previous_size": 2481,
-      "size_diff": -124
+      "file": "config/config.lua",
+      "commit_info": "4dab4d3 - Add admin command to open greenscreener menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4dab4d3",
+      "current_size": 20018,
+      "previous_size": 20099,
+      "size_diff": -81
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "4dab4d3 - Add admin command to open greenscreener menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4dab4d3",
+      "current_size": 144721,
+      "previous_size": 144626,
+      "size_diff": 95
+    },
+    {
+      "file": "server/modules/commands.lua",
+      "commit_info": "4dab4d3 - Add admin command to open greenscreener menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4dab4d3",
+      "current_size": 22660,
+      "previous_size": 22317,
+      "size_diff": 343
     }
   ]
 }
