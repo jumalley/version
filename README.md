@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.144-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.145-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -639,6 +639,43 @@ shared/logger.lua: Improve logger category color handling and cleanup by jumalle
 ## Changelog for v1.2.144
 
 server/startup_manager.lua: Clean up startup manager logging and comments by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.145</strong> – 2025-07-21 20:12</summary>
+
+## Changelog for v1.2.145
+
+client/custom/framework/esx.lua: Add greenscreener image generation module by jumalley
+
+client/custom/framework/qb.lua: Add greenscreener image generation module by jumalley
+
+client/functions.lua: Add greenscreener image generation module by jumalley
+
+client/modules/announce.lua: Add greenscreener image generation module by jumalley
+
+client/modules/greenscreener.lua: Add greenscreener image generation module by jumalley
+
+client/modules/greenscreener_menu.lua: Add greenscreener image generation module by jumalley
+
+client/modules/main.lua: Add greenscreener image generation module by jumalley
+
+client/modules/showdata/houses.lua: Add greenscreener image generation module by jumalley
+
+client/modules/showdata/vehicles.lua: Add greenscreener image generation module by jumalley
+
+config/config.lua: Add greenscreener image generation module by jumalley
+
+config/perms.lua: Add greenscreener image generation module by jumalley
+
+locales/en.lua: Add greenscreener image generation module by jumalley
+
+locales/fr.lua: Add greenscreener image generation module by jumalley
+
+server/modules/greenscreener.lua: Add greenscreener image generation module by jumalley
 
 
 
