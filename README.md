@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.149-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.150-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -728,6 +728,35 @@ server/modules/greenscreener.lua: Add greenscreener server module for image hand
 ## Changelog for v1.2.149
 
 server/modules/greenscreener.lua: Normalize resource path by removing trailing slash by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.150</strong> – 2025-07-21 23:13</summary>
+
+## Changelog for v1.2.150
+
+client/greenscreener.js: Add greenscreener modules with JS processing by jumalley
+
+client/modules/greenscreener.lua: Add greenscreener modules with JS processing by jumalley
+
+client/modules/greenscreener_menu.lua: Add greenscreener modules with JS processing by jumalley
+
+config.json: Add greenscreener modules with JS processing by jumalley
+
+config/config.lua: Add greenscreener modules with JS processing by jumalley
+
+locales/fr.lua: Add greenscreener modules with JS processing by jumalley
+
+package.json: Add greenscreener modules with JS processing by jumalley
+
+server/greenscreener.js: Add greenscreener modules with JS processing by jumalley
+
+server/modules/greenscreener.lua: Add greenscreener modules with JS processing by jumalley
+
+server/modules/greenscreener_simple.lua: Add greenscreener modules with JS processing by jumalley
 
 
 

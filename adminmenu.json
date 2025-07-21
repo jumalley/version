@@ -1,17 +1,89 @@
 {
-  "version": "1.2.149",
+  "version": "1.2.150",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/greenscreener.js",
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 877,
+      "previous_size": 0,
+      "size_diff": 877
+    },
+    {
+      "file": "client/modules/greenscreener.lua",
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 18526,
+      "previous_size": 0,
+      "size_diff": 18526
+    },
+    {
+      "file": "client/modules/greenscreener_menu.lua",
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 5943,
+      "previous_size": 6033,
+      "size_diff": -90
+    },
+    {
+      "file": "config.json",
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 2583,
+      "previous_size": 0,
+      "size_diff": 2583
+    },
+    {
+      "file": "config/config.lua",
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 21302,
+      "previous_size": 20018,
+      "size_diff": 1284
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 156744,
+      "previous_size": 156747,
+      "size_diff": -3
+    },
+    {
+      "file": "package.json",
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 331,
+      "previous_size": 0,
+      "size_diff": 331
+    },
+    {
+      "file": "server/greenscreener.js",
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 2001,
+      "previous_size": 0,
+      "size_diff": 2001
+    },
+    {
       "file": "server/modules/greenscreener.lua",
-      "commit_info": "e5a1db6 - Normalize resource path by removing trailing slash",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5a1db6",
-      "current_size": 7250,
-      "previous_size": 6826,
-      "size_diff": 424
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 19312,
+      "previous_size": 7250,
+      "size_diff": 12062
+    },
+    {
+      "file": "server/modules/greenscreener_simple.lua",
+      "commit_info": "37e41de - Add greenscreener modules with JS processing",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
+      "current_size": 997,
+      "previous_size": 0,
+      "size_diff": 997
     }
   ]
 }
