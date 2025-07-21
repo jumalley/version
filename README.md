@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.145-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.146-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -676,6 +676,19 @@ locales/en.lua: Add greenscreener image generation module by jumalley
 locales/fr.lua: Add greenscreener image generation module by jumalley
 
 server/modules/greenscreener.lua: Add greenscreener image generation module by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.146</strong> – 2025-07-21 20:25</summary>
+
+## Changelog for v1.2.146
+
+client/custom/framework/esx.lua: Refactor notification handling to use lib.notify by jumalley
+
+client/custom/framework/qb.lua: Refactor notification handling to use lib.notify by jumalley
 
 
 

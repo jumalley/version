@@ -1,5 +1,5 @@
 {
-  "version": "1.2.145",
+  "version": "1.2.146",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,115 +7,19 @@
   "file_changes": [
     {
       "file": "client/custom/framework/esx.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 2575,
-      "previous_size": 2451,
-      "size_diff": 124
+      "commit_info": "4a24b21 - Refactor notification handling to use lib.notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4a24b21",
+      "current_size": 2451,
+      "previous_size": 2575,
+      "size_diff": -124
     },
     {
       "file": "client/custom/framework/qb.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 2481,
-      "previous_size": 2357,
-      "size_diff": 124
-    },
-    {
-      "file": "client/functions.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 131632,
-      "previous_size": 131593,
-      "size_diff": 39
-    },
-    {
-      "file": "client/modules/announce.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 11748,
-      "previous_size": 11661,
-      "size_diff": 87
-    },
-    {
-      "file": "client/modules/greenscreener.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 0,
-      "previous_size": 0,
-      "size_diff": 0
-    },
-    {
-      "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 6033,
-      "previous_size": 0,
-      "size_diff": 6033
-    },
-    {
-      "file": "client/modules/main.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 4925,
-      "previous_size": 4409,
-      "size_diff": 516
-    },
-    {
-      "file": "client/modules/showdata/houses.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 12607,
-      "previous_size": 13342,
-      "size_diff": -735
-    },
-    {
-      "file": "client/modules/showdata/vehicles.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 24532,
-      "previous_size": 24988,
-      "size_diff": -456
-    },
-    {
-      "file": "config/config.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 20099,
-      "previous_size": 18135,
-      "size_diff": 1964
-    },
-    {
-      "file": "config/perms.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 6831,
-      "previous_size": 6784,
-      "size_diff": 47
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 144626,
-      "previous_size": 141981,
-      "size_diff": 2645
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 156747,
-      "previous_size": 154242,
-      "size_diff": 2505
-    },
-    {
-      "file": "server/modules/greenscreener.lua",
-      "commit_info": "39ab8f4 - Add greenscreener image generation module",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/39ab8f4",
-      "current_size": 0,
-      "previous_size": 0,
-      "size_diff": 0
+      "commit_info": "4a24b21 - Refactor notification handling to use lib.notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4a24b21",
+      "current_size": 2357,
+      "previous_size": 2481,
+      "size_diff": -124
     }
   ]
 }
