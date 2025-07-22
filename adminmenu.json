@@ -1,49 +1,33 @@
 {
-  "version": "1.2.155",
+  "version": "1.2.156",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/car.lua",
-      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
-      "current_size": 8348,
-      "previous_size": 7889,
-      "size_diff": 459
+      "file": "client/functions.lua",
+      "commit_info": "0bbcf88 - Add vehicle flip option to admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0bbcf88",
+      "current_size": 132536,
+      "previous_size": 131632,
+      "size_diff": 904
     },
     {
-      "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
-      "current_size": 24762,
-      "previous_size": 30574,
-      "size_diff": -5812
+      "file": "config.json",
+      "commit_info": "0bbcf88 - Add vehicle flip option to admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0bbcf88",
+      "current_size": 0,
+      "previous_size": 2583,
+      "size_diff": -2583
     },
     {
-      "file": "client/modules/show.lua",
-      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
-      "current_size": 8033,
-      "previous_size": 9803,
-      "size_diff": -1770
-    },
-    {
-      "file": "client/modules/showdata/vehicles.lua",
-      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
-      "current_size": 25377,
-      "previous_size": 24532,
-      "size_diff": 845
-    },
-    {
-      "file": "client/utils.lua",
-      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
-      "current_size": 15414,
-      "previous_size": 7792,
-      "size_diff": 7622
+      "file": "locales/en.lua",
+      "commit_info": "0bbcf88 - Add vehicle flip option to admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0bbcf88",
+      "current_size": 158463,
+      "previous_size": 148589,
+      "size_diff": 9874
     }
   ]
 }

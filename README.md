@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.155-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.156-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -836,6 +836,21 @@ client/modules/show.lua: Refactor greenscreener menu and vehicle spawn logic by 
 client/modules/showdata/vehicles.lua: Refactor greenscreener menu and vehicle spawn logic by jumalley
 
 client/utils.lua: Refactor greenscreener menu and vehicle spawn logic by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.156</strong> – 2025-07-22 21:51</summary>
+
+## Changelog for v1.2.156
+
+client/functions.lua: Add vehicle flip option to admin menu by jumalley
+
+config.json: Add vehicle flip option to admin menu by jumalley
+
+locales/en.lua: Add vehicle flip option to admin menu by jumalley
 
 
 
