@@ -1,89 +1,57 @@
 {
-  "version": "1.2.150",
+  "version": "1.2.151",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/greenscreener.js",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 877,
-      "previous_size": 0,
-      "size_diff": 877
-    },
-    {
-      "file": "client/modules/greenscreener.lua",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 18526,
-      "previous_size": 0,
-      "size_diff": 18526
-    },
-    {
       "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 5943,
-      "previous_size": 6033,
-      "size_diff": -90
+      "commit_info": "5dcfda3 - remove falback text on locales",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
+      "current_size": 6075,
+      "previous_size": 5943,
+      "size_diff": 132
     },
     {
-      "file": "config.json",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 2583,
-      "previous_size": 0,
-      "size_diff": 2583
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "5dcfda3 - remove falback text on locales",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
+      "current_size": 8653,
+      "previous_size": 8955,
+      "size_diff": -302
     },
     {
-      "file": "config/config.lua",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 21302,
-      "previous_size": 20018,
-      "size_diff": 1284
+      "file": "client/modules/showdata/logs.lua",
+      "commit_info": "5dcfda3 - remove falback text on locales",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
+      "current_size": 13264,
+      "previous_size": 13500,
+      "size_diff": -236
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "5dcfda3 - remove falback text on locales",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
+      "current_size": 146267,
+      "previous_size": 144721,
+      "size_diff": 1546
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 156744,
-      "previous_size": 156747,
-      "size_diff": -3
+      "commit_info": "5dcfda3 - remove falback text on locales",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
+      "current_size": 158426,
+      "previous_size": 156744,
+      "size_diff": 1682
     },
     {
-      "file": "package.json",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 331,
-      "previous_size": 0,
-      "size_diff": 331
-    },
-    {
-      "file": "server/greenscreener.js",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 2001,
-      "previous_size": 0,
-      "size_diff": 2001
-    },
-    {
-      "file": "server/modules/greenscreener.lua",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 19312,
-      "previous_size": 7250,
-      "size_diff": 12062
-    },
-    {
-      "file": "server/modules/greenscreener_simple.lua",
-      "commit_info": "37e41de - Add greenscreener modules with JS processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/37e41de",
-      "current_size": 997,
-      "previous_size": 0,
-      "size_diff": 997
+      "file": "server/modules/commands.lua",
+      "commit_info": "5dcfda3 - remove falback text on locales",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
+      "current_size": 22577,
+      "previous_size": 22660,
+      "size_diff": -83
     }
   ]
 }

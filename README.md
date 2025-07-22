@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.150-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.151-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -757,6 +757,27 @@ server/greenscreener.js: Add greenscreener modules with JS processing by jumalle
 server/modules/greenscreener.lua: Add greenscreener modules with JS processing by jumalley
 
 server/modules/greenscreener_simple.lua: Add greenscreener modules with JS processing by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.151</strong> – 2025-07-22 11:37</summary>
+
+## Changelog for v1.2.151
+
+client/modules/greenscreener_menu.lua: remove falback text on locales by jumalley
+
+client/modules/modes/modes.lua: remove falback text on locales by jumalley
+
+client/modules/showdata/logs.lua: remove falback text on locales by jumalley
+
+locales/en.lua: remove falback text on locales by jumalley
+
+locales/fr.lua: remove falback text on locales by jumalley
+
+server/modules/commands.lua: remove falback text on locales by jumalley
 
 
 
