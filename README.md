@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.154-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.155-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -817,6 +817,25 @@ client/modules/greenscreener_menu.lua: clothing logic by jumalley
 config/config.lua: clothing logic by jumalley
 
 locales/en.lua: clothing logic by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.155</strong> – 2025-07-22 19:54</summary>
+
+## Changelog for v1.2.155
+
+client/modules/car.lua: Refactor greenscreener menu and vehicle spawn logic by jumalley
+
+client/modules/greenscreener_menu.lua: Refactor greenscreener menu and vehicle spawn logic by jumalley
+
+client/modules/show.lua: Refactor greenscreener menu and vehicle spawn logic by jumalley
+
+client/modules/showdata/vehicles.lua: Refactor greenscreener menu and vehicle spawn logic by jumalley
+
+client/utils.lua: Refactor greenscreener menu and vehicle spawn logic by jumalley
 
 
 

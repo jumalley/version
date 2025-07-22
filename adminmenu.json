@@ -1,33 +1,49 @@
 {
-  "version": "1.2.154",
+  "version": "1.2.155",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/car.lua",
+      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
+      "current_size": 8348,
+      "previous_size": 7889,
+      "size_diff": 459
+    },
+    {
       "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "5cb008b - clothing logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5cb008b",
-      "current_size": 30574,
-      "previous_size": 15112,
-      "size_diff": 15462
+      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
+      "current_size": 24762,
+      "previous_size": 30574,
+      "size_diff": -5812
     },
     {
-      "file": "config/config.lua",
-      "commit_info": "5cb008b - clothing logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5cb008b",
-      "current_size": 25303,
-      "previous_size": 24973,
-      "size_diff": 330
+      "file": "client/modules/show.lua",
+      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
+      "current_size": 8033,
+      "previous_size": 9803,
+      "size_diff": -1770
     },
     {
-      "file": "locales/en.lua",
-      "commit_info": "5cb008b - clothing logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5cb008b",
-      "current_size": 148589,
-      "previous_size": 146267,
-      "size_diff": 2322
+      "file": "client/modules/showdata/vehicles.lua",
+      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
+      "current_size": 25377,
+      "previous_size": 24532,
+      "size_diff": 845
+    },
+    {
+      "file": "client/utils.lua",
+      "commit_info": "d7dca08 - Refactor greenscreener menu and vehicle spawn logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7dca08",
+      "current_size": 15414,
+      "previous_size": 7792,
+      "size_diff": 7622
     }
   ]
 }
