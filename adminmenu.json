@@ -1,17 +1,25 @@
 {
-  "version": "1.2.152",
+  "version": "1.2.153",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/config.lua",
-      "commit_info": "0f9aca9 - merge config json into config.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f9aca9",
-      "current_size": 24973,
-      "previous_size": 21302,
-      "size_diff": 3671
+      "file": "client/modules/greenscreener.lua",
+      "commit_info": "c2f0199 - vehicle screenshot enhanced",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c2f0199",
+      "current_size": 19194,
+      "previous_size": 18526,
+      "size_diff": 668
+    },
+    {
+      "file": "client/modules/greenscreener_menu.lua",
+      "commit_info": "c2f0199 - vehicle screenshot enhanced",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c2f0199",
+      "current_size": 15112,
+      "previous_size": 6075,
+      "size_diff": 9037
     }
   ]
 }
