@@ -1,25 +1,33 @@
 {
-  "version": "1.2.153",
+  "version": "1.2.154",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/greenscreener.lua",
-      "commit_info": "c2f0199 - vehicle screenshot enhanced",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c2f0199",
-      "current_size": 19194,
-      "previous_size": 18526,
-      "size_diff": 668
+      "file": "client/modules/greenscreener_menu.lua",
+      "commit_info": "5cb008b - clothing logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5cb008b",
+      "current_size": 30574,
+      "previous_size": 15112,
+      "size_diff": 15462
     },
     {
-      "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "c2f0199 - vehicle screenshot enhanced",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c2f0199",
-      "current_size": 15112,
-      "previous_size": 6075,
-      "size_diff": 9037
+      "file": "config/config.lua",
+      "commit_info": "5cb008b - clothing logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5cb008b",
+      "current_size": 25303,
+      "previous_size": 24973,
+      "size_diff": 330
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "5cb008b - clothing logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5cb008b",
+      "current_size": 148589,
+      "previous_size": 146267,
+      "size_diff": 2322
     }
   ]
 }

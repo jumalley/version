@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.153-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.154-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -802,6 +802,21 @@ config/config.lua: merge config json into config.lua by jumalley
 client/modules/greenscreener.lua: vehicle screenshot enhanced by jumalley
 
 client/modules/greenscreener_menu.lua: vehicle screenshot enhanced by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.154</strong> – 2025-07-22 17:26</summary>
+
+## Changelog for v1.2.154
+
+client/modules/greenscreener_menu.lua: clothing logic by jumalley
+
+config/config.lua: clothing logic by jumalley
+
+locales/en.lua: clothing logic by jumalley
 
 
 
