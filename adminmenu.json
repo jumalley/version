@@ -1,57 +1,17 @@
 {
-  "version": "1.2.151",
+  "version": "1.2.152",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "5dcfda3 - remove falback text on locales",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
-      "current_size": 6075,
-      "previous_size": 5943,
-      "size_diff": 132
-    },
-    {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "5dcfda3 - remove falback text on locales",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
-      "current_size": 8653,
-      "previous_size": 8955,
-      "size_diff": -302
-    },
-    {
-      "file": "client/modules/showdata/logs.lua",
-      "commit_info": "5dcfda3 - remove falback text on locales",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
-      "current_size": 13264,
-      "previous_size": 13500,
-      "size_diff": -236
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "5dcfda3 - remove falback text on locales",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
-      "current_size": 146267,
-      "previous_size": 144721,
-      "size_diff": 1546
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "5dcfda3 - remove falback text on locales",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
-      "current_size": 158426,
-      "previous_size": 156744,
-      "size_diff": 1682
-    },
-    {
-      "file": "server/modules/commands.lua",
-      "commit_info": "5dcfda3 - remove falback text on locales",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5dcfda3",
-      "current_size": 22577,
-      "previous_size": 22660,
-      "size_diff": -83
+      "file": "config/config.lua",
+      "commit_info": "0f9aca9 - merge config json into config.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f9aca9",
+      "current_size": 24973,
+      "previous_size": 21302,
+      "size_diff": 3671
     }
   ]
 }

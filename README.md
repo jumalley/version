@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.151-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.152-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -778,6 +778,17 @@ locales/en.lua: remove falback text on locales by jumalley
 locales/fr.lua: remove falback text on locales by jumalley
 
 server/modules/commands.lua: remove falback text on locales by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.152</strong> – 2025-07-22 13:11</summary>
+
+## Changelog for v1.2.152
+
+config/config.lua: merge config json into config.lua by jumalley
 
 
 
