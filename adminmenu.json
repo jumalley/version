@@ -1,5 +1,5 @@
 {
-  "version": "1.2.157",
+  "version": "1.2.158",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,11 @@
   "file_changes": [
     {
       "file": "locales/en.lua",
-      "commit_info": "957c456 - Remove section comments from locale files",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/957c456",
-      "current_size": 157716,
-      "previous_size": 158463,
-      "size_diff": -747
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "957c456 - Remove section comments from locale files",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/957c456",
-      "current_size": 174586,
-      "previous_size": 158426,
-      "size_diff": 16160
+      "commit_info": "750e8e4 - Remove unused and duplicate admin menu locale strings",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/750e8e4",
+      "current_size": 157196,
+      "previous_size": 157716,
+      "size_diff": -520
     }
   ]
 }
