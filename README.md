@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.156-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.157-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -851,6 +851,19 @@ client/functions.lua: Add vehicle flip option to admin menu by jumalley
 config.json: Add vehicle flip option to admin menu by jumalley
 
 locales/en.lua: Add vehicle flip option to admin menu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.157</strong> – 2025-07-22 22:24</summary>
+
+## Changelog for v1.2.157
+
+locales/en.lua: Remove section comments from locale files by jumalley
+
+locales/fr.lua: Remove section comments from locale files by jumalley
 
 
 

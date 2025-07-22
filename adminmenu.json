@@ -1,33 +1,25 @@
 {
-  "version": "1.2.156",
+  "version": "1.2.157",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "0bbcf88 - Add vehicle flip option to admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0bbcf88",
-      "current_size": 132536,
-      "previous_size": 131632,
-      "size_diff": 904
-    },
-    {
-      "file": "config.json",
-      "commit_info": "0bbcf88 - Add vehicle flip option to admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0bbcf88",
-      "current_size": 0,
-      "previous_size": 2583,
-      "size_diff": -2583
-    },
-    {
       "file": "locales/en.lua",
-      "commit_info": "0bbcf88 - Add vehicle flip option to admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0bbcf88",
-      "current_size": 158463,
-      "previous_size": 148589,
-      "size_diff": 9874
+      "commit_info": "957c456 - Remove section comments from locale files",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/957c456",
+      "current_size": 157716,
+      "previous_size": 158463,
+      "size_diff": -747
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "957c456 - Remove section comments from locale files",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/957c456",
+      "current_size": 174586,
+      "previous_size": 158426,
+      "size_diff": 16160
     }
   ]
 }
