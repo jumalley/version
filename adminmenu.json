@@ -1,25 +1,17 @@
 {
-  "version": "1.2.164",
+  "version": "1.2.165",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/greenscreener.lua",
-      "commit_info": "2a450f4 - Add greenscreen processing method and target color config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a450f4",
-      "current_size": 19413,
-      "previous_size": 19194,
-      "size_diff": 219
-    },
-    {
-      "file": "config/config.lua",
-      "commit_info": "2a450f4 - Add greenscreen processing method and target color config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a450f4",
-      "current_size": 25723,
-      "previous_size": 25303,
-      "size_diff": 420
+      "file": "locales/en.lua",
+      "commit_info": "f6348e8 - Remove BOM from English locale file",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f6348e8",
+      "current_size": 157193,
+      "previous_size": 157196,
+      "size_diff": -3
     }
   ]
 }
