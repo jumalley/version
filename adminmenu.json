@@ -1,17 +1,17 @@
 {
-  "version": "1.2.161",
+  "version": "1.2.162",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/events.lua",
-      "commit_info": "b185ec1 - Update events.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b185ec1",
-      "current_size": 5394,
-      "previous_size": 5500,
-      "size_diff": -106
+      "file": "server/modules/greenscreener_simple.lua",
+      "commit_info": "245ded8 - Delete server/modules/greenscreener_simple.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/245ded8",
+      "current_size": 0,
+      "previous_size": 997,
+      "size_diff": -997
     }
   ]
 }
