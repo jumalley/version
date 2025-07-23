@@ -1,17 +1,17 @@
 {
-  "version": "1.2.159",
+  "version": "1.2.160",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/startup_manager.lua",
-      "commit_info": "62d9292 - Update startup_manager.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/62d9292",
-      "current_size": 11776,
-      "previous_size": 12689,
-      "size_diff": -913
+      "file": "server/database.lua",
+      "commit_info": "389cbab - Update database.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/389cbab",
+      "current_size": 26874,
+      "previous_size": 27838,
+      "size_diff": -964
     }
   ]
 }

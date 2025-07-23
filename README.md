@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.159-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.160-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -886,6 +886,17 @@ locales/en.lua: Remove unused and duplicate admin menu locale strings by jumalle
 ## Changelog for v1.2.159
 
 server/startup_manager.lua: Update startup_manager.lua by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.160</strong> – 2025-07-23 11:02</summary>
+
+## Changelog for v1.2.160
+
+server/database.lua: Update database.lua by jumalley
 
 
 
