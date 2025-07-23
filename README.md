@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.160-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.161-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -897,6 +897,17 @@ server/startup_manager.lua: Update startup_manager.lua by jumalley
 ## Changelog for v1.2.160
 
 server/database.lua: Update database.lua by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.161</strong> – 2025-07-23 11:03</summary>
+
+## Changelog for v1.2.161
+
+server/events.lua: Update events.lua by jumalley
 
 
 

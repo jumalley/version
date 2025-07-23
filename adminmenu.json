@@ -1,17 +1,17 @@
 {
-  "version": "1.2.160",
+  "version": "1.2.161",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/database.lua",
-      "commit_info": "389cbab - Update database.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/389cbab",
-      "current_size": 26874,
-      "previous_size": 27838,
-      "size_diff": -964
+      "file": "server/events.lua",
+      "commit_info": "b185ec1 - Update events.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b185ec1",
+      "current_size": 5394,
+      "previous_size": 5500,
+      "size_diff": -106
     }
   ]
 }
