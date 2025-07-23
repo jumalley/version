@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.162-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.163-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -919,6 +919,17 @@ server/events.lua: Update events.lua by jumalley
 ## Changelog for v1.2.162
 
 server/modules/greenscreener_simple.lua: Delete server/modules/greenscreener_simple.lua by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.163</strong> – 2025-07-23 11:08</summary>
+
+## Changelog for v1.2.163
+
+server/modules/greenscreener.lua: Update greenscreener.lua by jumalley
 
 
 
