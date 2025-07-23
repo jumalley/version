@@ -1,17 +1,25 @@
 {
-  "version": "1.2.163",
+  "version": "1.2.164",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/modules/greenscreener.lua",
-      "commit_info": "bbf3a78 - Update greenscreener.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bbf3a78",
-      "current_size": 17601,
-      "previous_size": 19312,
-      "size_diff": -1711
+      "file": "client/modules/greenscreener.lua",
+      "commit_info": "2a450f4 - Add greenscreen processing method and target color config",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a450f4",
+      "current_size": 19413,
+      "previous_size": 19194,
+      "size_diff": 219
+    },
+    {
+      "file": "config/config.lua",
+      "commit_info": "2a450f4 - Add greenscreen processing method and target color config",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a450f4",
+      "current_size": 25723,
+      "previous_size": 25303,
+      "size_diff": 420
     }
   ]
 }
