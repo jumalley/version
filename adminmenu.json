@@ -1,17 +1,33 @@
 {
-  "version": "1.2.165",
+  "version": "1.2.166",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "locales/en.lua",
-      "commit_info": "f6348e8 - Remove BOM from English locale file",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f6348e8",
-      "current_size": 157193,
-      "previous_size": 157196,
-      "size_diff": -3
+      "file": "client/modules/greenscreener.lua",
+      "commit_info": "fbfdbf2 - fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fbfdbf2",
+      "current_size": 21503,
+      "previous_size": 19413,
+      "size_diff": 2090
+    },
+    {
+      "file": "client/modules/greenscreener_menu.lua",
+      "commit_info": "fbfdbf2 - fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fbfdbf2",
+      "current_size": 20525,
+      "previous_size": 24762,
+      "size_diff": -4237
+    },
+    {
+      "file": "config/config.lua",
+      "commit_info": "fbfdbf2 - fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fbfdbf2",
+      "current_size": 25944,
+      "previous_size": 25723,
+      "size_diff": 221
     }
   ]
 }
