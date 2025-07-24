@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.167-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.168-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -982,6 +982,17 @@ config/config.lua: fixes by jumalley
 client/modules/greenscreener.lua: removing comments by jumalley
 
 client/modules/greenscreener_menu.lua: removing comments by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.168</strong> – 2025-07-24 23:10</summary>
+
+## Changelog for v1.2.168
+
+config/config.lua: Update config.lua by jumalley
 
 
 

@@ -1,25 +1,17 @@
 {
-  "version": "1.2.167",
+  "version": "1.2.168",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/greenscreener.lua",
-      "commit_info": "7b180e8 - removing comments",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7b180e8",
-      "current_size": 17028,
-      "previous_size": 21503,
-      "size_diff": -4475
-    },
-    {
-      "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "7b180e8 - removing comments",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7b180e8",
-      "current_size": 19813,
-      "previous_size": 20525,
-      "size_diff": -712
+      "file": "config/config.lua",
+      "commit_info": "d6a5568 - Update config.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d6a5568",
+      "current_size": 25723,
+      "previous_size": 25944,
+      "size_diff": -221
     }
   ]
 }
