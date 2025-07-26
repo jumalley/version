@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.173-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.174-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1058,6 +1058,17 @@ client/functions.lua: Add debug logging to getVehicleSelection function by jumal
 ## Changelog for v1.2.173
 
 client/functions.lua: Add robust error handling to getVehicleSelection by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.174</strong> – 2025-07-26 17:07</summary>
+
+## Changelog for v1.2.174
+
+client/functions.lua: Improve vehicle entity extraction and debugging by jumalley
 
 
 
