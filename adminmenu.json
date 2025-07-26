@@ -1,17 +1,25 @@
 {
-  "version": "1.2.168",
+  "version": "1.2.169",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/config.lua",
-      "commit_info": "d6a5568 - Update config.lua",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d6a5568",
-      "current_size": 25723,
-      "previous_size": 25944,
-      "size_diff": -221
+      "file": "client/modules/greenscreener_menu.lua",
+      "commit_info": "7143930 - Improve vehicle selection and add localization strings",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7143930",
+      "current_size": 19776,
+      "previous_size": 19813,
+      "size_diff": -37
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "7143930 - Improve vehicle selection and add localization strings",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7143930",
+      "current_size": 157596,
+      "previous_size": 157193,
+      "size_diff": 403
     }
   ]
 }
