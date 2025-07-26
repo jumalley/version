@@ -1,5 +1,5 @@
 {
-  "version": "1.2.171",
+  "version": "1.2.172",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,11 @@
   "file_changes": [
     {
       "file": "client/functions.lua",
-      "commit_info": "0b9c39d - Refactor vehicle selection to use entity IDs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0b9c39d",
-      "current_size": 132530,
-      "previous_size": 132536,
-      "size_diff": -6
-    },
-    {
-      "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "0b9c39d - Refactor vehicle selection to use entity IDs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0b9c39d",
-      "current_size": 19858,
-      "previous_size": 19989,
-      "size_diff": -131
+      "commit_info": "cf4861f - Add debug logging to getVehicleSelection function",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4861f",
+      "current_size": 133933,
+      "previous_size": 132530,
+      "size_diff": 1403
     }
   ]
 }
