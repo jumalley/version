@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.180-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.181-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1149,6 +1149,17 @@ client/greenscreener.js: Improve logging and update screenshot trigger flow by j
 client/modules/greenscreener.lua: Improve logging and update screenshot trigger flow by jumalley
 
 server/greenscreener.js: Improve logging and update screenshot trigger flow by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.181</strong> – 2025-07-26 17:57</summary>
+
+## Changelog for v1.2.181
+
+server/greenscreener.js: Improve logging and error handling in greenscreener.js by jumalley
 
 
 

@@ -1,33 +1,17 @@
 {
-  "version": "1.2.180",
+  "version": "1.2.181",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/greenscreener.js",
-      "commit_info": "d215255 - Improve logging and update screenshot trigger flow",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d215255",
-      "current_size": 1019,
-      "previous_size": 877,
-      "size_diff": 142
-    },
-    {
-      "file": "client/modules/greenscreener.lua",
-      "commit_info": "d215255 - Improve logging and update screenshot trigger flow",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d215255",
-      "current_size": 22657,
-      "previous_size": 22655,
-      "size_diff": 2
-    },
-    {
       "file": "server/greenscreener.js",
-      "commit_info": "d215255 - Improve logging and update screenshot trigger flow",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d215255",
-      "current_size": 3232,
-      "previous_size": 2001,
-      "size_diff": 1231
+      "commit_info": "7e30a34 - Improve logging and error handling in greenscreener.js",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e30a34",
+      "current_size": 5080,
+      "previous_size": 3232,
+      "size_diff": 1848
     }
   ]
 }
