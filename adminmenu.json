@@ -1,5 +1,5 @@
 {
-  "version": "1.2.177",
+  "version": "1.2.178",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,27 +7,19 @@
   "file_changes": [
     {
       "file": "client/modules/greenscreener.lua",
-      "commit_info": "77cceaa - Use server timestamp for filenames and logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/77cceaa",
-      "current_size": 17644,
-      "previous_size": 17028,
-      "size_diff": 616
+      "commit_info": "5c0714e - Refactor greenscreener camera logic and update config positions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c0714e",
+      "current_size": 22655,
+      "previous_size": 17644,
+      "size_diff": 5011
     },
     {
-      "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "77cceaa - Use server timestamp for filenames and logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/77cceaa",
-      "current_size": 19961,
-      "previous_size": 20031,
-      "size_diff": -70
-    },
-    {
-      "file": "client/modules/showdata/logs.lua",
-      "commit_info": "77cceaa - Use server timestamp for filenames and logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/77cceaa",
-      "current_size": 13325,
-      "previous_size": 13264,
-      "size_diff": 61
+      "file": "config/config.lua",
+      "commit_info": "5c0714e - Refactor greenscreener camera logic and update config positions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c0714e",
+      "current_size": 25728,
+      "previous_size": 25723,
+      "size_diff": 5
     }
   ]
 }
