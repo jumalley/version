@@ -1,33 +1,33 @@
 {
-  "version": "1.2.176",
+  "version": "1.2.177",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/greenscreener.lua",
+      "commit_info": "77cceaa - Use server timestamp for filenames and logs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/77cceaa",
+      "current_size": 17644,
+      "previous_size": 17028,
+      "size_diff": 616
+    },
+    {
       "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "557ffd6 - Use server timestamp for greenscreener filenames",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/557ffd6",
-      "current_size": 20031,
-      "previous_size": 19858,
-      "size_diff": 173
+      "commit_info": "77cceaa - Use server timestamp for filenames and logs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/77cceaa",
+      "current_size": 19961,
+      "previous_size": 20031,
+      "size_diff": -70
     },
     {
-      "file": "locales/en.lua",
-      "commit_info": "557ffd6 - Use server timestamp for greenscreener filenames",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/557ffd6",
-      "current_size": 158250,
-      "previous_size": 157596,
-      "size_diff": 654
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "557ffd6 - Use server timestamp for greenscreener filenames",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/557ffd6",
-      "current_size": 71356,
-      "previous_size": 71209,
-      "size_diff": 147
+      "file": "client/modules/showdata/logs.lua",
+      "commit_info": "77cceaa - Use server timestamp for filenames and logs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/77cceaa",
+      "current_size": 13325,
+      "previous_size": 13264,
+      "size_diff": 61
     }
   ]
 }

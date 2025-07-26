@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.176-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.177-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1095,6 +1095,21 @@ client/modules/greenscreener_menu.lua: Use server timestamp for greenscreener fi
 locales/en.lua: Use server timestamp for greenscreener filenames by jumalley
 
 server/modules/callbacks.lua: Use server timestamp for greenscreener filenames by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.177</strong> – 2025-07-26 17:26</summary>
+
+## Changelog for v1.2.177
+
+client/modules/greenscreener.lua: Use server timestamp for filenames and logs by jumalley
+
+client/modules/greenscreener_menu.lua: Use server timestamp for filenames and logs by jumalley
+
+client/modules/showdata/logs.lua: Use server timestamp for filenames and logs by jumalley
 
 
 
