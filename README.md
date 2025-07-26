@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.175-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.176-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1080,6 +1080,21 @@ client/functions.lua: Improve vehicle entity extraction and debugging by jumalle
 ## Changelog for v1.2.175
 
 client/functions.lua: Refactor getVehicleSelection to remove debug logs by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.176</strong> – 2025-07-26 17:20</summary>
+
+## Changelog for v1.2.176
+
+client/modules/greenscreener_menu.lua: Use server timestamp for greenscreener filenames by jumalley
+
+locales/en.lua: Use server timestamp for greenscreener filenames by jumalley
+
+server/modules/callbacks.lua: Use server timestamp for greenscreener filenames by jumalley
 
 
 

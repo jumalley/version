@@ -1,17 +1,33 @@
 {
-  "version": "1.2.175",
+  "version": "1.2.176",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "a989b94 - Refactor getVehicleSelection to remove debug logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a989b94",
-      "current_size": 133106,
-      "previous_size": 138745,
-      "size_diff": -5639
+      "file": "client/modules/greenscreener_menu.lua",
+      "commit_info": "557ffd6 - Use server timestamp for greenscreener filenames",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/557ffd6",
+      "current_size": 20031,
+      "previous_size": 19858,
+      "size_diff": 173
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "557ffd6 - Use server timestamp for greenscreener filenames",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/557ffd6",
+      "current_size": 158250,
+      "previous_size": 157596,
+      "size_diff": 654
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "557ffd6 - Use server timestamp for greenscreener filenames",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/557ffd6",
+      "current_size": 71356,
+      "previous_size": 71209,
+      "size_diff": 147
     }
   ]
 }
