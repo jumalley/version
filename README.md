@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.178-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.179-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1123,6 +1123,17 @@ client/modules/showdata/logs.lua: Use server timestamp for filenames and logs by
 client/modules/greenscreener.lua: Refactor greenscreener camera logic and update config positions by jumalley
 
 config/config.lua: Refactor greenscreener camera logic and update config positions by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.179</strong> – 2025-07-26 17:41</summary>
+
+## Changelog for v1.2.179
+
+config/config.lua: Update config.lua by jumalley
 
 
 

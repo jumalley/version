@@ -1,25 +1,17 @@
 {
-  "version": "1.2.178",
+  "version": "1.2.179",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/greenscreener.lua",
-      "commit_info": "5c0714e - Refactor greenscreener camera logic and update config positions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c0714e",
-      "current_size": 22655,
-      "previous_size": 17644,
-      "size_diff": 5011
-    },
-    {
       "file": "config/config.lua",
-      "commit_info": "5c0714e - Refactor greenscreener camera logic and update config positions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c0714e",
-      "current_size": 25728,
-      "previous_size": 25723,
-      "size_diff": 5
+      "commit_info": "6f1718c - Update config.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6f1718c",
+      "current_size": 25729,
+      "previous_size": 25728,
+      "size_diff": 1
     }
   ]
 }
