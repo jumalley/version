@@ -1,41 +1,25 @@
 {
-  "version": "1.2.170",
+  "version": "1.2.171",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/framework/esx.lua",
-      "commit_info": "d7800d9 - Improve vehicle selection and detection summary",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7800d9",
-      "current_size": 2585,
-      "previous_size": 2451,
-      "size_diff": 134
-    },
-    {
-      "file": "client/custom/framework/qb.lua",
-      "commit_info": "d7800d9 - Improve vehicle selection and detection summary",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7800d9",
-      "current_size": 2491,
-      "previous_size": 2357,
-      "size_diff": 134
+      "file": "client/functions.lua",
+      "commit_info": "0b9c39d - Refactor vehicle selection to use entity IDs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0b9c39d",
+      "current_size": 132530,
+      "previous_size": 132536,
+      "size_diff": -6
     },
     {
       "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "d7800d9 - Improve vehicle selection and detection summary",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7800d9",
-      "current_size": 19989,
-      "previous_size": 19776,
-      "size_diff": 213
-    },
-    {
-      "file": "server/startup_manager.lua",
-      "commit_info": "d7800d9 - Improve vehicle selection and detection summary",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7800d9",
-      "current_size": 11776,
-      "previous_size": 11776,
-      "size_diff": 0
+      "commit_info": "0b9c39d - Refactor vehicle selection to use entity IDs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0b9c39d",
+      "current_size": 19858,
+      "previous_size": 19989,
+      "size_diff": -131
     }
   ]
 }
