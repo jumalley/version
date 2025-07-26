@@ -1,5 +1,5 @@
 {
-  "version": "1.2.181",
+  "version": "1.2.182",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,35 @@
   "file_changes": [
     {
       "file": "server/greenscreener.js",
-      "commit_info": "7e30a34 - Improve logging and error handling in greenscreener.js",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e30a34",
-      "current_size": 5080,
-      "previous_size": 3232,
-      "size_diff": 1848
+      "commit_info": "49701a8 - Add greenscreener server-side test and validation tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/49701a8",
+      "current_size": 10979,
+      "previous_size": 5080,
+      "size_diff": 5899
+    },
+    {
+      "file": "server/modules/greenscreener_quick_test.lua",
+      "commit_info": "49701a8 - Add greenscreener server-side test and validation tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/49701a8",
+      "current_size": 1394,
+      "previous_size": 0,
+      "size_diff": 1394
+    },
+    {
+      "file": "server/modules/greenscreener_test.lua",
+      "commit_info": "49701a8 - Add greenscreener server-side test and validation tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/49701a8",
+      "current_size": 12583,
+      "previous_size": 0,
+      "size_diff": 12583
+    },
+    {
+      "file": "server/modules/greenscreener_validation.lua",
+      "commit_info": "49701a8 - Add greenscreener server-side test and validation tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/49701a8",
+      "current_size": 3908,
+      "previous_size": 0,
+      "size_diff": 3908
     }
   ]
 }
