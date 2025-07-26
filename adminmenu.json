@@ -1,25 +1,41 @@
 {
-  "version": "1.2.169",
+  "version": "1.2.170",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/greenscreener_menu.lua",
-      "commit_info": "7143930 - Improve vehicle selection and add localization strings",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7143930",
-      "current_size": 19776,
-      "previous_size": 19813,
-      "size_diff": -37
+      "file": "client/custom/framework/esx.lua",
+      "commit_info": "d7800d9 - Improve vehicle selection and detection summary",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7800d9",
+      "current_size": 2585,
+      "previous_size": 2451,
+      "size_diff": 134
     },
     {
-      "file": "locales/en.lua",
-      "commit_info": "7143930 - Improve vehicle selection and add localization strings",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7143930",
-      "current_size": 157596,
-      "previous_size": 157193,
-      "size_diff": 403
+      "file": "client/custom/framework/qb.lua",
+      "commit_info": "d7800d9 - Improve vehicle selection and detection summary",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7800d9",
+      "current_size": 2491,
+      "previous_size": 2357,
+      "size_diff": 134
+    },
+    {
+      "file": "client/modules/greenscreener_menu.lua",
+      "commit_info": "d7800d9 - Improve vehicle selection and detection summary",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7800d9",
+      "current_size": 19989,
+      "previous_size": 19776,
+      "size_diff": 213
+    },
+    {
+      "file": "server/startup_manager.lua",
+      "commit_info": "d7800d9 - Improve vehicle selection and detection summary",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7800d9",
+      "current_size": 11776,
+      "previous_size": 11776,
+      "size_diff": 0
     }
   ]
 }

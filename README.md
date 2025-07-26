@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.169-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.170-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1006,6 +1006,23 @@ config/config.lua: Update config.lua by jumalley
 client/modules/greenscreener_menu.lua: Improve vehicle selection and add localization strings by jumalley
 
 locales/en.lua: Improve vehicle selection and add localization strings by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.170</strong> – 2025-07-26 16:49</summary>
+
+## Changelog for v1.2.170
+
+client/custom/framework/esx.lua: Improve vehicle selection and detection summary by jumalley
+
+client/custom/framework/qb.lua: Improve vehicle selection and detection summary by jumalley
+
+client/modules/greenscreener_menu.lua: Improve vehicle selection and detection summary by jumalley
+
+server/startup_manager.lua: Improve vehicle selection and detection summary by jumalley
 
 
 
