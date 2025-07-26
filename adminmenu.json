@@ -1,5 +1,5 @@
 {
-  "version": "1.2.172",
+  "version": "1.2.173",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "client/functions.lua",
-      "commit_info": "cf4861f - Add debug logging to getVehicleSelection function",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4861f",
-      "current_size": 133933,
-      "previous_size": 132530,
-      "size_diff": 1403
+      "commit_info": "e85a8b3 - Add robust error handling to getVehicleSelection",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e85a8b3",
+      "current_size": 136786,
+      "previous_size": 133933,
+      "size_diff": 2853
     }
   ]
 }
