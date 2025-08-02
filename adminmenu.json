@@ -1,25 +1,113 @@
 {
-  "version": "1.2.187",
+  "version": "1.2.188",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/vehicles.lua",
-      "commit_info": "6d52767 - Rename Config.Garages to Config.GaragesList",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6d52767",
-      "current_size": 24417,
-      "previous_size": 24413,
-      "size_diff": 4
+      "file": "client/modules/settings/admins.lua",
+      "commit_info": "c246f7a - Refactor multicharacter slot management system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c246f7a",
+      "current_size": 12837,
+      "previous_size": 12827,
+      "size_diff": 10
     },
     {
-      "file": "config/garages.lua",
-      "commit_info": "6d52767 - Rename Config.Garages to Config.GaragesList",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6d52767",
-      "current_size": 2890,
-      "previous_size": 2886,
-      "size_diff": 4
+      "file": "client/modules/showdata/general.lua",
+      "commit_info": "6710161 - Add Unique ID system for player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6710161",
+      "current_size": 9122,
+      "previous_size": 6964,
+      "size_diff": 2158
+    },
+    {
+      "file": "client/modules/showdata/miscs.lua",
+      "commit_info": "c246f7a - Refactor multicharacter slot management system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c246f7a",
+      "current_size": 4555,
+      "previous_size": 7834,
+      "size_diff": -3279
+    },
+    {
+      "file": "client/modules/showdata/multicharacter.lua",
+      "commit_info": "c246f7a - Refactor multicharacter slot management system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c246f7a",
+      "current_size": 12119,
+      "previous_size": 0,
+      "size_diff": 12119
+    },
+    {
+      "file": "client/modules/uniqueid.lua",
+      "commit_info": "6710161 - Add Unique ID system for player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6710161",
+      "current_size": 6956,
+      "previous_size": 0,
+      "size_diff": 6956
+    },
+    {
+      "file": "config/config.lua",
+      "commit_info": "6710161 - Add Unique ID system for player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6710161",
+      "current_size": 22754,
+      "previous_size": 22033,
+      "size_diff": 721
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "c246f7a - Refactor multicharacter slot management system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c246f7a",
+      "current_size": 12727,
+      "previous_size": 12510,
+      "size_diff": 217
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "6710161 - Add Unique ID system for player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6710161",
+      "current_size": 156595,
+      "previous_size": 151114,
+      "size_diff": 5481
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "6710161 - Add Unique ID system for player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6710161",
+      "current_size": 168645,
+      "previous_size": 164780,
+      "size_diff": 3865
+    },
+    {
+      "file": "server/custom/multicharacter/multicharacter.lua",
+      "commit_info": "c246f7a - Refactor multicharacter slot management system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c246f7a",
+      "current_size": 4860,
+      "previous_size": 0,
+      "size_diff": 4860
+    },
+    {
+      "file": "server/database.lua",
+      "commit_info": "6710161 - Add Unique ID system for player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6710161",
+      "current_size": 27436,
+      "previous_size": 26874,
+      "size_diff": 562
+    },
+    {
+      "file": "server/modules/commands.lua",
+      "commit_info": "6710161 - Add Unique ID system for player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6710161",
+      "current_size": 30204,
+      "previous_size": 22234,
+      "size_diff": 7970
+    },
+    {
+      "file": "server/modules/uniqueid.lua",
+      "commit_info": "6710161 - Add Unique ID system for player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6710161",
+      "current_size": 5112,
+      "previous_size": 0,
+      "size_diff": 5112
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.187-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.188-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1288,6 +1288,41 @@ server/startup_manager.lua: Rename Config.Garage to Config.Garages by jumalley
 client/modules/showdata/vehicles.lua: Rename Config.Garages to Config.GaragesList by jumalley
 
 config/garages.lua: Rename Config.Garages to Config.GaragesList by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.188</strong> – 2025-08-02 23:56</summary>
+
+## Changelog for v1.2.188
+
+client/modules/settings/admins.lua: Refactor multicharacter slot management system by jumalley
+
+client/modules/showdata/general.lua: Add Unique ID system for player management by jumalley
+
+client/modules/showdata/miscs.lua: Refactor multicharacter slot management system by jumalley
+
+client/modules/showdata/multicharacter.lua: Refactor multicharacter slot management system by jumalley
+
+client/modules/uniqueid.lua: Add Unique ID system for player management by jumalley
+
+config/config.lua: Add Unique ID system for player management by jumalley
+
+config/detect.lua: Refactor multicharacter slot management system by jumalley
+
+locales/en.lua: Add Unique ID system for player management by jumalley
+
+locales/fr.lua: Add Unique ID system for player management by jumalley
+
+server/custom/multicharacter/multicharacter.lua: Refactor multicharacter slot management system by jumalley
+
+server/database.lua: Add Unique ID system for player management by jumalley
+
+server/modules/commands.lua: Add Unique ID system for player management by jumalley
+
+server/modules/uniqueid.lua: Add Unique ID system for player management by jumalley
 
 
 
