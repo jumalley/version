@@ -1,17 +1,121 @@
 {
-  "version": "1.2.185",
+  "version": "1.2.186",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/custom/garage/cd_garage.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 550,
+      "previous_size": 549,
+      "size_diff": 1
+    },
+    {
+      "file": "client/custom/garage/jg-advancedgarages.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 595,
+      "previous_size": 594,
+      "size_diff": 1
+    },
+    {
+      "file": "client/custom/garage/loaf_garage.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 1135,
+      "previous_size": 1134,
+      "size_diff": 1
+    },
+    {
+      "file": "client/custom/garage/okokGarage.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 603,
+      "previous_size": 602,
+      "size_diff": 1
+    },
+    {
+      "file": "client/custom/garage/qb-garages.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 492,
+      "previous_size": 491,
+      "size_diff": 1
+    },
+    {
+      "file": "client/custom/garage/qs-advancedgarages.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 306,
+      "previous_size": 305,
+      "size_diff": 1
+    },
+    {
+      "file": "client/custom/garage/qs-garages.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 483,
+      "previous_size": 482,
+      "size_diff": 1
+    },
+    {
+      "file": "client/custom/garage/rcore_garage.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 555,
+      "previous_size": 554,
+      "size_diff": 1
+    },
+    {
+      "file": "client/custom/garage/zerio-garage.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 596,
+      "previous_size": 595,
+      "size_diff": 1
+    },
+    {
+      "file": "client/modules/build.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 12454,
+      "previous_size": 12453,
+      "size_diff": 1
+    },
+    {
       "file": "client/modules/showdata/vehicles.lua",
-      "commit_info": "ab5c285 - Remove redundant back button from vehicle context menus",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ab5c285",
-      "current_size": 24412,
-      "previous_size": 25377,
-      "size_diff": -965
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 24413,
+      "previous_size": 24412,
+      "size_diff": 1
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 12510,
+      "previous_size": 12509,
+      "size_diff": 1
+    },
+    {
+      "file": "server/custom/garage/qs-advancedgarages.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 376,
+      "previous_size": 375,
+      "size_diff": 1
+    },
+    {
+      "file": "server/startup_manager.lua",
+      "commit_info": "de4fa10 - Rename Config.Garage to Config.Garages",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/de4fa10",
+      "current_size": 11777,
+      "previous_size": 11776,
+      "size_diff": 1
     }
   ]
 }
