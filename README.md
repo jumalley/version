@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.184-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.185-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1229,5 +1229,16 @@ server/modules/greenscreener_validation.lua: Remove greenscreener feature and re
 <summary><strong>v1.2.184</strong> – 2025-08-02 16:27</summary>
 
 ## Changelog for v1.2.184\n\nNo significant changes in this release.
+
+</details>
+
+<details>
+<summary><strong>v1.2.185</strong> – 2025-08-02 21:13</summary>
+
+## Changelog for v1.2.185
+
+client/modules/showdata/vehicles.lua: Remove redundant back button from vehicle context menus by jumalley
+
+
 
 </details>

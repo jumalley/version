@@ -1,8 +1,17 @@
 {
-  "version": "1.2.184",
+  "version": "1.2.185",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
-  "file_changes": []
+  "file_changes": [
+    {
+      "file": "client/modules/showdata/vehicles.lua",
+      "commit_info": "ab5c285 - Remove redundant back button from vehicle context menus",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ab5c285",
+      "current_size": 24412,
+      "previous_size": 25377,
+      "size_diff": -965
+    }
+  ]
 }
