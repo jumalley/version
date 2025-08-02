@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.186-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.187-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1275,6 +1275,19 @@ config/detect.lua: Rename Config.Garage to Config.Garages by jumalley
 server/custom/garage/qs-advancedgarages.lua: Rename Config.Garage to Config.Garages by jumalley
 
 server/startup_manager.lua: Rename Config.Garage to Config.Garages by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.187</strong> – 2025-08-02 21:35</summary>
+
+## Changelog for v1.2.187
+
+client/modules/showdata/vehicles.lua: Rename Config.Garages to Config.GaragesList by jumalley
+
+config/garages.lua: Rename Config.Garages to Config.GaragesList by jumalley
 
 
 
