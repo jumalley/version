@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.182-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.183-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1177,6 +1177,49 @@ server/modules/greenscreener_quick_test.lua: Add greenscreener server-side test 
 server/modules/greenscreener_test.lua: Add greenscreener server-side test and validation tools by jumalley
 
 server/modules/greenscreener_validation.lua: Add greenscreener server-side test and validation tools by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.183</strong> – 2025-08-02 14:22</summary>
+
+## Changelog for v1.2.183
+
+client/events.lua: Remove greenscreener feature and related files by jumalley
+
+client/greenscreener.js: Remove greenscreener feature and related files by jumalley
+
+client/modules/greenscreener.lua: Remove greenscreener feature and related files by jumalley
+
+client/modules/greenscreener_menu.lua: Remove greenscreener feature and related files by jumalley
+
+client/modules/main.lua: Remove greenscreener feature and related files by jumalley
+
+config/config.lua: Remove greenscreener feature and related files by jumalley
+
+config/perms.lua: Remove greenscreener feature and related files by jumalley
+
+locales/en.lua: Remove greenscreener feature and related files by jumalley
+
+locales/fr.lua: Remove greenscreener feature and related files by jumalley
+
+package.json: Remove greenscreener feature and related files by jumalley
+
+server/greenscreener.js: Remove greenscreener feature and related files by jumalley
+
+server/modules/callbacks.lua: Remove greenscreener feature and related files by jumalley
+
+server/modules/commands.lua: Remove greenscreener feature and related files by jumalley
+
+server/modules/greenscreener.lua: Remove greenscreener feature and related files by jumalley
+
+server/modules/greenscreener_quick_test.lua: Remove greenscreener feature and related files by jumalley
+
+server/modules/greenscreener_test.lua: Remove greenscreener feature and related files by jumalley
+
+server/modules/greenscreener_validation.lua: Remove greenscreener feature and related files by jumalley
 
 
 
