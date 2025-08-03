@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.188-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.189-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1323,6 +1323,17 @@ server/database.lua: Add Unique ID system for player management by jumalley
 server/modules/commands.lua: Add Unique ID system for player management by jumalley
 
 server/modules/uniqueid.lua: Add Unique ID system for player management by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.189</strong> – 2025-08-03 14:49</summary>
+
+## Changelog for v1.2.189
+
+config/config.lua: Remove legacy config options and notes file by jumalley
 
 
 
