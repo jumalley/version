@@ -1,17 +1,41 @@
 {
-  "version": "1.2.189",
+  "version": "1.2.192",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/config.lua",
-      "commit_info": "51fba69 - Remove legacy config options and notes file",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/51fba69",
-      "current_size": 18854,
-      "previous_size": 22754,
-      "size_diff": -3900
+      "file": "client/functions.lua",
+      "commit_info": "286fb74 - Add null checks for player objects in admin functions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/286fb74",
+      "current_size": 133111,
+      "previous_size": 133106,
+      "size_diff": 5
+    },
+    {
+      "file": "client/modules/build.lua",
+      "commit_info": "286fb74 - Add null checks for player objects in admin functions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/286fb74",
+      "current_size": 12638,
+      "previous_size": 12454,
+      "size_diff": 184
+    },
+    {
+      "file": "server/custom/framework/esx.lua",
+      "commit_info": "286fb74 - Add null checks for player objects in admin functions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/286fb74",
+      "current_size": 6669,
+      "previous_size": 6154,
+      "size_diff": 515
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "286fb74 - Add null checks for player objects in admin functions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/286fb74",
+      "current_size": 73498,
+      "previous_size": 73319,
+      "size_diff": 179
     }
   ]
 }
