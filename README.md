@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.192-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.193-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1353,5 +1353,12 @@ server/custom/framework/esx.lua: Add null checks for player objects in admin fun
 server/modules/callbacks.lua: Add null checks for player objects in admin functions by jumalley
 
 
+
+</details>
+
+<details>
+<summary><strong>v1.2.193</strong> – 2025-08-21 16:58</summary>
+
+## Changelog for v1.2.193\n\nNo significant changes in this release.
 
 </details>
