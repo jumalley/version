@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.194-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.195-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1375,6 +1375,21 @@ server/custom/framework/esx.lua: Improve ESX compatibility and add debug logging
 server/database.lua: Improve ESX compatibility and add debug logging by jumalley
 
 server/modules/callbacks.lua: Improve ESX compatibility and add debug logging by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.195</strong> – 2025-09-01 16:24</summary>
+
+## Changelog for v1.2.195
+
+client/functions.lua: Add safety checks for player appearance restoration by jumalley
+
+client/modules/adminduty.lua: Add safety checks for player appearance restoration by jumalley
+
+client/modules/onlineplayers.lua: Add safety checks for player appearance restoration by jumalley
 
 
 

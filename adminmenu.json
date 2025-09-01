@@ -1,41 +1,33 @@
 {
-  "version": "1.2.194",
+  "version": "1.2.195",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/functions.lua",
+      "commit_info": "8a1272a - Add safety checks for player appearance restoration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8a1272a",
+      "current_size": 134043,
+      "previous_size": 133111,
+      "size_diff": 932
+    },
+    {
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "8a1272a - Add safety checks for player appearance restoration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8a1272a",
+      "current_size": 17257,
+      "previous_size": 16993,
+      "size_diff": 264
+    },
+    {
       "file": "client/modules/onlineplayers.lua",
-      "commit_info": "4e0cf16 - Improve ESX compatibility and add debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4e0cf16",
-      "current_size": 21248,
-      "previous_size": 21032,
-      "size_diff": 216
-    },
-    {
-      "file": "server/custom/framework/esx.lua",
-      "commit_info": "4e0cf16 - Improve ESX compatibility and add debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4e0cf16",
-      "current_size": 9290,
-      "previous_size": 6669,
-      "size_diff": 2621
-    },
-    {
-      "file": "server/database.lua",
-      "commit_info": "4e0cf16 - Improve ESX compatibility and add debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4e0cf16",
-      "current_size": 29074,
-      "previous_size": 28963,
-      "size_diff": 111
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "4e0cf16 - Improve ESX compatibility and add debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4e0cf16",
-      "current_size": 73976,
-      "previous_size": 73498,
-      "size_diff": 478
+      "commit_info": "8a1272a - Add safety checks for player appearance restoration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8a1272a",
+      "current_size": 21715,
+      "previous_size": 21248,
+      "size_diff": 467
     }
   ]
 }
