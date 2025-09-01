@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.193-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.194-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1360,5 +1360,22 @@ server/modules/callbacks.lua: Add null checks for player objects in admin functi
 <summary><strong>v1.2.193</strong> – 2025-08-21 16:58</summary>
 
 ## Changelog for v1.2.193\n\nNo significant changes in this release.
+
+</details>
+
+<details>
+<summary><strong>v1.2.194</strong> – 2025-09-01 15:18</summary>
+
+## Changelog for v1.2.194
+
+client/modules/onlineplayers.lua: Improve ESX compatibility and add debug logging by jumalley
+
+server/custom/framework/esx.lua: Improve ESX compatibility and add debug logging by jumalley
+
+server/database.lua: Improve ESX compatibility and add debug logging by jumalley
+
+server/modules/callbacks.lua: Improve ESX compatibility and add debug logging by jumalley
+
+
 
 </details>

@@ -1,8 +1,41 @@
 {
-  "version": "1.2.193",
+  "version": "1.2.194",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
-  "file_changes": []
+  "file_changes": [
+    {
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "4e0cf16 - Improve ESX compatibility and add debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4e0cf16",
+      "current_size": 21248,
+      "previous_size": 21032,
+      "size_diff": 216
+    },
+    {
+      "file": "server/custom/framework/esx.lua",
+      "commit_info": "4e0cf16 - Improve ESX compatibility and add debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4e0cf16",
+      "current_size": 9290,
+      "previous_size": 6669,
+      "size_diff": 2621
+    },
+    {
+      "file": "server/database.lua",
+      "commit_info": "4e0cf16 - Improve ESX compatibility and add debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4e0cf16",
+      "current_size": 29074,
+      "previous_size": 28963,
+      "size_diff": 111
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "4e0cf16 - Improve ESX compatibility and add debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4e0cf16",
+      "current_size": 73976,
+      "previous_size": 73498,
+      "size_diff": 478
+    }
+  ]
 }
