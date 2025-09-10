@@ -1,33 +1,49 @@
 {
-  "version": "1.2.203",
+  "version": "1.2.204",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/offlineplayers.lua",
+      "commit_info": "e31cd41 - Add unique ID support to player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
+      "current_size": 11448,
+      "previous_size": 10193,
+      "size_diff": 1255
+    },
+    {
       "file": "client/modules/onlineplayers.lua",
-      "commit_info": "f47bc1b - Add search results header and clear search option",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f47bc1b",
-      "current_size": 24758,
-      "previous_size": 22359,
-      "size_diff": 2399
+      "commit_info": "e31cd41 - Add unique ID support to player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
+      "current_size": 26955,
+      "previous_size": 24758,
+      "size_diff": 2197
+    },
+    {
+      "file": "client/modules/showdata/general.lua",
+      "commit_info": "e31cd41 - Add unique ID support to player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
+      "current_size": 9397,
+      "previous_size": 9133,
+      "size_diff": 264
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "f47bc1b - Add search results header and clear search option",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f47bc1b",
-      "current_size": 160609,
-      "previous_size": 160384,
-      "size_diff": 225
+      "commit_info": "e31cd41 - Add unique ID support to player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
+      "current_size": 160764,
+      "previous_size": 160609,
+      "size_diff": 155
     },
     {
-      "file": "locales/fr.lua",
-      "commit_info": "f47bc1b - Add search results header and clear search option",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f47bc1b",
-      "current_size": 168642,
-      "previous_size": 168645,
-      "size_diff": -3
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "e31cd41 - Add unique ID support to player management",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
+      "current_size": 76467,
+      "previous_size": 74735,
+      "size_diff": 1732
     }
   ]
 }

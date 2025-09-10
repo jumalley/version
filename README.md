@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.203-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.204-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1496,6 +1496,25 @@ client/modules/onlineplayers.lua: Add search results header and clear search opt
 locales/en.lua: Add search results header and clear search option by jumalley
 
 locales/fr.lua: Add search results header and clear search option by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.204</strong> – 2025-09-10 20:32</summary>
+
+## Changelog for v1.2.204
+
+client/modules/offlineplayers.lua: Add unique ID support to player management by jumalley
+
+client/modules/onlineplayers.lua: Add unique ID support to player management by jumalley
+
+client/modules/showdata/general.lua: Add unique ID support to player management by jumalley
+
+locales/en.lua: Add unique ID support to player management by jumalley
+
+server/modules/callbacks.lua: Add unique ID support to player management by jumalley
 
 
 
