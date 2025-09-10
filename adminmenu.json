@@ -1,17 +1,25 @@
 {
-  "version": "1.2.198",
+  "version": "1.2.199",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "server/custom/multicharacter/multicharacter.lua",
+      "commit_info": "df45443 - Refactor player ID helper and callback usage",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/df45443",
+      "current_size": 4864,
+      "previous_size": 4860,
+      "size_diff": 4
+    },
+    {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "b40e9d7 - Add debug logs for player info in fetchOnlinePlayers",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b40e9d7",
-      "current_size": 76027,
-      "previous_size": 75582,
-      "size_diff": 445
+      "commit_info": "df45443 - Refactor player ID helper and callback usage",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/df45443",
+      "current_size": 75838,
+      "previous_size": 76027,
+      "size_diff": -189
     }
   ]
 }
