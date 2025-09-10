@@ -1,33 +1,41 @@
 {
-  "version": "1.2.195",
+  "version": "1.2.196",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "8a1272a - Add safety checks for player appearance restoration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8a1272a",
-      "current_size": 134043,
-      "previous_size": 133111,
-      "size_diff": 932
-    },
-    {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "8a1272a - Add safety checks for player appearance restoration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8a1272a",
-      "current_size": 17257,
-      "previous_size": 16993,
-      "size_diff": 264
+      "commit_info": "cf2a40d - Refactor admin group callback usage and logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf2a40d",
+      "current_size": 17263,
+      "previous_size": 17257,
+      "size_diff": 6
     },
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "8a1272a - Add safety checks for player appearance restoration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8a1272a",
-      "current_size": 21715,
-      "previous_size": 21248,
-      "size_diff": 467
+      "file": "client/modules/build.lua",
+      "commit_info": "cf2a40d - Refactor admin group callback usage and logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf2a40d",
+      "current_size": 12644,
+      "previous_size": 12638,
+      "size_diff": 6
+    },
+    {
+      "file": "client/modules/showdata/general.lua",
+      "commit_info": "cf2a40d - Refactor admin group callback usage and logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf2a40d",
+      "current_size": 9133,
+      "previous_size": 9122,
+      "size_diff": 11
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "cf2a40d - Refactor admin group callback usage and logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf2a40d",
+      "current_size": 75128,
+      "previous_size": 73976,
+      "size_diff": 1152
     }
   ]
 }

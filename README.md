@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.195-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.196-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1390,6 +1390,23 @@ client/functions.lua: Add safety checks for player appearance restoration by jum
 client/modules/adminduty.lua: Add safety checks for player appearance restoration by jumalley
 
 client/modules/onlineplayers.lua: Add safety checks for player appearance restoration by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.196</strong> – 2025-09-10 18:34</summary>
+
+## Changelog for v1.2.196
+
+client/modules/adminduty.lua: Refactor admin group callback usage and logic by jumalley
+
+client/modules/build.lua: Refactor admin group callback usage and logic by jumalley
+
+client/modules/showdata/general.lua: Refactor admin group callback usage and logic by jumalley
+
+server/modules/callbacks.lua: Refactor admin group callback usage and logic by jumalley
 
 
 
