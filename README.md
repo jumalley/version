@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.199-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.200-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1444,6 +1444,19 @@ server/modules/callbacks.lua: Add debug logs for player info in fetchOnlinePlaye
 server/custom/multicharacter/multicharacter.lua: Refactor player ID helper and callback usage by jumalley
 
 server/modules/callbacks.lua: Refactor player ID helper and callback usage by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.200</strong> – 2025-09-10 19:21</summary>
+
+## Changelog for v1.2.200
+
+server/custom/multicharacter/multicharacter.lua: Remove debug comments and prints from server modules by jumalley
+
+server/modules/callbacks.lua: Remove debug comments and prints from server modules by jumalley
 
 
 

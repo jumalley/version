@@ -1,5 +1,5 @@
 {
-  "version": "1.2.199",
+  "version": "1.2.200",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,19 @@
   "file_changes": [
     {
       "file": "server/custom/multicharacter/multicharacter.lua",
-      "commit_info": "df45443 - Refactor player ID helper and callback usage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df45443",
-      "current_size": 4864,
-      "previous_size": 4860,
-      "size_diff": 4
+      "commit_info": "e09f2ff - Remove debug comments and prints from server modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e09f2ff",
+      "current_size": 4060,
+      "previous_size": 4864,
+      "size_diff": -804
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "df45443 - Refactor player ID helper and callback usage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df45443",
-      "current_size": 75838,
-      "previous_size": 76027,
-      "size_diff": -189
+      "commit_info": "e09f2ff - Remove debug comments and prints from server modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e09f2ff",
+      "current_size": 74735,
+      "previous_size": 75838,
+      "size_diff": -1103
     }
   ]
 }
