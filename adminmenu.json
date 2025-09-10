@@ -1,25 +1,25 @@
 {
-  "version": "1.2.200",
+  "version": "1.2.201",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/custom/multicharacter/multicharacter.lua",
-      "commit_info": "e09f2ff - Remove debug comments and prints from server modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e09f2ff",
-      "current_size": 4060,
-      "previous_size": 4864,
-      "size_diff": -804
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "13392fe - Refactor online players context for filtered views",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/13392fe",
+      "current_size": 22200,
+      "previous_size": 21715,
+      "size_diff": 485
     },
     {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "e09f2ff - Remove debug comments and prints from server modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e09f2ff",
-      "current_size": 74735,
-      "previous_size": 75838,
-      "size_diff": -1103
+      "file": "locales/en.lua",
+      "commit_info": "13392fe - Refactor online players context for filtered views",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/13392fe",
+      "current_size": 160384,
+      "previous_size": 160064,
+      "size_diff": 320
     }
   ]
 }

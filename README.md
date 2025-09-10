@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.200-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.201-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1457,6 +1457,19 @@ server/modules/callbacks.lua: Refactor player ID helper and callback usage by ju
 server/custom/multicharacter/multicharacter.lua: Remove debug comments and prints from server modules by jumalley
 
 server/modules/callbacks.lua: Remove debug comments and prints from server modules by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.201</strong> – 2025-09-10 19:36</summary>
+
+## Changelog for v1.2.201
+
+client/modules/onlineplayers.lua: Refactor online players context for filtered views by jumalley
+
+locales/en.lua: Refactor online players context for filtered views by jumalley
 
 
 
