@@ -1,5 +1,5 @@
 {
-  "version": "1.2.201",
+  "version": "1.2.202",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/onlineplayers.lua",
-      "commit_info": "13392fe - Refactor online players context for filtered views",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/13392fe",
-      "current_size": 22200,
-      "previous_size": 21715,
-      "size_diff": 485
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "13392fe - Refactor online players context for filtered views",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/13392fe",
-      "current_size": 160384,
-      "previous_size": 160064,
-      "size_diff": 320
+      "commit_info": "10f0887 - Refactor context ID handling in player menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/10f0887",
+      "current_size": 22359,
+      "previous_size": 22200,
+      "size_diff": 159
     }
   ]
 }
