@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.202-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.203-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1481,6 +1481,21 @@ locales/en.lua: Refactor online players context for filtered views by jumalley
 ## Changelog for v1.2.202
 
 client/modules/onlineplayers.lua: Refactor context ID handling in player menu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.203</strong> – 2025-09-10 20:01</summary>
+
+## Changelog for v1.2.203
+
+client/modules/onlineplayers.lua: Add search results header and clear search option by jumalley
+
+locales/en.lua: Add search results header and clear search option by jumalley
+
+locales/fr.lua: Add search results header and clear search option by jumalley
 
 
 

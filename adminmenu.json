@@ -1,5 +1,5 @@
 {
-  "version": "1.2.202",
+  "version": "1.2.203",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,27 @@
   "file_changes": [
     {
       "file": "client/modules/onlineplayers.lua",
-      "commit_info": "10f0887 - Refactor context ID handling in player menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/10f0887",
-      "current_size": 22359,
-      "previous_size": 22200,
-      "size_diff": 159
+      "commit_info": "f47bc1b - Add search results header and clear search option",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f47bc1b",
+      "current_size": 24758,
+      "previous_size": 22359,
+      "size_diff": 2399
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "f47bc1b - Add search results header and clear search option",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f47bc1b",
+      "current_size": 160609,
+      "previous_size": 160384,
+      "size_diff": 225
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "f47bc1b - Add search results header and clear search option",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f47bc1b",
+      "current_size": 168642,
+      "previous_size": 168645,
+      "size_diff": -3
     }
   ]
 }
