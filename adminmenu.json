@@ -1,41 +1,25 @@
 {
-  "version": "1.2.196",
+  "version": "1.2.197",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "cf2a40d - Refactor admin group callback usage and logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf2a40d",
-      "current_size": 17263,
-      "previous_size": 17257,
-      "size_diff": 6
-    },
-    {
       "file": "client/modules/build.lua",
-      "commit_info": "cf2a40d - Refactor admin group callback usage and logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf2a40d",
-      "current_size": 12644,
-      "previous_size": 12638,
-      "size_diff": 6
-    },
-    {
-      "file": "client/modules/showdata/general.lua",
-      "commit_info": "cf2a40d - Refactor admin group callback usage and logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf2a40d",
-      "current_size": 9133,
-      "previous_size": 9122,
-      "size_diff": 11
+      "commit_info": "c7cfb38 - Add debug logging to player fetch callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7cfb38",
+      "current_size": 12582,
+      "previous_size": 12644,
+      "size_diff": -62
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "cf2a40d - Refactor admin group callback usage and logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf2a40d",
-      "current_size": 75128,
-      "previous_size": 73976,
-      "size_diff": 1152
+      "commit_info": "c7cfb38 - Add debug logging to player fetch callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7cfb38",
+      "current_size": 75582,
+      "previous_size": 75128,
+      "size_diff": 454
     }
   ]
 }
