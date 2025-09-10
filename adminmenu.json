@@ -1,25 +1,17 @@
 {
-  "version": "1.2.197",
+  "version": "1.2.198",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/build.lua",
-      "commit_info": "c7cfb38 - Add debug logging to player fetch callback",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7cfb38",
-      "current_size": 12582,
-      "previous_size": 12644,
-      "size_diff": -62
-    },
-    {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "c7cfb38 - Add debug logging to player fetch callback",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7cfb38",
-      "current_size": 75582,
-      "previous_size": 75128,
-      "size_diff": 454
+      "commit_info": "b40e9d7 - Add debug logs for player info in fetchOnlinePlayers",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b40e9d7",
+      "current_size": 76027,
+      "previous_size": 75582,
+      "size_diff": 445
     }
   ]
 }

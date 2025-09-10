@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.197-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.198-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1420,6 +1420,17 @@ server/modules/callbacks.lua: Refactor admin group callback usage and logic by j
 client/modules/build.lua: Add debug logging to player fetch callback by jumalley
 
 server/modules/callbacks.lua: Add debug logging to player fetch callback by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.198</strong> – 2025-09-10 18:58</summary>
+
+## Changelog for v1.2.198
+
+server/modules/callbacks.lua: Add debug logs for player info in fetchOnlinePlayers by jumalley
 
 
 
