@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.204-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.205-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1515,6 +1515,17 @@ client/modules/showdata/general.lua: Add unique ID support to player management 
 locales/en.lua: Add unique ID support to player management by jumalley
 
 server/modules/callbacks.lua: Add unique ID support to player management by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.205</strong> – 2025-09-12 20:52</summary>
+
+## Changelog for v1.2.205
+
+server/functions.lua: Replace debug print statements with DebugPrint function by jumalley
 
 
 

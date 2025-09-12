@@ -1,49 +1,17 @@
 {
-  "version": "1.2.204",
+  "version": "1.2.205",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/offlineplayers.lua",
-      "commit_info": "e31cd41 - Add unique ID support to player management",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
-      "current_size": 11448,
-      "previous_size": 10193,
-      "size_diff": 1255
-    },
-    {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "e31cd41 - Add unique ID support to player management",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
-      "current_size": 26955,
-      "previous_size": 24758,
-      "size_diff": 2197
-    },
-    {
-      "file": "client/modules/showdata/general.lua",
-      "commit_info": "e31cd41 - Add unique ID support to player management",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
-      "current_size": 9397,
-      "previous_size": 9133,
-      "size_diff": 264
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "e31cd41 - Add unique ID support to player management",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
-      "current_size": 160764,
-      "previous_size": 160609,
-      "size_diff": 155
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "e31cd41 - Add unique ID support to player management",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e31cd41",
-      "current_size": 76467,
-      "previous_size": 74735,
-      "size_diff": 1732
+      "file": "server/functions.lua",
+      "commit_info": "273ed1d - Replace debug print statements with DebugPrint function",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/273ed1d",
+      "current_size": 22971,
+      "previous_size": 23747,
+      "size_diff": -776
     }
   ]
 }
