@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.206-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.207-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1567,6 +1567,17 @@ server/modules/jail.lua: Add jail system and inventory block for sanctions by ju
 server/modules/sanctions.lua: Add jail system and inventory block for sanctions by jumalley
 
 sql/adminmenu.sql: Add jail system and inventory block for sanctions by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.207</strong> – 2025-09-13 17:34</summary>
+
+## Changelog for v1.2.207
+
+server/modules/jail.lua: Add error handling for missing jail DB tables by jumalley
 
 
 
