@@ -1,17 +1,137 @@
 {
-  "version": "1.2.205",
+  "version": "1.2.206",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/functions.lua",
-      "commit_info": "273ed1d - Replace debug print statements with DebugPrint function",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/273ed1d",
-      "current_size": 22971,
-      "previous_size": 23747,
-      "size_diff": -776
+      "file": "client/custom/inventory/codem.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 576,
+      "previous_size": 510,
+      "size_diff": 66
+    },
+    {
+      "file": "client/custom/inventory/core.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 552,
+      "previous_size": 403,
+      "size_diff": 149
+    },
+    {
+      "file": "client/custom/inventory/origen.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 587,
+      "previous_size": 617,
+      "size_diff": -30
+    },
+    {
+      "file": "client/custom/inventory/ox.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 983,
+      "previous_size": 496,
+      "size_diff": 487
+    },
+    {
+      "file": "client/custom/inventory/qb.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 583,
+      "previous_size": 730,
+      "size_diff": -147
+    },
+    {
+      "file": "client/custom/inventory/qs.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 934,
+      "previous_size": 490,
+      "size_diff": 444
+    },
+    {
+      "file": "client/custom/inventory/tgiann.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 587,
+      "previous_size": 617,
+      "size_diff": -30
+    },
+    {
+      "file": "client/modules/jail.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 23028,
+      "previous_size": 0,
+      "size_diff": 23028
+    },
+    {
+      "file": "client/modules/showdata/manage.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 25696,
+      "previous_size": 25619,
+      "size_diff": 77
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 8038,
+      "previous_size": 6784,
+      "size_diff": 1254
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 168754,
+      "previous_size": 160764,
+      "size_diff": 7990
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 177292,
+      "previous_size": 168642,
+      "size_diff": 8650
+    },
+    {
+      "file": "server/database.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 31023,
+      "previous_size": 29074,
+      "size_diff": 1949
+    },
+    {
+      "file": "server/modules/jail.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 25619,
+      "previous_size": 0,
+      "size_diff": 25619
+    },
+    {
+      "file": "server/modules/sanctions.lua",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 22985,
+      "previous_size": 14877,
+      "size_diff": 8108
+    },
+    {
+      "file": "sql/adminmenu.sql",
+      "commit_info": "86c79aa - Add jail system and inventory block for sanctions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/86c79aa",
+      "current_size": 6095,
+      "previous_size": 3969,
+      "size_diff": 2126
     }
   ]
 }

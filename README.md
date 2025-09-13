@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.205-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.206-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1526,6 +1526,47 @@ server/modules/callbacks.lua: Add unique ID support to player management by juma
 ## Changelog for v1.2.205
 
 server/functions.lua: Replace debug print statements with DebugPrint function by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.206</strong> – 2025-09-13 00:29</summary>
+
+## Changelog for v1.2.206
+
+client/custom/inventory/codem.lua: Add jail system and inventory block for sanctions by jumalley
+
+client/custom/inventory/core.lua: Add jail system and inventory block for sanctions by jumalley
+
+client/custom/inventory/origen.lua: Add jail system and inventory block for sanctions by jumalley
+
+client/custom/inventory/ox.lua: Add jail system and inventory block for sanctions by jumalley
+
+client/custom/inventory/qb.lua: Add jail system and inventory block for sanctions by jumalley
+
+client/custom/inventory/qs.lua: Add jail system and inventory block for sanctions by jumalley
+
+client/custom/inventory/tgiann.lua: Add jail system and inventory block for sanctions by jumalley
+
+client/modules/jail.lua: Add jail system and inventory block for sanctions by jumalley
+
+client/modules/showdata/manage.lua: Add jail system and inventory block for sanctions by jumalley
+
+config/perms.lua: Add jail system and inventory block for sanctions by jumalley
+
+locales/en.lua: Add jail system and inventory block for sanctions by jumalley
+
+locales/fr.lua: Add jail system and inventory block for sanctions by jumalley
+
+server/database.lua: Add jail system and inventory block for sanctions by jumalley
+
+server/modules/jail.lua: Add jail system and inventory block for sanctions by jumalley
+
+server/modules/sanctions.lua: Add jail system and inventory block for sanctions by jumalley
+
+sql/adminmenu.sql: Add jail system and inventory block for sanctions by jumalley
 
 
 
