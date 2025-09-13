@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.207-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.208-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1578,6 +1578,31 @@ sql/adminmenu.sql: Add jail system and inventory block for sanctions by jumalley
 ## Changelog for v1.2.207
 
 server/modules/jail.lua: Add error handling for missing jail DB tables by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.208</strong> – 2025-09-13 19:20</summary>
+
+## Changelog for v1.2.208
+
+config/detect.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
+
+locales/en.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
+
+locales/fr.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
+
+server/database.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
+
+server/functions.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
+
+shared/database/mysql-async.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
+
+shared/database/oxmysql.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
+
+shared/mysql_compat.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
 
 
 
