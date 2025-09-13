@@ -1,73 +1,89 @@
 {
-  "version": "1.2.208",
+  "version": "1.2.210",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/jail.lua",
+      "commit_info": "b0d0451 - Refactor jail zone sync and MySQL usage",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0d0451",
+      "current_size": 22786,
+      "previous_size": 23028,
+      "size_diff": -242
+    },
+    {
       "file": "config/detect.lua",
-      "commit_info": "bd5e451 - Add MySQL compatibility layer for oxmysql and mysql-async",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bd5e451",
-      "current_size": 13048,
-      "previous_size": 12727,
-      "size_diff": 321
+      "commit_info": "66ee453 - Refactor to use mysql-async exclusively",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66ee453",
+      "current_size": 12727,
+      "previous_size": 13048,
+      "size_diff": -321
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "bd5e451 - Add MySQL compatibility layer for oxmysql and mysql-async",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bd5e451",
-      "current_size": 169196,
-      "previous_size": 168754,
-      "size_diff": 442
+      "commit_info": "66ee453 - Refactor to use mysql-async exclusively",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66ee453",
+      "current_size": 168754,
+      "previous_size": 169196,
+      "size_diff": -442
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "bd5e451 - Add MySQL compatibility layer for oxmysql and mysql-async",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bd5e451",
-      "current_size": 177805,
-      "previous_size": 177292,
-      "size_diff": 513
+      "commit_info": "66ee453 - Refactor to use mysql-async exclusively",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66ee453",
+      "current_size": 177292,
+      "previous_size": 177805,
+      "size_diff": -513
     },
     {
       "file": "server/database.lua",
-      "commit_info": "bd5e451 - Add MySQL compatibility layer for oxmysql and mysql-async",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bd5e451",
-      "current_size": 30899,
-      "previous_size": 31023,
-      "size_diff": -124
+      "commit_info": "66ee453 - Refactor to use mysql-async exclusively",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66ee453",
+      "current_size": 31020,
+      "previous_size": 30899,
+      "size_diff": 121
     },
     {
       "file": "server/functions.lua",
-      "commit_info": "bd5e451 - Add MySQL compatibility layer for oxmysql and mysql-async",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bd5e451",
-      "current_size": 22951,
-      "previous_size": 22971,
-      "size_diff": -20
+      "commit_info": "66ee453 - Refactor to use mysql-async exclusively",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66ee453",
+      "current_size": 23256,
+      "previous_size": 22951,
+      "size_diff": 305
+    },
+    {
+      "file": "server/modules/jail.lua",
+      "commit_info": "b0d0451 - Refactor jail zone sync and MySQL usage",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0d0451",
+      "current_size": 26219,
+      "previous_size": 26171,
+      "size_diff": 48
     },
     {
       "file": "shared/database/mysql-async.lua",
-      "commit_info": "bd5e451 - Add MySQL compatibility layer for oxmysql and mysql-async",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bd5e451",
-      "current_size": 3503,
-      "previous_size": 0,
-      "size_diff": 3503
+      "commit_info": "66ee453 - Refactor to use mysql-async exclusively",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66ee453",
+      "current_size": 0,
+      "previous_size": 3503,
+      "size_diff": -3503
     },
     {
       "file": "shared/database/oxmysql.lua",
-      "commit_info": "bd5e451 - Add MySQL compatibility layer for oxmysql and mysql-async",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bd5e451",
-      "current_size": 1895,
-      "previous_size": 0,
-      "size_diff": 1895
+      "commit_info": "66ee453 - Refactor to use mysql-async exclusively",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66ee453",
+      "current_size": 0,
+      "previous_size": 1895,
+      "size_diff": -1895
     },
     {
       "file": "shared/mysql_compat.lua",
-      "commit_info": "bd5e451 - Add MySQL compatibility layer for oxmysql and mysql-async",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bd5e451",
-      "current_size": 7141,
-      "previous_size": 0,
-      "size_diff": 7141
+      "commit_info": "66ee453 - Refactor to use mysql-async exclusively",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66ee453",
+      "current_size": 0,
+      "previous_size": 7141,
+      "size_diff": -7141
     }
   ]
 }

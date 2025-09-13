@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.208-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.210-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1603,6 +1603,35 @@ shared/database/mysql-async.lua: Add MySQL compatibility layer for oxmysql and m
 shared/database/oxmysql.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
 
 shared/mysql_compat.lua: Add MySQL compatibility layer for oxmysql and mysql-async by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.210</strong> – 2025-09-13 20:50</summary>
+
+## Changelog for v1.2.210
+
+client/modules/jail.lua: Refactor jail zone sync and MySQL usage by jumalley
+
+config/detect.lua: Refactor to use mysql-async exclusively by jumalley
+
+locales/en.lua: Refactor to use mysql-async exclusively by jumalley
+
+locales/fr.lua: Refactor to use mysql-async exclusively by jumalley
+
+server/database.lua: Refactor to use mysql-async exclusively by jumalley
+
+server/functions.lua: Refactor to use mysql-async exclusively by jumalley
+
+server/modules/jail.lua: Refactor jail zone sync and MySQL usage by jumalley
+
+shared/database/mysql-async.lua: Refactor to use mysql-async exclusively by jumalley
+
+shared/database/oxmysql.lua: Refactor to use mysql-async exclusively by jumalley
+
+shared/mysql_compat.lua: Refactor to use mysql-async exclusively by jumalley
 
 
 
