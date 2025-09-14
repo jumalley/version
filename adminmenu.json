@@ -1,33 +1,17 @@
 {
-  "version": "1.2.217",
+  "version": "1.2.218",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/jail.lua",
-      "commit_info": "7f929c0 - Add time unit selector to jail duration input",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7f929c0",
-      "current_size": 25658,
-      "previous_size": 23510,
-      "size_diff": 2148
-    },
-    {
       "file": "client/modules/modes/noclip.lua",
-      "commit_info": "7f929c0 - Add time unit selector to jail duration input",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7f929c0",
-      "current_size": 3582,
-      "previous_size": 3182,
-      "size_diff": 400
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "7f929c0 - Add time unit selector to jail duration input",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7f929c0",
-      "current_size": 170912,
-      "previous_size": 170897,
-      "size_diff": 15
+      "commit_info": "4d57d35 - Optimize noclip invisibility checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d57d35",
+      "current_size": 4286,
+      "previous_size": 3582,
+      "size_diff": 704
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.217-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.218-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1781,6 +1781,17 @@ client/modules/jail.lua: Add time unit selector to jail duration input by jumall
 client/modules/modes/noclip.lua: Add time unit selector to jail duration input by jumalley
 
 locales/en.lua: Add time unit selector to jail duration input by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.218</strong> – 2025-09-14 23:01</summary>
+
+## Changelog for v1.2.218
+
+client/modules/modes/noclip.lua: Optimize noclip invisibility checks by jumalley
 
 
 
