@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.219-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.220-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1803,6 +1803,19 @@ client/modules/modes/noclip.lua: Optimize noclip invisibility checks by jumalley
 ## Changelog for v1.2.219
 
 client/modules/modes/noclip.lua: Add error handling to noclip mode for enabled modes by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.220</strong> – 2025-09-14 23:14</summary>
+
+## Changelog for v1.2.220
+
+client/modules/modes/modes.lua: Refactor noclip to use isInvisibleModeActive helper by jumalley
+
+client/modules/modes/noclip.lua: Refactor noclip to use isInvisibleModeActive helper by jumalley
 
 
 
