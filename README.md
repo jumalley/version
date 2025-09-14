@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.210-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.211-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1632,6 +1632,59 @@ shared/database/mysql-async.lua: Refactor to use mysql-async exclusively by juma
 shared/database/oxmysql.lua: Refactor to use mysql-async exclusively by jumalley
 
 shared/mysql_compat.lua: Refactor to use mysql-async exclusively by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.211</strong> – 2025-09-14 02:39</summary>
+
+## Changelog for v1.2.211
+
+client/modules/adminduty.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/jail.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/main.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/modes/modes.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/modes/spectate.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/onlineplayers.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/settings/main.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/settings/server.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/show.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/showdata/general.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/showdata/inventory.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/showdata/manage.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/showdata/miscs.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/uniqueid.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/weapons.lua: Add jail management UI and improve admin tools by jumalley
+
+client/modules/wiki.lua: Add jail management UI and improve admin tools by jumalley
+
+locales/en.lua: Add jail management UI and improve admin tools by jumalley
+
+locales/fr.lua: Add jail management UI and improve admin tools by jumalley
+
+server/database.lua: Add jail management UI and improve admin tools by jumalley
+
+server/modules/callbacks.lua: Add jail management UI and improve admin tools by jumalley
+
+server/modules/commands.lua: Add jail management UI and improve admin tools by jumalley
+
+server/modules/uniqueid.lua: Add jail management UI and improve admin tools by jumalley
 
 
 
