@@ -1,33 +1,33 @@
 {
-  "version": "1.2.212",
+  "version": "1.2.213",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/custom/inventory/ox.lua",
+      "commit_info": "153effe - Remove unused cache variable from client scripts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/153effe",
+      "current_size": 947,
+      "previous_size": 983,
+      "size_diff": -36
+    },
+    {
+      "file": "client/modules/jail.lua",
+      "commit_info": "153effe - Remove unused cache variable from client scripts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/153effe",
+      "current_size": 22952,
+      "previous_size": 22988,
+      "size_diff": -36
+    },
+    {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "f180cec - Improve mode text UI and add new mode translations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f180cec",
-      "current_size": 10654,
-      "previous_size": 10498,
-      "size_diff": 156
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "f180cec - Improve mode text UI and add new mode translations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f180cec",
-      "current_size": 170857,
-      "previous_size": 170747,
-      "size_diff": 110
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "f180cec - Improve mode text UI and add new mode translations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f180cec",
-      "current_size": 179565,
-      "previous_size": 179448,
-      "size_diff": 117
+      "commit_info": "153effe - Remove unused cache variable from client scripts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/153effe",
+      "current_size": 10618,
+      "previous_size": 10654,
+      "size_diff": -36
     }
   ]
 }

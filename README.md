@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.212-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.213-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1700,6 +1700,21 @@ client/modules/modes/modes.lua: Improve mode text UI and add new mode translatio
 locales/en.lua: Improve mode text UI and add new mode translations by jumalley
 
 locales/fr.lua: Improve mode text UI and add new mode translations by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.213</strong> – 2025-09-14 22:03</summary>
+
+## Changelog for v1.2.213
+
+client/custom/inventory/ox.lua: Remove unused cache variable from client scripts by jumalley
+
+client/modules/jail.lua: Remove unused cache variable from client scripts by jumalley
+
+client/modules/modes/modes.lua: Remove unused cache variable from client scripts by jumalley
 
 
 
