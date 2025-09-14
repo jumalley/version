@@ -1,185 +1,33 @@
 {
-  "version": "1.2.211",
+  "version": "1.2.212",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 17314,
-      "previous_size": 17263,
-      "size_diff": 51
-    },
-    {
-      "file": "client/modules/jail.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 22988,
-      "previous_size": 22786,
-      "size_diff": 202
-    },
-    {
-      "file": "client/modules/main.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 4377,
-      "previous_size": 4439,
-      "size_diff": -62
-    },
-    {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 10498,
-      "previous_size": 9360,
-      "size_diff": 1138
-    },
-    {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 10331,
-      "previous_size": 10091,
-      "size_diff": 240
-    },
-    {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 26853,
-      "previous_size": 26955,
-      "size_diff": -102
-    },
-    {
-      "file": "client/modules/settings/main.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 11742,
-      "previous_size": 3190,
-      "size_diff": 8552
-    },
-    {
-      "file": "client/modules/settings/server.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 18321,
-      "previous_size": 13230,
-      "size_diff": 5091
-    },
-    {
-      "file": "client/modules/show.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 8092,
-      "previous_size": 8033,
-      "size_diff": 59
-    },
-    {
-      "file": "client/modules/showdata/general.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 11700,
-      "previous_size": 9397,
-      "size_diff": 2303
-    },
-    {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 36982,
-      "previous_size": 33764,
-      "size_diff": 3218
-    },
-    {
-      "file": "client/modules/showdata/manage.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 28025,
-      "previous_size": 25696,
-      "size_diff": 2329
-    },
-    {
-      "file": "client/modules/showdata/miscs.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 3133,
-      "previous_size": 4555,
-      "size_diff": -1422
-    },
-    {
-      "file": "client/modules/uniqueid.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 7264,
-      "previous_size": 7232,
-      "size_diff": 32
-    },
-    {
-      "file": "client/modules/weapons.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 5660,
-      "previous_size": 5659,
-      "size_diff": 1
-    },
-    {
-      "file": "client/modules/wiki.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 585,
-      "previous_size": 551,
-      "size_diff": 34
+      "commit_info": "f180cec - Improve mode text UI and add new mode translations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f180cec",
+      "current_size": 10654,
+      "previous_size": 10498,
+      "size_diff": 156
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 170747,
-      "previous_size": 168754,
-      "size_diff": 1993
+      "commit_info": "f180cec - Improve mode text UI and add new mode translations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f180cec",
+      "current_size": 170857,
+      "previous_size": 170747,
+      "size_diff": 110
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 179448,
-      "previous_size": 177292,
-      "size_diff": 2156
-    },
-    {
-      "file": "server/database.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 31071,
-      "previous_size": 31020,
-      "size_diff": 51
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 77010,
-      "previous_size": 76467,
-      "size_diff": 543
-    },
-    {
-      "file": "server/modules/commands.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 30200,
-      "previous_size": 30204,
-      "size_diff": -4
-    },
-    {
-      "file": "server/modules/uniqueid.lua",
-      "commit_info": "e49f575 - Add jail management UI and improve admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e49f575",
-      "current_size": 6816,
-      "previous_size": 5453,
-      "size_diff": 1363
+      "commit_info": "f180cec - Improve mode text UI and add new mode translations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f180cec",
+      "current_size": 179565,
+      "previous_size": 179448,
+      "size_diff": 117
     }
   ]
 }
