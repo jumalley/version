@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.220-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.221-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1816,6 +1816,21 @@ client/modules/modes/noclip.lua: Add error handling to noclip mode for enabled m
 client/modules/modes/modes.lua: Refactor noclip to use isInvisibleModeActive helper by jumalley
 
 client/modules/modes/noclip.lua: Refactor noclip to use isInvisibleModeActive helper by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.221</strong> – 2025-09-14 23:23</summary>
+
+## Changelog for v1.2.221
+
+client/modules/jail.lua: Improve ground Z detection and remove debug logs by jumalley
+
+client/modules/modes/noclip.lua: Improve ground Z detection and remove debug logs by jumalley
+
+server/modules/jail.lua: Improve ground Z detection and remove debug logs by jumalley
 
 
 
