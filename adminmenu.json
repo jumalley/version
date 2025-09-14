@@ -1,33 +1,41 @@
 {
-  "version": "1.2.213",
+  "version": "1.2.214",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/inventory/ox.lua",
-      "commit_info": "153effe - Remove unused cache variable from client scripts",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/153effe",
-      "current_size": 947,
-      "previous_size": 983,
-      "size_diff": -36
-    },
-    {
       "file": "client/modules/jail.lua",
-      "commit_info": "153effe - Remove unused cache variable from client scripts",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/153effe",
-      "current_size": 22952,
-      "previous_size": 22988,
-      "size_diff": -36
+      "commit_info": "6e4916d - Improve jail dialog error handling and UI text formatting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e4916d",
+      "current_size": 23126,
+      "previous_size": 22952,
+      "size_diff": 174
     },
     {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "153effe - Remove unused cache variable from client scripts",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/153effe",
-      "current_size": 10618,
-      "previous_size": 10654,
-      "size_diff": -36
+      "commit_info": "6e4916d - Improve jail dialog error handling and UI text formatting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e4916d",
+      "current_size": 10620,
+      "previous_size": 10618,
+      "size_diff": 2
+    },
+    {
+      "file": "client/modules/showdata/manage.lua",
+      "commit_info": "6e4916d - Improve jail dialog error handling and UI text formatting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e4916d",
+      "current_size": 28023,
+      "previous_size": 28025,
+      "size_diff": -2
+    },
+    {
+      "file": "server/modules/jail.lua",
+      "commit_info": "6e4916d - Improve jail dialog error handling and UI text formatting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e4916d",
+      "current_size": 26192,
+      "previous_size": 26219,
+      "size_diff": -27
     }
   ]
 }
