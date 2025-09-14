@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.221-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.222-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1831,6 +1831,17 @@ client/modules/jail.lua: Improve ground Z detection and remove debug logs by jum
 client/modules/modes/noclip.lua: Improve ground Z detection and remove debug logs by jumalley
 
 server/modules/jail.lua: Improve ground Z detection and remove debug logs by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.222</strong> – 2025-09-14 23:28</summary>
+
+## Changelog for v1.2.222
+
+server/modules/jail.lua: Remove server-side ground Z calculation for jail props by jumalley
 
 
 

@@ -1,33 +1,17 @@
 {
-  "version": "1.2.221",
+  "version": "1.2.222",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/jail.lua",
-      "commit_info": "88ead84 - Improve ground Z detection and remove debug logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/88ead84",
-      "current_size": 25900,
-      "previous_size": 25658,
-      "size_diff": 242
-    },
-    {
-      "file": "client/modules/modes/noclip.lua",
-      "commit_info": "88ead84 - Improve ground Z detection and remove debug logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/88ead84",
-      "current_size": 4284,
-      "previous_size": 5131,
-      "size_diff": -847
-    },
-    {
       "file": "server/modules/jail.lua",
-      "commit_info": "88ead84 - Improve ground Z detection and remove debug logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/88ead84",
-      "current_size": 27081,
-      "previous_size": 26834,
-      "size_diff": 247
+      "commit_info": "dcd392b - Remove server-side ground Z calculation for jail props",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dcd392b",
+      "current_size": 26751,
+      "previous_size": 27081,
+      "size_diff": -330
     }
   ]
 }
