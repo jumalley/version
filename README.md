@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.224-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.225-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1868,6 +1868,17 @@ server/modules/jail.lua: Add debug logging to staff and jail modules by jumalley
 ## Changelog for v1.2.224
 
 server/modules/jail.lua: Improve jail prop and barrier creation logic by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.225</strong> – 2025-09-14 23:44</summary>
+
+## Changelog for v1.2.225
+
+server/modules/jail.lua: Improve jail prop creation and fallback logic by jumalley
 
 
 

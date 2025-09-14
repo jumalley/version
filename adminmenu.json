@@ -1,5 +1,5 @@
 {
-  "version": "1.2.224",
+  "version": "1.2.225",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "server/modules/jail.lua",
-      "commit_info": "935791b - Improve jail prop and barrier creation logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/935791b",
-      "current_size": 29047,
-      "previous_size": 27993,
-      "size_diff": 1054
+      "commit_info": "3551c29 - Improve jail prop creation and fallback logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3551c29",
+      "current_size": 29718,
+      "previous_size": 29047,
+      "size_diff": 671
     }
   ]
 }
