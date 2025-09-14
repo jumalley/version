@@ -1,5 +1,5 @@
 {
-  "version": "1.2.214",
+  "version": "1.2.215",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,35 +7,43 @@
   "file_changes": [
     {
       "file": "client/modules/jail.lua",
-      "commit_info": "6e4916d - Improve jail dialog error handling and UI text formatting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e4916d",
-      "current_size": 23126,
-      "previous_size": 22952,
-      "size_diff": 174
+      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
+      "current_size": 23510,
+      "previous_size": 23126,
+      "size_diff": 384
     },
     {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "6e4916d - Improve jail dialog error handling and UI text formatting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e4916d",
-      "current_size": 10620,
-      "previous_size": 10618,
-      "size_diff": 2
+      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
+      "current_size": 10805,
+      "previous_size": 10620,
+      "size_diff": 185
+    },
+    {
+      "file": "client/modules/modes/noclip.lua",
+      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
+      "current_size": 3094,
+      "previous_size": 2986,
+      "size_diff": 108
     },
     {
       "file": "client/modules/showdata/manage.lua",
-      "commit_info": "6e4916d - Improve jail dialog error handling and UI text formatting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e4916d",
-      "current_size": 28023,
-      "previous_size": 28025,
-      "size_diff": -2
+      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
+      "current_size": 28936,
+      "previous_size": 28023,
+      "size_diff": 913
     },
     {
-      "file": "server/modules/jail.lua",
-      "commit_info": "6e4916d - Improve jail dialog error handling and UI text formatting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6e4916d",
-      "current_size": 26192,
-      "previous_size": 26219,
-      "size_diff": -27
+      "file": "locales/en.lua",
+      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
+      "current_size": 170897,
+      "previous_size": 170857,
+      "size_diff": 40
     }
   ]
 }
