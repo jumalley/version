@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.222-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.223-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1842,6 +1842,21 @@ server/modules/jail.lua: Improve ground Z detection and remove debug logs by jum
 ## Changelog for v1.2.222
 
 server/modules/jail.lua: Remove server-side ground Z calculation for jail props by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.223</strong> – 2025-09-14 23:34</summary>
+
+## Changelog for v1.2.223
+
+server/events.lua: Add debug logging to staff and jail modules by jumalley
+
+server/functions.lua: Add debug logging to staff and jail modules by jumalley
+
+server/modules/jail.lua: Add debug logging to staff and jail modules by jumalley
 
 
 
