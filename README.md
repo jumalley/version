@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.215-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.216-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1751,6 +1751,21 @@ client/modules/modes/noclip.lua: Improve jail UI and error handling, update time
 client/modules/showdata/manage.lua: Improve jail UI and error handling, update timestamp formatting by jumalley
 
 locales/en.lua: Improve jail UI and error handling, update timestamp formatting by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.216</strong> – 2025-09-14 22:48</summary>
+
+## Changelog for v1.2.216
+
+client/modules/modes/modes.lua: Improve jail handling and UI updates by jumalley
+
+client/modules/modes/noclip.lua: Improve jail handling and UI updates by jumalley
+
+server/modules/jail.lua: Improve jail handling and UI updates by jumalley
 
 
 

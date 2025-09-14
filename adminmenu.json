@@ -1,49 +1,33 @@
 {
-  "version": "1.2.215",
+  "version": "1.2.216",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/jail.lua",
-      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
-      "current_size": 23510,
-      "previous_size": 23126,
-      "size_diff": 384
-    },
-    {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
-      "current_size": 10805,
-      "previous_size": 10620,
-      "size_diff": 185
+      "commit_info": "e8dbf9d - Improve jail handling and UI updates",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e8dbf9d",
+      "current_size": 10631,
+      "previous_size": 10805,
+      "size_diff": -174
     },
     {
       "file": "client/modules/modes/noclip.lua",
-      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
-      "current_size": 3094,
-      "previous_size": 2986,
-      "size_diff": 108
+      "commit_info": "e8dbf9d - Improve jail handling and UI updates",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e8dbf9d",
+      "current_size": 3182,
+      "previous_size": 3094,
+      "size_diff": 88
     },
     {
-      "file": "client/modules/showdata/manage.lua",
-      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
-      "current_size": 28936,
-      "previous_size": 28023,
-      "size_diff": 913
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "1efff08 - Improve jail UI and error handling, update timestamp formatting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1efff08",
-      "current_size": 170897,
-      "previous_size": 170857,
-      "size_diff": 40
+      "file": "server/modules/jail.lua",
+      "commit_info": "e8dbf9d - Improve jail handling and UI updates",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e8dbf9d",
+      "current_size": 26834,
+      "previous_size": 26192,
+      "size_diff": 642
     }
   ]
 }
