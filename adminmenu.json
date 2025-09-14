@@ -1,33 +1,17 @@
 {
-  "version": "1.2.223",
+  "version": "1.2.224",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/events.lua",
-      "commit_info": "5d1b194 - Add debug logging to staff and jail modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5d1b194",
-      "current_size": 9916,
-      "previous_size": 9809,
-      "size_diff": 107
-    },
-    {
-      "file": "server/functions.lua",
-      "commit_info": "5d1b194 - Add debug logging to staff and jail modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5d1b194",
-      "current_size": 24044,
-      "previous_size": 23256,
-      "size_diff": 788
-    },
-    {
       "file": "server/modules/jail.lua",
-      "commit_info": "5d1b194 - Add debug logging to staff and jail modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5d1b194",
-      "current_size": 27993,
-      "previous_size": 26751,
-      "size_diff": 1242
+      "commit_info": "935791b - Improve jail prop and barrier creation logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/935791b",
+      "current_size": 29047,
+      "previous_size": 27993,
+      "size_diff": 1054
     }
   ]
 }
