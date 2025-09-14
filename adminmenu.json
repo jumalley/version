@@ -1,5 +1,5 @@
 {
-  "version": "1.2.218",
+  "version": "1.2.219",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/modes/noclip.lua",
-      "commit_info": "4d57d35 - Optimize noclip invisibility checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d57d35",
-      "current_size": 4286,
-      "previous_size": 3582,
-      "size_diff": 704
+      "commit_info": "3951122 - Add error handling to noclip mode for enabled modes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3951122",
+      "current_size": 4904,
+      "previous_size": 4286,
+      "size_diff": 618
     }
   ]
 }
