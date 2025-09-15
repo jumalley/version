@@ -1,17 +1,49 @@
 {
-  "version": "1.2.225",
+  "version": "1.2.226",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/jail.lua",
+      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
+      "current_size": 25940,
+      "previous_size": 25900,
+      "size_diff": 40
+    },
+    {
+      "file": "client/modules/showdata/manage.lua",
+      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
+      "current_size": 29323,
+      "previous_size": 28936,
+      "size_diff": 387
+    },
+    {
+      "file": "config/config.lua",
+      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
+      "current_size": 18954,
+      "previous_size": 18854,
+      "size_diff": 100
+    },
+    {
       "file": "server/modules/jail.lua",
-      "commit_info": "3551c29 - Improve jail prop creation and fallback logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3551c29",
-      "current_size": 29718,
-      "previous_size": 29047,
-      "size_diff": 671
+      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
+      "current_size": 29758,
+      "previous_size": 29718,
+      "size_diff": 40
+    },
+    {
+      "file": "server/modules/sanctions.lua",
+      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
+      "current_size": 23035,
+      "previous_size": 22985,
+      "size_diff": 50
     }
   ]
 }

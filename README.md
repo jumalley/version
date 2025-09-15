@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.225-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.226-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1879,6 +1879,25 @@ server/modules/jail.lua: Improve jail prop and barrier creation logic by jumalle
 ## Changelog for v1.2.225
 
 server/modules/jail.lua: Improve jail prop creation and fallback logic by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.226</strong> – 2025-09-15 23:33</summary>
+
+## Changelog for v1.2.226
+
+client/modules/jail.lua: Add config flag to enable or disable jail system by jumalley
+
+client/modules/showdata/manage.lua: Add config flag to enable or disable jail system by jumalley
+
+config/config.lua: Add config flag to enable or disable jail system by jumalley
+
+server/modules/jail.lua: Add config flag to enable or disable jail system by jumalley
+
+server/modules/sanctions.lua: Add config flag to enable or disable jail system by jumalley
 
 
 
