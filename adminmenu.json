@@ -1,49 +1,41 @@
 {
-  "version": "1.2.226",
+  "version": "1.2.227",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/jail.lua",
-      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
-      "current_size": 25940,
-      "previous_size": 25900,
-      "size_diff": 40
+      "file": "server/events.lua",
+      "commit_info": "a4bcdf1 - Add staff weapon cleanup and validation logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4bcdf1",
+      "current_size": 10191,
+      "previous_size": 9916,
+      "size_diff": 275
     },
     {
-      "file": "client/modules/showdata/manage.lua",
-      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
-      "current_size": 29323,
-      "previous_size": 28936,
-      "size_diff": 387
+      "file": "server/functions.lua",
+      "commit_info": "a4bcdf1 - Add staff weapon cleanup and validation logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4bcdf1",
+      "current_size": 25538,
+      "previous_size": 24044,
+      "size_diff": 1494
     },
     {
-      "file": "config/config.lua",
-      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
-      "current_size": 18954,
-      "previous_size": 18854,
-      "size_diff": 100
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "a4bcdf1 - Add staff weapon cleanup and validation logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4bcdf1",
+      "current_size": 77709,
+      "previous_size": 77010,
+      "size_diff": 699
     },
     {
-      "file": "server/modules/jail.lua",
-      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
-      "current_size": 29758,
-      "previous_size": 29718,
-      "size_diff": 40
-    },
-    {
-      "file": "server/modules/sanctions.lua",
-      "commit_info": "3f9e0db - Add config flag to enable or disable jail system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f9e0db",
-      "current_size": 23035,
-      "previous_size": 22985,
-      "size_diff": 50
+      "file": "server/modules/logs/logs.lua",
+      "commit_info": "a4bcdf1 - Add staff weapon cleanup and validation logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4bcdf1",
+      "current_size": 11917,
+      "previous_size": 11798,
+      "size_diff": 119
     }
   ]
 }

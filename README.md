@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.226-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.227-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1898,6 +1898,23 @@ config/config.lua: Add config flag to enable or disable jail system by jumalley
 server/modules/jail.lua: Add config flag to enable or disable jail system by jumalley
 
 server/modules/sanctions.lua: Add config flag to enable or disable jail system by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.227</strong> – 2025-09-16 01:19</summary>
+
+## Changelog for v1.2.227
+
+server/events.lua: Add staff weapon cleanup and validation logic by jumalley
+
+server/functions.lua: Add staff weapon cleanup and validation logic by jumalley
+
+server/modules/callbacks.lua: Add staff weapon cleanup and validation logic by jumalley
+
+server/modules/logs/logs.lua: Add staff weapon cleanup and validation logic by jumalley
 
 
 
