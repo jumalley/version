@@ -1,41 +1,33 @@
 {
-  "version": "1.2.227",
+  "version": "1.2.228",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/car.lua",
+      "commit_info": "4f8cdd9 - Refactor vehicle tuning to use server-side synchronization",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4f8cdd9",
+      "current_size": 8844,
+      "previous_size": 8348,
+      "size_diff": 496
+    },
+    {
+      "file": "client/modules/vehiclepresets.lua",
+      "commit_info": "4f8cdd9 - Refactor vehicle tuning to use server-side synchronization",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4f8cdd9",
+      "current_size": 12541,
+      "previous_size": 13517,
+      "size_diff": -976
+    },
+    {
       "file": "server/events.lua",
-      "commit_info": "a4bcdf1 - Add staff weapon cleanup and validation logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4bcdf1",
-      "current_size": 10191,
-      "previous_size": 9916,
-      "size_diff": 275
-    },
-    {
-      "file": "server/functions.lua",
-      "commit_info": "a4bcdf1 - Add staff weapon cleanup and validation logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4bcdf1",
-      "current_size": 25538,
-      "previous_size": 24044,
-      "size_diff": 1494
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "a4bcdf1 - Add staff weapon cleanup and validation logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4bcdf1",
-      "current_size": 77709,
-      "previous_size": 77010,
-      "size_diff": 699
-    },
-    {
-      "file": "server/modules/logs/logs.lua",
-      "commit_info": "a4bcdf1 - Add staff weapon cleanup and validation logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4bcdf1",
-      "current_size": 11917,
-      "previous_size": 11798,
-      "size_diff": 119
+      "commit_info": "4f8cdd9 - Refactor vehicle tuning to use server-side synchronization",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4f8cdd9",
+      "current_size": 13718,
+      "previous_size": 10191,
+      "size_diff": 3527
     }
   ]
 }
