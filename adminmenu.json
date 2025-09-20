@@ -1,33 +1,49 @@
 {
-  "version": "1.2.229",
+  "version": "1.2.230",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
+      "current_size": 17221,
+      "previous_size": 17314,
+      "size_diff": -93
+    },
+    {
       "file": "server/custom/framework/esx.lua",
-      "commit_info": "6b86b70 - Improve account money functions with validation and error handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6b86b70",
-      "current_size": 10556,
-      "previous_size": 9290,
-      "size_diff": 1266
+      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
+      "current_size": 9938,
+      "previous_size": 10556,
+      "size_diff": -618
     },
     {
       "file": "server/custom/framework/qb.lua",
-      "commit_info": "6b86b70 - Improve account money functions with validation and error handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6b86b70",
-      "current_size": 7539,
-      "previous_size": 6212,
-      "size_diff": 1327
+      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
+      "current_size": 6921,
+      "previous_size": 7539,
+      "size_diff": -618
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
+      "current_size": 24501,
+      "previous_size": 25538,
+      "size_diff": -1037
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "6b86b70 - Improve account money functions with validation and error handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6b86b70",
-      "current_size": 80385,
-      "previous_size": 77709,
-      "size_diff": 2676
+      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
+      "current_size": 79511,
+      "previous_size": 80385,
+      "size_diff": -874
     }
   ]
 }

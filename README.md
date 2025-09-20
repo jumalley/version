@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.229-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.230-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1945,6 +1945,25 @@ server/custom/framework/esx.lua: Improve account money functions with validation
 server/custom/framework/qb.lua: Improve account money functions with validation and error handling by jumalley
 
 server/modules/callbacks.lua: Improve account money functions with validation and error handling by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.230</strong> – 2025-09-20 10:34</summary>
+
+## Changelog for v1.2.230
+
+client/modules/adminduty.lua: Remove debug and info print statements from admin scripts by jumalley
+
+server/custom/framework/esx.lua: Remove debug and info print statements from admin scripts by jumalley
+
+server/custom/framework/qb.lua: Remove debug and info print statements from admin scripts by jumalley
+
+server/functions.lua: Remove debug and info print statements from admin scripts by jumalley
+
+server/modules/callbacks.lua: Remove debug and info print statements from admin scripts by jumalley
 
 
 
