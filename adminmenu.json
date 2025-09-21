@@ -1,49 +1,33 @@
 {
-  "version": "1.2.230",
+  "version": "1.2.231",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
-      "current_size": 17221,
-      "previous_size": 17314,
-      "size_diff": -93
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "c84aa4f - Update admin mode logic and French locale entries",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c84aa4f",
+      "current_size": 10290,
+      "previous_size": 10712,
+      "size_diff": -422
     },
     {
-      "file": "server/custom/framework/esx.lua",
-      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
-      "current_size": 9938,
-      "previous_size": 10556,
-      "size_diff": -618
+      "file": "config/config.lua",
+      "commit_info": "c84aa4f - Update admin mode logic and French locale entries",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c84aa4f",
+      "current_size": 18952,
+      "previous_size": 18954,
+      "size_diff": -2
     },
     {
-      "file": "server/custom/framework/qb.lua",
-      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
-      "current_size": 6921,
-      "previous_size": 7539,
-      "size_diff": -618
-    },
-    {
-      "file": "server/functions.lua",
-      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
-      "current_size": 24501,
-      "previous_size": 25538,
-      "size_diff": -1037
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "2f64be7 - Remove debug and info print statements from admin scripts",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2f64be7",
-      "current_size": 79511,
-      "previous_size": 80385,
-      "size_diff": -874
+      "file": "locales/fr.lua",
+      "commit_info": "c84aa4f - Update admin mode logic and French locale entries",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c84aa4f",
+      "current_size": 180195,
+      "previous_size": 179565,
+      "size_diff": 630
     }
   ]
 }

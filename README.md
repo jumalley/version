@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.230-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.231-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1964,6 +1964,21 @@ server/custom/framework/qb.lua: Remove debug and info print statements from admi
 server/functions.lua: Remove debug and info print statements from admin scripts by jumalley
 
 server/modules/callbacks.lua: Remove debug and info print statements from admin scripts by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.231</strong> – 2025-09-21 20:30</summary>
+
+## Changelog for v1.2.231
+
+client/modules/modes/modes.lua: Update admin mode logic and French locale entries by jumalley
+
+config/config.lua: Update admin mode logic and French locale entries by jumalley
+
+locales/fr.lua: Update admin mode logic and French locale entries by jumalley
 
 
 
