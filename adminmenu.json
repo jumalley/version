@@ -1,33 +1,49 @@
 {
-  "version": "1.2.231",
+  "version": "1.2.232",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "c84aa4f - Update admin mode logic and French locale entries",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c84aa4f",
-      "current_size": 10290,
-      "previous_size": 10712,
-      "size_diff": -422
+      "file": "client/modules/modes/spectate.lua",
+      "commit_info": "96c8087 - Add sex field to player search and random spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
+      "current_size": 12548,
+      "previous_size": 10331,
+      "size_diff": 2217
     },
     {
-      "file": "config/config.lua",
-      "commit_info": "c84aa4f - Update admin mode logic and French locale entries",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c84aa4f",
-      "current_size": 18952,
-      "previous_size": 18954,
-      "size_diff": -2
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "96c8087 - Add sex field to player search and random spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
+      "current_size": 27743,
+      "previous_size": 26853,
+      "size_diff": 890
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "96c8087 - Add sex field to player search and random spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
+      "current_size": 171094,
+      "previous_size": 170912,
+      "size_diff": 182
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "c84aa4f - Update admin mode logic and French locale entries",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c84aa4f",
-      "current_size": 180195,
-      "previous_size": 179565,
-      "size_diff": 630
+      "commit_info": "96c8087 - Add sex field to player search and random spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
+      "current_size": 180386,
+      "previous_size": 180195,
+      "size_diff": 191
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "96c8087 - Add sex field to player search and random spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
+      "current_size": 79689,
+      "previous_size": 79511,
+      "size_diff": 178
     }
   ]
 }
