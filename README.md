@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.232-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.233-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -1998,6 +1998,25 @@ locales/en.lua: Add sex field to player search and random spectate by jumalley
 locales/fr.lua: Add sex field to player search and random spectate by jumalley
 
 server/modules/callbacks.lua: Add sex field to player search and random spectate by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.233</strong> – 2025-09-22 00:17</summary>
+
+## Changelog for v1.2.233
+
+client/modules/showdata/inventory.lua: Add direct item input to kit editor with validation by jumalley
+
+config/detect.lua: Add direct item input to kit editor with validation by jumalley
+
+locales/en.lua: Add direct item input to kit editor with validation by jumalley
+
+locales/fr.lua: Add direct item input to kit editor with validation by jumalley
+
+server/modules/inventory.lua: Add direct item input to kit editor with validation by jumalley
 
 
 

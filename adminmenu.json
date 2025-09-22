@@ -1,49 +1,49 @@
 {
-  "version": "1.2.232",
+  "version": "1.2.233",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "96c8087 - Add sex field to player search and random spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
-      "current_size": 12548,
-      "previous_size": 10331,
-      "size_diff": 2217
+      "file": "client/modules/showdata/inventory.lua",
+      "commit_info": "70c9526 - Add direct item input to kit editor with validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/70c9526",
+      "current_size": 40125,
+      "previous_size": 36982,
+      "size_diff": 3143
     },
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "96c8087 - Add sex field to player search and random spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
-      "current_size": 27743,
-      "previous_size": 26853,
-      "size_diff": 890
+      "file": "config/detect.lua",
+      "commit_info": "70c9526 - Add direct item input to kit editor with validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/70c9526",
+      "current_size": 12727,
+      "previous_size": 12727,
+      "size_diff": 0
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "96c8087 - Add sex field to player search and random spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
-      "current_size": 171094,
-      "previous_size": 170912,
-      "size_diff": 182
+      "commit_info": "70c9526 - Add direct item input to kit editor with validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/70c9526",
+      "current_size": 172019,
+      "previous_size": 171094,
+      "size_diff": 925
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "96c8087 - Add sex field to player search and random spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
-      "current_size": 180386,
-      "previous_size": 180195,
-      "size_diff": 191
+      "commit_info": "70c9526 - Add direct item input to kit editor with validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/70c9526",
+      "current_size": 181373,
+      "previous_size": 180386,
+      "size_diff": 987
     },
     {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "96c8087 - Add sex field to player search and random spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/96c8087",
-      "current_size": 79689,
-      "previous_size": 79511,
-      "size_diff": 178
+      "file": "server/modules/inventory.lua",
+      "commit_info": "70c9526 - Add direct item input to kit editor with validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/70c9526",
+      "current_size": 10241,
+      "previous_size": 9713,
+      "size_diff": 528
     }
   ]
 }
