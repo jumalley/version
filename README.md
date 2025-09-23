@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.233-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.234-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2017,6 +2017,41 @@ locales/en.lua: Add direct item input to kit editor with validation by jumalley
 locales/fr.lua: Add direct item input to kit editor with validation by jumalley
 
 server/modules/inventory.lua: Add direct item input to kit editor with validation by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.234</strong> – 2025-09-23 23:17</summary>
+
+## Changelog for v1.2.234
+
+client/events.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+client/modules/adminduty.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+client/modules/modes/menu.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+client/modules/modes/modes.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+client/modules/modes/noclip.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+client/modules/modes/utils.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+client/modules/showdata/inventory.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+locales/en.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+locales/fr.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+server/functions.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+server/modules/callbacks.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+server/modules/inventory.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+sql/adminmenu.sql: Add crash recovery, infinite ammo, and kit logs features by jumalley
 
 
 
