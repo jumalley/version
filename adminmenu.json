@@ -1,5 +1,5 @@
 {
-  "version": "1.2.236",
+  "version": "1.2.237",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,67 +7,27 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
-      "current_size": 30407,
-      "previous_size": 29920,
-      "size_diff": 487
-    },
-    {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
-      "current_size": 27704,
-      "previous_size": 27743,
-      "size_diff": -39
-    },
-    {
-      "file": "client/modules/settings/modules.lua",
-      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
-      "current_size": 24243,
-      "previous_size": 23398,
-      "size_diff": 845
-    },
-    {
-      "file": "client/modules/settings/preferences.lua",
-      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
-      "current_size": 11323,
-      "previous_size": 10573,
-      "size_diff": 750
+      "commit_info": "411fa44 - Show enabled admin preferences in duty notification",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/411fa44",
+      "current_size": 30938,
+      "previous_size": 30407,
+      "size_diff": 531
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
-      "current_size": 178359,
-      "previous_size": 177901,
-      "size_diff": 458
+      "commit_info": "411fa44 - Show enabled admin preferences in duty notification",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/411fa44",
+      "current_size": 178453,
+      "previous_size": 178359,
+      "size_diff": 94
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
-      "current_size": 188345,
-      "previous_size": 187806,
-      "size_diff": 539
-    },
-    {
-      "file": "server/events.lua",
-      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
-      "current_size": 14524,
-      "previous_size": 14465,
-      "size_diff": 59
-    },
-    {
-      "file": "server/modules/uniqueid.lua",
-      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
-      "current_size": 6906,
-      "previous_size": 6816,
-      "size_diff": 90
+      "commit_info": "411fa44 - Show enabled admin preferences in duty notification",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/411fa44",
+      "current_size": 188451,
+      "previous_size": 188345,
+      "size_diff": 106
     }
   ]
 }
