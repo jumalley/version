@@ -1,169 +1,73 @@
 {
-  "version": "1.2.235",
+  "version": "1.2.236",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/events.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 4434,
-      "previous_size": 2786,
-      "size_diff": 1648
-    },
-    {
-      "file": "client/functions.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 133991,
-      "previous_size": 134043,
-      "size_diff": -52
-    },
-    {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 29920,
-      "previous_size": 28791,
-      "size_diff": 1129
+      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
+      "current_size": 30407,
+      "previous_size": 29920,
+      "size_diff": 487
     },
     {
-      "file": "client/modules/callbacks.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 9646,
-      "previous_size": 8461,
-      "size_diff": 1185
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
+      "current_size": 27704,
+      "previous_size": 27743,
+      "size_diff": -39
     },
     {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 14870,
-      "previous_size": 14630,
-      "size_diff": 240
-    },
-    {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 17457,
-      "previous_size": 12548,
-      "size_diff": 4909
-    },
-    {
-      "file": "client/modules/rcore_integration.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 694,
-      "previous_size": 0,
-      "size_diff": 694
+      "file": "client/modules/settings/modules.lua",
+      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
+      "current_size": 24243,
+      "previous_size": 23398,
+      "size_diff": 845
     },
     {
       "file": "client/modules/settings/preferences.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 10573,
-      "previous_size": 9307,
-      "size_diff": 1266
-    },
-    {
-      "file": "client/modules/showdata/manage.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 29300,
-      "previous_size": 29323,
-      "size_diff": -23
-    },
-    {
-      "file": "client/modules/showdata/vehicles.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 24382,
-      "previous_size": 24417,
-      "size_diff": -35
-    },
-    {
-      "file": "config/config.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 20030,
-      "previous_size": 18952,
-      "size_diff": 1078
-    },
-    {
-      "file": "config/detect.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 13049,
-      "previous_size": 12727,
-      "size_diff": 322
+      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
+      "current_size": 11323,
+      "previous_size": 10573,
+      "size_diff": 750
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 177901,
-      "previous_size": 175754,
-      "size_diff": 2147
+      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
+      "current_size": 178359,
+      "previous_size": 177901,
+      "size_diff": 458
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 187806,
-      "previous_size": 185312,
-      "size_diff": 2494
-    },
-    {
-      "file": "server/custom/report/rcore_report.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 5025,
-      "previous_size": 0,
-      "size_diff": 5025
+      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
+      "current_size": 188345,
+      "previous_size": 187806,
+      "size_diff": 539
     },
     {
       "file": "server/events.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 14465,
-      "previous_size": 13718,
-      "size_diff": 747
+      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
+      "current_size": 14524,
+      "previous_size": 14465,
+      "size_diff": 59
     },
     {
-      "file": "server/functions.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 29733,
-      "previous_size": 27407,
-      "size_diff": 2326
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 81699,
-      "previous_size": 80169,
-      "size_diff": 1530
-    },
-    {
-      "file": "server/modules/rcore_integration.lua",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 1233,
-      "previous_size": 0,
-      "size_diff": 1233
-    },
-    {
-      "file": "sql/adminmenu.sql",
-      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
-      "current_size": 6697,
-      "previous_size": 6773,
-      "size_diff": -76
+      "file": "server/modules/uniqueid.lua",
+      "commit_info": "ed603b1 - Add invincible admin preference and report script menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed603b1",
+      "current_size": 6906,
+      "previous_size": 6816,
+      "size_diff": 90
     }
   ]
 }

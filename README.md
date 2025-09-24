@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.235-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.236-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2101,6 +2101,31 @@ server/modules/callbacks.lua: Add convar config, rcore_report integration, and e
 server/modules/rcore_integration.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
 
 sql/adminmenu.sql: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.236</strong> – 2025-09-24 19:54</summary>
+
+## Changelog for v1.2.236
+
+client/modules/adminduty.lua: Add invincible admin preference and report script menu by jumalley
+
+client/modules/onlineplayers.lua: Add invincible admin preference and report script menu by jumalley
+
+client/modules/settings/modules.lua: Add invincible admin preference and report script menu by jumalley
+
+client/modules/settings/preferences.lua: Add invincible admin preference and report script menu by jumalley
+
+locales/en.lua: Add invincible admin preference and report script menu by jumalley
+
+locales/fr.lua: Add invincible admin preference and report script menu by jumalley
+
+server/events.lua: Add invincible admin preference and report script menu by jumalley
+
+server/modules/uniqueid.lua: Add invincible admin preference and report script menu by jumalley
 
 
 
