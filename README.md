@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.234-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.235-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2052,6 +2052,55 @@ server/modules/callbacks.lua: Add crash recovery, infinite ammo, and kit logs fe
 server/modules/inventory.lua: Add crash recovery, infinite ammo, and kit logs features by jumalley
 
 sql/adminmenu.sql: Add crash recovery, infinite ammo, and kit logs features by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.235</strong> – 2025-09-24 18:51</summary>
+
+## Changelog for v1.2.235
+
+client/events.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+client/functions.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+client/modules/adminduty.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+client/modules/callbacks.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+client/modules/modes/modes.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+client/modules/modes/spectate.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+client/modules/rcore_integration.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+client/modules/settings/preferences.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+client/modules/showdata/manage.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+client/modules/showdata/vehicles.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+config/config.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+config/detect.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+locales/en.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+locales/fr.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+server/custom/report/rcore_report.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+server/events.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+server/functions.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+server/modules/callbacks.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+server/modules/rcore_integration.lua: Add convar config, rcore_report integration, and enhanced spectate by jumalley
+
+sql/adminmenu.sql: Add convar config, rcore_report integration, and enhanced spectate by jumalley
 
 
 

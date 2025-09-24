@@ -1,5 +1,5 @@
 {
-  "version": "1.2.234",
+  "version": "1.2.235",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,107 +7,163 @@
   "file_changes": [
     {
       "file": "client/events.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 2786,
-      "previous_size": 2518,
-      "size_diff": 268
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 4434,
+      "previous_size": 2786,
+      "size_diff": 1648
+    },
+    {
+      "file": "client/functions.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 133991,
+      "previous_size": 134043,
+      "size_diff": -52
     },
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 28791,
-      "previous_size": 17221,
-      "size_diff": 11570
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 29920,
+      "previous_size": 28791,
+      "size_diff": 1129
     },
     {
-      "file": "client/modules/modes/menu.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 4061,
-      "previous_size": 3681,
-      "size_diff": 380
+      "file": "client/modules/callbacks.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 9646,
+      "previous_size": 8461,
+      "size_diff": 1185
     },
     {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 14630,
-      "previous_size": 10290,
-      "size_diff": 4340
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 14870,
+      "previous_size": 14630,
+      "size_diff": 240
     },
     {
-      "file": "client/modules/modes/noclip.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 4429,
-      "previous_size": 4284,
-      "size_diff": 145
+      "file": "client/modules/modes/spectate.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 17457,
+      "previous_size": 12548,
+      "size_diff": 4909
     },
     {
-      "file": "client/modules/modes/utils.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 16865,
-      "previous_size": 14371,
-      "size_diff": 2494
+      "file": "client/modules/rcore_integration.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 694,
+      "previous_size": 0,
+      "size_diff": 694
     },
     {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 43924,
-      "previous_size": 40125,
-      "size_diff": 3799
+      "file": "client/modules/settings/preferences.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 10573,
+      "previous_size": 9307,
+      "size_diff": 1266
+    },
+    {
+      "file": "client/modules/showdata/manage.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 29300,
+      "previous_size": 29323,
+      "size_diff": -23
+    },
+    {
+      "file": "client/modules/showdata/vehicles.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 24382,
+      "previous_size": 24417,
+      "size_diff": -35
+    },
+    {
+      "file": "config/config.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 20030,
+      "previous_size": 18952,
+      "size_diff": 1078
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 13049,
+      "previous_size": 12727,
+      "size_diff": 322
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 175754,
-      "previous_size": 172019,
-      "size_diff": 3735
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 177901,
+      "previous_size": 175754,
+      "size_diff": 2147
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 185312,
-      "previous_size": 181373,
-      "size_diff": 3939
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 187806,
+      "previous_size": 185312,
+      "size_diff": 2494
+    },
+    {
+      "file": "server/custom/report/rcore_report.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 5025,
+      "previous_size": 0,
+      "size_diff": 5025
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 14465,
+      "previous_size": 13718,
+      "size_diff": 747
     },
     {
       "file": "server/functions.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 27407,
-      "previous_size": 24501,
-      "size_diff": 2906
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 29733,
+      "previous_size": 27407,
+      "size_diff": 2326
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 80169,
-      "previous_size": 79689,
-      "size_diff": 480
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 81699,
+      "previous_size": 80169,
+      "size_diff": 1530
     },
     {
-      "file": "server/modules/inventory.lua",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 12844,
-      "previous_size": 10241,
-      "size_diff": 2603
+      "file": "server/modules/rcore_integration.lua",
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 1233,
+      "previous_size": 0,
+      "size_diff": 1233
     },
     {
       "file": "sql/adminmenu.sql",
-      "commit_info": "2fd7c57 - Add crash recovery, infinite ammo, and kit logs features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2fd7c57",
-      "current_size": 6773,
-      "previous_size": 6095,
-      "size_diff": 678
+      "commit_info": "79ae963 - Add convar config, rcore_report integration, and enhanced spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79ae963",
+      "current_size": 6697,
+      "previous_size": 6773,
+      "size_diff": -76
     }
   ]
 }
