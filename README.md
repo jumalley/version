@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.237-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.238-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2141,6 +2141,25 @@ client/modules/adminduty.lua: Show enabled admin preferences in duty notificatio
 locales/en.lua: Show enabled admin preferences in duty notification by jumalley
 
 locales/fr.lua: Show enabled admin preferences in duty notification by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.238</strong> – 2025-09-24 20:35</summary>
+
+## Changelog for v1.2.238
+
+client/modules/adminduty.lua: Remove auto-invincible admin duty preference by jumalley
+
+client/modules/main.lua: Remove auto-invincible admin duty preference by jumalley
+
+client/modules/settings/preferences.lua: Remove auto-invincible admin duty preference by jumalley
+
+locales/en.lua: Remove auto-invincible admin duty preference by jumalley
+
+locales/fr.lua: Remove auto-invincible admin duty preference by jumalley
 
 
 

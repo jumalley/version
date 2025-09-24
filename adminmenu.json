@@ -1,5 +1,5 @@
 {
-  "version": "1.2.237",
+  "version": "1.2.238",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,27 +7,43 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "411fa44 - Show enabled admin preferences in duty notification",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/411fa44",
-      "current_size": 30938,
-      "previous_size": 30407,
-      "size_diff": 531
+      "commit_info": "517b596 - Remove auto-invincible admin duty preference",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/517b596",
+      "current_size": 30663,
+      "previous_size": 30938,
+      "size_diff": -275
+    },
+    {
+      "file": "client/modules/main.lua",
+      "commit_info": "517b596 - Remove auto-invincible admin duty preference",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/517b596",
+      "current_size": 4409,
+      "previous_size": 4377,
+      "size_diff": 32
+    },
+    {
+      "file": "client/modules/settings/preferences.lua",
+      "commit_info": "517b596 - Remove auto-invincible admin duty preference",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/517b596",
+      "current_size": 11006,
+      "previous_size": 11323,
+      "size_diff": -317
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "411fa44 - Show enabled admin preferences in duty notification",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/411fa44",
-      "current_size": 178453,
-      "previous_size": 178359,
-      "size_diff": 94
+      "commit_info": "517b596 - Remove auto-invincible admin duty preference",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/517b596",
+      "current_size": 178261,
+      "previous_size": 178453,
+      "size_diff": -192
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "411fa44 - Show enabled admin preferences in duty notification",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/411fa44",
-      "current_size": 188451,
-      "previous_size": 188345,
-      "size_diff": 106
+      "commit_info": "517b596 - Remove auto-invincible admin duty preference",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/517b596",
+      "current_size": 188193,
+      "previous_size": 188451,
+      "size_diff": -258
     }
   ]
 }
