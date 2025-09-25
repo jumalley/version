@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.238-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.239-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2160,6 +2160,35 @@ client/modules/settings/preferences.lua: Remove auto-invincible admin duty prefe
 locales/en.lua: Remove auto-invincible admin duty preference by jumalley
 
 locales/fr.lua: Remove auto-invincible admin duty preference by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.239</strong> – 2025-09-25 20:04</summary>
+
+## Changelog for v1.2.239
+
+client/events.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+client/modules/adminduty.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+client/modules/main.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+client/modules/modes/menu.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+client/modules/modes/modes.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+client/modules/modes/utils.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+config/perms.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+locales/en.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+locales/fr.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+server/modules/callbacks.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
 
 
 
