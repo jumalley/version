@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.241-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.242-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2223,6 +2223,25 @@ locales/fr.lua: Add grouped mode notifications and auto-enable staff modes by ju
 client/modules/modes/modes.lua: Refactor pistol staff UI and key mapping logic by jumalley
 
 client/modules/modes/utils.lua: Refactor pistol staff UI and key mapping logic by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.242</strong> – 2025-09-25 20:56</summary>
+
+## Changelog for v1.2.242
+
+client/modules/adminduty.lua: Unify scaleform instructions for noclip and pistol staff by jumalley
+
+client/modules/modes/modes.lua: Unify scaleform instructions for noclip and pistol staff by jumalley
+
+client/modules/modes/noclip.lua: Unify scaleform instructions for noclip and pistol staff by jumalley
+
+client/modules/modes/utils.lua: Unify scaleform instructions for noclip and pistol staff by jumalley
+
+server/events.lua: Clear crash recovery state on normal disconnect by jumalley
 
 
 
