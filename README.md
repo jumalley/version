@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.239-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.240-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2189,6 +2189,27 @@ locales/en.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
 locales/fr.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
 
 server/modules/callbacks.lua: Add Pistol Staff mode and keybinds for admin menu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.240</strong> – 2025-09-25 20:25</summary>
+
+## Changelog for v1.2.240
+
+client/modules/adminduty.lua: Add grouped mode notifications and auto-enable staff modes by jumalley
+
+client/modules/modes/modes.lua: Add grouped mode notifications and auto-enable staff modes by jumalley
+
+client/modules/modes/utils.lua: Add grouped mode notifications and auto-enable staff modes by jumalley
+
+client/modules/settings/preferences.lua: Add grouped mode notifications and auto-enable staff modes by jumalley
+
+locales/en.lua: Add grouped mode notifications and auto-enable staff modes by jumalley
+
+locales/fr.lua: Add grouped mode notifications and auto-enable staff modes by jumalley
 
 
 
