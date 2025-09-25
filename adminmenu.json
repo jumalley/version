@@ -1,5 +1,5 @@
 {
-  "version": "1.2.242",
+  "version": "1.2.243",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,43 +7,27 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "daa1bad - Unify scaleform instructions for noclip and pistol staff",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daa1bad",
-      "current_size": 30911,
-      "previous_size": 30647,
-      "size_diff": 264
-    },
-    {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "daa1bad - Unify scaleform instructions for noclip and pistol staff",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daa1bad",
-      "current_size": 20818,
-      "previous_size": 20705,
-      "size_diff": 113
+      "commit_info": "e41efb2 - Refactor admin instructions to unified scaleform system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e41efb2",
+      "current_size": 30345,
+      "previous_size": 30911,
+      "size_diff": -566
     },
     {
       "file": "client/modules/modes/noclip.lua",
-      "commit_info": "daa1bad - Unify scaleform instructions for noclip and pistol staff",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daa1bad",
-      "current_size": 4650,
-      "previous_size": 4429,
-      "size_diff": 221
+      "commit_info": "e41efb2 - Refactor admin instructions to unified scaleform system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e41efb2",
+      "current_size": 4438,
+      "previous_size": 4650,
+      "size_diff": -212
     },
     {
       "file": "client/modules/modes/utils.lua",
-      "commit_info": "daa1bad - Unify scaleform instructions for noclip and pistol staff",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daa1bad",
-      "current_size": 21406,
-      "previous_size": 19471,
-      "size_diff": 1935
-    },
-    {
-      "file": "server/events.lua",
-      "commit_info": "51787e9 - Clear crash recovery state on normal disconnect",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/51787e9",
-      "current_size": 14904,
-      "previous_size": 14524,
-      "size_diff": 380
+      "commit_info": "e41efb2 - Refactor admin instructions to unified scaleform system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e41efb2",
+      "current_size": 22618,
+      "previous_size": 21406,
+      "size_diff": 1212
     }
   ]
 }

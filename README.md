@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.242-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.243-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2242,6 +2242,21 @@ client/modules/modes/noclip.lua: Unify scaleform instructions for noclip and pis
 client/modules/modes/utils.lua: Unify scaleform instructions for noclip and pistol staff by jumalley
 
 server/events.lua: Clear crash recovery state on normal disconnect by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.243</strong> – 2025-09-25 21:04</summary>
+
+## Changelog for v1.2.243
+
+client/modules/adminduty.lua: Refactor admin instructions to unified scaleform system by jumalley
+
+client/modules/modes/noclip.lua: Refactor admin instructions to unified scaleform system by jumalley
+
+client/modules/modes/utils.lua: Refactor admin instructions to unified scaleform system by jumalley
 
 
 
