@@ -1,57 +1,25 @@
 {
-  "version": "1.2.240",
+  "version": "1.2.241",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "c449dbd - Add grouped mode notifications and auto-enable staff modes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c449dbd",
-      "current_size": 30647,
-      "previous_size": 30410,
-      "size_diff": 237
-    },
-    {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "c449dbd - Add grouped mode notifications and auto-enable staff modes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c449dbd",
-      "current_size": 20843,
-      "previous_size": 16253,
-      "size_diff": 4590
+      "commit_info": "d3c4ce1 - Refactor pistol staff UI and key mapping logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3c4ce1",
+      "current_size": 20705,
+      "previous_size": 20843,
+      "size_diff": -138
     },
     {
       "file": "client/modules/modes/utils.lua",
-      "commit_info": "c449dbd - Add grouped mode notifications and auto-enable staff modes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c449dbd",
-      "current_size": 19089,
-      "previous_size": 18687,
-      "size_diff": 402
-    },
-    {
-      "file": "client/modules/settings/preferences.lua",
-      "commit_info": "c449dbd - Add grouped mode notifications and auto-enable staff modes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c449dbd",
-      "current_size": 10878,
-      "previous_size": 11006,
-      "size_diff": -128
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "c449dbd - Add grouped mode notifications and auto-enable staff modes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c449dbd",
-      "current_size": 179461,
-      "previous_size": 178708,
-      "size_diff": 753
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "c449dbd - Add grouped mode notifications and auto-enable staff modes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c449dbd",
-      "current_size": 189704,
-      "previous_size": 188685,
-      "size_diff": 1019
+      "commit_info": "d3c4ce1 - Refactor pistol staff UI and key mapping logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3c4ce1",
+      "current_size": 19471,
+      "previous_size": 19089,
+      "size_diff": 382
     }
   ]
 }

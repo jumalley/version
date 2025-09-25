@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.240-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.241-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2210,6 +2210,19 @@ client/modules/settings/preferences.lua: Add grouped mode notifications and auto
 locales/en.lua: Add grouped mode notifications and auto-enable staff modes by jumalley
 
 locales/fr.lua: Add grouped mode notifications and auto-enable staff modes by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.241</strong> – 2025-09-25 20:33</summary>
+
+## Changelog for v1.2.241
+
+client/modules/modes/modes.lua: Refactor pistol staff UI and key mapping logic by jumalley
+
+client/modules/modes/utils.lua: Refactor pistol staff UI and key mapping logic by jumalley
 
 
 
