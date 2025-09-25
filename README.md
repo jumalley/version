@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.244-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.245-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2276,6 +2276,21 @@ client/modules/modes/utils.lua: Update pistol staff keybinds and remove TextUI i
 locales/en.lua: Update pistol staff keybinds and remove TextUI instructions by jumalley
 
 locales/fr.lua: Update pistol staff keybinds and remove TextUI instructions by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.245</strong> – 2025-09-25 21:26</summary>
+
+## Changelog for v1.2.245
+
+client/modules/modes/utils.lua: Restore E and G keys for pistol staff actions by jumalley
+
+locales/en.lua: Restore E and G keys for pistol staff actions by jumalley
+
+locales/fr.lua: Restore E and G keys for pistol staff actions by jumalley
 
 
 

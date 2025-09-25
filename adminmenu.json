@@ -1,46 +1,30 @@
 {
-  "version": "1.2.244",
+  "version": "1.2.245",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
-      "current_size": 30041,
-      "previous_size": 30345,
-      "size_diff": -304
-    },
-    {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
-      "current_size": 20672,
-      "previous_size": 20818,
-      "size_diff": -146
-    },
-    {
       "file": "client/modules/modes/utils.lua",
-      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
-      "current_size": 22648,
-      "previous_size": 22618,
-      "size_diff": 30
+      "commit_info": "782a6d5 - Restore E and G keys for pistol staff actions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/782a6d5",
+      "current_size": 22690,
+      "previous_size": 22648,
+      "size_diff": 42
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
+      "commit_info": "782a6d5 - Restore E and G keys for pistol staff actions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/782a6d5",
       "current_size": 179461,
       "previous_size": 179461,
       "size_diff": 0
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
+      "commit_info": "782a6d5 - Restore E and G keys for pistol staff actions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/782a6d5",
       "current_size": 189704,
       "previous_size": 189704,
       "size_diff": 0
