@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.243-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.244-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2257,6 +2257,25 @@ client/modules/adminduty.lua: Refactor admin instructions to unified scaleform s
 client/modules/modes/noclip.lua: Refactor admin instructions to unified scaleform system by jumalley
 
 client/modules/modes/utils.lua: Refactor admin instructions to unified scaleform system by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.244</strong> – 2025-09-25 21:22</summary>
+
+## Changelog for v1.2.244
+
+client/modules/adminduty.lua: Update pistol staff keybinds and remove TextUI instructions by jumalley
+
+client/modules/modes/modes.lua: Update pistol staff keybinds and remove TextUI instructions by jumalley
+
+client/modules/modes/utils.lua: Update pistol staff keybinds and remove TextUI instructions by jumalley
+
+locales/en.lua: Update pistol staff keybinds and remove TextUI instructions by jumalley
+
+locales/fr.lua: Update pistol staff keybinds and remove TextUI instructions by jumalley
 
 
 

@@ -1,5 +1,5 @@
 {
-  "version": "1.2.243",
+  "version": "1.2.244",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,27 +7,43 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "e41efb2 - Refactor admin instructions to unified scaleform system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e41efb2",
-      "current_size": 30345,
-      "previous_size": 30911,
-      "size_diff": -566
+      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
+      "current_size": 30041,
+      "previous_size": 30345,
+      "size_diff": -304
     },
     {
-      "file": "client/modules/modes/noclip.lua",
-      "commit_info": "e41efb2 - Refactor admin instructions to unified scaleform system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e41efb2",
-      "current_size": 4438,
-      "previous_size": 4650,
-      "size_diff": -212
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
+      "current_size": 20672,
+      "previous_size": 20818,
+      "size_diff": -146
     },
     {
       "file": "client/modules/modes/utils.lua",
-      "commit_info": "e41efb2 - Refactor admin instructions to unified scaleform system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e41efb2",
-      "current_size": 22618,
-      "previous_size": 21406,
-      "size_diff": 1212
+      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
+      "current_size": 22648,
+      "previous_size": 22618,
+      "size_diff": 30
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
+      "current_size": 179461,
+      "previous_size": 179461,
+      "size_diff": 0
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "79aa9e6 - Update pistol staff keybinds and remove TextUI instructions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/79aa9e6",
+      "current_size": 189704,
+      "previous_size": 189704,
+      "size_diff": 0
     }
   ]
 }
