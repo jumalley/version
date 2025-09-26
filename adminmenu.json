@@ -1,5 +1,5 @@
 {
-  "version": "1.2.268",
+  "version": "1.2.269",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,27 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "6131a1c - Add debug print statements to spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6131a1c",
-      "current_size": 36770,
-      "previous_size": 34949,
-      "size_diff": 1821
+      "commit_info": "714481d - Improve spectate mode state and voice data handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/714481d",
+      "current_size": 37541,
+      "previous_size": 36770,
+      "size_diff": 771
+    },
+    {
+      "file": "server/custom/voice/pma-voice.lua",
+      "commit_info": "714481d - Improve spectate mode state and voice data handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/714481d",
+      "current_size": 1567,
+      "previous_size": 1598,
+      "size_diff": -31
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "714481d - Improve spectate mode state and voice data handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/714481d",
+      "current_size": 84025,
+      "previous_size": 82458,
+      "size_diff": 1567
     }
   ]
 }
