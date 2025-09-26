@@ -1,5 +1,5 @@
 {
-  "version": "1.2.258",
+  "version": "1.2.259",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "ff9653a - Prevent R key conflict with staff weapon in spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ff9653a",
-      "current_size": 37550,
-      "previous_size": 36410,
-      "size_diff": 1140
+      "commit_info": "3525659 - Improve spectate scaleform reliability and debugging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3525659",
+      "current_size": 40863,
+      "previous_size": 37550,
+      "size_diff": 3313
     }
   ]
 }
