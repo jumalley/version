@@ -1,17 +1,25 @@
 {
-  "version": "1.2.262",
+  "version": "1.2.263",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "3616ef8 - Improve admin entity actions and spectate camera cleanup",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3616ef8",
+      "current_size": 28621,
+      "previous_size": 28100,
+      "size_diff": 521
+    },
+    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "7249755 - Fix order of noclip restoration after spectate",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7249755",
-      "current_size": 43511,
-      "previous_size": 42969,
-      "size_diff": 542
+      "commit_info": "3616ef8 - Improve admin entity actions and spectate camera cleanup",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3616ef8",
+      "current_size": 44049,
+      "previous_size": 43511,
+      "size_diff": 538
     }
   ]
 }
