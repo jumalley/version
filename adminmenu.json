@@ -1,5 +1,5 @@
 {
-  "version": "1.2.263",
+  "version": "1.2.264",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,27 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "3616ef8 - Improve admin entity actions and spectate camera cleanup",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3616ef8",
-      "current_size": 28621,
-      "previous_size": 28100,
-      "size_diff": 521
+      "commit_info": "5455ad9 - Update key bindings for admin and spectate modes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5455ad9",
+      "current_size": 28659,
+      "previous_size": 28621,
+      "size_diff": 38
     },
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "3616ef8 - Improve admin entity actions and spectate camera cleanup",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3616ef8",
-      "current_size": 44049,
-      "previous_size": 43511,
-      "size_diff": 538
+      "commit_info": "5455ad9 - Update key bindings for admin and spectate modes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5455ad9",
+      "current_size": 44041,
+      "previous_size": 44049,
+      "size_diff": -8
+    },
+    {
+      "file": "client/modules/modes/utils.lua",
+      "commit_info": "5455ad9 - Update key bindings for admin and spectate modes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5455ad9",
+      "current_size": 24734,
+      "previous_size": 24719,
+      "size_diff": 15
     }
   ]
 }

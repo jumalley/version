@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.263-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.264-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2557,6 +2557,21 @@ client/modules/modes/spectate.lua: Fix order of noclip restoration after spectat
 client/modules/adminduty.lua: Improve admin entity actions and spectate camera cleanup by jumalley
 
 client/modules/modes/spectate.lua: Improve admin entity actions and spectate camera cleanup by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.264</strong> – 2025-09-26 19:17</summary>
+
+## Changelog for v1.2.264
+
+client/modules/adminduty.lua: Update key bindings for admin and spectate modes by jumalley
+
+client/modules/modes/spectate.lua: Update key bindings for admin and spectate modes by jumalley
+
+client/modules/modes/utils.lua: Update key bindings for admin and spectate modes by jumalley
 
 
 
