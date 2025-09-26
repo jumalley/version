@@ -1,5 +1,5 @@
 {
-  "version": "1.2.266",
+  "version": "1.2.267",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "8177bfb - Remove debug logging from spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8177bfb",
-      "current_size": 34351,
-      "previous_size": 37852,
-      "size_diff": -3501
+      "commit_info": "424b1fa - Improve scaleform cleanup in spectate mode",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/424b1fa",
+      "current_size": 34949,
+      "previous_size": 34351,
+      "size_diff": 598
     }
   ]
 }
