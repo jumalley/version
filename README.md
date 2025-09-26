@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.248-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.249-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2348,6 +2348,19 @@ server/modules/modes/spectate.lua: Add debug logging to admin duty and spectate 
 ## Changelog for v1.2.248
 
 client/modules/modes/spectate.lua: Improve spectate mode reliability and add debug logs by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.249</strong> – 2025-09-26 15:01</summary>
+
+## Changelog for v1.2.249
+
+client/modules/modes/spectate.lua: Add spectate state export and improve scaleform handling by jumalley
+
+client/modules/modes/utils.lua: Add spectate state export and improve scaleform handling by jumalley
 
 
 

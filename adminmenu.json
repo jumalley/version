@@ -1,5 +1,5 @@
 {
-  "version": "1.2.248",
+  "version": "1.2.249",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,19 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "0eaeae0 - Improve spectate mode reliability and add debug logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0eaeae0",
-      "current_size": 20539,
-      "previous_size": 18735,
-      "size_diff": 1804
+      "commit_info": "30f23e9 - Add spectate state export and improve scaleform handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/30f23e9",
+      "current_size": 21981,
+      "previous_size": 20539,
+      "size_diff": 1442
+    },
+    {
+      "file": "client/modules/modes/utils.lua",
+      "commit_info": "30f23e9 - Add spectate state export and improve scaleform handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/30f23e9",
+      "current_size": 23824,
+      "previous_size": 23549,
+      "size_diff": 275
     }
   ]
 }
