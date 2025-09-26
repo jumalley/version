@@ -1,41 +1,25 @@
 {
-  "version": "1.2.255",
+  "version": "1.2.256",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/callbacks.lua",
-      "commit_info": "851179c - Refactor spectate and voice data handling for pma-voice",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/851179c",
-      "current_size": 10006,
-      "previous_size": 9646,
-      "size_diff": 360
-    },
-    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "851179c - Refactor spectate and voice data handling for pma-voice",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/851179c",
-      "current_size": 29362,
-      "previous_size": 32020,
-      "size_diff": -2658
+      "commit_info": "8d94b49 - Add context-aware spectate controls and showdata integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d94b49",
+      "current_size": 35476,
+      "previous_size": 29362,
+      "size_diff": 6114
     },
     {
-      "file": "server/custom/voice/pma-voice.lua",
-      "commit_info": "851179c - Refactor spectate and voice data handling for pma-voice",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/851179c",
-      "current_size": 1598,
-      "previous_size": 290,
-      "size_diff": 1308
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "851179c - Refactor spectate and voice data handling for pma-voice",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/851179c",
-      "current_size": 82458,
-      "previous_size": 81708,
-      "size_diff": 750
+      "file": "client/modules/showdata/manage.lua",
+      "commit_info": "8d94b49 - Add context-aware spectate controls and showdata integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d94b49",
+      "current_size": 30364,
+      "previous_size": 29300,
+      "size_diff": 1064
     }
   ]
 }
