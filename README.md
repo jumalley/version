@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.259-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.260-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2511,6 +2511,17 @@ client/modules/modes/spectate.lua: Prevent R key conflict with staff weapon in s
 ## Changelog for v1.2.259
 
 client/modules/modes/spectate.lua: Improve spectate scaleform reliability and debugging by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.260</strong> – 2025-09-26 18:19</summary>
+
+## Changelog for v1.2.260
+
+client/modules/modes/spectate.lua: Add debug logging to spectate mode functions by jumalley
 
 
 
