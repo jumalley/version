@@ -1,25 +1,33 @@
 {
-  "version": "1.2.249",
+  "version": "1.2.250",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "30f23e9 - Add spectate state export and improve scaleform handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/30f23e9",
-      "current_size": 21981,
-      "previous_size": 20539,
-      "size_diff": 1442
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "897f73b - Suppress mode notifications during admin duty changes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/897f73b",
+      "current_size": 28100,
+      "previous_size": 27225,
+      "size_diff": 875
     },
     {
-      "file": "client/modules/modes/utils.lua",
-      "commit_info": "30f23e9 - Add spectate state export and improve scaleform handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/30f23e9",
-      "current_size": 23824,
-      "previous_size": 23549,
-      "size_diff": 275
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "897f73b - Suppress mode notifications during admin duty changes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/897f73b",
+      "current_size": 20932,
+      "previous_size": 20376,
+      "size_diff": 556
+    },
+    {
+      "file": "client/modules/modes/spectate.lua",
+      "commit_info": "897f73b - Suppress mode notifications during admin duty changes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/897f73b",
+      "current_size": 22933,
+      "previous_size": 21981,
+      "size_diff": 952
     }
   ]
 }
