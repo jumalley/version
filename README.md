@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.270-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.271-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2642,6 +2642,21 @@ server/modules/callbacks.lua: Improve spectate mode state and voice data handlin
 ## Changelog for v1.2.270
 
 client/modules/modes/spectate.lua: Enable voice proximity mode in spectate settings by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.271</strong> – 2025-09-26 21:44</summary>
+
+## Changelog for v1.2.271
+
+client/modules/modes/spectate.lua: Remove debug print statements from spectate modules by jumalley
+
+client/modules/modes/utils.lua: Remove debug print statements from spectate modules by jumalley
+
+server/modules/callbacks.lua: Remove debug print statements from spectate modules by jumalley
 
 
 
