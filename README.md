@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.246-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.247-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2320,6 +2320,23 @@ server/events.lua: Remove crash recovery system and update keybinds by jumalley
 server/functions.lua: Remove crash recovery system and update keybinds by jumalley
 
 server/modules/callbacks.lua: Remove crash recovery system and update keybinds by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.247</strong> – 2025-09-26 14:40</summary>
+
+## Changelog for v1.2.247
+
+client/modules/adminduty.lua: Add debug logging to admin duty and spectate modules by jumalley
+
+client/modules/modes/spectate.lua: Add debug logging to admin duty and spectate modules by jumalley
+
+client/modules/modes/utils.lua: Add debug logging to admin duty and spectate modules by jumalley
+
+server/modules/modes/spectate.lua: Add debug logging to admin duty and spectate modules by jumalley
 
 
 
