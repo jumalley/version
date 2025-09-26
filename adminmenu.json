@@ -1,5 +1,5 @@
 {
-  "version": "1.2.257",
+  "version": "1.2.258",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "1827488 - Enhance spectate mode debug logging and TextUI handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1827488",
-      "current_size": 36410,
-      "previous_size": 35476,
-      "size_diff": 934
-    },
-    {
-      "file": "client/modules/modes/utils.lua",
-      "commit_info": "1827488 - Enhance spectate mode debug logging and TextUI handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1827488",
-      "current_size": 24719,
-      "previous_size": 24629,
-      "size_diff": 90
+      "commit_info": "ff9653a - Prevent R key conflict with staff weapon in spectate mode",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ff9653a",
+      "current_size": 37550,
+      "previous_size": 36410,
+      "size_diff": 1140
     }
   ]
 }
