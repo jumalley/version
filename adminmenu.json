@@ -1,33 +1,89 @@
 {
-  "version": "1.2.245",
+  "version": "1.2.246",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 26201,
+      "previous_size": 30041,
+      "size_diff": -3840
+    },
+    {
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 20376,
+      "previous_size": 20672,
+      "size_diff": -296
+    },
+    {
+      "file": "client/modules/modes/noclip.lua",
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 4293,
+      "previous_size": 4438,
+      "size_diff": -145
+    },
+    {
+      "file": "client/modules/modes/spectate.lua",
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 17863,
+      "previous_size": 17457,
+      "size_diff": 406
+    },
+    {
       "file": "client/modules/modes/utils.lua",
-      "commit_info": "782a6d5 - Restore E and G keys for pistol staff actions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/782a6d5",
-      "current_size": 22690,
-      "previous_size": 22648,
-      "size_diff": 42
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 22636,
+      "previous_size": 22690,
+      "size_diff": -54
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "782a6d5 - Restore E and G keys for pistol staff actions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/782a6d5",
-      "current_size": 179461,
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 178823,
       "previous_size": 179461,
-      "size_diff": 0
+      "size_diff": -638
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "782a6d5 - Restore E and G keys for pistol staff actions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/782a6d5",
-      "current_size": 189704,
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 189050,
       "previous_size": 189704,
-      "size_diff": 0
+      "size_diff": -654
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 13750,
+      "previous_size": 14904,
+      "size_diff": -1154
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 25906,
+      "previous_size": 29733,
+      "size_diff": -3827
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "39125f8 - Remove crash recovery system and update keybinds",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/39125f8",
+      "current_size": 81708,
+      "previous_size": 81868,
+      "size_diff": -160
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.245-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.246-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2291,6 +2291,35 @@ client/modules/modes/utils.lua: Restore E and G keys for pistol staff actions by
 locales/en.lua: Restore E and G keys for pistol staff actions by jumalley
 
 locales/fr.lua: Restore E and G keys for pistol staff actions by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.246</strong> – 2025-09-26 14:27</summary>
+
+## Changelog for v1.2.246
+
+client/modules/adminduty.lua: Remove crash recovery system and update keybinds by jumalley
+
+client/modules/modes/modes.lua: Remove crash recovery system and update keybinds by jumalley
+
+client/modules/modes/noclip.lua: Remove crash recovery system and update keybinds by jumalley
+
+client/modules/modes/spectate.lua: Remove crash recovery system and update keybinds by jumalley
+
+client/modules/modes/utils.lua: Remove crash recovery system and update keybinds by jumalley
+
+locales/en.lua: Remove crash recovery system and update keybinds by jumalley
+
+locales/fr.lua: Remove crash recovery system and update keybinds by jumalley
+
+server/events.lua: Remove crash recovery system and update keybinds by jumalley
+
+server/functions.lua: Remove crash recovery system and update keybinds by jumalley
+
+server/modules/callbacks.lua: Remove crash recovery system and update keybinds by jumalley
 
 
 
