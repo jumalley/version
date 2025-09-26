@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.272-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.273-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2672,6 +2672,23 @@ client/modules/modes/spectate.lua: Localize spectate info and improve debug logg
 locales/en.lua: Localize spectate info and improve debug logging by jumalley
 
 locales/fr.lua: Localize spectate info and improve debug logging by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.273</strong> – 2025-09-26 22:21</summary>
+
+## Changelog for v1.2.273
+
+client/custom/textui/ox_lib.lua: Add real-time voice state sync for spectate mode by jumalley
+
+client/custom/voice/pma-voice.lua: Add real-time voice state sync for spectate mode by jumalley
+
+client/modules/modes/spectate.lua: Add real-time voice state sync for spectate mode by jumalley
+
+server/custom/voice/pma-voice.lua: Add real-time voice state sync for spectate mode by jumalley
 
 
 
