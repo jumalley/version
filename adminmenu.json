@@ -1,57 +1,41 @@
 {
-  "version": "1.2.254",
+  "version": "1.2.255",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/callbacks.lua",
+      "commit_info": "851179c - Refactor spectate and voice data handling for pma-voice",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/851179c",
+      "current_size": 10006,
+      "previous_size": 9646,
+      "size_diff": 360
+    },
+    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "911fe66 - Refactor and unify spectate system logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/911fe66",
-      "current_size": 32020,
-      "previous_size": 24848,
-      "size_diff": 7172
+      "commit_info": "851179c - Refactor spectate and voice data handling for pma-voice",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/851179c",
+      "current_size": 29362,
+      "previous_size": 32020,
+      "size_diff": -2658
     },
     {
-      "file": "client/spectate_keybind_handler.lua",
-      "commit_info": "911fe66 - Refactor and unify spectate system logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/911fe66",
-      "current_size": 0,
-      "previous_size": 1235,
-      "size_diff": -1235
+      "file": "server/custom/voice/pma-voice.lua",
+      "commit_info": "851179c - Refactor spectate and voice data handling for pma-voice",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/851179c",
+      "current_size": 1598,
+      "previous_size": 290,
+      "size_diff": 1308
     },
     {
-      "file": "client/spectate_textui_patch.lua",
-      "commit_info": "911fe66 - Refactor and unify spectate system logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/911fe66",
-      "current_size": 0,
-      "previous_size": 3911,
-      "size_diff": -3911
-    },
-    {
-      "file": "client/spectate_ui_fix.lua",
-      "commit_info": "911fe66 - Refactor and unify spectate system logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/911fe66",
-      "current_size": 0,
-      "previous_size": 2473,
-      "size_diff": -2473
-    },
-    {
-      "file": "client/test_spectate_function.lua",
-      "commit_info": "911fe66 - Refactor and unify spectate system logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/911fe66",
-      "current_size": 0,
-      "previous_size": 902,
-      "size_diff": -902
-    },
-    {
-      "file": "client/textui_style_comparison.lua",
-      "commit_info": "911fe66 - Refactor and unify spectate system logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/911fe66",
-      "current_size": 0,
-      "previous_size": 1265,
-      "size_diff": -1265
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "851179c - Refactor spectate and voice data handling for pma-voice",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/851179c",
+      "current_size": 82458,
+      "previous_size": 81708,
+      "size_diff": 750
     }
   ]
 }

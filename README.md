@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.254-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.255-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2446,6 +2446,23 @@ client/spectate_ui_fix.lua: Refactor and unify spectate system logic by jumalley
 client/test_spectate_function.lua: Refactor and unify spectate system logic by jumalley
 
 client/textui_style_comparison.lua: Refactor and unify spectate system logic by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.255</strong> – 2025-09-26 17:18</summary>
+
+## Changelog for v1.2.255
+
+client/modules/callbacks.lua: Refactor spectate and voice data handling for pma-voice by jumalley
+
+client/modules/modes/spectate.lua: Refactor spectate and voice data handling for pma-voice by jumalley
+
+server/custom/voice/pma-voice.lua: Refactor spectate and voice data handling for pma-voice by jumalley
+
+server/modules/callbacks.lua: Refactor spectate and voice data handling for pma-voice by jumalley
 
 
 
