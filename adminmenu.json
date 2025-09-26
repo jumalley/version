@@ -1,5 +1,5 @@
 {
-  "version": "1.2.252",
+  "version": "1.2.253",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,59 +7,19 @@
   "file_changes": [
     {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "ab8a220 - Add robust spectate TextUI override and keybind handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ab8a220",
-      "current_size": 21965,
-      "previous_size": 21122,
-      "size_diff": 843
+      "commit_info": "1b191eb - Add isCurrentlySpectating fallback and test script",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1b191eb",
+      "current_size": 21662,
+      "previous_size": 21965,
+      "size_diff": -303
     },
     {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "ab8a220 - Add robust spectate TextUI override and keybind handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ab8a220",
-      "current_size": 24848,
-      "previous_size": 23863,
-      "size_diff": 985
-    },
-    {
-      "file": "client/modules/modes/utils.lua",
-      "commit_info": "ab8a220 - Add robust spectate TextUI override and keybind handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ab8a220",
-      "current_size": 24629,
-      "previous_size": 23824,
-      "size_diff": 805
-    },
-    {
-      "file": "client/spectate_keybind_handler.lua",
-      "commit_info": "ab8a220 - Add robust spectate TextUI override and keybind handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ab8a220",
-      "current_size": 1235,
+      "file": "client/test_spectate_function.lua",
+      "commit_info": "1b191eb - Add isCurrentlySpectating fallback and test script",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1b191eb",
+      "current_size": 902,
       "previous_size": 0,
-      "size_diff": 1235
-    },
-    {
-      "file": "client/spectate_textui_patch.lua",
-      "commit_info": "ab8a220 - Add robust spectate TextUI override and keybind handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ab8a220",
-      "current_size": 3911,
-      "previous_size": 0,
-      "size_diff": 3911
-    },
-    {
-      "file": "client/spectate_ui_fix.lua",
-      "commit_info": "ab8a220 - Add robust spectate TextUI override and keybind handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ab8a220",
-      "current_size": 2473,
-      "previous_size": 0,
-      "size_diff": 2473
-    },
-    {
-      "file": "client/textui_style_comparison.lua",
-      "commit_info": "ab8a220 - Add robust spectate TextUI override and keybind handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ab8a220",
-      "current_size": 1265,
-      "previous_size": 0,
-      "size_diff": 1265
+      "size_diff": 902
     }
   ]
 }

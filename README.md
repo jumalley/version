@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.252-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.253-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2412,6 +2412,19 @@ client/spectate_textui_patch.lua: Add robust spectate TextUI override and keybin
 client/spectate_ui_fix.lua: Add robust spectate TextUI override and keybind handling by jumalley
 
 client/textui_style_comparison.lua: Add robust spectate TextUI override and keybind handling by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.253</strong> – 2025-09-26 16:07</summary>
+
+## Changelog for v1.2.253
+
+client/modules/modes/modes.lua: Add isCurrentlySpectating fallback and test script by jumalley
+
+client/test_spectate_function.lua: Add isCurrentlySpectating fallback and test script by jumalley
 
 
 
