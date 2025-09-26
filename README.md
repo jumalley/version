@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.264-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.265-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2572,6 +2572,17 @@ client/modules/adminduty.lua: Update key bindings for admin and spectate modes b
 client/modules/modes/spectate.lua: Update key bindings for admin and spectate modes by jumalley
 
 client/modules/modes/utils.lua: Update key bindings for admin and spectate modes by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.265</strong> – 2025-09-26 19:39</summary>
+
+## Changelog for v1.2.265
+
+client/modules/modes/spectate.lua: Remove debug prints and enhance spectate UI by jumalley
 
 
 
