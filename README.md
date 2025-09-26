@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.251-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.252-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2389,6 +2389,29 @@ client/modules/modes/spectate.lua: Suppress mode notifications during admin duty
 client/modules/modes/modes.lua: Improve spectate mode UI handling and add debug logs by jumalley
 
 client/modules/modes/spectate.lua: Improve spectate mode UI handling and add debug logs by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.252</strong> – 2025-09-26 15:47</summary>
+
+## Changelog for v1.2.252
+
+client/modules/modes/modes.lua: Add robust spectate TextUI override and keybind handling by jumalley
+
+client/modules/modes/spectate.lua: Add robust spectate TextUI override and keybind handling by jumalley
+
+client/modules/modes/utils.lua: Add robust spectate TextUI override and keybind handling by jumalley
+
+client/spectate_keybind_handler.lua: Add robust spectate TextUI override and keybind handling by jumalley
+
+client/spectate_textui_patch.lua: Add robust spectate TextUI override and keybind handling by jumalley
+
+client/spectate_ui_fix.lua: Add robust spectate TextUI override and keybind handling by jumalley
+
+client/textui_style_comparison.lua: Add robust spectate TextUI override and keybind handling by jumalley
 
 
 
