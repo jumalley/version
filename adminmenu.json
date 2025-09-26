@@ -1,5 +1,5 @@
 {
-  "version": "1.2.256",
+  "version": "1.2.257",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,19 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "8d94b49 - Add context-aware spectate controls and showdata integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d94b49",
-      "current_size": 35476,
-      "previous_size": 29362,
-      "size_diff": 6114
+      "commit_info": "1827488 - Enhance spectate mode debug logging and TextUI handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1827488",
+      "current_size": 36410,
+      "previous_size": 35476,
+      "size_diff": 934
     },
     {
-      "file": "client/modules/showdata/manage.lua",
-      "commit_info": "8d94b49 - Add context-aware spectate controls and showdata integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d94b49",
-      "current_size": 30364,
-      "previous_size": 29300,
-      "size_diff": 1064
+      "file": "client/modules/modes/utils.lua",
+      "commit_info": "1827488 - Enhance spectate mode debug logging and TextUI handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1827488",
+      "current_size": 24719,
+      "previous_size": 24629,
+      "size_diff": 90
     }
   ]
 }
