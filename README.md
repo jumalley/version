@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.269-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.270-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2631,6 +2631,17 @@ client/modules/modes/spectate.lua: Improve spectate mode state and voice data ha
 server/custom/voice/pma-voice.lua: Improve spectate mode state and voice data handling by jumalley
 
 server/modules/callbacks.lua: Improve spectate mode state and voice data handling by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.270</strong> – 2025-09-26 21:28</summary>
+
+## Changelog for v1.2.270
+
+client/modules/modes/spectate.lua: Enable voice proximity mode in spectate settings by jumalley
 
 
 

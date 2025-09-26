@@ -1,5 +1,5 @@
 {
-  "version": "1.2.269",
+  "version": "1.2.270",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,27 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "714481d - Improve spectate mode state and voice data handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/714481d",
-      "current_size": 37541,
-      "previous_size": 36770,
-      "size_diff": 771
-    },
-    {
-      "file": "server/custom/voice/pma-voice.lua",
-      "commit_info": "714481d - Improve spectate mode state and voice data handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/714481d",
-      "current_size": 1567,
-      "previous_size": 1598,
-      "size_diff": -31
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "714481d - Improve spectate mode state and voice data handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/714481d",
-      "current_size": 84025,
-      "previous_size": 82458,
-      "size_diff": 1567
+      "commit_info": "921e2b5 - Enable voice proximity mode in spectate settings",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/921e2b5",
+      "current_size": 37538,
+      "previous_size": 37541,
+      "size_diff": -3
     }
   ]
 }
