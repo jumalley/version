@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.271-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.272-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2657,6 +2657,21 @@ client/modules/modes/spectate.lua: Remove debug print statements from spectate m
 client/modules/modes/utils.lua: Remove debug print statements from spectate modules by jumalley
 
 server/modules/callbacks.lua: Remove debug print statements from spectate modules by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.272</strong> – 2025-09-26 22:00</summary>
+
+## Changelog for v1.2.272
+
+client/modules/modes/spectate.lua: Localize spectate info and improve debug logging by jumalley
+
+locales/en.lua: Localize spectate info and improve debug logging by jumalley
+
+locales/fr.lua: Localize spectate info and improve debug logging by jumalley
 
 
 

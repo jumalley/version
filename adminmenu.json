@@ -1,5 +1,5 @@
 {
-  "version": "1.2.271",
+  "version": "1.2.272",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,27 +7,27 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "667fbb3 - Remove debug print statements from spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/667fbb3",
-      "current_size": 36394,
-      "previous_size": 37538,
-      "size_diff": -1144
+      "commit_info": "77eb861 - Localize spectate info and improve debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/77eb861",
+      "current_size": 37336,
+      "previous_size": 36394,
+      "size_diff": 942
     },
     {
-      "file": "client/modules/modes/utils.lua",
-      "commit_info": "667fbb3 - Remove debug print statements from spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/667fbb3",
-      "current_size": 24422,
-      "previous_size": 24734,
-      "size_diff": -312
+      "file": "locales/en.lua",
+      "commit_info": "77eb861 - Localize spectate info and improve debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/77eb861",
+      "current_size": 179052,
+      "previous_size": 178823,
+      "size_diff": 229
     },
     {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "667fbb3 - Remove debug print statements from spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/667fbb3",
-      "current_size": 83753,
-      "previous_size": 84025,
-      "size_diff": -272
+      "file": "locales/fr.lua",
+      "commit_info": "77eb861 - Localize spectate info and improve debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/77eb861",
+      "current_size": 189284,
+      "previous_size": 189050,
+      "size_diff": 234
     }
   ]
 }
