@@ -1,41 +1,17 @@
 {
-  "version": "1.2.247",
+  "version": "1.2.248",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "e0d6504 - Add debug logging to admin duty and spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e0d6504",
-      "current_size": 27225,
-      "previous_size": 26201,
-      "size_diff": 1024
-    },
-    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "e0d6504 - Add debug logging to admin duty and spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e0d6504",
-      "current_size": 18735,
-      "previous_size": 17863,
-      "size_diff": 872
-    },
-    {
-      "file": "client/modules/modes/utils.lua",
-      "commit_info": "e0d6504 - Add debug logging to admin duty and spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e0d6504",
-      "current_size": 23549,
-      "previous_size": 22636,
-      "size_diff": 913
-    },
-    {
-      "file": "server/modules/modes/spectate.lua",
-      "commit_info": "e0d6504 - Add debug logging to admin duty and spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e0d6504",
-      "current_size": 3542,
-      "previous_size": 2822,
-      "size_diff": 720
+      "commit_info": "0eaeae0 - Improve spectate mode reliability and add debug logs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0eaeae0",
+      "current_size": 20539,
+      "previous_size": 18735,
+      "size_diff": 1804
     }
   ]
 }
