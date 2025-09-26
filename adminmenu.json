@@ -1,33 +1,25 @@
 {
-  "version": "1.2.250",
+  "version": "1.2.251",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "897f73b - Suppress mode notifications during admin duty changes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/897f73b",
-      "current_size": 28100,
-      "previous_size": 27225,
-      "size_diff": 875
-    },
-    {
       "file": "client/modules/modes/modes.lua",
-      "commit_info": "897f73b - Suppress mode notifications during admin duty changes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/897f73b",
-      "current_size": 20932,
-      "previous_size": 20376,
-      "size_diff": 556
+      "commit_info": "1c9cc02 - Improve spectate mode UI handling and add debug logs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1c9cc02",
+      "current_size": 21122,
+      "previous_size": 20932,
+      "size_diff": 190
     },
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "897f73b - Suppress mode notifications during admin duty changes",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/897f73b",
-      "current_size": 22933,
-      "previous_size": 21981,
-      "size_diff": 952
+      "commit_info": "1c9cc02 - Improve spectate mode UI handling and add debug logs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1c9cc02",
+      "current_size": 23863,
+      "previous_size": 22933,
+      "size_diff": 930
     }
   ]
 }

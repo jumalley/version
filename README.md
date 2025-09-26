@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.250-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.251-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2376,6 +2376,19 @@ client/modules/adminduty.lua: Suppress mode notifications during admin duty chan
 client/modules/modes/modes.lua: Suppress mode notifications during admin duty changes by jumalley
 
 client/modules/modes/spectate.lua: Suppress mode notifications during admin duty changes by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.251</strong> – 2025-09-26 15:28</summary>
+
+## Changelog for v1.2.251
+
+client/modules/modes/modes.lua: Improve spectate mode UI handling and add debug logs by jumalley
+
+client/modules/modes/spectate.lua: Improve spectate mode UI handling and add debug logs by jumalley
 
 
 
