@@ -1,5 +1,5 @@
 {
-  "version": "1.2.261",
+  "version": "1.2.262",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "119f58d - Restore original noclip state after spectating",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/119f58d",
-      "current_size": 42969,
-      "previous_size": 42138,
-      "size_diff": 831
+      "commit_info": "7249755 - Fix order of noclip restoration after spectate",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7249755",
+      "current_size": 43511,
+      "previous_size": 42969,
+      "size_diff": 542
     }
   ]
 }

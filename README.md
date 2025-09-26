@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.261-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.262-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2533,6 +2533,17 @@ client/modules/modes/spectate.lua: Add debug logging to spectate mode functions 
 ## Changelog for v1.2.261
 
 client/modules/modes/spectate.lua: Restore original noclip state after spectating by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.262</strong> – 2025-09-26 18:40</summary>
+
+## Changelog for v1.2.262
+
+client/modules/modes/spectate.lua: Fix order of noclip restoration after spectate by jumalley
 
 
 
