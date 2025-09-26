@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.267-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.268-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2605,6 +2605,17 @@ client/modules/modes/spectate.lua: Remove debug logging from spectate mode by ju
 ## Changelog for v1.2.267
 
 client/modules/modes/spectate.lua: Improve scaleform cleanup in spectate mode by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.268</strong> – 2025-09-26 20:16</summary>
+
+## Changelog for v1.2.268
+
+client/modules/modes/spectate.lua: Add debug print statements to spectate mode by jumalley
 
 
 
