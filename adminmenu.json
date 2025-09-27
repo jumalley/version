@@ -1,17 +1,65 @@
 {
-  "version": "1.2.286",
+  "version": "1.2.287",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/custom/voice/pma-voice.lua",
+      "commit_info": "0171959 - Improve spectate voice debug and UI feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0171959",
+      "current_size": 12255,
+      "previous_size": 9756,
+      "size_diff": 2499
+    },
+    {
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "0171959 - Improve spectate voice debug and UI feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0171959",
+      "current_size": 21908,
+      "previous_size": 21662,
+      "size_diff": 246
+    },
+    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "52d32e3 - Improve spectate exit logic and add debug logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52d32e3",
-      "current_size": 37529,
-      "previous_size": 37492,
-      "size_diff": 37
+      "commit_info": "0171959 - Improve spectate voice debug and UI feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0171959",
+      "current_size": 39027,
+      "previous_size": 37529,
+      "size_diff": 1498
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "0171959 - Improve spectate voice debug and UI feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0171959",
+      "current_size": 179150,
+      "previous_size": 179052,
+      "size_diff": 98
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "0171959 - Improve spectate voice debug and UI feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0171959",
+      "current_size": 189384,
+      "previous_size": 189284,
+      "size_diff": 100
+    },
+    {
+      "file": "server/custom/voice/pma-voice.lua",
+      "commit_info": "0171959 - Improve spectate voice debug and UI feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0171959",
+      "current_size": 6419,
+      "previous_size": 5679,
+      "size_diff": 740
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "0171959 - Improve spectate voice debug and UI feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0171959",
+      "current_size": 85398,
+      "previous_size": 84711,
+      "size_diff": 687
     }
   ]
 }
