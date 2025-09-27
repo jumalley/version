@@ -1,33 +1,17 @@
 {
-  "version": "1.2.294",
+  "version": "1.2.295",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/jail.lua",
-      "commit_info": "0e3f594 - Refactor spectate and jail logic, remove debug prints",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0e3f594",
-      "current_size": 26075,
-      "previous_size": 25940,
-      "size_diff": 135
-    },
-    {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "0e3f594 - Refactor spectate and jail logic, remove debug prints",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0e3f594",
-      "current_size": 34118,
-      "previous_size": 40608,
-      "size_diff": -6490
-    },
-    {
       "file": "client/modules/showdata/manage.lua",
-      "commit_info": "0e3f594 - Refactor spectate and jail logic, remove debug prints",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0e3f594",
-      "current_size": 30412,
-      "previous_size": 30369,
-      "size_diff": 43
+      "commit_info": "d901499 - Improve freeze button logic in sanction menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d901499",
+      "current_size": 30655,
+      "previous_size": 30412,
+      "size_diff": 243
     }
   ]
 }
