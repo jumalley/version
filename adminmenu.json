@@ -1,33 +1,25 @@
 {
-  "version": "1.2.276",
+  "version": "1.2.277",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/custom/voice/pma-voice.lua",
+      "commit_info": "3dbc531 - Enhance spectate mode voice and control features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3dbc531",
+      "current_size": 11865,
+      "previous_size": 6464,
+      "size_diff": 5401
+    },
+    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "e648aff - Refactor admin duty checks and add player coords callback",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e648aff",
-      "current_size": 35467,
-      "previous_size": 35741,
-      "size_diff": -274
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "e648aff - Refactor admin duty checks and add player coords callback",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e648aff",
-      "current_size": 84490,
-      "previous_size": 83753,
-      "size_diff": 737
-    },
-    {
-      "file": "server/modules/rcore_integration.lua",
-      "commit_info": "e648aff - Refactor admin duty checks and add player coords callback",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e648aff",
-      "current_size": 1238,
-      "previous_size": 1233,
-      "size_diff": 5
+      "commit_info": "3dbc531 - Enhance spectate mode voice and control features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3dbc531",
+      "current_size": 35388,
+      "previous_size": 35467,
+      "size_diff": -79
     }
   ]
 }

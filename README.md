@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.276-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.277-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2726,6 +2726,19 @@ client/modules/modes/spectate.lua: Refactor admin duty checks and add player coo
 server/modules/callbacks.lua: Refactor admin duty checks and add player coords callback by jumalley
 
 server/modules/rcore_integration.lua: Refactor admin duty checks and add player coords callback by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.277</strong> – 2025-09-27 12:36</summary>
+
+## Changelog for v1.2.277
+
+client/custom/voice/pma-voice.lua: Enhance spectate mode voice and control features by jumalley
+
+client/modules/modes/spectate.lua: Enhance spectate mode voice and control features by jumalley
 
 
 
