@@ -1,25 +1,49 @@
 {
-  "version": "1.2.288",
+  "version": "1.2.289",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/custom/voice/pma-voice.lua",
+      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
+      "current_size": 11185,
+      "previous_size": 12255,
+      "size_diff": -1070
+    },
+    {
+      "file": "client/modules/callbacks.lua",
+      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
+      "current_size": 10588,
+      "previous_size": 10006,
+      "size_diff": 582
+    },
+    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "81df870 - Improve spectate UI and voice debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/81df870",
-      "current_size": 39276,
-      "previous_size": 39027,
-      "size_diff": 249
+      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
+      "current_size": 38521,
+      "previous_size": 39276,
+      "size_diff": -755
     },
     {
       "file": "server/custom/voice/pma-voice.lua",
-      "commit_info": "81df870 - Improve spectate UI and voice debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/81df870",
-      "current_size": 7346,
-      "previous_size": 6419,
-      "size_diff": 927
+      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
+      "current_size": 5679,
+      "previous_size": 7346,
+      "size_diff": -1667
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
+      "current_size": 81709,
+      "previous_size": 85398,
+      "size_diff": -3689
     }
   ]
 }
