@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.293-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.294-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2955,6 +2955,21 @@ server/modules/callbacks.lua: Improve spectate mode reliability and add debug lo
 client/modules/modes/spectate.lua: Add debug logging for spectate mode and callbacks by jumalley
 
 server/modules/callbacks.lua: Add debug logging for spectate mode and callbacks by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.294</strong> – 2025-09-27 20:12</summary>
+
+## Changelog for v1.2.294
+
+client/modules/jail.lua: Refactor spectate and jail logic, remove debug prints by jumalley
+
+client/modules/modes/spectate.lua: Refactor spectate and jail logic, remove debug prints by jumalley
+
+client/modules/showdata/manage.lua: Refactor spectate and jail logic, remove debug prints by jumalley
 
 
 
