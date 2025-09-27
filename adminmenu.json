@@ -1,5 +1,5 @@
 {
-  "version": "1.2.275",
+  "version": "1.2.276",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,27 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "23e6fc6 - Refactor spectate scaleform creation and cleanup debug logs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/23e6fc6",
-      "current_size": 35741,
-      "previous_size": 37279,
-      "size_diff": -1538
+      "commit_info": "e648aff - Refactor admin duty checks and add player coords callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e648aff",
+      "current_size": 35467,
+      "previous_size": 35741,
+      "size_diff": -274
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "e648aff - Refactor admin duty checks and add player coords callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e648aff",
+      "current_size": 84490,
+      "previous_size": 83753,
+      "size_diff": 737
+    },
+    {
+      "file": "server/modules/rcore_integration.lua",
+      "commit_info": "e648aff - Refactor admin duty checks and add player coords callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e648aff",
+      "current_size": 1238,
+      "previous_size": 1233,
+      "size_diff": 5
     }
   ]
 }
