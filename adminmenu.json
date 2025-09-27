@@ -1,49 +1,25 @@
 {
-  "version": "1.2.289",
+  "version": "1.2.290",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/voice/pma-voice.lua",
-      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
-      "current_size": 11185,
-      "previous_size": 12255,
-      "size_diff": -1070
-    },
-    {
       "file": "client/modules/callbacks.lua",
-      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
-      "current_size": 10588,
-      "previous_size": 10006,
-      "size_diff": 582
+      "commit_info": "8006992 - Refactor voice data callbacks and improve spectate mode",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8006992",
+      "current_size": 9443,
+      "previous_size": 10588,
+      "size_diff": -1145
     },
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
-      "current_size": 38521,
-      "previous_size": 39276,
-      "size_diff": -755
-    },
-    {
-      "file": "server/custom/voice/pma-voice.lua",
-      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
-      "current_size": 5679,
-      "previous_size": 7346,
-      "size_diff": -1667
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "b255673 - Remove debug print statements from voice and spectate modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b255673",
-      "current_size": 81709,
-      "previous_size": 85398,
-      "size_diff": -3689
+      "commit_info": "8006992 - Refactor voice data callbacks and improve spectate mode",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8006992",
+      "current_size": 38360,
+      "previous_size": 38521,
+      "size_diff": -161
     }
   ]
 }

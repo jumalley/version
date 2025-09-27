@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.289-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.290-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2903,6 +2903,19 @@ client/modules/modes/spectate.lua: Remove debug print statements from voice and 
 server/custom/voice/pma-voice.lua: Remove debug print statements from voice and spectate modules by jumalley
 
 server/modules/callbacks.lua: Remove debug print statements from voice and spectate modules by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.290</strong> – 2025-09-27 18:27</summary>
+
+## Changelog for v1.2.290
+
+client/modules/callbacks.lua: Refactor voice data callbacks and improve spectate mode by jumalley
+
+client/modules/modes/spectate.lua: Refactor voice data callbacks and improve spectate mode by jumalley
 
 
 
