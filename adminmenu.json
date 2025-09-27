@@ -1,41 +1,17 @@
 {
-  "version": "1.2.273",
+  "version": "1.2.274",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/textui/ox_lib.lua",
-      "commit_info": "c9b8218 - Add real-time voice state sync for spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c9b8218",
-      "current_size": 844,
-      "previous_size": 627,
-      "size_diff": 217
-    },
-    {
-      "file": "client/custom/voice/pma-voice.lua",
-      "commit_info": "c9b8218 - Add real-time voice state sync for spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c9b8218",
-      "current_size": 6464,
-      "previous_size": 693,
-      "size_diff": 5771
-    },
-    {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "c9b8218 - Add real-time voice state sync for spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c9b8218",
-      "current_size": 37279,
-      "previous_size": 37336,
-      "size_diff": -57
-    },
-    {
-      "file": "server/custom/voice/pma-voice.lua",
-      "commit_info": "c9b8218 - Add real-time voice state sync for spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c9b8218",
-      "current_size": 5679,
-      "previous_size": 1567,
-      "size_diff": 4112
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "a7de1f8 - Refactor admin duty logic and clean up code",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a7de1f8",
+      "current_size": 24693,
+      "previous_size": 28659,
+      "size_diff": -3966
     }
   ]
 }

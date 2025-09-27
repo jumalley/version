@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.273-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.274-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2689,6 +2689,17 @@ client/custom/voice/pma-voice.lua: Add real-time voice state sync for spectate m
 client/modules/modes/spectate.lua: Add real-time voice state sync for spectate mode by jumalley
 
 server/custom/voice/pma-voice.lua: Add real-time voice state sync for spectate mode by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.274</strong> – 2025-09-27 11:09</summary>
+
+## Changelog for v1.2.274
+
+client/modules/adminduty.lua: Refactor admin duty logic and clean up code by jumalley
 
 
 
