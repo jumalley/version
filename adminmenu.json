@@ -1,5 +1,5 @@
 {
-  "version": "1.2.277",
+  "version": "1.2.278",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,19 @@
   "file_changes": [
     {
       "file": "client/custom/voice/pma-voice.lua",
-      "commit_info": "3dbc531 - Enhance spectate mode voice and control features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3dbc531",
-      "current_size": 11865,
-      "previous_size": 6464,
-      "size_diff": 5401
+      "commit_info": "942b76c - Improve spectate mode controls and voice state sync",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/942b76c",
+      "current_size": 12530,
+      "previous_size": 11865,
+      "size_diff": 665
     },
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "3dbc531 - Enhance spectate mode voice and control features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3dbc531",
-      "current_size": 35388,
-      "previous_size": 35467,
-      "size_diff": -79
+      "commit_info": "942b76c - Improve spectate mode controls and voice state sync",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/942b76c",
+      "current_size": 35984,
+      "previous_size": 35388,
+      "size_diff": 596
     }
   ]
 }
