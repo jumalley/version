@@ -1,17 +1,33 @@
 {
-  "version": "1.2.280",
+  "version": "1.2.281",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/custom/voice/pma-voice.lua",
+      "commit_info": "9edf8dd - Refactor spectate and voice modules for clarity",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/9edf8dd",
+      "current_size": 9756,
+      "previous_size": 13603,
+      "size_diff": -3847
+    },
+    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "c52bb05 - Add debounce to spectate exit key and improve noclip restore",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c52bb05",
-      "current_size": 36728,
-      "previous_size": 36460,
-      "size_diff": 268
+      "commit_info": "9edf8dd - Refactor spectate and voice modules for clarity",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/9edf8dd",
+      "current_size": 35387,
+      "previous_size": 36728,
+      "size_diff": -1341
+    },
+    {
+      "file": "client/modules/showdata/manage.lua",
+      "commit_info": "9edf8dd - Refactor spectate and voice modules for clarity",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/9edf8dd",
+      "current_size": 30369,
+      "previous_size": 30364,
+      "size_diff": 5
     }
   ]
 }
