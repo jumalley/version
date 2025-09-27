@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.279-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.280-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2765,6 +2765,17 @@ client/modules/modes/spectate.lua: Improve spectate mode controls and voice stat
 client/custom/voice/pma-voice.lua: Improve voice and spectate UI synchronization by jumalley
 
 client/modules/modes/spectate.lua: Improve voice and spectate UI synchronization by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.280</strong> – 2025-09-27 14:24</summary>
+
+## Changelog for v1.2.280
+
+client/modules/modes/spectate.lua: Add debounce to spectate exit key and improve noclip restore by jumalley
 
 
 

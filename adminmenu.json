@@ -1,25 +1,17 @@
 {
-  "version": "1.2.279",
+  "version": "1.2.280",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/voice/pma-voice.lua",
-      "commit_info": "6d45157 - Improve voice and spectate UI synchronization",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6d45157",
-      "current_size": 13603,
-      "previous_size": 12530,
-      "size_diff": 1073
-    },
-    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "6d45157 - Improve voice and spectate UI synchronization",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6d45157",
-      "current_size": 36460,
-      "previous_size": 35984,
-      "size_diff": 476
+      "commit_info": "c52bb05 - Add debounce to spectate exit key and improve noclip restore",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c52bb05",
+      "current_size": 36728,
+      "previous_size": 36460,
+      "size_diff": 268
     }
   ]
 }
