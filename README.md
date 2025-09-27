@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.281-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.282-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2791,6 +2791,17 @@ client/custom/voice/pma-voice.lua: Refactor spectate and voice modules for clari
 client/modules/modes/spectate.lua: Refactor spectate and voice modules for clarity by jumalley
 
 client/modules/showdata/manage.lua: Refactor spectate and voice modules for clarity by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.282</strong> – 2025-09-27 15:14</summary>
+
+## Changelog for v1.2.282
+
+client/modules/modes/spectate.lua: Improve spectate exit handling and prevent double processing by jumalley
 
 
 
