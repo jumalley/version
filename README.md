@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.295-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.296-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2981,6 +2981,19 @@ client/modules/showdata/manage.lua: Refactor spectate and jail logic, remove deb
 ## Changelog for v1.2.295
 
 client/modules/showdata/manage.lua: Improve freeze button logic in sanction menu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.296</strong> – 2025-09-27 20:34</summary>
+
+## Changelog for v1.2.296
+
+client/modules/showdata/manage.lua: Improve sanction menu safety and enable jail system by jumalley
+
+config/config.lua: Improve sanction menu safety and enable jail system by jumalley
 
 
 
