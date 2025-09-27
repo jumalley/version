@@ -1,25 +1,17 @@
 {
-  "version": "1.2.290",
+  "version": "1.2.291",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/callbacks.lua",
-      "commit_info": "8006992 - Refactor voice data callbacks and improve spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8006992",
-      "current_size": 9443,
-      "previous_size": 10588,
-      "size_diff": -1145
-    },
-    {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "8006992 - Refactor voice data callbacks and improve spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8006992",
-      "current_size": 38360,
-      "previous_size": 38521,
-      "size_diff": -161
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "55c9a8d - Validate player existence in spectate callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/55c9a8d",
+      "current_size": 81873,
+      "previous_size": 81709,
+      "size_diff": 164
     }
   ]
 }
