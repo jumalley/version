@@ -1,33 +1,25 @@
 {
-  "version": "1.2.292",
+  "version": "1.2.293",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "2898d09 - Improve spectate mode reliability and add debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2898d09",
-      "current_size": 22073,
-      "previous_size": 21908,
-      "size_diff": 165
-    },
-    {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "2898d09 - Improve spectate mode reliability and add debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2898d09",
-      "current_size": 38565,
-      "previous_size": 38360,
-      "size_diff": 205
+      "commit_info": "b42aca0 - Add debug logging for spectate mode and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42aca0",
+      "current_size": 40608,
+      "previous_size": 38565,
+      "size_diff": 2043
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "2898d09 - Improve spectate mode reliability and add debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2898d09",
-      "current_size": 84339,
-      "previous_size": 81873,
-      "size_diff": 2466
+      "commit_info": "b42aca0 - Add debug logging for spectate mode and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42aca0",
+      "current_size": 84712,
+      "previous_size": 84339,
+      "size_diff": 373
     }
   ]
 }
