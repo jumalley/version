@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.291-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.292-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2927,6 +2927,21 @@ client/modules/modes/spectate.lua: Refactor voice data callbacks and improve spe
 ## Changelog for v1.2.291
 
 server/modules/callbacks.lua: Validate player existence in spectate callback by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.292</strong> – 2025-09-27 19:14</summary>
+
+## Changelog for v1.2.292
+
+client/modules/modes/modes.lua: Improve spectate mode reliability and add debug logging by jumalley
+
+client/modules/modes/spectate.lua: Improve spectate mode reliability and add debug logging by jumalley
+
+server/modules/callbacks.lua: Improve spectate mode reliability and add debug logging by jumalley
 
 
 

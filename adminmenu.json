@@ -1,17 +1,33 @@
 {
-  "version": "1.2.291",
+  "version": "1.2.292",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "2898d09 - Improve spectate mode reliability and add debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2898d09",
+      "current_size": 22073,
+      "previous_size": 21908,
+      "size_diff": 165
+    },
+    {
+      "file": "client/modules/modes/spectate.lua",
+      "commit_info": "2898d09 - Improve spectate mode reliability and add debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2898d09",
+      "current_size": 38565,
+      "previous_size": 38360,
+      "size_diff": 205
+    },
+    {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "55c9a8d - Validate player existence in spectate callback",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/55c9a8d",
-      "current_size": 81873,
-      "previous_size": 81709,
-      "size_diff": 164
+      "commit_info": "2898d09 - Improve spectate mode reliability and add debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2898d09",
+      "current_size": 84339,
+      "previous_size": 81873,
+      "size_diff": 2466
     }
   ]
 }
