@@ -1,5 +1,5 @@
 {
-  "version": "1.2.283",
+  "version": "1.2.284",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "95721ce - Switch to legacy scaleform API for spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/95721ce",
-      "current_size": 37178,
-      "previous_size": 35635,
-      "size_diff": 1543
+      "commit_info": "5eecb44 - Update instructional buttons to use native controls",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5eecb44",
+      "current_size": 37268,
+      "previous_size": 37178,
+      "size_diff": 90
     }
   ]
 }
