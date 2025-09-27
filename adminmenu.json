@@ -1,5 +1,5 @@
 {
-  "version": "1.2.282",
+  "version": "1.2.283",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "2e0ee90 - Improve spectate exit handling and prevent double processing",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2e0ee90",
-      "current_size": 35635,
-      "previous_size": 35387,
-      "size_diff": 248
+      "commit_info": "95721ce - Switch to legacy scaleform API for spectate mode",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/95721ce",
+      "current_size": 37178,
+      "previous_size": 35635,
+      "size_diff": 1543
     }
   ]
 }
