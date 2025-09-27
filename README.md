@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.296-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.297-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2994,6 +2994,21 @@ client/modules/showdata/manage.lua: Improve freeze button logic in sanction menu
 client/modules/showdata/manage.lua: Improve sanction menu safety and enable jail system by jumalley
 
 config/config.lua: Improve sanction menu safety and enable jail system by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.297</strong> – 2025-09-27 22:25</summary>
+
+## Changelog for v1.2.297
+
+client/modules/jail.lua: Fix jail and spectate player handling, update config by jumalley
+
+client/modules/modes/spectate.lua: Fix jail and spectate player handling, update config by jumalley
+
+config/config.lua: Fix jail and spectate player handling, update config by jumalley
 
 
 

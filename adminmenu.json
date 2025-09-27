@@ -1,25 +1,33 @@
 {
-  "version": "1.2.296",
+  "version": "1.2.297",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/manage.lua",
-      "commit_info": "b14c8ae - Improve sanction menu safety and enable jail system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b14c8ae",
-      "current_size": 30954,
-      "previous_size": 30655,
-      "size_diff": 299
+      "file": "client/modules/jail.lua",
+      "commit_info": "63ce916 - Fix jail and spectate player handling, update config",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/63ce916",
+      "current_size": 26098,
+      "previous_size": 26075,
+      "size_diff": 23
+    },
+    {
+      "file": "client/modules/modes/spectate.lua",
+      "commit_info": "63ce916 - Fix jail and spectate player handling, update config",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/63ce916",
+      "current_size": 33990,
+      "previous_size": 34118,
+      "size_diff": -128
     },
     {
       "file": "config/config.lua",
-      "commit_info": "b14c8ae - Improve sanction menu safety and enable jail system",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b14c8ae",
-      "current_size": 20029,
-      "previous_size": 20030,
-      "size_diff": -1
+      "commit_info": "63ce916 - Fix jail and spectate player handling, update config",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/63ce916",
+      "current_size": 20030,
+      "previous_size": 20029,
+      "size_diff": 1
     }
   ]
 }
