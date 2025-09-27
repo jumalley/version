@@ -1,5 +1,5 @@
 {
-  "version": "1.2.285",
+  "version": "1.2.286",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,19 +7,11 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "0648c5e - Improve spectate mode exit handling and data callback",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0648c5e",
-      "current_size": 37492,
-      "previous_size": 37268,
-      "size_diff": 224
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "0648c5e - Improve spectate mode exit handling and data callback",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0648c5e",
-      "current_size": 84711,
-      "previous_size": 84490,
-      "size_diff": 221
+      "commit_info": "52d32e3 - Improve spectate exit logic and add debug logs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/52d32e3",
+      "current_size": 37529,
+      "previous_size": 37492,
+      "size_diff": 37
     }
   ]
 }

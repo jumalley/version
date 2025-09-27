@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.285-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.286-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -2837,6 +2837,17 @@ client/modules/modes/spectate.lua: Update instructional buttons to use native co
 client/modules/modes/spectate.lua: Improve spectate mode exit handling and data callback by jumalley
 
 server/modules/callbacks.lua: Improve spectate mode exit handling and data callback by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.286</strong> – 2025-09-27 15:56</summary>
+
+## Changelog for v1.2.286
+
+client/modules/modes/spectate.lua: Improve spectate exit logic and add debug logs by jumalley
 
 
 
