@@ -1,5 +1,5 @@
 {
-  "version": "1.2.284",
+  "version": "1.2.285",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,19 @@
   "file_changes": [
     {
       "file": "client/modules/modes/spectate.lua",
-      "commit_info": "5eecb44 - Update instructional buttons to use native controls",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5eecb44",
-      "current_size": 37268,
-      "previous_size": 37178,
-      "size_diff": 90
+      "commit_info": "0648c5e - Improve spectate mode exit handling and data callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0648c5e",
+      "current_size": 37492,
+      "previous_size": 37268,
+      "size_diff": 224
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "0648c5e - Improve spectate mode exit handling and data callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0648c5e",
+      "current_size": 84711,
+      "previous_size": 84490,
+      "size_diff": 221
     }
   ]
 }
