@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.302-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.303-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3106,6 +3106,41 @@ server/functions.lua: Add HRS Base Building crew management integration by jumal
 server/modules/callbacks.lua: Add HRS Base Building crew management integration by jumalley
 
 server/modules/crew.lua: Add HRS Base Building crew management integration by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.303</strong> – 2025-09-28 19:46</summary>
+
+## Changelog for v1.2.303
+
+client/functions.lua: Add airdrop and vehicle modification modules by jumalley
+
+client/modules/adminduty.lua: Add airdrop and vehicle modification modules by jumalley
+
+client/modules/airdrop.lua: Add airdrop and vehicle modification modules by jumalley
+
+client/modules/build.lua: Add airdrop and vehicle modification modules by jumalley
+
+client/modules/settings/modules.lua: Add airdrop and vehicle modification modules by jumalley
+
+client/modules/vehiclemodifications.lua: Add airdrop and vehicle modification modules by jumalley
+
+config/airdrop.lua: Add airdrop and vehicle modification modules by jumalley
+
+config/detect.lua: Add airdrop and vehicle modification modules by jumalley
+
+config/options.lua: Add airdrop and vehicle modification modules by jumalley
+
+config/perms.lua: Add airdrop and vehicle modification modules by jumalley
+
+locales/en.lua: Add airdrop and vehicle modification modules by jumalley
+
+server/modules/airdrop.lua: Add airdrop and vehicle modification modules by jumalley
+
+server/modules/vehiclemodifications.lua: Add airdrop and vehicle modification modules by jumalley
 
 
 

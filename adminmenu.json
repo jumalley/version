@@ -1,5 +1,5 @@
 {
-  "version": "1.2.302",
+  "version": "1.2.303",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,107 +7,107 @@
   "file_changes": [
     {
       "file": "client/functions.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 134242,
-      "previous_size": 133991,
-      "size_diff": 251
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 134895,
+      "previous_size": 134242,
+      "size_diff": 653
     },
     {
-      "file": "client/modules/main.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 4440,
-      "previous_size": 5014,
-      "size_diff": -574
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 26230,
+      "previous_size": 24693,
+      "size_diff": 1537
     },
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 31038,
-      "previous_size": 31038,
-      "size_diff": 0
-    },
-    {
-      "file": "client/modules/showdata/crew.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 12336,
+      "file": "client/modules/airdrop.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 14924,
       "previous_size": 0,
-      "size_diff": 12336
+      "size_diff": 14924
     },
     {
-      "file": "client/modules/showdata/main.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 8430,
-      "previous_size": 7919,
-      "size_diff": 511
+      "file": "client/modules/build.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 12621,
+      "previous_size": 12582,
+      "size_diff": 39
+    },
+    {
+      "file": "client/modules/settings/modules.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 25332,
+      "previous_size": 24358,
+      "size_diff": 974
+    },
+    {
+      "file": "client/modules/vehiclemodifications.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 6351,
+      "previous_size": 0,
+      "size_diff": 6351
+    },
+    {
+      "file": "config/airdrop.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 5571,
+      "previous_size": 0,
+      "size_diff": 5571
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 13253,
+      "previous_size": 13330,
+      "size_diff": -77
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 20403,
+      "previous_size": 19161,
+      "size_diff": 1242
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 8491,
+      "previous_size": 8141,
+      "size_diff": 350
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 184966,
-      "previous_size": 183611,
-      "size_diff": 1355
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 190689,
+      "previous_size": 184966,
+      "size_diff": 5723
     },
     {
-      "file": "locales/fr.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 196472,
-      "previous_size": 194906,
-      "size_diff": 1566
+      "file": "server/modules/airdrop.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 9077,
+      "previous_size": 0,
+      "size_diff": 9077
     },
     {
-      "file": "server/custom/framework/esx.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 10664,
-      "previous_size": 9938,
-      "size_diff": 726
-    },
-    {
-      "file": "server/custom/framework/qb.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 7647,
-      "previous_size": 6921,
-      "size_diff": 726
-    },
-    {
-      "file": "server/custom/gangs/hrs_base_building.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 2507,
-      "previous_size": 1594,
-      "size_diff": 913
-    },
-    {
-      "file": "server/functions.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 26364,
-      "previous_size": 25906,
-      "size_diff": 458
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 87762,
-      "previous_size": 87033,
-      "size_diff": 729
-    },
-    {
-      "file": "server/modules/crew.lua",
-      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
-      "current_size": 18841,
-      "previous_size": 14466,
-      "size_diff": 4375
+      "file": "server/modules/vehiclemodifications.lua",
+      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
+      "current_size": 8946,
+      "previous_size": 0,
+      "size_diff": 8946
     }
   ]
 }
