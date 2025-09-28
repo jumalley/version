@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.299-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.300-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3037,5 +3037,12 @@ server/modules/callbacks.lua: Add admin option to spawn zombie horde by jumalley
 <summary><strong>v1.2.299</strong> – 2025-09-28 15:44</summary>
 
 ## Changelog for v1.2.299\n\nNo significant changes in this release.
+
+</details>
+
+<details>
+<summary><strong>v1.2.300</strong> – 2025-09-28 16:01</summary>
+
+## Changelog for v1.2.300\n\nNo significant changes in this release.
 
 </details>
