@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.300-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.301-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3044,5 +3044,34 @@ server/modules/callbacks.lua: Add admin option to spawn zombie horde by jumalley
 <summary><strong>v1.2.300</strong> – 2025-09-28 16:01</summary>
 
 ## Changelog for v1.2.300\n\nNo significant changes in this release.
+
+</details>
+
+<details>
+<summary><strong>v1.2.301</strong> – 2025-09-28 17:24</summary>
+
+## Changelog for v1.2.301
+
+client/modules/crew.lua: Add HRS Base Building crew management integration by jumalley
+
+client/modules/main.lua: Add HRS Base Building crew management integration by jumalley
+
+client/modules/onlineplayers.lua: Add HRS Base Building crew management integration by jumalley
+
+client/modules/settings/modules.lua: Add HRS Base Building crew management integration by jumalley
+
+config/detect.lua: Add HRS Base Building crew management integration by jumalley
+
+locales/en.lua: Add HRS Base Building crew management integration by jumalley
+
+locales/fr.lua: Add HRS Base Building crew management integration by jumalley
+
+server/custom/gangs/hrs_base_building.lua: Add HRS Base Building crew management integration by jumalley
+
+server/modules/crew.lua: Add HRS Base Building crew management integration by jumalley
+
+server/utils.lua: Add HRS Base Building crew management integration by jumalley
+
+
 
 </details>
