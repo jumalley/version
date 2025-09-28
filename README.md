@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.301-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.302-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3071,6 +3071,41 @@ server/custom/gangs/hrs_base_building.lua: Add HRS Base Building crew management
 server/modules/crew.lua: Add HRS Base Building crew management integration by jumalley
 
 server/utils.lua: Add HRS Base Building crew management integration by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.302</strong> – 2025-09-28 18:02</summary>
+
+## Changelog for v1.2.302
+
+client/functions.lua: Add HRS Base Building crew management integration by jumalley
+
+client/modules/main.lua: Add HRS Base Building crew management integration by jumalley
+
+client/modules/onlineplayers.lua: Add HRS Base Building crew management integration by jumalley
+
+client/modules/showdata/crew.lua: Add HRS Base Building crew management integration by jumalley
+
+client/modules/showdata/main.lua: Add HRS Base Building crew management integration by jumalley
+
+locales/en.lua: Add HRS Base Building crew management integration by jumalley
+
+locales/fr.lua: Add HRS Base Building crew management integration by jumalley
+
+server/custom/framework/esx.lua: Add HRS Base Building crew management integration by jumalley
+
+server/custom/framework/qb.lua: Add HRS Base Building crew management integration by jumalley
+
+server/custom/gangs/hrs_base_building.lua: Add HRS Base Building crew management integration by jumalley
+
+server/functions.lua: Add HRS Base Building crew management integration by jumalley
+
+server/modules/callbacks.lua: Add HRS Base Building crew management integration by jumalley
+
+server/modules/crew.lua: Add HRS Base Building crew management integration by jumalley
 
 
 

@@ -1,89 +1,113 @@
 {
-  "version": "1.2.301",
+  "version": "1.2.302",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/crew.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
-      "current_size": 15240,
-      "previous_size": 0,
-      "size_diff": 15240
+      "file": "client/functions.lua",
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 134242,
+      "previous_size": 133991,
+      "size_diff": 251
     },
     {
       "file": "client/modules/main.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
-      "current_size": 5014,
-      "previous_size": 4440,
-      "size_diff": 574
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 4440,
+      "previous_size": 5014,
+      "size_diff": -574
     },
     {
       "file": "client/modules/onlineplayers.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
       "current_size": 31038,
-      "previous_size": 27704,
-      "size_diff": 3334
+      "previous_size": 31038,
+      "size_diff": 0
     },
     {
-      "file": "client/modules/settings/modules.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
-      "current_size": 24358,
-      "previous_size": 24243,
-      "size_diff": 115
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 12336,
+      "previous_size": 0,
+      "size_diff": 12336
     },
     {
-      "file": "config/detect.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
-      "current_size": 13330,
-      "previous_size": 13049,
-      "size_diff": 281
+      "file": "client/modules/showdata/main.lua",
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 8430,
+      "previous_size": 7919,
+      "size_diff": 511
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
-      "current_size": 183611,
-      "previous_size": 180524,
-      "size_diff": 3087
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 184966,
+      "previous_size": 183611,
+      "size_diff": 1355
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
-      "current_size": 194906,
-      "previous_size": 191386,
-      "size_diff": 3520
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 196472,
+      "previous_size": 194906,
+      "size_diff": 1566
+    },
+    {
+      "file": "server/custom/framework/esx.lua",
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 10664,
+      "previous_size": 9938,
+      "size_diff": 726
+    },
+    {
+      "file": "server/custom/framework/qb.lua",
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 7647,
+      "previous_size": 6921,
+      "size_diff": 726
     },
     {
       "file": "server/custom/gangs/hrs_base_building.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
-      "current_size": 1594,
-      "previous_size": 0,
-      "size_diff": 1594
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 2507,
+      "previous_size": 1594,
+      "size_diff": 913
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 26364,
+      "previous_size": 25906,
+      "size_diff": 458
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 87762,
+      "previous_size": 87033,
+      "size_diff": 729
     },
     {
       "file": "server/modules/crew.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
-      "current_size": 14466,
-      "previous_size": 0,
-      "size_diff": 14466
-    },
-    {
-      "file": "server/utils.lua",
-      "commit_info": "be66d11 - Add HRS Base Building crew management integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/be66d11",
-      "current_size": 1805,
-      "previous_size": 1650,
-      "size_diff": 155
+      "commit_info": "5e5ee83 - Add HRS Base Building crew management integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5e5ee83",
+      "current_size": 18841,
+      "previous_size": 14466,
+      "size_diff": 4375
     }
   ]
 }
