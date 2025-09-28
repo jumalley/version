@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.297-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.298-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3009,6 +3009,25 @@ client/modules/jail.lua: Fix jail and spectate player handling, update config by
 client/modules/modes/spectate.lua: Fix jail and spectate player handling, update config by jumalley
 
 config/config.lua: Fix jail and spectate player handling, update config by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.298</strong> – 2025-09-28 02:01</summary>
+
+## Changelog for v1.2.298
+
+client/custom/zombies/hrs_zombiesV2.lua: Add admin option to spawn zombie horde by jumalley
+
+client/modules/showdata/zombie.lua: Add admin option to spawn zombie horde by jumalley
+
+locales/en.lua: Add admin option to spawn zombie horde by jumalley
+
+locales/fr.lua: Add admin option to spawn zombie horde by jumalley
+
+server/modules/callbacks.lua: Add admin option to spawn zombie horde by jumalley
 
 
 
