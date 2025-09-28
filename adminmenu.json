@@ -1,49 +1,8 @@
 {
-  "version": "1.2.298",
+  "version": "1.2.299",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
-  "file_changes": [
-    {
-      "file": "client/custom/zombies/hrs_zombiesV2.lua",
-      "commit_info": "5264d6f - Add admin option to spawn zombie horde",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5264d6f",
-      "current_size": 6276,
-      "previous_size": 630,
-      "size_diff": 5646
-    },
-    {
-      "file": "client/modules/showdata/zombie.lua",
-      "commit_info": "5264d6f - Add admin option to spawn zombie horde",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5264d6f",
-      "current_size": 7090,
-      "previous_size": 3078,
-      "size_diff": 4012
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "5264d6f - Add admin option to spawn zombie horde",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5264d6f",
-      "current_size": 180524,
-      "previous_size": 179150,
-      "size_diff": 1374
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "5264d6f - Add admin option to spawn zombie horde",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5264d6f",
-      "current_size": 191386,
-      "previous_size": 189384,
-      "size_diff": 2002
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "5264d6f - Add admin option to spawn zombie horde",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5264d6f",
-      "current_size": 87033,
-      "previous_size": 84712,
-      "size_diff": 2321
-    }
-  ]
+  "file_changes": []
 }
