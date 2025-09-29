@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.303-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.304-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3141,6 +3141,27 @@ locales/en.lua: Add airdrop and vehicle modification modules by jumalley
 server/modules/airdrop.lua: Add airdrop and vehicle modification modules by jumalley
 
 server/modules/vehiclemodifications.lua: Add airdrop and vehicle modification modules by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.304</strong> – 2025-09-29 00:01</summary>
+
+## Changelog for v1.2.304
+
+client/modules/showdata/main.lua: Add player permissions viewer to admin menu by jumalley
+
+client/modules/showdata/permissions.lua: Add player permissions viewer to admin menu by jumalley
+
+config/perms.lua: Add player permissions viewer to admin menu by jumalley
+
+locales/en.lua: Add player permissions viewer to admin menu by jumalley
+
+locales/fr.lua: Add player permissions viewer to admin menu by jumalley
+
+server/modules/permissions.lua: Add player permissions viewer to admin menu by jumalley
 
 
 

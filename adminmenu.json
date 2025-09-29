@@ -1,113 +1,57 @@
 {
-  "version": "1.2.303",
+  "version": "1.2.304",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 134895,
-      "previous_size": 134242,
-      "size_diff": 653
+      "file": "client/modules/showdata/main.lua",
+      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
+      "current_size": 9408,
+      "previous_size": 8430,
+      "size_diff": 978
     },
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 26230,
-      "previous_size": 24693,
-      "size_diff": 1537
-    },
-    {
-      "file": "client/modules/airdrop.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 14924,
+      "file": "client/modules/showdata/permissions.lua",
+      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
+      "current_size": 13454,
       "previous_size": 0,
-      "size_diff": 14924
-    },
-    {
-      "file": "client/modules/build.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 12621,
-      "previous_size": 12582,
-      "size_diff": 39
-    },
-    {
-      "file": "client/modules/settings/modules.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 25332,
-      "previous_size": 24358,
-      "size_diff": 974
-    },
-    {
-      "file": "client/modules/vehiclemodifications.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 6351,
-      "previous_size": 0,
-      "size_diff": 6351
-    },
-    {
-      "file": "config/airdrop.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 5571,
-      "previous_size": 0,
-      "size_diff": 5571
-    },
-    {
-      "file": "config/detect.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 13253,
-      "previous_size": 13330,
-      "size_diff": -77
-    },
-    {
-      "file": "config/options.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 20403,
-      "previous_size": 19161,
-      "size_diff": 1242
+      "size_diff": 13454
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 8491,
-      "previous_size": 8141,
-      "size_diff": 350
+      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
+      "current_size": 8604,
+      "previous_size": 8491,
+      "size_diff": 113
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 190689,
-      "previous_size": 184966,
-      "size_diff": 5723
+      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
+      "current_size": 193737,
+      "previous_size": 190689,
+      "size_diff": 3048
     },
     {
-      "file": "server/modules/airdrop.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 9077,
-      "previous_size": 0,
-      "size_diff": 9077
+      "file": "locales/fr.lua",
+      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
+      "current_size": 199613,
+      "previous_size": 196472,
+      "size_diff": 3141
     },
     {
-      "file": "server/modules/vehiclemodifications.lua",
-      "commit_info": "aa8c0d4 - Add airdrop and vehicle modification modules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/aa8c0d4",
-      "current_size": 8946,
+      "file": "server/modules/permissions.lua",
+      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
+      "current_size": 4899,
       "previous_size": 0,
-      "size_diff": 8946
+      "size_diff": 4899
     }
   ]
 }
