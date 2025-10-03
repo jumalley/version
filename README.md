@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.309-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.310-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3231,6 +3231,19 @@ client/modules/modes/spectate.lua: Sync admin radio with spectated player in spe
 ## Changelog for v1.2.309
 
 config/hrs_airdrop.lua: Rename airdrop.lua to hrs_airdrop.lua by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.310</strong> – 2025-10-03 22:11</summary>
+
+## Changelog for v1.2.310
+
+server/modules/callbacks.lua: Refactor crew retrieval to use direct DB query by jumalley
+
+server/modules/crew.lua: Refactor crew retrieval to use direct DB query by jumalley
 
 
 
