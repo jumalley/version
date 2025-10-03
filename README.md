@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.306-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.307-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3184,6 +3184,31 @@ server/modules/crew.lua: Update player retrieval function in GetPlayerCrew by ju
 ## Changelog for v1.2.306
 
 client/modules/settings/modules.lua: Merge branch 'main' of https://github.com/jumalley/adminmenu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.307</strong> – 2025-10-03 21:38</summary>
+
+## Changelog for v1.2.307
+
+client/events.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
+
+client/modules/adminduty.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
+
+client/modules/airdrop.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
+
+client/modules/onlineplayers.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
+
+locales/en.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
+
+server/events.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
+
+server/modules/callbacks.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
+
+server/modules/rcore_integration.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
 
 
 

@@ -1,17 +1,73 @@
 {
-  "version": "1.2.306",
+  "version": "1.2.307",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/settings/modules.lua",
-      "commit_info": "014fc0e - Merge branch 'main' of https://github.com/jumalley/adminmenu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/014fc0e",
-      "current_size": 26052,
-      "previous_size": 25332,
-      "size_diff": 720
+      "file": "client/events.lua",
+      "commit_info": "96ae04e - Refactor vehicle tuning and improve crew/airdrop features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96ae04e",
+      "current_size": 7735,
+      "previous_size": 4166,
+      "size_diff": 3569
+    },
+    {
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "96ae04e - Refactor vehicle tuning and improve crew/airdrop features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96ae04e",
+      "current_size": 26264,
+      "previous_size": 26230,
+      "size_diff": 34
+    },
+    {
+      "file": "client/modules/airdrop.lua",
+      "commit_info": "96ae04e - Refactor vehicle tuning and improve crew/airdrop features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96ae04e",
+      "current_size": 14518,
+      "previous_size": 14924,
+      "size_diff": -406
+    },
+    {
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "96ae04e - Refactor vehicle tuning and improve crew/airdrop features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96ae04e",
+      "current_size": 28673,
+      "previous_size": 31038,
+      "size_diff": -2365
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "96ae04e - Refactor vehicle tuning and improve crew/airdrop features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96ae04e",
+      "current_size": 194083,
+      "previous_size": 193737,
+      "size_diff": 346
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "96ae04e - Refactor vehicle tuning and improve crew/airdrop features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96ae04e",
+      "current_size": 11092,
+      "previous_size": 13750,
+      "size_diff": -2658
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "96ae04e - Refactor vehicle tuning and improve crew/airdrop features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96ae04e",
+      "current_size": 88478,
+      "previous_size": 87762,
+      "size_diff": 716
+    },
+    {
+      "file": "server/modules/rcore_integration.lua",
+      "commit_info": "96ae04e - Refactor vehicle tuning and improve crew/airdrop features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/96ae04e",
+      "current_size": 1686,
+      "previous_size": 1238,
+      "size_diff": 448
     }
   ]
 }
