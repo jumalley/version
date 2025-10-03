@@ -1,17 +1,17 @@
 {
-  "version": "1.2.308",
+  "version": "1.2.309",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "e2fdf73 - Sync admin radio with spectated player in spectate mode",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2fdf73",
-      "current_size": 34559,
-      "previous_size": 33990,
-      "size_diff": 569
+      "file": "config/hrs_airdrop.lua",
+      "commit_info": "9b42de8 - Rename airdrop.lua to hrs_airdrop.lua",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/9b42de8",
+      "current_size": 5571,
+      "previous_size": 0,
+      "size_diff": 5571
     }
   ]
 }
