@@ -1,25 +1,57 @@
 {
-  "version": "1.2.310",
+  "version": "1.2.311",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "5904657 - Refactor crew retrieval to use direct DB query",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5904657",
-      "current_size": 88381,
-      "previous_size": 88478,
-      "size_diff": -97
+      "file": "client/events.lua",
+      "commit_info": "a918637 - Refactor admin menu integration and improve validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a918637",
+      "current_size": 6853,
+      "previous_size": 7735,
+      "size_diff": -882
     },
     {
-      "file": "server/modules/crew.lua",
-      "commit_info": "5904657 - Refactor crew retrieval to use direct DB query",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5904657",
-      "current_size": 19127,
-      "previous_size": 18844,
-      "size_diff": 283
+      "file": "client/modules/main.lua",
+      "commit_info": "a918637 - Refactor admin menu integration and improve validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a918637",
+      "current_size": 4410,
+      "previous_size": 4440,
+      "size_diff": -30
+    },
+    {
+      "file": "client/modules/modes/menu.lua",
+      "commit_info": "a918637 - Refactor admin menu integration and improve validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a918637",
+      "current_size": 4422,
+      "previous_size": 4418,
+      "size_diff": 4
+    },
+    {
+      "file": "client/modules/rcore_integration.lua",
+      "commit_info": "a918637 - Refactor admin menu integration and improve validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a918637",
+      "current_size": 542,
+      "previous_size": 694,
+      "size_diff": -152
+    },
+    {
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "a918637 - Refactor admin menu integration and improve validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a918637",
+      "current_size": 2493,
+      "previous_size": 0,
+      "size_diff": 2493
+    },
+    {
+      "file": "server/modules/rcore_integration.lua",
+      "commit_info": "a918637 - Refactor admin menu integration and improve validation",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a918637",
+      "current_size": 1903,
+      "previous_size": 1686,
+      "size_diff": 217
     }
   ]
 }

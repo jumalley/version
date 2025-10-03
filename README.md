@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.310-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.311-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3244,6 +3244,27 @@ config/hrs_airdrop.lua: Rename airdrop.lua to hrs_airdrop.lua by jumalley
 server/modules/callbacks.lua: Refactor crew retrieval to use direct DB query by jumalley
 
 server/modules/crew.lua: Refactor crew retrieval to use direct DB query by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.311</strong> – 2025-10-03 22:52</summary>
+
+## Changelog for v1.2.311
+
+client/events.lua: Refactor admin menu integration and improve validation by jumalley
+
+client/modules/main.lua: Refactor admin menu integration and improve validation by jumalley
+
+client/modules/modes/menu.lua: Refactor admin menu integration and improve validation by jumalley
+
+client/modules/rcore_integration.lua: Refactor admin menu integration and improve validation by jumalley
+
+server/custom/crew/hrs_base_building.lua: Refactor admin menu integration and improve validation by jumalley
+
+server/modules/rcore_integration.lua: Refactor admin menu integration and improve validation by jumalley
 
 
 
