@@ -1,57 +1,17 @@
 {
-  "version": "1.2.304",
+  "version": "1.2.305",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/main.lua",
-      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
-      "current_size": 9408,
-      "previous_size": 8430,
-      "size_diff": 978
-    },
-    {
-      "file": "client/modules/showdata/permissions.lua",
-      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
-      "current_size": 13454,
-      "previous_size": 0,
-      "size_diff": 13454
-    },
-    {
-      "file": "config/perms.lua",
-      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
-      "current_size": 8604,
-      "previous_size": 8491,
-      "size_diff": 113
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
-      "current_size": 193737,
-      "previous_size": 190689,
-      "size_diff": 3048
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
-      "current_size": 199613,
-      "previous_size": 196472,
-      "size_diff": 3141
-    },
-    {
-      "file": "server/modules/permissions.lua",
-      "commit_info": "ef47bf6 - Add player permissions viewer to admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef47bf6",
-      "current_size": 4899,
-      "previous_size": 0,
-      "size_diff": 4899
+      "file": "server/modules/crew.lua",
+      "commit_info": "b2cdf77 - Update player retrieval function in GetPlayerCrew",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2cdf77",
+      "current_size": 18844,
+      "previous_size": 18841,
+      "size_diff": 3
     }
   ]
 }

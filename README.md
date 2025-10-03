@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.304-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.305-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3162,6 +3162,17 @@ locales/en.lua: Add player permissions viewer to admin menu by jumalley
 locales/fr.lua: Add player permissions viewer to admin menu by jumalley
 
 server/modules/permissions.lua: Add player permissions viewer to admin menu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.305</strong> – 2025-10-03 21:01</summary>
+
+## Changelog for v1.2.305
+
+server/modules/crew.lua: Update player retrieval function in GetPlayerCrew by jumalley
 
 
 
