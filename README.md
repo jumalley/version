@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.307-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.308-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3209,6 +3209,17 @@ server/events.lua: Refactor vehicle tuning and improve crew/airdrop features by 
 server/modules/callbacks.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
 
 server/modules/rcore_integration.lua: Refactor vehicle tuning and improve crew/airdrop features by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.308</strong> – 2025-10-03 21:44</summary>
+
+## Changelog for v1.2.308
+
+client/modules/modes/spectate.lua: Sync admin radio with spectated player in spectate mode by jumalley
 
 
 
