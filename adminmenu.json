@@ -1,17 +1,17 @@
 {
-  "version": "1.2.305",
+  "version": "1.2.306",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/modules/crew.lua",
-      "commit_info": "b2cdf77 - Update player retrieval function in GetPlayerCrew",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2cdf77",
-      "current_size": 18844,
-      "previous_size": 18841,
-      "size_diff": 3
+      "file": "client/modules/settings/modules.lua",
+      "commit_info": "014fc0e - Merge branch 'main' of https://github.com/jumalley/adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/014fc0e",
+      "current_size": 26052,
+      "previous_size": 25332,
+      "size_diff": 720
     }
   ]
 }
