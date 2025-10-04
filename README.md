@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.311-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.312-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3265,6 +3265,29 @@ client/modules/rcore_integration.lua: Refactor admin menu integration and improv
 server/custom/crew/hrs_base_building.lua: Refactor admin menu integration and improve validation by jumalley
 
 server/modules/rcore_integration.lua: Refactor admin menu integration and improve validation by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.312</strong> – 2025-10-04 12:18</summary>
+
+## Changelog for v1.2.312
+
+client/modules/onlineplayers.lua: Add advanced crew management and smart search by jumalley
+
+client/modules/showdata/crew.lua: Add advanced crew management and smart search by jumalley
+
+client/modules/showdata/permissions.lua: Add advanced crew management and smart search by jumalley
+
+locales/en.lua: Add advanced crew management and smart search by jumalley
+
+locales/fr.lua: Add advanced crew management and smart search by jumalley
+
+server/custom/crew/hrs_base_building.lua: Add advanced crew management and smart search by jumalley
+
+server/modules/crew.lua: Add advanced crew management and smart search by jumalley
 
 
 
