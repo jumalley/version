@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.312-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.313-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3288,6 +3288,43 @@ locales/fr.lua: Add advanced crew management and smart search by jumalley
 server/custom/crew/hrs_base_building.lua: Add advanced crew management and smart search by jumalley
 
 server/modules/crew.lua: Add advanced crew management and smart search by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.313</strong> – 2025-10-04 23:08</summary>
+
+## Changelog for v1.2.313
+
+client/modules/airdrop.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+client/modules/onlineplayers.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+client/modules/showdata/general.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+client/modules/showdata/main.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+client/modules/showdata/permissions.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+client/modules/vehiclemodifications.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+config/config.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+config/options.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+config/perms.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+locales/en.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+locales/fr.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+server/custom/inventory/ox.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+server/modules/airdrop.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+server/modules/callbacks.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
 
 
 
