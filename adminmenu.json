@@ -1,73 +1,49 @@
 {
-  "version": "1.2.315",
+  "version": "1.2.316",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
-      "current_size": 44850,
-      "previous_size": 44541,
-      "size_diff": 309
+      "file": ".gitignore",
+      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
+      "current_size": 19,
+      "previous_size": 0,
+      "size_diff": 19
     },
     {
-      "file": "client/modules/showdata/permissions.lua",
-      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
-      "current_size": 16047,
-      "previous_size": 16068,
-      "size_diff": -21
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
+      "current_size": 26828,
+      "previous_size": 26264,
+      "size_diff": 564
     },
     {
-      "file": "locales/en.lua",
-      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
-      "current_size": 206760,
-      "previous_size": 206771,
-      "size_diff": -11
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
-      "current_size": 210226,
-      "previous_size": 210237,
-      "size_diff": -11
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
-      "current_size": 99972,
-      "previous_size": 95287,
-      "size_diff": 4685
-    },
-    {
-      "file": "server/modules/commands.lua",
-      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
-      "current_size": 30771,
-      "previous_size": 30200,
-      "size_diff": 571
+      "file": "server/custom/inventory/ox.lua",
+      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
+      "current_size": 3528,
+      "previous_size": 3947,
+      "size_diff": -419
     },
     {
       "file": "server/modules/crew.lua",
-      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
-      "current_size": 23631,
-      "previous_size": 15767,
-      "size_diff": 7864
+      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
+      "current_size": 20966,
+      "previous_size": 23631,
+      "size_diff": -2665
     },
     {
       "file": "server/modules/rcore_integration.lua",
-      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
-      "current_size": 2123,
-      "previous_size": 1903,
-      "size_diff": 220
+      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
+      "current_size": 3177,
+      "previous_size": 2123,
+      "size_diff": 1054
     }
   ]
 }

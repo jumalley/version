@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.315-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.316-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3391,6 +3391,25 @@ server/modules/commands.lua: Improve crew detection and add debug tools by jumal
 server/modules/crew.lua: Improve crew detection and add debug tools by jumalley
 
 server/modules/rcore_integration.lua: Improve crew detection and add debug tools by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.316</strong> – 2025-10-05 00:43</summary>
+
+## Changelog for v1.2.316
+
+.gitignore: Improve validation and database integration for crew and admin duty by jumalley
+
+client/modules/adminduty.lua: Improve validation and database integration for crew and admin duty by jumalley
+
+server/custom/inventory/ox.lua: Improve validation and database integration for crew and admin duty by jumalley
+
+server/modules/crew.lua: Improve validation and database integration for crew and admin duty by jumalley
+
+server/modules/rcore_integration.lua: Improve validation and database integration for crew and admin duty by jumalley
 
 
 
