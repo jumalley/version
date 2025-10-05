@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.316-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.317-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3410,6 +3410,21 @@ server/custom/inventory/ox.lua: Improve validation and database integration for 
 server/modules/crew.lua: Improve validation and database integration for crew and admin duty by jumalley
 
 server/modules/rcore_integration.lua: Improve validation and database integration for crew and admin duty by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.317</strong> – 2025-10-05 01:49</summary>
+
+## Changelog for v1.2.317
+
+server/custom/crew/hrs_base_building.lua: Refactor HRS crew management and unify MySQL usage by jumalley
+
+server/modules/callbacks.lua: Refactor HRS crew management and unify MySQL usage by jumalley
+
+server/modules/crew.lua: Refactor HRS crew management and unify MySQL usage by jumalley
 
 
 

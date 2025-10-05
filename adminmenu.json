@@ -1,49 +1,33 @@
 {
-  "version": "1.2.316",
+  "version": "1.2.317",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": ".gitignore",
-      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
-      "current_size": 19,
-      "previous_size": 0,
-      "size_diff": 19
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "780679f - Refactor HRS crew management and unify MySQL usage",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/780679f",
+      "current_size": 14741,
+      "previous_size": 2620,
+      "size_diff": 12121
     },
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
-      "current_size": 26828,
-      "previous_size": 26264,
-      "size_diff": 564
-    },
-    {
-      "file": "server/custom/inventory/ox.lua",
-      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
-      "current_size": 3528,
-      "previous_size": 3947,
-      "size_diff": -419
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "780679f - Refactor HRS crew management and unify MySQL usage",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/780679f",
+      "current_size": 99969,
+      "previous_size": 99972,
+      "size_diff": -3
     },
     {
       "file": "server/modules/crew.lua",
-      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
-      "current_size": 20966,
-      "previous_size": 23631,
-      "size_diff": -2665
-    },
-    {
-      "file": "server/modules/rcore_integration.lua",
-      "commit_info": "465bc85 - Improve validation and database integration for crew and admin duty",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/465bc85",
-      "current_size": 3177,
-      "previous_size": 2123,
-      "size_diff": 1054
+      "commit_info": "780679f - Refactor HRS crew management and unify MySQL usage",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/780679f",
+      "current_size": 0,
+      "previous_size": 20966,
+      "size_diff": -20966
     }
   ]
 }
