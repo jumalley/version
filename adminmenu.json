@@ -1,137 +1,73 @@
 {
-  "version": "1.2.314",
+  "version": "1.2.315",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 136178,
-      "previous_size": 134895,
-      "size_diff": 1283
-    },
-    {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 27647,
-      "previous_size": 22073,
-      "size_diff": 5574
-    },
-    {
       "file": "client/modules/onlineplayers.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 44541,
-      "previous_size": 44568,
-      "size_diff": -27
+      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
+      "current_size": 44850,
+      "previous_size": 44541,
+      "size_diff": 309
     },
     {
-      "file": "config/options.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 20393,
-      "previous_size": 20390,
-      "size_diff": 3
+      "file": "client/modules/showdata/permissions.lua",
+      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
+      "current_size": 16047,
+      "previous_size": 16068,
+      "size_diff": -21
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 206771,
-      "previous_size": 206117,
-      "size_diff": 654
+      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
+      "current_size": 206760,
+      "previous_size": 206771,
+      "size_diff": -11
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 210237,
-      "previous_size": 209481,
-      "size_diff": 756
+      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
+      "current_size": 210226,
+      "previous_size": 210237,
+      "size_diff": -11
     },
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 2620,
-      "previous_size": 2616,
-      "size_diff": 4
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
+      "current_size": 99972,
+      "previous_size": 95287,
+      "size_diff": 4685
     },
     {
-      "file": "server/custom/inventory/ox.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 3947,
-      "previous_size": 3927,
-      "size_diff": 20
-    },
-    {
-      "file": "server/custom/inventory/qs.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 1278,
-      "previous_size": 1260,
-      "size_diff": 18
-    },
-    {
-      "file": "server/custom/multicharacter/multicharacter.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 4062,
-      "previous_size": 4060,
-      "size_diff": 2
-    },
-    {
-      "file": "server/custom/phone/lb-phone.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 154,
-      "previous_size": 152,
-      "size_diff": 2
-    },
-    {
-      "file": "server/custom/phone/qs-smartphone-pro.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 629,
-      "previous_size": 623,
-      "size_diff": 6
-    },
-    {
-      "file": "server/custom/phone/qs-smartphone.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 155,
-      "previous_size": 153,
-      "size_diff": 2
-    },
-    {
-      "file": "server/custom/report/rcore_report.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 5027,
-      "previous_size": 5025,
-      "size_diff": 2
-    },
-    {
-      "file": "server/functions.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 26603,
-      "previous_size": 26364,
-      "size_diff": 239
+      "file": "server/modules/commands.lua",
+      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
+      "current_size": 30771,
+      "previous_size": 30200,
+      "size_diff": 571
     },
     {
       "file": "server/modules/crew.lua",
-      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
-      "current_size": 15767,
-      "previous_size": 17680,
-      "size_diff": -1913
+      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
+      "current_size": 23631,
+      "previous_size": 15767,
+      "size_diff": 7864
+    },
+    {
+      "file": "server/modules/rcore_integration.lua",
+      "commit_info": "53bc1bf - Improve crew detection and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/53bc1bf",
+      "current_size": 2123,
+      "previous_size": 1903,
+      "size_diff": 220
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.314-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.315-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3366,6 +3366,31 @@ server/custom/report/rcore_report.lua: Enhance vehicle upgrade and god mode feat
 server/functions.lua: Enhance vehicle upgrade and god mode features by jumalley
 
 server/modules/crew.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.315</strong> – 2025-10-05 00:26</summary>
+
+## Changelog for v1.2.315
+
+client/modules/onlineplayers.lua: Improve crew detection and add debug tools by jumalley
+
+client/modules/showdata/permissions.lua: Improve crew detection and add debug tools by jumalley
+
+locales/en.lua: Improve crew detection and add debug tools by jumalley
+
+locales/fr.lua: Improve crew detection and add debug tools by jumalley
+
+server/modules/callbacks.lua: Improve crew detection and add debug tools by jumalley
+
+server/modules/commands.lua: Improve crew detection and add debug tools by jumalley
+
+server/modules/crew.lua: Improve crew detection and add debug tools by jumalley
+
+server/modules/rcore_integration.lua: Improve crew detection and add debug tools by jumalley
 
 
 
