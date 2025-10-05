@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.313-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.314-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3325,6 +3325,47 @@ server/custom/inventory/ox.lua: Enhance admin menu: airdrop, permissions, and cr
 server/modules/airdrop.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
 
 server/modules/callbacks.lua: Enhance admin menu: airdrop, permissions, and crew support by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.314</strong> – 2025-10-05 00:05</summary>
+
+## Changelog for v1.2.314
+
+client/functions.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+client/modules/modes/modes.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+client/modules/onlineplayers.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+config/options.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+locales/en.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+locales/fr.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/custom/crew/hrs_base_building.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/custom/inventory/ox.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/custom/inventory/qs.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/custom/multicharacter/multicharacter.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/custom/phone/lb-phone.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/custom/phone/qs-smartphone-pro.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/custom/phone/qs-smartphone.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/custom/report/rcore_report.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/functions.lua: Enhance vehicle upgrade and god mode features by jumalley
+
+server/modules/crew.lua: Enhance vehicle upgrade and god mode features by jumalley
 
 
 

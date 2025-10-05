@@ -1,121 +1,137 @@
 {
-  "version": "1.2.313",
+  "version": "1.2.314",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/airdrop.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 16271,
-      "previous_size": 14518,
-      "size_diff": 1753
+      "file": "client/functions.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 136178,
+      "previous_size": 134895,
+      "size_diff": 1283
+    },
+    {
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 27647,
+      "previous_size": 22073,
+      "size_diff": 5574
     },
     {
       "file": "client/modules/onlineplayers.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 44568,
-      "previous_size": 44267,
-      "size_diff": 301
-    },
-    {
-      "file": "client/modules/showdata/general.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 11703,
-      "previous_size": 11700,
-      "size_diff": 3
-    },
-    {
-      "file": "client/modules/showdata/main.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 9187,
-      "previous_size": 9408,
-      "size_diff": -221
-    },
-    {
-      "file": "client/modules/showdata/permissions.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 16068,
-      "previous_size": 15096,
-      "size_diff": 972
-    },
-    {
-      "file": "client/modules/vehiclemodifications.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 6289,
-      "previous_size": 6351,
-      "size_diff": -62
-    },
-    {
-      "file": "config/config.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 20333,
-      "previous_size": 20030,
-      "size_diff": 303
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 44541,
+      "previous_size": 44568,
+      "size_diff": -27
     },
     {
       "file": "config/options.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 20390,
-      "previous_size": 20403,
-      "size_diff": -13
-    },
-    {
-      "file": "config/perms.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 8651,
-      "previous_size": 8604,
-      "size_diff": 47
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 20393,
+      "previous_size": 20390,
+      "size_diff": 3
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 206117,
-      "previous_size": 200398,
-      "size_diff": 5719
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 206771,
+      "previous_size": 206117,
+      "size_diff": 654
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 209481,
-      "previous_size": 202603,
-      "size_diff": 6878
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 210237,
+      "previous_size": 209481,
+      "size_diff": 756
+    },
+    {
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 2620,
+      "previous_size": 2616,
+      "size_diff": 4
     },
     {
       "file": "server/custom/inventory/ox.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 3927,
-      "previous_size": 1840,
-      "size_diff": 2087
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 3947,
+      "previous_size": 3927,
+      "size_diff": 20
     },
     {
-      "file": "server/modules/airdrop.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 9315,
-      "previous_size": 9077,
-      "size_diff": 238
+      "file": "server/custom/inventory/qs.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 1278,
+      "previous_size": 1260,
+      "size_diff": 18
     },
     {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "c543c1f - Enhance admin menu: airdrop, permissions, and crew support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c543c1f",
-      "current_size": 95287,
-      "previous_size": 88381,
-      "size_diff": 6906
+      "file": "server/custom/multicharacter/multicharacter.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 4062,
+      "previous_size": 4060,
+      "size_diff": 2
+    },
+    {
+      "file": "server/custom/phone/lb-phone.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 154,
+      "previous_size": 152,
+      "size_diff": 2
+    },
+    {
+      "file": "server/custom/phone/qs-smartphone-pro.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 629,
+      "previous_size": 623,
+      "size_diff": 6
+    },
+    {
+      "file": "server/custom/phone/qs-smartphone.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 155,
+      "previous_size": 153,
+      "size_diff": 2
+    },
+    {
+      "file": "server/custom/report/rcore_report.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 5027,
+      "previous_size": 5025,
+      "size_diff": 2
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 26603,
+      "previous_size": 26364,
+      "size_diff": 239
+    },
+    {
+      "file": "server/modules/crew.lua",
+      "commit_info": "7dfa262 - Enhance vehicle upgrade and god mode features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7dfa262",
+      "current_size": 15767,
+      "previous_size": 17680,
+      "size_diff": -1913
     }
   ]
 }
