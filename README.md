@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.317-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.318-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3425,6 +3425,69 @@ server/custom/crew/hrs_base_building.lua: Refactor HRS crew management and unify
 server/modules/callbacks.lua: Refactor HRS crew management and unify MySQL usage by jumalley
 
 server/modules/crew.lua: Refactor HRS crew management and unify MySQL usage by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.318</strong> – 2025-10-14 22:18</summary>
+
+## Changelog for v1.2.318
+
+TESTING_CHECKLIST.md: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/custom/doorlock/ox_doorlock.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/custom/target/ox_target.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/adminduty.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/airdrop.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/callbacks.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/doorlock_handlers.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/ped_preview.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/rcore_drunk.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/rcore_integration.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/settings/modules.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/settings/preferences.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/showdata/appearance.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/showdata/crew.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/showdata/health.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+client/modules/showdata/miscs.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+config/detect.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+config/options.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+config/perms.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+locales/en.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+locales/fr.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+server/custom/doorlock/ox_doorlock.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+server/custom/target/ox_target.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+server/events.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+server/modules/callbacks.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+server/modules/crew.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+server/modules/rcore_integration.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
 
 
 

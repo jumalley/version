@@ -1,33 +1,225 @@
 {
-  "version": "1.2.317",
+  "version": "1.2.318",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "780679f - Refactor HRS crew management and unify MySQL usage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/780679f",
-      "current_size": 14741,
-      "previous_size": 2620,
-      "size_diff": 12121
+      "file": "TESTING_CHECKLIST.md",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 9516,
+      "previous_size": 0,
+      "size_diff": 9516
+    },
+    {
+      "file": "client/custom/doorlock/ox_doorlock.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 4687,
+      "previous_size": 0,
+      "size_diff": 4687
+    },
+    {
+      "file": "client/custom/target/ox_target.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 2256,
+      "previous_size": 0,
+      "size_diff": 2256
+    },
+    {
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 29155,
+      "previous_size": 26828,
+      "size_diff": 2327
+    },
+    {
+      "file": "client/modules/airdrop.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 17796,
+      "previous_size": 16271,
+      "size_diff": 1525
+    },
+    {
+      "file": "client/modules/callbacks.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 11085,
+      "previous_size": 9443,
+      "size_diff": 1642
+    },
+    {
+      "file": "client/modules/doorlock_handlers.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 6904,
+      "previous_size": 0,
+      "size_diff": 6904
+    },
+    {
+      "file": "client/modules/ped_preview.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 43800,
+      "previous_size": 0,
+      "size_diff": 43800
+    },
+    {
+      "file": "client/modules/rcore_drunk.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 5078,
+      "previous_size": 0,
+      "size_diff": 5078
+    },
+    {
+      "file": "client/modules/rcore_integration.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 1656,
+      "previous_size": 542,
+      "size_diff": 1114
+    },
+    {
+      "file": "client/modules/settings/modules.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 27982,
+      "previous_size": 26052,
+      "size_diff": 1930
+    },
+    {
+      "file": "client/modules/settings/preferences.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 10928,
+      "previous_size": 10878,
+      "size_diff": 50
+    },
+    {
+      "file": "client/modules/showdata/appearance.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 19785,
+      "previous_size": 19616,
+      "size_diff": 169
+    },
+    {
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 46102,
+      "previous_size": 26628,
+      "size_diff": 19474
+    },
+    {
+      "file": "client/modules/showdata/health.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 13745,
+      "previous_size": 4537,
+      "size_diff": 9208
+    },
+    {
+      "file": "client/modules/showdata/miscs.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 4025,
+      "previous_size": 3133,
+      "size_diff": 892
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 14064,
+      "previous_size": 13253,
+      "size_diff": 811
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 22606,
+      "previous_size": 20393,
+      "size_diff": 2213
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 8584,
+      "previous_size": 8651,
+      "size_diff": -67
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 219216,
+      "previous_size": 206760,
+      "size_diff": 12456
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 222011,
+      "previous_size": 210226,
+      "size_diff": 11785
+    },
+    {
+      "file": "server/custom/doorlock/ox_doorlock.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 5744,
+      "previous_size": 0,
+      "size_diff": 5744
+    },
+    {
+      "file": "server/custom/target/ox_target.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 1850,
+      "previous_size": 0,
+      "size_diff": 1850
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 10860,
+      "previous_size": 11092,
+      "size_diff": -232
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "780679f - Refactor HRS crew management and unify MySQL usage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/780679f",
-      "current_size": 99969,
-      "previous_size": 99972,
-      "size_diff": -3
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 105903,
+      "previous_size": 99969,
+      "size_diff": 5934
     },
     {
       "file": "server/modules/crew.lua",
-      "commit_info": "780679f - Refactor HRS crew management and unify MySQL usage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/780679f",
-      "current_size": 0,
-      "previous_size": 20966,
-      "size_diff": -20966
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 9673,
+      "previous_size": 0,
+      "size_diff": 9673
+    },
+    {
+      "file": "server/modules/rcore_integration.lua",
+      "commit_info": "cbc0759 - Integrate ox_doorlock and ox_target with adminmenu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cbc0759",
+      "current_size": 6237,
+      "previous_size": 3177,
+      "size_diff": 3060
     }
   ]
 }
