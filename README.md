@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.318-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.319-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3488,6 +3488,19 @@ server/modules/callbacks.lua: Integrate ox_doorlock and ox_target with adminmenu
 server/modules/crew.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
 
 server/modules/rcore_integration.lua: Integrate ox_doorlock and ox_target with adminmenu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.319</strong> – 2025-10-14 22:33</summary>
+
+## Changelog for v1.2.319
+
+config/options.lua: Update crew module to use hrs_base_building by jumalley
+
+server/modules/crew.lua: Update crew module to use hrs_base_building by jumalley
 
 
 
