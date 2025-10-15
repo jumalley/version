@@ -1,25 +1,81 @@
 {
-  "version": "1.2.319",
+  "version": "1.2.320",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/options.lua",
-      "commit_info": "3a3a724 - Update crew module to use hrs_base_building",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3a3a724",
-      "current_size": 22615,
-      "previous_size": 22606,
-      "size_diff": 9
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
+      "current_size": 29648,
+      "previous_size": 29155,
+      "size_diff": 493
     },
     {
-      "file": "server/modules/crew.lua",
-      "commit_info": "3a3a724 - Update crew module to use hrs_base_building",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3a3a724",
-      "current_size": 9691,
-      "previous_size": 9673,
-      "size_diff": 18
+      "file": "client/modules/airdrop.lua",
+      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
+      "current_size": 18504,
+      "previous_size": 17796,
+      "size_diff": 708
+    },
+    {
+      "file": "client/modules/doorlock_handlers.lua",
+      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
+      "current_size": 27220,
+      "previous_size": 6904,
+      "size_diff": 20316
+    },
+    {
+      "file": "config/hrs_airdrop.lua",
+      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
+      "current_size": 5674,
+      "previous_size": 5571,
+      "size_diff": 103
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
+      "current_size": 8642,
+      "previous_size": 8584,
+      "size_diff": 58
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
+      "current_size": 223430,
+      "previous_size": 219216,
+      "size_diff": 4214
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
+      "current_size": 226686,
+      "previous_size": 222011,
+      "size_diff": 4675
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
+      "current_size": 11783,
+      "previous_size": 10860,
+      "size_diff": 923
+    },
+    {
+      "file": "server/modules/airdrop.lua",
+      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
+      "current_size": 10048,
+      "previous_size": 9315,
+      "size_diff": 733
     }
   ]
 }

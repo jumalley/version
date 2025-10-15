@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.319-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.320-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3501,6 +3501,33 @@ server/modules/rcore_integration.lua: Integrate ox_doorlock and ox_target with a
 config/options.lua: Update crew module to use hrs_base_building by jumalley
 
 server/modules/crew.lua: Update crew module to use hrs_base_building by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.320</strong> – 2025-10-15 18:12</summary>
+
+## Changelog for v1.2.320
+
+client/modules/adminduty.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
+
+client/modules/airdrop.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
+
+client/modules/doorlock_handlers.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
+
+config/hrs_airdrop.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
+
+config/perms.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
+
+locales/en.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
+
+locales/fr.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
+
+server/events.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
+
+server/modules/airdrop.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
 
 
 
