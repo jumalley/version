@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.325-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.326-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3645,6 +3645,33 @@ client/modules/ped_preview.lua: Refactor airdrop and ped preview integration, im
 locales/en.lua: Refactor airdrop and ped preview integration, improve doorlock handling by jumalley
 
 server/modules/airdrop.lua: Refactor airdrop and ped preview integration, improve doorlock handling by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.326</strong> – 2025-10-16 22:04</summary>
+
+## Changelog for v1.2.326
+
+client/functions.lua: Improve handling of non-networked entities in admin tools by jumalley
+
+client/modules/adminduty.lua: Improve handling of non-networked entities in admin tools by jumalley
+
+client/modules/airdrop.lua: Improve handling of non-networked entities in admin tools by jumalley
+
+client/modules/devtools.lua: Improve handling of non-networked entities in admin tools by jumalley
+
+client/modules/doorlock_handlers.lua: Improve handling of non-networked entities in admin tools by jumalley
+
+client/modules/settings/preferences.lua: Improve handling of non-networked entities in admin tools by jumalley
+
+locales/en.lua: Improve handling of non-networked entities in admin tools by jumalley
+
+locales/fr.lua: Improve handling of non-networked entities in admin tools by jumalley
+
+server/modules/callbacks.lua: Improve handling of non-networked entities in admin tools by jumalley
 
 
 

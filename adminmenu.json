@@ -1,49 +1,81 @@
 {
-  "version": "1.2.325",
+  "version": "1.2.326",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/functions.lua",
+      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
+      "current_size": 137202,
+      "previous_size": 136178,
+      "size_diff": 1024
+    },
+    {
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
+      "current_size": 40699,
+      "previous_size": 40421,
+      "size_diff": 278
+    },
+    {
       "file": "client/modules/airdrop.lua",
-      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
-      "current_size": 26477,
-      "previous_size": 29154,
-      "size_diff": -2677
+      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
+      "current_size": 24285,
+      "previous_size": 26477,
+      "size_diff": -2192
+    },
+    {
+      "file": "client/modules/devtools.lua",
+      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
+      "current_size": 20384,
+      "previous_size": 20331,
+      "size_diff": 53
     },
     {
       "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
-      "current_size": 29084,
-      "previous_size": 27220,
-      "size_diff": 1864
+      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
+      "current_size": 29100,
+      "previous_size": 29084,
+      "size_diff": 16
     },
     {
-      "file": "client/modules/ped_preview.lua",
-      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
-      "current_size": 45832,
-      "previous_size": 43800,
-      "size_diff": 2032
+      "file": "client/modules/settings/preferences.lua",
+      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
+      "current_size": 10898,
+      "previous_size": 10928,
+      "size_diff": -30
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
-      "current_size": 225797,
-      "previous_size": 225355,
-      "size_diff": 442
+      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
+      "current_size": 226057,
+      "previous_size": 225797,
+      "size_diff": 260
     },
     {
-      "file": "server/modules/airdrop.lua",
-      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
-      "current_size": 20145,
-      "previous_size": 22870,
-      "size_diff": -2725
+      "file": "locales/fr.lua",
+      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
+      "current_size": 227971,
+      "previous_size": 227704,
+      "size_diff": 267
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
+      "current_size": 112001,
+      "previous_size": 111962,
+      "size_diff": 39
     }
   ]
 }
