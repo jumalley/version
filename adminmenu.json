@@ -1,5 +1,5 @@
 {
-  "version": "1.2.322",
+  "version": "1.2.323",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,51 +7,75 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
-      "current_size": 35841,
-      "previous_size": 29648,
-      "size_diff": 6193
+      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
+      "current_size": 35376,
+      "previous_size": 35841,
+      "size_diff": -465
     },
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
-      "current_size": 46043,
-      "previous_size": 44850,
-      "size_diff": 1193
+      "file": "client/modules/showdata/troll.lua",
+      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
+      "current_size": 7441,
+      "previous_size": 6131,
+      "size_diff": 1310
     },
     {
-      "file": "config/config.lua",
-      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
-      "current_size": 20660,
-      "previous_size": 20659,
-      "size_diff": 1
+      "file": "config/detect.lua",
+      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
+      "current_size": 14365,
+      "previous_size": 14064,
+      "size_diff": 301
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
+      "current_size": 8788,
+      "previous_size": 8642,
+      "size_diff": 146
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
-      "current_size": 224022,
-      "previous_size": 223430,
-      "size_diff": 592
+      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
+      "current_size": 224750,
+      "previous_size": 224022,
+      "size_diff": 728
     },
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
-      "current_size": 17226,
-      "previous_size": 16834,
-      "size_diff": 392
+      "file": "locales/fr.lua",
+      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
+      "current_size": 227467,
+      "previous_size": 226686,
+      "size_diff": 781
+    },
+    {
+      "file": "server/modules/airdrop.lua",
+      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
+      "current_size": 10320,
+      "previous_size": 10048,
+      "size_diff": 272
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
-      "current_size": 110103,
-      "previous_size": 109659,
-      "size_diff": 444
+      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
+      "current_size": 111962,
+      "previous_size": 110103,
+      "size_diff": 1859
+    },
+    {
+      "file": "server/modules/vehiclemodifications.lua",
+      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
+      "current_size": 9150,
+      "previous_size": 8946,
+      "size_diff": 204
     }
   ]
 }

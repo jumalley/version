@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.322-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.323-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3578,6 +3578,33 @@ locales/en.lua: Enhance admin menu with crew and entity debug features by jumall
 server/custom/crew/hrs_base_building.lua: Enhance admin menu with crew and entity debug features by jumalley
 
 server/modules/callbacks.lua: Enhance admin menu with crew and entity debug features by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.323</strong> – 2025-10-16 20:29</summary>
+
+## Changelog for v1.2.323
+
+client/modules/adminduty.lua: Add sk_halloween troll options and callbacks by jumalley
+
+client/modules/showdata/troll.lua: Add sk_halloween troll options and callbacks by jumalley
+
+config/detect.lua: Add sk_halloween troll options and callbacks by jumalley
+
+config/perms.lua: Add sk_halloween troll options and callbacks by jumalley
+
+locales/en.lua: Add sk_halloween troll options and callbacks by jumalley
+
+locales/fr.lua: Add sk_halloween troll options and callbacks by jumalley
+
+server/modules/airdrop.lua: Add sk_halloween troll options and callbacks by jumalley
+
+server/modules/callbacks.lua: Add sk_halloween troll options and callbacks by jumalley
+
+server/modules/vehiclemodifications.lua: Add sk_halloween troll options and callbacks by jumalley
 
 
 
