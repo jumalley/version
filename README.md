@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.326-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.327-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3672,6 +3672,29 @@ locales/en.lua: Improve handling of non-networked entities in admin tools by jum
 locales/fr.lua: Improve handling of non-networked entities in admin tools by jumalley
 
 server/modules/callbacks.lua: Improve handling of non-networked entities in admin tools by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.327</strong> – 2025-10-16 22:27</summary>
+
+## Changelog for v1.2.327
+
+client/modules/airdrop.lua: Enhance crew member info and rcore integration feedback by jumalley
+
+client/modules/crew.lua: Enhance crew member info and rcore integration feedback by jumalley
+
+client/modules/doorlock_handlers.lua: Enhance crew member info and rcore integration feedback by jumalley
+
+client/modules/rcore_integration.lua: Enhance crew member info and rcore integration feedback by jumalley
+
+locales/en.lua: Enhance crew member info and rcore integration feedback by jumalley
+
+locales/fr.lua: Enhance crew member info and rcore integration feedback by jumalley
+
+server/custom/crew/hrs_base_building.lua: Enhance crew member info and rcore integration feedback by jumalley
 
 
 

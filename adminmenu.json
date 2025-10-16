@@ -1,81 +1,65 @@
 {
-  "version": "1.2.326",
+  "version": "1.2.327",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
-      "current_size": 137202,
-      "previous_size": 136178,
-      "size_diff": 1024
-    },
-    {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
-      "current_size": 40699,
-      "previous_size": 40421,
-      "size_diff": 278
-    },
-    {
       "file": "client/modules/airdrop.lua",
-      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
-      "current_size": 24285,
-      "previous_size": 26477,
-      "size_diff": -2192
+      "commit_info": "3e5222c - Enhance crew member info and rcore integration feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3e5222c",
+      "current_size": 24187,
+      "previous_size": 24285,
+      "size_diff": -98
     },
     {
-      "file": "client/modules/devtools.lua",
-      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
-      "current_size": 20384,
-      "previous_size": 20331,
-      "size_diff": 53
+      "file": "client/modules/crew.lua",
+      "commit_info": "3e5222c - Enhance crew member info and rcore integration feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3e5222c",
+      "current_size": 15519,
+      "previous_size": 15240,
+      "size_diff": 279
     },
     {
       "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
-      "current_size": 29100,
-      "previous_size": 29084,
-      "size_diff": 16
+      "commit_info": "3e5222c - Enhance crew member info and rcore integration feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3e5222c",
+      "current_size": 29449,
+      "previous_size": 29100,
+      "size_diff": 349
     },
     {
-      "file": "client/modules/settings/preferences.lua",
-      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
-      "current_size": 10898,
-      "previous_size": 10928,
-      "size_diff": -30
+      "file": "client/modules/rcore_integration.lua",
+      "commit_info": "3e5222c - Enhance crew member info and rcore integration feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3e5222c",
+      "current_size": 2488,
+      "previous_size": 1656,
+      "size_diff": 832
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
-      "current_size": 226057,
-      "previous_size": 225797,
-      "size_diff": 260
+      "commit_info": "3e5222c - Enhance crew member info and rcore integration feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3e5222c",
+      "current_size": 226209,
+      "previous_size": 226057,
+      "size_diff": 152
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
-      "current_size": 227971,
-      "previous_size": 227704,
-      "size_diff": 267
+      "commit_info": "3e5222c - Enhance crew member info and rcore integration feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3e5222c",
+      "current_size": 228136,
+      "previous_size": 227971,
+      "size_diff": 165
     },
     {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "219f378 - Improve handling of non-networked entities in admin tools",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/219f378",
-      "current_size": 112001,
-      "previous_size": 111962,
-      "size_diff": 39
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "3e5222c - Enhance crew member info and rcore integration feedback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3e5222c",
+      "current_size": 17298,
+      "previous_size": 17226,
+      "size_diff": 72
     }
   ]
 }
