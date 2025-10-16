@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.324-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.325-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3626,6 +3626,25 @@ locales/en.lua: Enhance airdrop and door integration, add sk_halloween support b
 locales/fr.lua: Enhance airdrop and door integration, add sk_halloween support by jumalley
 
 server/modules/airdrop.lua: Enhance airdrop and door integration, add sk_halloween support by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.325</strong> – 2025-10-16 21:40</summary>
+
+## Changelog for v1.2.325
+
+client/modules/airdrop.lua: Refactor airdrop and ped preview integration, improve doorlock handling by jumalley
+
+client/modules/doorlock_handlers.lua: Refactor airdrop and ped preview integration, improve doorlock handling by jumalley
+
+client/modules/ped_preview.lua: Refactor airdrop and ped preview integration, improve doorlock handling by jumalley
+
+locales/en.lua: Refactor airdrop and ped preview integration, improve doorlock handling by jumalley
+
+server/modules/airdrop.lua: Refactor airdrop and ped preview integration, improve doorlock handling by jumalley
 
 
 

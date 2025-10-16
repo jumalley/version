@@ -1,57 +1,49 @@
 {
-  "version": "1.2.324",
+  "version": "1.2.325",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
-      "current_size": 40421,
-      "previous_size": 35376,
-      "size_diff": 5045
-    },
-    {
       "file": "client/modules/airdrop.lua",
-      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
-      "current_size": 29154,
-      "previous_size": 18504,
-      "size_diff": 10650
+      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
+      "current_size": 26477,
+      "previous_size": 29154,
+      "size_diff": -2677
     },
     {
-      "file": "client/modules/settings/modules.lua",
-      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
-      "current_size": 28969,
-      "previous_size": 27982,
-      "size_diff": 987
+      "file": "client/modules/doorlock_handlers.lua",
+      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
+      "current_size": 29084,
+      "previous_size": 27220,
+      "size_diff": 1864
+    },
+    {
+      "file": "client/modules/ped_preview.lua",
+      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
+      "current_size": 45832,
+      "previous_size": 43800,
+      "size_diff": 2032
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
-      "current_size": 225355,
-      "previous_size": 224750,
-      "size_diff": 605
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
-      "current_size": 227704,
-      "previous_size": 227467,
-      "size_diff": 237
+      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
+      "current_size": 225797,
+      "previous_size": 225355,
+      "size_diff": 442
     },
     {
       "file": "server/modules/airdrop.lua",
-      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
-      "current_size": 22870,
-      "previous_size": 10320,
-      "size_diff": 12550
+      "commit_info": "d7f227d - Refactor airdrop and ped preview integration, improve doorlock handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d7f227d",
+      "current_size": 20145,
+      "previous_size": 22870,
+      "size_diff": -2725
     }
   ]
 }
