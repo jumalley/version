@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.323-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.324-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3605,6 +3605,27 @@ server/modules/airdrop.lua: Add sk_halloween troll options and callbacks by juma
 server/modules/callbacks.lua: Add sk_halloween troll options and callbacks by jumalley
 
 server/modules/vehiclemodifications.lua: Add sk_halloween troll options and callbacks by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.324</strong> – 2025-10-16 21:18</summary>
+
+## Changelog for v1.2.324
+
+client/modules/adminduty.lua: Enhance airdrop and door integration, add sk_halloween support by jumalley
+
+client/modules/airdrop.lua: Enhance airdrop and door integration, add sk_halloween support by jumalley
+
+client/modules/settings/modules.lua: Enhance airdrop and door integration, add sk_halloween support by jumalley
+
+locales/en.lua: Enhance airdrop and door integration, add sk_halloween support by jumalley
+
+locales/fr.lua: Enhance airdrop and door integration, add sk_halloween support by jumalley
+
+server/modules/airdrop.lua: Enhance airdrop and door integration, add sk_halloween support by jumalley
 
 
 

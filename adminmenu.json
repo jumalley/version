@@ -1,5 +1,5 @@
 {
-  "version": "1.2.323",
+  "version": "1.2.324",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,75 +7,51 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
-      "current_size": 35376,
-      "previous_size": 35841,
-      "size_diff": -465
+      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
+      "current_size": 40421,
+      "previous_size": 35376,
+      "size_diff": 5045
     },
     {
-      "file": "client/modules/showdata/troll.lua",
-      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
-      "current_size": 7441,
-      "previous_size": 6131,
-      "size_diff": 1310
+      "file": "client/modules/airdrop.lua",
+      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
+      "current_size": 29154,
+      "previous_size": 18504,
+      "size_diff": 10650
     },
     {
-      "file": "config/detect.lua",
-      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
-      "current_size": 14365,
-      "previous_size": 14064,
-      "size_diff": 301
-    },
-    {
-      "file": "config/perms.lua",
-      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
-      "current_size": 8788,
-      "previous_size": 8642,
-      "size_diff": 146
+      "file": "client/modules/settings/modules.lua",
+      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
+      "current_size": 28969,
+      "previous_size": 27982,
+      "size_diff": 987
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
-      "current_size": 224750,
-      "previous_size": 224022,
-      "size_diff": 728
+      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
+      "current_size": 225355,
+      "previous_size": 224750,
+      "size_diff": 605
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
-      "current_size": 227467,
-      "previous_size": 226686,
-      "size_diff": 781
+      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
+      "current_size": 227704,
+      "previous_size": 227467,
+      "size_diff": 237
     },
     {
       "file": "server/modules/airdrop.lua",
-      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
-      "current_size": 10320,
-      "previous_size": 10048,
-      "size_diff": 272
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
-      "current_size": 111962,
-      "previous_size": 110103,
-      "size_diff": 1859
-    },
-    {
-      "file": "server/modules/vehiclemodifications.lua",
-      "commit_info": "efaee5d - Add sk_halloween troll options and callbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/efaee5d",
-      "current_size": 9150,
-      "previous_size": 8946,
-      "size_diff": 204
+      "commit_info": "d839dbf - Enhance airdrop and door integration, add sk_halloween support",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d839dbf",
+      "current_size": 22870,
+      "previous_size": 10320,
+      "size_diff": 12550
     }
   ]
 }
