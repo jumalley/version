@@ -1,81 +1,89 @@
 {
-  "version": "1.2.320",
+  "version": "1.2.321",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
-      "current_size": 29648,
-      "previous_size": 29155,
-      "size_diff": 493
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 47232,
+      "previous_size": 46102,
+      "size_diff": 1130
     },
     {
-      "file": "client/modules/airdrop.lua",
-      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
-      "current_size": 18504,
-      "previous_size": 17796,
-      "size_diff": 708
+      "file": "config/config.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 20659,
+      "previous_size": 20333,
+      "size_diff": 326
     },
     {
-      "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
-      "current_size": 27220,
-      "previous_size": 6904,
-      "size_diff": 20316
+      "file": "server/custom/crew/fallback.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 2484,
+      "previous_size": 0,
+      "size_diff": 2484
     },
     {
-      "file": "config/hrs_airdrop.lua",
-      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
-      "current_size": 5674,
-      "previous_size": 5571,
-      "size_diff": 103
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 16834,
+      "previous_size": 14741,
+      "size_diff": 2093
     },
     {
-      "file": "config/perms.lua",
-      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
-      "current_size": 8642,
-      "previous_size": 8584,
-      "size_diff": 58
+      "file": "server/custom/framework/esx.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 11034,
+      "previous_size": 10664,
+      "size_diff": 370
     },
     {
-      "file": "locales/en.lua",
-      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
-      "current_size": 223430,
-      "previous_size": 219216,
-      "size_diff": 4214
+      "file": "server/custom/framework/qb.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 8070,
+      "previous_size": 7647,
+      "size_diff": 423
     },
     {
-      "file": "locales/fr.lua",
-      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
-      "current_size": 226686,
-      "previous_size": 222011,
-      "size_diff": 4675
+      "file": "server/custom/inventory/ox.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 6267,
+      "previous_size": 3528,
+      "size_diff": 2739
     },
     {
-      "file": "server/events.lua",
-      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
-      "current_size": 11783,
-      "previous_size": 10860,
-      "size_diff": 923
+      "file": "server/functions.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 27715,
+      "previous_size": 26603,
+      "size_diff": 1112
     },
     {
-      "file": "server/modules/airdrop.lua",
-      "commit_info": "b2ed406 - Add advanced doorlock admin management and airdrop rate limiting",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b2ed406",
-      "current_size": 10048,
-      "previous_size": 9315,
-      "size_diff": 733
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 109659,
+      "previous_size": 105903,
+      "size_diff": 3756
+    },
+    {
+      "file": "server/modules/crew.lua",
+      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
+      "current_size": 10877,
+      "previous_size": 9691,
+      "size_diff": 1186
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.320-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.321-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3528,6 +3528,35 @@ locales/fr.lua: Add advanced doorlock admin management and airdrop rate limiting
 server/events.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
 
 server/modules/airdrop.lua: Add advanced doorlock admin management and airdrop rate limiting by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.321</strong> – 2025-10-16 19:52</summary>
+
+## Changelog for v1.2.321
+
+client/modules/showdata/crew.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+config/config.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+server/custom/crew/fallback.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+server/custom/crew/hrs_base_building.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+server/custom/framework/esx.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+server/custom/framework/qb.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+server/custom/inventory/ox.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+server/functions.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+server/modules/callbacks.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+server/modules/crew.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
 
 
 
