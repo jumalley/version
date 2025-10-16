@@ -1,89 +1,57 @@
 {
-  "version": "1.2.321",
+  "version": "1.2.322",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/crew.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 47232,
-      "previous_size": 46102,
-      "size_diff": 1130
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
+      "current_size": 35841,
+      "previous_size": 29648,
+      "size_diff": 6193
+    },
+    {
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
+      "current_size": 46043,
+      "previous_size": 44850,
+      "size_diff": 1193
     },
     {
       "file": "config/config.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 20659,
-      "previous_size": 20333,
-      "size_diff": 326
+      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
+      "current_size": 20660,
+      "previous_size": 20659,
+      "size_diff": 1
     },
     {
-      "file": "server/custom/crew/fallback.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 2484,
-      "previous_size": 0,
-      "size_diff": 2484
+      "file": "locales/en.lua",
+      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
+      "current_size": 224022,
+      "previous_size": 223430,
+      "size_diff": 592
     },
     {
       "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 16834,
-      "previous_size": 14741,
-      "size_diff": 2093
-    },
-    {
-      "file": "server/custom/framework/esx.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 11034,
-      "previous_size": 10664,
-      "size_diff": 370
-    },
-    {
-      "file": "server/custom/framework/qb.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 8070,
-      "previous_size": 7647,
-      "size_diff": 423
-    },
-    {
-      "file": "server/custom/inventory/ox.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 6267,
-      "previous_size": 3528,
-      "size_diff": 2739
-    },
-    {
-      "file": "server/functions.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 27715,
-      "previous_size": 26603,
-      "size_diff": 1112
+      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
+      "current_size": 17226,
+      "previous_size": 16834,
+      "size_diff": 392
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 109659,
-      "previous_size": 105903,
-      "size_diff": 3756
-    },
-    {
-      "file": "server/modules/crew.lua",
-      "commit_info": "c90f943 - Improve crew and admin weapon handling, add fallbacks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c90f943",
-      "current_size": 10877,
-      "previous_size": 9691,
-      "size_diff": 1186
+      "commit_info": "00f8752 - Enhance admin menu with crew and entity debug features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00f8752",
+      "current_size": 110103,
+      "previous_size": 109659,
+      "size_diff": 444
     }
   ]
 }

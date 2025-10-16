@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.321-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.322-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3557,6 +3557,27 @@ server/functions.lua: Improve crew and admin weapon handling, add fallbacks by j
 server/modules/callbacks.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
 
 server/modules/crew.lua: Improve crew and admin weapon handling, add fallbacks by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.322</strong> – 2025-10-16 20:12</summary>
+
+## Changelog for v1.2.322
+
+client/modules/adminduty.lua: Enhance admin menu with crew and entity debug features by jumalley
+
+client/modules/onlineplayers.lua: Enhance admin menu with crew and entity debug features by jumalley
+
+config/config.lua: Enhance admin menu with crew and entity debug features by jumalley
+
+locales/en.lua: Enhance admin menu with crew and entity debug features by jumalley
+
+server/custom/crew/hrs_base_building.lua: Enhance admin menu with crew and entity debug features by jumalley
+
+server/modules/callbacks.lua: Enhance admin menu with crew and entity debug features by jumalley
 
 
 
