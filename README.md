@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.327-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.328-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3695,6 +3695,97 @@ locales/en.lua: Enhance crew member info and rcore integration feedback by jumal
 locales/fr.lua: Enhance crew member info and rcore integration feedback by jumalley
 
 server/custom/crew/hrs_base_building.lua: Enhance crew member info and rcore integration feedback by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.328</strong> – 2025-10-21 20:29</summary>
+
+## Changelog for v1.2.328
+
+TESTING_CHECKLIST.md: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/custom/crew/hrs_crew.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/custom/inventory/core.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/custom/inventory/ox.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/custom/inventory/qs.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/functions.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/adminduty.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/crew.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/main.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/modes/modes.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/modes/spectate.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/onlineplayers.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/ped_preview.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/rcore_integration.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/settings/preferences.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/show.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/showdata/crew.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/showdata/houses.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/showdata/inventory.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/modules/showdata/main.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+client/utils.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+config/cfg/server.cfg.example: Add HRS Crew integration and improve inventory blocking by jumalley
+
+config/config.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+config/detect.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+config/perms.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+config/webhooks.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+locales/en.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+locales/fr.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/custom/crew/fallback.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/custom/crew/hrs_base_building.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/custom/framework/esx.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/custom/framework/qb.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/custom/inventory/core.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/custom/inventory/ox.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/custom/inventory/qs.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/events.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/functions.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/modules/callbacks.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/modules/commands.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/modules/inventory.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+server/startup_manager.lua: Add HRS Crew integration and improve inventory blocking by jumalley
 
 
 
