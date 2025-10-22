@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.331-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.332-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3843,6 +3843,27 @@ server/custom/crew/hrs_base_building.lua: Enhance HRS Base Building admin integr
 server/custom/report/rcore_report.lua: Enhance HRS Base Building admin integration by jumalley
 
 server/modules/airdrop.lua: Enhance HRS Base Building admin integration by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.332</strong> – 2025-10-22 22:19</summary>
+
+## Changelog for v1.2.332
+
+client/custom/crew/hrs_crew.lua: Refactor and expand HRS crew management features by jumalley
+
+client/modules/onlineplayers.lua: Refactor and expand HRS crew management features by jumalley
+
+locales/en.lua: Refactor and expand HRS crew management features by jumalley
+
+locales/fr.lua: Refactor and expand HRS crew management features by jumalley
+
+server/custom/report/rcore_report.lua: Refactor and expand HRS crew management features by jumalley
+
+server/modules/callbacks.lua: Refactor and expand HRS crew management features by jumalley
 
 
 

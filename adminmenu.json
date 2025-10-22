@@ -1,5 +1,5 @@
 {
-  "version": "1.2.331",
+  "version": "1.2.332",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,67 +7,51 @@
   "file_changes": [
     {
       "file": "client/custom/crew/hrs_crew.lua",
-      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
-      "current_size": 12840,
-      "previous_size": 5992,
-      "size_diff": 6848
+      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
+      "current_size": 51646,
+      "previous_size": 12840,
+      "size_diff": 38806
     },
     {
-      "file": "config/config.lua",
-      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
-      "current_size": 23434,
-      "previous_size": 23824,
-      "size_diff": -390
-    },
-    {
-      "file": "config/hrs_airdrop.lua",
-      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
-      "current_size": 5576,
-      "previous_size": 5674,
-      "size_diff": -98
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
+      "current_size": 46641,
+      "previous_size": 107138,
+      "size_diff": -60497
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
-      "current_size": 236204,
-      "previous_size": 234514,
-      "size_diff": 1690
+      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
+      "current_size": 236284,
+      "previous_size": 236204,
+      "size_diff": 80
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
-      "current_size": 241315,
-      "previous_size": 239433,
-      "size_diff": 1882
-    },
-    {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
-      "current_size": 30274,
-      "previous_size": 20833,
-      "size_diff": 9441
+      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
+      "current_size": 241391,
+      "previous_size": 241315,
+      "size_diff": 76
     },
     {
       "file": "server/custom/report/rcore_report.lua",
-      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
-      "current_size": 4947,
-      "previous_size": 5027,
-      "size_diff": -80
+      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
+      "current_size": 1347,
+      "previous_size": 4947,
+      "size_diff": -3600
     },
     {
-      "file": "server/modules/airdrop.lua",
-      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
-      "current_size": 20043,
-      "previous_size": 20145,
-      "size_diff": -102
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
+      "current_size": 112839,
+      "previous_size": 111971,
+      "size_diff": 868
     }
   ]
 }
