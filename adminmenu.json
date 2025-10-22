@@ -1,57 +1,17 @@
 {
-  "version": "1.2.332",
+  "version": "1.2.333",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/crew/hrs_crew.lua",
-      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
-      "current_size": 51646,
-      "previous_size": 12840,
-      "size_diff": 38806
-    },
-    {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
-      "current_size": 46641,
-      "previous_size": 107138,
-      "size_diff": -60497
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
-      "current_size": 236284,
-      "previous_size": 236204,
-      "size_diff": 80
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
-      "current_size": 241391,
-      "previous_size": 241315,
-      "size_diff": 76
-    },
-    {
-      "file": "server/custom/report/rcore_report.lua",
-      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
-      "current_size": 1347,
-      "previous_size": 4947,
-      "size_diff": -3600
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "bf28492 - Refactor and expand HRS crew management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/bf28492",
-      "current_size": 112839,
-      "previous_size": 111971,
-      "size_diff": 868
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "168ede6 - Refactor crew menu navigation and remove back buttons",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/168ede6",
+      "current_size": 44493,
+      "previous_size": 46852,
+      "size_diff": -2359
     }
   ]
 }

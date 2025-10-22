@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.332-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.333-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3864,6 +3864,17 @@ locales/fr.lua: Refactor and expand HRS crew management features by jumalley
 server/custom/report/rcore_report.lua: Refactor and expand HRS crew management features by jumalley
 
 server/modules/callbacks.lua: Refactor and expand HRS crew management features by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.333</strong> – 2025-10-22 22:32</summary>
+
+## Changelog for v1.2.333
+
+client/modules/showdata/crew.lua: Refactor crew menu navigation and remove back buttons by jumalley
 
 
 
