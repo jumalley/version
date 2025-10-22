@@ -1,25 +1,73 @@
 {
-  "version": "1.2.330",
+  "version": "1.2.331",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/main.lua",
-      "commit_info": "6f788d1 - Remove HRS Crew integration and fix weapon key logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6f788d1",
-      "current_size": 4410,
-      "previous_size": 5182,
-      "size_diff": -772
+      "file": "client/custom/crew/hrs_crew.lua",
+      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
+      "current_size": 12840,
+      "previous_size": 5992,
+      "size_diff": 6848
     },
     {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "6f788d1 - Remove HRS Crew integration and fix weapon key logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6f788d1",
-      "current_size": 111971,
-      "previous_size": 111733,
-      "size_diff": 238
+      "file": "config/config.lua",
+      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
+      "current_size": 23434,
+      "previous_size": 23824,
+      "size_diff": -390
+    },
+    {
+      "file": "config/hrs_airdrop.lua",
+      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
+      "current_size": 5576,
+      "previous_size": 5674,
+      "size_diff": -98
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
+      "current_size": 236204,
+      "previous_size": 234514,
+      "size_diff": 1690
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
+      "current_size": 241315,
+      "previous_size": 239433,
+      "size_diff": 1882
+    },
+    {
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
+      "current_size": 30274,
+      "previous_size": 20833,
+      "size_diff": 9441
+    },
+    {
+      "file": "server/custom/report/rcore_report.lua",
+      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
+      "current_size": 4947,
+      "previous_size": 5027,
+      "size_diff": -80
+    },
+    {
+      "file": "server/modules/airdrop.lua",
+      "commit_info": "71df2a5 - Enhance HRS Base Building admin integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/71df2a5",
+      "current_size": 20043,
+      "previous_size": 20145,
+      "size_diff": -102
     }
   ]
 }
