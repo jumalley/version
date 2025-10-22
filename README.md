@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.329-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.330-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3805,6 +3805,19 @@ locales/en.lua: Integrate HRS crew management with admin menu by jumalley
 locales/fr.lua: Integrate HRS crew management with admin menu by jumalley
 
 server/custom/crew/hrs_base_building.lua: Integrate HRS crew management with admin menu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.330</strong> – 2025-10-22 19:40</summary>
+
+## Changelog for v1.2.330
+
+client/modules/main.lua: Remove HRS Crew integration and fix weapon key logging by jumalley
+
+server/modules/callbacks.lua: Remove HRS Crew integration and fix weapon key logging by jumalley
 
 
 

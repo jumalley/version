@@ -1,49 +1,25 @@
 {
-  "version": "1.2.329",
+  "version": "1.2.330",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/crew/hrs_crew.lua",
-      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
-      "current_size": 5992,
-      "previous_size": 8256,
-      "size_diff": -2264
+      "file": "client/modules/main.lua",
+      "commit_info": "6f788d1 - Remove HRS Crew integration and fix weapon key logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6f788d1",
+      "current_size": 4410,
+      "previous_size": 5182,
+      "size_diff": -772
     },
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
-      "current_size": 107138,
-      "previous_size": 46036,
-      "size_diff": 61102
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
-      "current_size": 234514,
-      "previous_size": 228128,
-      "size_diff": 6386
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
-      "current_size": 239433,
-      "previous_size": 232069,
-      "size_diff": 7364
-    },
-    {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
-      "current_size": 20833,
-      "previous_size": 7953,
-      "size_diff": 12880
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "6f788d1 - Remove HRS Crew integration and fix weapon key logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6f788d1",
+      "current_size": 111971,
+      "previous_size": 111733,
+      "size_diff": 238
     }
   ]
 }
