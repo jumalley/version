@@ -1,337 +1,49 @@
 {
-  "version": "1.2.328",
+  "version": "1.2.329",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "TESTING_CHECKLIST.md",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 0,
-      "previous_size": 9516,
-      "size_diff": -9516
-    },
-    {
       "file": "client/custom/crew/hrs_crew.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 8256,
-      "previous_size": 0,
-      "size_diff": 8256
-    },
-    {
-      "file": "client/custom/inventory/core.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 1177,
-      "previous_size": 552,
-      "size_diff": 625
-    },
-    {
-      "file": "client/custom/inventory/ox.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 3436,
-      "previous_size": 947,
-      "size_diff": 2489
-    },
-    {
-      "file": "client/custom/inventory/qs.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 1409,
-      "previous_size": 934,
-      "size_diff": 475
-    },
-    {
-      "file": "client/functions.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 137201,
-      "previous_size": 137202,
-      "size_diff": -1
-    },
-    {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 41462,
-      "previous_size": 40699,
-      "size_diff": 763
-    },
-    {
-      "file": "client/modules/crew.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 15522,
-      "previous_size": 15519,
-      "size_diff": 3
-    },
-    {
-      "file": "client/modules/main.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 5182,
-      "previous_size": 4410,
-      "size_diff": 772
-    },
-    {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 27884,
-      "previous_size": 27647,
-      "size_diff": 237
-    },
-    {
-      "file": "client/modules/modes/spectate.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 38263,
-      "previous_size": 34559,
-      "size_diff": 3704
+      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
+      "current_size": 5992,
+      "previous_size": 8256,
+      "size_diff": -2264
     },
     {
       "file": "client/modules/onlineplayers.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 46036,
-      "previous_size": 46043,
-      "size_diff": -7
-    },
-    {
-      "file": "client/modules/ped_preview.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 18889,
-      "previous_size": 45832,
-      "size_diff": -26943
-    },
-    {
-      "file": "client/modules/rcore_integration.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 2704,
-      "previous_size": 2488,
-      "size_diff": 216
-    },
-    {
-      "file": "client/modules/settings/preferences.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 11193,
-      "previous_size": 10898,
-      "size_diff": 295
-    },
-    {
-      "file": "client/modules/show.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 8746,
-      "previous_size": 8092,
-      "size_diff": 654
-    },
-    {
-      "file": "client/modules/showdata/crew.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 46852,
-      "previous_size": 47232,
-      "size_diff": -380
-    },
-    {
-      "file": "client/modules/showdata/houses.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 12248,
-      "previous_size": 12607,
-      "size_diff": -359
-    },
-    {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 46649,
-      "previous_size": 43924,
-      "size_diff": 2725
-    },
-    {
-      "file": "client/modules/showdata/main.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 9186,
-      "previous_size": 9187,
-      "size_diff": -1
-    },
-    {
-      "file": "client/utils.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 15757,
-      "previous_size": 15414,
-      "size_diff": 343
-    },
-    {
-      "file": "config/cfg/server.cfg.example",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 3199,
-      "previous_size": 0,
-      "size_diff": 3199
-    },
-    {
-      "file": "config/config.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 23824,
-      "previous_size": 20660,
-      "size_diff": 3164
-    },
-    {
-      "file": "config/detect.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 15050,
-      "previous_size": 14365,
-      "size_diff": 685
-    },
-    {
-      "file": "config/perms.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 8837,
-      "previous_size": 8788,
-      "size_diff": 49
-    },
-    {
-      "file": "config/webhooks.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 1511,
-      "previous_size": 1286,
-      "size_diff": 225
+      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
+      "current_size": 107138,
+      "previous_size": 46036,
+      "size_diff": 61102
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 228128,
-      "previous_size": 226209,
-      "size_diff": 1919
+      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
+      "current_size": 234514,
+      "previous_size": 228128,
+      "size_diff": 6386
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 232069,
-      "previous_size": 228136,
-      "size_diff": 3933
-    },
-    {
-      "file": "server/custom/crew/fallback.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 2669,
-      "previous_size": 2484,
-      "size_diff": 185
+      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
+      "current_size": 239433,
+      "previous_size": 232069,
+      "size_diff": 7364
     },
     {
       "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 7953,
-      "previous_size": 17298,
-      "size_diff": -9345
-    },
-    {
-      "file": "server/custom/framework/esx.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 11033,
-      "previous_size": 11034,
-      "size_diff": -1
-    },
-    {
-      "file": "server/custom/framework/qb.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 8069,
-      "previous_size": 8070,
-      "size_diff": -1
-    },
-    {
-      "file": "server/custom/inventory/core.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 2911,
-      "previous_size": 403,
-      "size_diff": 2508
-    },
-    {
-      "file": "server/custom/inventory/ox.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 12358,
-      "previous_size": 6267,
-      "size_diff": 6091
-    },
-    {
-      "file": "server/custom/inventory/qs.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 4607,
-      "previous_size": 1278,
-      "size_diff": 3329
-    },
-    {
-      "file": "server/events.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 12435,
-      "previous_size": 11783,
-      "size_diff": 652
-    },
-    {
-      "file": "server/functions.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 34789,
-      "previous_size": 27715,
-      "size_diff": 7074
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 111733,
-      "previous_size": 112001,
-      "size_diff": -268
-    },
-    {
-      "file": "server/modules/commands.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 30973,
-      "previous_size": 30771,
-      "size_diff": 202
-    },
-    {
-      "file": "server/modules/inventory.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 15169,
-      "previous_size": 12844,
-      "size_diff": 2325
-    },
-    {
-      "file": "server/startup_manager.lua",
-      "commit_info": "197df30 - Add HRS Crew integration and improve inventory blocking",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/197df30",
-      "current_size": 12713,
-      "previous_size": 11900,
-      "size_diff": 813
+      "commit_info": "f5c12b7 - Integrate HRS crew management with admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f5c12b7",
+      "current_size": 20833,
+      "previous_size": 7953,
+      "size_diff": 12880
     }
   ]
 }

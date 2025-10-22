@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.328-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.329-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3786,6 +3786,25 @@ server/modules/commands.lua: Add HRS Crew integration and improve inventory bloc
 server/modules/inventory.lua: Add HRS Crew integration and improve inventory blocking by jumalley
 
 server/startup_manager.lua: Add HRS Crew integration and improve inventory blocking by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.329</strong> – 2025-10-22 18:10</summary>
+
+## Changelog for v1.2.329
+
+client/custom/crew/hrs_crew.lua: Integrate HRS crew management with admin menu by jumalley
+
+client/modules/onlineplayers.lua: Integrate HRS crew management with admin menu by jumalley
+
+locales/en.lua: Integrate HRS crew management with admin menu by jumalley
+
+locales/fr.lua: Integrate HRS crew management with admin menu by jumalley
+
+server/custom/crew/hrs_base_building.lua: Integrate HRS crew management with admin menu by jumalley
 
 
 
