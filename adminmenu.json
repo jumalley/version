@@ -1,17 +1,65 @@
 {
-  "version": "1.2.333",
+  "version": "1.2.334",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/crew.lua",
-      "commit_info": "168ede6 - Refactor crew menu navigation and remove back buttons",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/168ede6",
-      "current_size": 44493,
-      "previous_size": 46852,
-      "size_diff": -2359
+      "file": "client/custom/inventory/ox.lua",
+      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
+      "current_size": 4239,
+      "previous_size": 3436,
+      "size_diff": 803
+    },
+    {
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
+      "current_size": 49906,
+      "previous_size": 41462,
+      "size_diff": 8444
+    },
+    {
+      "file": "client/modules/doorlock_handlers.lua",
+      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
+      "current_size": 30586,
+      "previous_size": 29449,
+      "size_diff": 1137
+    },
+    {
+      "file": "client/modules/ped_preview.lua",
+      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
+      "current_size": 19100,
+      "previous_size": 18889,
+      "size_diff": 211
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
+      "current_size": 239167,
+      "previous_size": 236284,
+      "size_diff": 2883
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
+      "current_size": 245623,
+      "previous_size": 241391,
+      "size_diff": 4232
+    },
+    {
+      "file": "server/custom/inventory/ox.lua",
+      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
+      "current_size": 13679,
+      "previous_size": 12358,
+      "size_diff": 1321
     }
   ]
 }
