@@ -1,65 +1,33 @@
 {
-  "version": "1.2.334",
+  "version": "1.2.335",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/inventory/ox.lua",
-      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
-      "current_size": 4239,
-      "previous_size": 3436,
-      "size_diff": 803
+      "file": "client/custom/crew/hrs_crew.lua",
+      "commit_info": "fc8e38b - Enhance HRS prop detection and activation handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fc8e38b",
+      "current_size": 54769,
+      "previous_size": 51646,
+      "size_diff": 3123
     },
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
-      "current_size": 49906,
-      "previous_size": 41462,
-      "size_diff": 8444
+      "commit_info": "fc8e38b - Enhance HRS prop detection and activation handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fc8e38b",
+      "current_size": 51822,
+      "previous_size": 49906,
+      "size_diff": 1916
     },
     {
-      "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
-      "current_size": 30586,
-      "previous_size": 29449,
-      "size_diff": 1137
-    },
-    {
-      "file": "client/modules/ped_preview.lua",
-      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
-      "current_size": 19100,
-      "previous_size": 18889,
-      "size_diff": 211
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
-      "current_size": 239167,
-      "previous_size": 236284,
-      "size_diff": 2883
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
-      "current_size": 245623,
-      "previous_size": 241391,
-      "size_diff": 4232
-    },
-    {
-      "file": "server/custom/inventory/ox.lua",
-      "commit_info": "f4b52ed - Enhance admin entity debug and inventory controls",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f4b52ed",
-      "current_size": 13679,
-      "previous_size": 12358,
-      "size_diff": 1321
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "fc8e38b - Enhance HRS prop detection and activation handling",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fc8e38b",
+      "current_size": 34611,
+      "previous_size": 30274,
+      "size_diff": 4337
     }
   ]
 }

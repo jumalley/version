@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.334-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.335-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3898,6 +3898,21 @@ locales/en.lua: Enhance admin entity debug and inventory controls by jumalley
 locales/fr.lua: Enhance admin entity debug and inventory controls by jumalley
 
 server/custom/inventory/ox.lua: Enhance admin entity debug and inventory controls by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.335</strong> – 2025-10-23 20:48</summary>
+
+## Changelog for v1.2.335
+
+client/custom/crew/hrs_crew.lua: Enhance HRS prop detection and activation handling by jumalley
+
+client/modules/adminduty.lua: Enhance HRS prop detection and activation handling by jumalley
+
+server/custom/crew/hrs_base_building.lua: Enhance HRS prop detection and activation handling by jumalley
 
 
 
