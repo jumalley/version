@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.337-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.338-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3949,6 +3949,19 @@ server/modules/commands.lua: Add granular permission checks to admin features by
 locales/fr.lua: Update admin menu translations and simplify Halloween troll logic by jumalley
 
 server/modules/callbacks.lua: Update admin menu translations and simplify Halloween troll logic by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.338</strong> – 2025-10-24 22:43</summary>
+
+## Changelog for v1.2.338
+
+client/modules/doorlock_handlers.lua: Refactor doorlock handlers to use door IDs only by jumalley
+
+server/custom/doorlock/ox_doorlock.lua: Refactor doorlock handlers to use door IDs only by jumalley
 
 
 

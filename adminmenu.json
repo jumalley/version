@@ -1,25 +1,25 @@
 {
-  "version": "1.2.337",
+  "version": "1.2.338",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "locales/fr.lua",
-      "commit_info": "481a02b - Update admin menu translations and simplify Halloween troll logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/481a02b",
-      "current_size": 247553,
-      "previous_size": 247299,
-      "size_diff": 254
+      "file": "client/modules/doorlock_handlers.lua",
+      "commit_info": "da42c39 - Refactor doorlock handlers to use door IDs only",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/da42c39",
+      "current_size": 26173,
+      "previous_size": 30586,
+      "size_diff": -4413
     },
     {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "481a02b - Update admin menu translations and simplify Halloween troll logic",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/481a02b",
-      "current_size": 110582,
-      "previous_size": 112839,
-      "size_diff": -2257
+      "file": "server/custom/doorlock/ox_doorlock.lua",
+      "commit_info": "da42c39 - Refactor doorlock handlers to use door IDs only",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/da42c39",
+      "current_size": 7784,
+      "previous_size": 5744,
+      "size_diff": 2040
     }
   ]
 }
