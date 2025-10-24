@@ -1,33 +1,65 @@
 {
-  "version": "1.2.335",
+  "version": "1.2.336",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/crew/hrs_crew.lua",
-      "commit_info": "fc8e38b - Enhance HRS prop detection and activation handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/fc8e38b",
-      "current_size": 54769,
-      "previous_size": 51646,
-      "size_diff": 3123
-    },
-    {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "fc8e38b - Enhance HRS prop detection and activation handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/fc8e38b",
-      "current_size": 51822,
-      "previous_size": 49906,
-      "size_diff": 1916
+      "commit_info": "3374fd7 - Add granular permission checks to admin features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
+      "current_size": 54946,
+      "previous_size": 51822,
+      "size_diff": 3124
     },
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "fc8e38b - Enhance HRS prop detection and activation handling",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/fc8e38b",
-      "current_size": 34611,
-      "previous_size": 30274,
-      "size_diff": 4337
+      "file": "client/modules/ped_preview.lua",
+      "commit_info": "3374fd7 - Add granular permission checks to admin features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
+      "current_size": 27149,
+      "previous_size": 19100,
+      "size_diff": 8049
+    },
+    {
+      "file": "client/modules/showdata/inventory.lua",
+      "commit_info": "3374fd7 - Add granular permission checks to admin features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
+      "current_size": 48277,
+      "previous_size": 46649,
+      "size_diff": 1628
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "3374fd7 - Add granular permission checks to admin features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
+      "current_size": 9504,
+      "previous_size": 8837,
+      "size_diff": 667
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "3374fd7 - Add granular permission checks to admin features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
+      "current_size": 240601,
+      "previous_size": 239167,
+      "size_diff": 1434
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "3374fd7 - Add granular permission checks to admin features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
+      "current_size": 247299,
+      "previous_size": 245623,
+      "size_diff": 1676
+    },
+    {
+      "file": "server/modules/commands.lua",
+      "commit_info": "3374fd7 - Add granular permission checks to admin features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
+      "current_size": 27132,
+      "previous_size": 30973,
+      "size_diff": -3841
     }
   ]
 }

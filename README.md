@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.335-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.336-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3913,6 +3913,29 @@ client/custom/crew/hrs_crew.lua: Enhance HRS prop detection and activation handl
 client/modules/adminduty.lua: Enhance HRS prop detection and activation handling by jumalley
 
 server/custom/crew/hrs_base_building.lua: Enhance HRS prop detection and activation handling by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.336</strong> – 2025-10-24 20:49</summary>
+
+## Changelog for v1.2.336
+
+client/modules/adminduty.lua: Add granular permission checks to admin features by jumalley
+
+client/modules/ped_preview.lua: Add granular permission checks to admin features by jumalley
+
+client/modules/showdata/inventory.lua: Add granular permission checks to admin features by jumalley
+
+config/perms.lua: Add granular permission checks to admin features by jumalley
+
+locales/en.lua: Add granular permission checks to admin features by jumalley
+
+locales/fr.lua: Add granular permission checks to admin features by jumalley
+
+server/modules/commands.lua: Add granular permission checks to admin features by jumalley
 
 
 
