@@ -1,65 +1,25 @@
 {
-  "version": "1.2.336",
+  "version": "1.2.337",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "3374fd7 - Add granular permission checks to admin features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
-      "current_size": 54946,
-      "previous_size": 51822,
-      "size_diff": 3124
-    },
-    {
-      "file": "client/modules/ped_preview.lua",
-      "commit_info": "3374fd7 - Add granular permission checks to admin features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
-      "current_size": 27149,
-      "previous_size": 19100,
-      "size_diff": 8049
-    },
-    {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "3374fd7 - Add granular permission checks to admin features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
-      "current_size": 48277,
-      "previous_size": 46649,
-      "size_diff": 1628
-    },
-    {
-      "file": "config/perms.lua",
-      "commit_info": "3374fd7 - Add granular permission checks to admin features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
-      "current_size": 9504,
-      "previous_size": 8837,
-      "size_diff": 667
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "3374fd7 - Add granular permission checks to admin features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
-      "current_size": 240601,
-      "previous_size": 239167,
-      "size_diff": 1434
-    },
-    {
       "file": "locales/fr.lua",
-      "commit_info": "3374fd7 - Add granular permission checks to admin features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
-      "current_size": 247299,
-      "previous_size": 245623,
-      "size_diff": 1676
+      "commit_info": "481a02b - Update admin menu translations and simplify Halloween troll logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/481a02b",
+      "current_size": 247553,
+      "previous_size": 247299,
+      "size_diff": 254
     },
     {
-      "file": "server/modules/commands.lua",
-      "commit_info": "3374fd7 - Add granular permission checks to admin features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3374fd7",
-      "current_size": 27132,
-      "previous_size": 30973,
-      "size_diff": -3841
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "481a02b - Update admin menu translations and simplify Halloween troll logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/481a02b",
+      "current_size": 110582,
+      "previous_size": 112839,
+      "size_diff": -2257
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.336-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.337-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3936,6 +3936,19 @@ locales/en.lua: Add granular permission checks to admin features by jumalley
 locales/fr.lua: Add granular permission checks to admin features by jumalley
 
 server/modules/commands.lua: Add granular permission checks to admin features by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.337</strong> – 2025-10-24 22:08</summary>
+
+## Changelog for v1.2.337
+
+locales/fr.lua: Update admin menu translations and simplify Halloween troll logic by jumalley
+
+server/modules/callbacks.lua: Update admin menu translations and simplify Halloween troll logic by jumalley
 
 
 
