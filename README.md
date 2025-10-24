@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.338-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.339-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3962,6 +3962,21 @@ server/modules/callbacks.lua: Update admin menu translations and simplify Hallow
 client/modules/doorlock_handlers.lua: Refactor doorlock handlers to use door IDs only by jumalley
 
 server/custom/doorlock/ox_doorlock.lua: Refactor doorlock handlers to use door IDs only by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.339</strong> – 2025-10-24 22:58</summary>
+
+## Changelog for v1.2.339
+
+server/custom/crew/hrs_base_building.lua: Add debug logs and fix AUTO_INCREMENT migrations by jumalley
+
+server/database.lua: Add debug logs and fix AUTO_INCREMENT migrations by jumalley
+
+sql/adminmenu.sql: Add debug logs and fix AUTO_INCREMENT migrations by jumalley
 
 
 

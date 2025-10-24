@@ -1,25 +1,33 @@
 {
-  "version": "1.2.338",
+  "version": "1.2.339",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "da42c39 - Refactor doorlock handlers to use door IDs only",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/da42c39",
-      "current_size": 26173,
-      "previous_size": 30586,
-      "size_diff": -4413
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "fb2b952 - Add debug logs and fix AUTO_INCREMENT migrations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fb2b952",
+      "current_size": 35193,
+      "previous_size": 34611,
+      "size_diff": 582
     },
     {
-      "file": "server/custom/doorlock/ox_doorlock.lua",
-      "commit_info": "da42c39 - Refactor doorlock handlers to use door IDs only",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/da42c39",
-      "current_size": 7784,
-      "previous_size": 5744,
-      "size_diff": 2040
+      "file": "server/database.lua",
+      "commit_info": "fb2b952 - Add debug logs and fix AUTO_INCREMENT migrations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fb2b952",
+      "current_size": 32863,
+      "previous_size": 31071,
+      "size_diff": 1792
+    },
+    {
+      "file": "sql/adminmenu.sql",
+      "commit_info": "fb2b952 - Add debug logs and fix AUTO_INCREMENT migrations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/fb2b952",
+      "current_size": 6836,
+      "previous_size": 6697,
+      "size_diff": 139
     }
   ]
 }
