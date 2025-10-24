@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.339-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.340-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -3977,6 +3977,19 @@ server/custom/crew/hrs_base_building.lua: Add debug logs and fix AUTO_INCREMENT 
 server/database.lua: Add debug logs and fix AUTO_INCREMENT migrations by jumalley
 
 sql/adminmenu.sql: Add debug logs and fix AUTO_INCREMENT migrations by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.340</strong> – 2025-10-24 23:10</summary>
+
+## Changelog for v1.2.340
+
+config/cfg/adminmenu_main_perms.cfg: Add detailed admin permissions and permission checks by jumalley
+
+server/modules/callbacks.lua: Add detailed admin permissions and permission checks by jumalley
 
 
 

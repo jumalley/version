@@ -1,33 +1,25 @@
 {
-  "version": "1.2.339",
+  "version": "1.2.340",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "fb2b952 - Add debug logs and fix AUTO_INCREMENT migrations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/fb2b952",
-      "current_size": 35193,
-      "previous_size": 34611,
-      "size_diff": 582
+      "file": "config/cfg/adminmenu_main_perms.cfg",
+      "commit_info": "3bca7ef - Add detailed admin permissions and permission checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3bca7ef",
+      "current_size": 5191,
+      "previous_size": 648,
+      "size_diff": 4543
     },
     {
-      "file": "server/database.lua",
-      "commit_info": "fb2b952 - Add debug logs and fix AUTO_INCREMENT migrations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/fb2b952",
-      "current_size": 32863,
-      "previous_size": 31071,
-      "size_diff": 1792
-    },
-    {
-      "file": "sql/adminmenu.sql",
-      "commit_info": "fb2b952 - Add debug logs and fix AUTO_INCREMENT migrations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/fb2b952",
-      "current_size": 6836,
-      "previous_size": 6697,
-      "size_diff": 139
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "3bca7ef - Add detailed admin permissions and permission checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3bca7ef",
+      "current_size": 110921,
+      "previous_size": 110582,
+      "size_diff": 339
     }
   ]
 }
