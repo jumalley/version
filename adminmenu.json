@@ -1,25 +1,17 @@
 {
-  "version": "1.2.340",
+  "version": "1.2.341",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/cfg/adminmenu_main_perms.cfg",
-      "commit_info": "3bca7ef - Add detailed admin permissions and permission checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3bca7ef",
-      "current_size": 5191,
-      "previous_size": 648,
-      "size_diff": 4543
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "3bca7ef - Add detailed admin permissions and permission checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3bca7ef",
-      "current_size": 110921,
-      "previous_size": 110582,
-      "size_diff": 339
+      "file": "server/database.lua",
+      "commit_info": "c98144b - Improve AUTO_INCREMENT migration for id columns",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c98144b",
+      "current_size": 33452,
+      "previous_size": 32863,
+      "size_diff": 589
     }
   ]
 }
