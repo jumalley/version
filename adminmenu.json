@@ -1,5 +1,5 @@
 {
-  "version": "1.2.341",
+  "version": "1.2.342",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "server/database.lua",
-      "commit_info": "c98144b - Improve AUTO_INCREMENT migration for id columns",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c98144b",
-      "current_size": 33452,
-      "previous_size": 32863,
-      "size_diff": 589
+      "commit_info": "123f624 - Add flag to control AUTO_INCREMENT migration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/123f624",
+      "current_size": 33695,
+      "previous_size": 33452,
+      "size_diff": 243
     }
   ]
 }

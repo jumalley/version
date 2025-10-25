@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.341-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.342-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4001,6 +4001,17 @@ server/modules/callbacks.lua: Add detailed admin permissions and permission chec
 ## Changelog for v1.2.341
 
 server/database.lua: Improve AUTO_INCREMENT migration for id columns by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.342</strong> – 2025-10-25 14:43</summary>
+
+## Changelog for v1.2.342
+
+server/database.lua: Add flag to control AUTO_INCREMENT migration by jumalley
 
 
 
