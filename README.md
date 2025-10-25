@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.342-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.343-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4012,6 +4012,23 @@ server/database.lua: Improve AUTO_INCREMENT migration for id columns by jumalley
 ## Changelog for v1.2.342
 
 server/database.lua: Add flag to control AUTO_INCREMENT migration by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.343</strong> – 2025-10-25 15:39</summary>
+
+## Changelog for v1.2.343
+
+config/config.lua: Improve crew integration and database migrations by jumalley
+
+config/perms.lua: Improve crew integration and database migrations by jumalley
+
+server/custom/crew/hrs_base_building.lua: Improve crew integration and database migrations by jumalley
+
+server/database.lua: Improve crew integration and database migrations by jumalley
 
 
 

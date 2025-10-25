@@ -1,17 +1,41 @@
 {
-  "version": "1.2.342",
+  "version": "1.2.343",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "config/config.lua",
+      "commit_info": "3b20220 - Improve crew integration and database migrations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b20220",
+      "current_size": 23535,
+      "previous_size": 23434,
+      "size_diff": 101
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "3b20220 - Improve crew integration and database migrations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b20220",
+      "current_size": 9582,
+      "previous_size": 9504,
+      "size_diff": 78
+    },
+    {
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "3b20220 - Improve crew integration and database migrations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b20220",
+      "current_size": 35559,
+      "previous_size": 35193,
+      "size_diff": 366
+    },
+    {
       "file": "server/database.lua",
-      "commit_info": "123f624 - Add flag to control AUTO_INCREMENT migration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/123f624",
-      "current_size": 33695,
-      "previous_size": 33452,
-      "size_diff": 243
+      "commit_info": "3b20220 - Improve crew integration and database migrations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b20220",
+      "current_size": 35899,
+      "previous_size": 33695,
+      "size_diff": 2204
     }
   ]
 }
