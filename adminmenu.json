@@ -1,41 +1,25 @@
 {
-  "version": "1.2.343",
+  "version": "1.2.344",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/config.lua",
-      "commit_info": "3b20220 - Improve crew integration and database migrations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b20220",
-      "current_size": 23535,
-      "previous_size": 23434,
-      "size_diff": 101
+      "file": "client/modules/doorlock_handlers.lua",
+      "commit_info": "5ff1787 - Refactor doorlock menu and add French translations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff1787",
+      "current_size": 24742,
+      "previous_size": 26173,
+      "size_diff": -1431
     },
     {
-      "file": "config/perms.lua",
-      "commit_info": "3b20220 - Improve crew integration and database migrations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b20220",
-      "current_size": 9582,
-      "previous_size": 9504,
-      "size_diff": 78
-    },
-    {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "3b20220 - Improve crew integration and database migrations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b20220",
-      "current_size": 35559,
-      "previous_size": 35193,
-      "size_diff": 366
-    },
-    {
-      "file": "server/database.lua",
-      "commit_info": "3b20220 - Improve crew integration and database migrations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b20220",
-      "current_size": 35899,
-      "previous_size": 33695,
-      "size_diff": 2204
+      "file": "locales/fr.lua",
+      "commit_info": "5ff1787 - Refactor doorlock menu and add French translations",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff1787",
+      "current_size": 248436,
+      "previous_size": 247553,
+      "size_diff": 883
     }
   ]
 }

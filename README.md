@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.343-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.344-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4029,6 +4029,19 @@ config/perms.lua: Improve crew integration and database migrations by jumalley
 server/custom/crew/hrs_base_building.lua: Improve crew integration and database migrations by jumalley
 
 server/database.lua: Improve crew integration and database migrations by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.344</strong> – 2025-10-25 15:59</summary>
+
+## Changelog for v1.2.344
+
+client/modules/doorlock_handlers.lua: Refactor doorlock menu and add French translations by jumalley
+
+locales/fr.lua: Refactor doorlock menu and add French translations by jumalley
 
 
 
