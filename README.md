@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.345-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.346-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4077,6 +4077,33 @@ server/modules/dragon.lua: Add entity gizmo and stinky troll features by jumalle
 server/modules/object_gizmo.lua: Add entity gizmo and stinky troll features by jumalley
 
 server/modules/stinky_troll.lua: Add entity gizmo and stinky troll features by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.346</strong> – 2025-10-27 21:15</summary>
+
+## Changelog for v1.2.346
+
+client/modules/object_gizmo.lua: Add staff inventory system and entity gizmo config by jumalley
+
+client/modules/staff_inventory.lua: Add staff inventory system and entity gizmo config by jumalley
+
+config/config.lua: Add staff inventory system and entity gizmo config by jumalley
+
+locales/en.lua: Add staff inventory system and entity gizmo config by jumalley
+
+locales/fr.lua: Add staff inventory system and entity gizmo config by jumalley
+
+server/database.lua: Add staff inventory system and entity gizmo config by jumalley
+
+server/modules/commands.lua: Add staff inventory system and entity gizmo config by jumalley
+
+server/modules/object_gizmo.lua: Add staff inventory system and entity gizmo config by jumalley
+
+server/modules/staff_inventory.lua: Add staff inventory system and entity gizmo config by jumalley
 
 
 
