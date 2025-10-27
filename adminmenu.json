@@ -1,25 +1,113 @@
 {
-  "version": "1.2.344",
+  "version": "1.2.345",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "5ff1787 - Refactor doorlock menu and add French translations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff1787",
-      "current_size": 24742,
-      "previous_size": 26173,
-      "size_diff": -1431
+      "file": "client/dataview.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 5179,
+      "previous_size": 0,
+      "size_diff": 5179
+    },
+    {
+      "file": "client/modules/object_gizmo.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 26778,
+      "previous_size": 0,
+      "size_diff": 26778
+    },
+    {
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 49465,
+      "previous_size": 46641,
+      "size_diff": 2824
+    },
+    {
+      "file": "client/modules/showdata/troll.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 8828,
+      "previous_size": 7441,
+      "size_diff": 1387
+    },
+    {
+      "file": "client/modules/stinky_troll.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 13733,
+      "previous_size": 0,
+      "size_diff": 13733
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 10283,
+      "previous_size": 9582,
+      "size_diff": 701
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 243311,
+      "previous_size": 240601,
+      "size_diff": 2710
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "5ff1787 - Refactor doorlock menu and add French translations",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff1787",
-      "current_size": 248436,
-      "previous_size": 247553,
-      "size_diff": 883
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 251445,
+      "previous_size": 248436,
+      "size_diff": 3009
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 112641,
+      "previous_size": 110921,
+      "size_diff": 1720
+    },
+    {
+      "file": "server/modules/commands.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 29773,
+      "previous_size": 27132,
+      "size_diff": 2641
+    },
+    {
+      "file": "server/modules/dragon.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 11617,
+      "previous_size": 0,
+      "size_diff": 11617
+    },
+    {
+      "file": "server/modules/object_gizmo.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 17245,
+      "previous_size": 0,
+      "size_diff": 17245
+    },
+    {
+      "file": "server/modules/stinky_troll.lua",
+      "commit_info": "ad3eb81 - Add entity gizmo and stinky troll features",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad3eb81",
+      "current_size": 11543,
+      "previous_size": 0,
+      "size_diff": 11543
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.344-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.345-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4042,6 +4042,41 @@ server/database.lua: Improve crew integration and database migrations by jumalle
 client/modules/doorlock_handlers.lua: Refactor doorlock menu and add French translations by jumalley
 
 locales/fr.lua: Refactor doorlock menu and add French translations by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.345</strong> – 2025-10-27 18:38</summary>
+
+## Changelog for v1.2.345
+
+client/dataview.lua: Add entity gizmo and stinky troll features by jumalley
+
+client/modules/object_gizmo.lua: Add entity gizmo and stinky troll features by jumalley
+
+client/modules/onlineplayers.lua: Add entity gizmo and stinky troll features by jumalley
+
+client/modules/showdata/troll.lua: Add entity gizmo and stinky troll features by jumalley
+
+client/modules/stinky_troll.lua: Add entity gizmo and stinky troll features by jumalley
+
+config/perms.lua: Add entity gizmo and stinky troll features by jumalley
+
+locales/en.lua: Add entity gizmo and stinky troll features by jumalley
+
+locales/fr.lua: Add entity gizmo and stinky troll features by jumalley
+
+server/modules/callbacks.lua: Add entity gizmo and stinky troll features by jumalley
+
+server/modules/commands.lua: Add entity gizmo and stinky troll features by jumalley
+
+server/modules/dragon.lua: Add entity gizmo and stinky troll features by jumalley
+
+server/modules/object_gizmo.lua: Add entity gizmo and stinky troll features by jumalley
+
+server/modules/stinky_troll.lua: Add entity gizmo and stinky troll features by jumalley
 
 
 
