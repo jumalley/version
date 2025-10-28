@@ -1,25 +1,33 @@
 {
-  "version": "1.2.347",
+  "version": "1.2.348",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/config.lua",
-      "commit_info": "99b014f - Update database schema and inventory logging settings",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/99b014f",
-      "current_size": 28910,
-      "previous_size": 28909,
-      "size_diff": 1
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "1627b30 - Improve door lock state handling and cleanup events",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1627b30",
+      "current_size": 31105,
+      "previous_size": 35559,
+      "size_diff": -4454
     },
     {
-      "file": "server/database.lua",
-      "commit_info": "99b014f - Update database schema and inventory logging settings",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/99b014f",
-      "current_size": 42308,
-      "previous_size": 39808,
-      "size_diff": 2500
+      "file": "server/custom/doorlock/ox_doorlock.lua",
+      "commit_info": "1627b30 - Improve door lock state handling and cleanup events",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1627b30",
+      "current_size": 9319,
+      "previous_size": 7784,
+      "size_diff": 1535
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "1627b30 - Improve door lock state handling and cleanup events",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1627b30",
+      "current_size": 12116,
+      "previous_size": 12435,
+      "size_diff": -319
     }
   ]
 }

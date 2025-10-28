@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.347-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.348-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4117,6 +4117,21 @@ server/modules/staff_inventory.lua: Add staff inventory system and entity gizmo 
 config/config.lua: Update database schema and inventory logging settings by jumalley
 
 server/database.lua: Update database schema and inventory logging settings by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.348</strong> – 2025-10-28 21:48</summary>
+
+## Changelog for v1.2.348
+
+server/custom/crew/hrs_base_building.lua: Improve door lock state handling and cleanup events by jumalley
+
+server/custom/doorlock/ox_doorlock.lua: Improve door lock state handling and cleanup events by jumalley
+
+server/events.lua: Improve door lock state handling and cleanup events by jumalley
 
 
 
