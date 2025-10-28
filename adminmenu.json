@@ -1,81 +1,25 @@
 {
-  "version": "1.2.346",
+  "version": "1.2.347",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/object_gizmo.lua",
-      "commit_info": "e329ed9 - Add staff inventory system and entity gizmo config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e329ed9",
-      "current_size": 30344,
-      "previous_size": 26778,
-      "size_diff": 3566
-    },
-    {
-      "file": "client/modules/staff_inventory.lua",
-      "commit_info": "e329ed9 - Add staff inventory system and entity gizmo config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e329ed9",
-      "current_size": 10755,
-      "previous_size": 0,
-      "size_diff": 10755
-    },
-    {
       "file": "config/config.lua",
-      "commit_info": "e329ed9 - Add staff inventory system and entity gizmo config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e329ed9",
-      "current_size": 28909,
-      "previous_size": 23535,
-      "size_diff": 5374
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "e329ed9 - Add staff inventory system and entity gizmo config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e329ed9",
-      "current_size": 248425,
-      "previous_size": 243311,
-      "size_diff": 5114
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "e329ed9 - Add staff inventory system and entity gizmo config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e329ed9",
-      "current_size": 257118,
-      "previous_size": 251445,
-      "size_diff": 5673
+      "commit_info": "99b014f - Update database schema and inventory logging settings",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/99b014f",
+      "current_size": 28910,
+      "previous_size": 28909,
+      "size_diff": 1
     },
     {
       "file": "server/database.lua",
-      "commit_info": "e329ed9 - Add staff inventory system and entity gizmo config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e329ed9",
-      "current_size": 39808,
-      "previous_size": 35899,
-      "size_diff": 3909
-    },
-    {
-      "file": "server/modules/commands.lua",
-      "commit_info": "e329ed9 - Add staff inventory system and entity gizmo config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e329ed9",
-      "current_size": 32492,
-      "previous_size": 29773,
-      "size_diff": 2719
-    },
-    {
-      "file": "server/modules/object_gizmo.lua",
-      "commit_info": "e329ed9 - Add staff inventory system and entity gizmo config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e329ed9",
-      "current_size": 16662,
-      "previous_size": 17245,
-      "size_diff": -583
-    },
-    {
-      "file": "server/modules/staff_inventory.lua",
-      "commit_info": "e329ed9 - Add staff inventory system and entity gizmo config",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e329ed9",
-      "current_size": 40428,
-      "previous_size": 0,
-      "size_diff": 40428
+      "commit_info": "99b014f - Update database schema and inventory logging settings",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/99b014f",
+      "current_size": 42308,
+      "previous_size": 39808,
+      "size_diff": 2500
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.346-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.347-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4104,6 +4104,19 @@ server/modules/commands.lua: Add staff inventory system and entity gizmo config 
 server/modules/object_gizmo.lua: Add staff inventory system and entity gizmo config by jumalley
 
 server/modules/staff_inventory.lua: Add staff inventory system and entity gizmo config by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.347</strong> – 2025-10-28 21:32</summary>
+
+## Changelog for v1.2.347
+
+config/config.lua: Update database schema and inventory logging settings by jumalley
+
+server/database.lua: Update database schema and inventory logging settings by jumalley
 
 
 
