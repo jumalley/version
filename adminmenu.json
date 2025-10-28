@@ -1,33 +1,57 @@
 {
-  "version": "1.2.348",
+  "version": "1.2.349",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "1627b30 - Improve door lock state handling and cleanup events",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1627b30",
-      "current_size": 31105,
-      "previous_size": 35559,
-      "size_diff": -4454
+      "file": "config/perms.lua",
+      "commit_info": "f495021 - Remove dragon transformation system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f495021",
+      "current_size": 10193,
+      "previous_size": 10283,
+      "size_diff": -90
     },
     {
-      "file": "server/custom/doorlock/ox_doorlock.lua",
-      "commit_info": "1627b30 - Improve door lock state handling and cleanup events",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1627b30",
-      "current_size": 9319,
-      "previous_size": 7784,
-      "size_diff": 1535
+      "file": "locales/en.lua",
+      "commit_info": "f495021 - Remove dragon transformation system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f495021",
+      "current_size": 248229,
+      "previous_size": 248425,
+      "size_diff": -196
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "f495021 - Remove dragon transformation system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f495021",
+      "current_size": 256921,
+      "previous_size": 257118,
+      "size_diff": -197
     },
     {
       "file": "server/events.lua",
-      "commit_info": "1627b30 - Improve door lock state handling and cleanup events",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1627b30",
-      "current_size": 12116,
-      "previous_size": 12435,
-      "size_diff": -319
+      "commit_info": "f495021 - Remove dragon transformation system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f495021",
+      "current_size": 11378,
+      "previous_size": 12116,
+      "size_diff": -738
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "f495021 - Remove dragon transformation system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f495021",
+      "current_size": 113159,
+      "previous_size": 112641,
+      "size_diff": 518
+    },
+    {
+      "file": "server/modules/dragon.lua",
+      "commit_info": "f495021 - Remove dragon transformation system",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f495021",
+      "current_size": 0,
+      "previous_size": 11617,
+      "size_diff": -11617
     }
   ]
 }

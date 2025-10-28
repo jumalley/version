@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.348-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.349-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4132,6 +4132,27 @@ server/custom/crew/hrs_base_building.lua: Improve door lock state handling and c
 server/custom/doorlock/ox_doorlock.lua: Improve door lock state handling and cleanup events by jumalley
 
 server/events.lua: Improve door lock state handling and cleanup events by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.349</strong> – 2025-10-28 22:03</summary>
+
+## Changelog for v1.2.349
+
+config/perms.lua: Remove dragon transformation system by jumalley
+
+locales/en.lua: Remove dragon transformation system by jumalley
+
+locales/fr.lua: Remove dragon transformation system by jumalley
+
+server/events.lua: Remove dragon transformation system by jumalley
+
+server/modules/callbacks.lua: Remove dragon transformation system by jumalley
+
+server/modules/dragon.lua: Remove dragon transformation system by jumalley
 
 
 
