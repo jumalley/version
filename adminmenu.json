@@ -1,5 +1,5 @@
 {
-  "version": "1.2.353",
+  "version": "1.2.354",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,67 +7,83 @@
   "file_changes": [
     {
       "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
-      "current_size": 25846,
-      "previous_size": 24742,
-      "size_diff": 1104
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 25655,
+      "previous_size": 25846,
+      "size_diff": -191
     },
     {
-      "file": "client/modules/object_gizmo.lua",
-      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
-      "current_size": 30205,
-      "previous_size": 30344,
-      "size_diff": -139
+      "file": "client/modules/ped_preview.lua",
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 26381,
+      "previous_size": 27149,
+      "size_diff": -768
     },
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
-      "current_size": 49450,
-      "previous_size": 49465,
-      "size_diff": -15
+      "file": "client/modules/showdata/appearance.lua",
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 19832,
+      "previous_size": 19785,
+      "size_diff": 47
     },
     {
-      "file": "client/modules/stinky_troll.lua",
-      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
-      "current_size": 13124,
-      "previous_size": 13733,
-      "size_diff": -609
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 43634,
+      "previous_size": 43221,
+      "size_diff": 413
     },
     {
-      "file": "server/custom/doorlock/ox_doorlock.lua",
-      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
-      "current_size": 10166,
-      "previous_size": 9319,
-      "size_diff": 847
+      "file": "client/modules/showdata/inventory.lua",
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 51180,
+      "previous_size": 48277,
+      "size_diff": 2903
     },
     {
-      "file": "server/modules/commands.lua",
-      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
-      "current_size": 29851,
-      "previous_size": 32492,
-      "size_diff": -2641
+      "file": "client/modules/showdata/permissions.lua",
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 29511,
+      "previous_size": 16047,
+      "size_diff": 13464
     },
     {
-      "file": "server/modules/object_gizmo.lua",
-      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
-      "current_size": 14818,
-      "previous_size": 16662,
-      "size_diff": -1844
+      "file": "config/options.lua",
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 21173,
+      "previous_size": 22615,
+      "size_diff": -1442
     },
     {
-      "file": "server/modules/stinky_troll.lua",
-      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
-      "current_size": 7330,
-      "previous_size": 11543,
-      "size_diff": -4213
+      "file": "locales/en.lua",
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 248308,
+      "previous_size": 248229,
+      "size_diff": 79
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 257713,
+      "previous_size": 256921,
+      "size_diff": 792
+    },
+    {
+      "file": "server/modules/inventory.lua",
+      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
+      "current_size": 16043,
+      "previous_size": 15169,
+      "size_diff": 874
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.353-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.354-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4213,6 +4213,35 @@ server/modules/commands.lua: Remove debug prints and legacy commands for menu-on
 server/modules/object_gizmo.lua: Remove debug prints and legacy commands for menu-only access by jumalley
 
 server/modules/stinky_troll.lua: Remove debug prints and legacy commands for menu-only access by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.354</strong> – 2025-10-30 21:43</summary>
+
+## Changelog for v1.2.354
+
+client/modules/doorlock_handlers.lua: Enhance admin menu UI and permissions display by jumalley
+
+client/modules/ped_preview.lua: Enhance admin menu UI and permissions display by jumalley
+
+client/modules/showdata/appearance.lua: Enhance admin menu UI and permissions display by jumalley
+
+client/modules/showdata/crew.lua: Enhance admin menu UI and permissions display by jumalley
+
+client/modules/showdata/inventory.lua: Enhance admin menu UI and permissions display by jumalley
+
+client/modules/showdata/permissions.lua: Enhance admin menu UI and permissions display by jumalley
+
+config/options.lua: Enhance admin menu UI and permissions display by jumalley
+
+locales/en.lua: Enhance admin menu UI and permissions display by jumalley
+
+locales/fr.lua: Enhance admin menu UI and permissions display by jumalley
+
+server/modules/inventory.lua: Enhance admin menu UI and permissions display by jumalley
 
 
 
