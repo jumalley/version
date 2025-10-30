@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.349-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.350-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4153,6 +4153,19 @@ server/events.lua: Remove dragon transformation system by jumalley
 server/modules/callbacks.lua: Remove dragon transformation system by jumalley
 
 server/modules/dragon.lua: Remove dragon transformation system by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.350</strong> – 2025-10-30 16:56</summary>
+
+## Changelog for v1.2.350
+
+server/custom/crew/hrs_base_building.lua: Remove crew exports and add fallback GetPlayerCrew by jumalley
+
+server/functions.lua: Remove crew exports and add fallback GetPlayerCrew by jumalley
 
 
 
