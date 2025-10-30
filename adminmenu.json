@@ -1,17 +1,17 @@
 {
-  "version": "1.2.351",
+  "version": "1.2.352",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/functions.lua",
-      "commit_info": "0ef2f82 - Remove fallback GetPlayerCrew function",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0ef2f82",
-      "current_size": 34789,
-      "previous_size": 34942,
-      "size_diff": -153
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "2208328 - Refactor crew management navigation and parameters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2208328",
+      "current_size": 43221,
+      "previous_size": 44493,
+      "size_diff": -1272
     }
   ]
 }

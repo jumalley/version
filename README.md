@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.351-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.352-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4177,6 +4177,17 @@ server/functions.lua: Remove crew exports and add fallback GetPlayerCrew by juma
 ## Changelog for v1.2.351
 
 server/functions.lua: Remove fallback GetPlayerCrew function by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.352</strong> – 2025-10-30 17:42</summary>
+
+## Changelog for v1.2.352
+
+client/modules/showdata/crew.lua: Refactor crew management navigation and parameters by jumalley
 
 
 
