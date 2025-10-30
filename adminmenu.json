@@ -1,17 +1,73 @@
 {
-  "version": "1.2.352",
+  "version": "1.2.353",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/crew.lua",
-      "commit_info": "2208328 - Refactor crew management navigation and parameters",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2208328",
-      "current_size": 43221,
-      "previous_size": 44493,
-      "size_diff": -1272
+      "file": "client/modules/doorlock_handlers.lua",
+      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
+      "current_size": 25846,
+      "previous_size": 24742,
+      "size_diff": 1104
+    },
+    {
+      "file": "client/modules/object_gizmo.lua",
+      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
+      "current_size": 30205,
+      "previous_size": 30344,
+      "size_diff": -139
+    },
+    {
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
+      "current_size": 49450,
+      "previous_size": 49465,
+      "size_diff": -15
+    },
+    {
+      "file": "client/modules/stinky_troll.lua",
+      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
+      "current_size": 13124,
+      "previous_size": 13733,
+      "size_diff": -609
+    },
+    {
+      "file": "server/custom/doorlock/ox_doorlock.lua",
+      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
+      "current_size": 10166,
+      "previous_size": 9319,
+      "size_diff": 847
+    },
+    {
+      "file": "server/modules/commands.lua",
+      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
+      "current_size": 29851,
+      "previous_size": 32492,
+      "size_diff": -2641
+    },
+    {
+      "file": "server/modules/object_gizmo.lua",
+      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
+      "current_size": 14818,
+      "previous_size": 16662,
+      "size_diff": -1844
+    },
+    {
+      "file": "server/modules/stinky_troll.lua",
+      "commit_info": "a4945cd - Remove debug prints and legacy commands for menu-only access",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a4945cd",
+      "current_size": 7330,
+      "previous_size": 11543,
+      "size_diff": -4213
     }
   ]
 }

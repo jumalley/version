@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.352-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.353-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4188,6 +4188,31 @@ server/functions.lua: Remove fallback GetPlayerCrew function by jumalley
 ## Changelog for v1.2.352
 
 client/modules/showdata/crew.lua: Refactor crew management navigation and parameters by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.353</strong> – 2025-10-30 19:07</summary>
+
+## Changelog for v1.2.353
+
+client/modules/doorlock_handlers.lua: Remove debug prints and legacy commands for menu-only access by jumalley
+
+client/modules/object_gizmo.lua: Remove debug prints and legacy commands for menu-only access by jumalley
+
+client/modules/onlineplayers.lua: Remove debug prints and legacy commands for menu-only access by jumalley
+
+client/modules/stinky_troll.lua: Remove debug prints and legacy commands for menu-only access by jumalley
+
+server/custom/doorlock/ox_doorlock.lua: Remove debug prints and legacy commands for menu-only access by jumalley
+
+server/modules/commands.lua: Remove debug prints and legacy commands for menu-only access by jumalley
+
+server/modules/object_gizmo.lua: Remove debug prints and legacy commands for menu-only access by jumalley
+
+server/modules/stinky_troll.lua: Remove debug prints and legacy commands for menu-only access by jumalley
 
 
 
