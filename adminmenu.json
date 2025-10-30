@@ -1,25 +1,17 @@
 {
-  "version": "1.2.350",
+  "version": "1.2.351",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "cb95347 - Remove crew exports and add fallback GetPlayerCrew",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cb95347",
-      "current_size": 30980,
-      "previous_size": 31105,
-      "size_diff": -125
-    },
-    {
       "file": "server/functions.lua",
-      "commit_info": "cb95347 - Remove crew exports and add fallback GetPlayerCrew",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cb95347",
-      "current_size": 34942,
-      "previous_size": 34789,
-      "size_diff": 153
+      "commit_info": "0ef2f82 - Remove fallback GetPlayerCrew function",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0ef2f82",
+      "current_size": 34789,
+      "previous_size": 34942,
+      "size_diff": -153
     }
   ]
 }
