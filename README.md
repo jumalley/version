@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.362-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.363-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4390,6 +4390,33 @@ locales/fr.lua: Add admin duty stash and ox inventory integration by jumalley
 server/custom/crew/hrs_base_building.lua: Add admin duty stash and ox inventory integration by jumalley
 
 server/custom/inventory/ox_inventory_hooks.lua: Add admin duty stash and ox inventory integration by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.363</strong> – 2025-10-31 18:28</summary>
+
+## Changelog for v1.2.363
+
+client/modules/adminduty.lua: Enhance admin duty and HRS prop management features by jumalley
+
+client/modules/settings/preferences.lua: Enhance admin duty and HRS prop management features by jumalley
+
+client/modules/staff_inventory.lua: Enhance admin duty and HRS prop management features by jumalley
+
+config/perms.lua: Enhance admin duty and HRS prop management features by jumalley
+
+locales/en.lua: Enhance admin duty and HRS prop management features by jumalley
+
+locales/fr.lua: Enhance admin duty and HRS prop management features by jumalley
+
+server/custom/crew/hrs_base_building.lua: Enhance admin duty and HRS prop management features by jumalley
+
+server/modules/object_gizmo.lua: Enhance admin duty and HRS prop management features by jumalley
+
+server/modules/staff_inventory.lua: Enhance admin duty and HRS prop management features by jumalley
 
 
 
