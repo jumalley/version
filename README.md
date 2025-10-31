@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.357-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.358-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4301,6 +4301,23 @@ client/modules/doorlock_handlers.lua: Update door controls labels and add crew m
 locales/en.lua: Update door controls labels and add crew management FR locale by jumalley
 
 locales/fr.lua: Update door controls labels and add crew management FR locale by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.358</strong> – 2025-10-31 15:07</summary>
+
+## Changelog for v1.2.358
+
+client/modules/adminduty.lua: Add HRS base building integration and crew member checks by jumalley
+
+client/modules/showdata/crew.lua: Add HRS base building integration and crew member checks by jumalley
+
+locales/en.lua: Add HRS base building integration and crew member checks by jumalley
+
+locales/fr.lua: Add HRS base building integration and crew member checks by jumalley
 
 
 

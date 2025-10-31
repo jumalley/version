@@ -1,5 +1,5 @@
 {
-  "version": "1.2.357",
+  "version": "1.2.358",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,35 +7,35 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "3811fcf - Update door controls labels and add crew management FR locale",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3811fcf",
-      "current_size": 54941,
-      "previous_size": 54946,
-      "size_diff": -5
+      "commit_info": "40ba2b9 - Add HRS base building integration and crew member checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/40ba2b9",
+      "current_size": 60737,
+      "previous_size": 54941,
+      "size_diff": 5796
     },
     {
-      "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "3811fcf - Update door controls labels and add crew management FR locale",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3811fcf",
-      "current_size": 24250,
-      "previous_size": 24195,
-      "size_diff": 55
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "40ba2b9 - Add HRS base building integration and crew member checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/40ba2b9",
+      "current_size": 46440,
+      "previous_size": 45278,
+      "size_diff": 1162
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "3811fcf - Update door controls labels and add crew management FR locale",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3811fcf",
-      "current_size": 249201,
-      "previous_size": 249206,
-      "size_diff": -5
+      "commit_info": "40ba2b9 - Add HRS base building integration and crew member checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/40ba2b9",
+      "current_size": 250064,
+      "previous_size": 249201,
+      "size_diff": 863
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "3811fcf - Update door controls labels and add crew management FR locale",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3811fcf",
-      "current_size": 259999,
-      "previous_size": 258771,
-      "size_diff": 1228
+      "commit_info": "40ba2b9 - Add HRS base building integration and crew member checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/40ba2b9",
+      "current_size": 260929,
+      "previous_size": 259999,
+      "size_diff": 930
     }
   ]
 }
