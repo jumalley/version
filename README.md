@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.361-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.362-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4367,6 +4367,29 @@ locales/en.lua: Enhance HRS prop submenu permission checks by jumalley
 locales/fr.lua: Enhance HRS prop submenu permission checks by jumalley
 
 server/custom/crew/hrs_base_building.lua: Enhance HRS prop submenu permission checks by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.362</strong> – 2025-10-31 17:51</summary>
+
+## Changelog for v1.2.362
+
+client/custom/inventory/admin_duty_stash.lua: Add admin duty stash and ox inventory integration by jumalley
+
+client/custom/inventory/ox_inventory_integration.lua: Add admin duty stash and ox inventory integration by jumalley
+
+client/modules/adminduty.lua: Add admin duty stash and ox inventory integration by jumalley
+
+locales/en.lua: Add admin duty stash and ox inventory integration by jumalley
+
+locales/fr.lua: Add admin duty stash and ox inventory integration by jumalley
+
+server/custom/crew/hrs_base_building.lua: Add admin duty stash and ox inventory integration by jumalley
+
+server/custom/inventory/ox_inventory_hooks.lua: Add admin duty stash and ox inventory integration by jumalley
 
 
 

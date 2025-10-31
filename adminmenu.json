@@ -1,41 +1,65 @@
 {
-  "version": "1.2.361",
+  "version": "1.2.362",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/custom/inventory/admin_duty_stash.lua",
+      "commit_info": "e9f98ac - Add admin duty stash and ox inventory integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9f98ac",
+      "current_size": 2053,
+      "previous_size": 0,
+      "size_diff": 2053
+    },
+    {
+      "file": "client/custom/inventory/ox_inventory_integration.lua",
+      "commit_info": "e9f98ac - Add admin duty stash and ox inventory integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9f98ac",
+      "current_size": 9298,
+      "previous_size": 0,
+      "size_diff": 9298
+    },
+    {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "3b59029 - Enhance HRS prop submenu permission checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b59029",
-      "current_size": 73630,
-      "previous_size": 70151,
-      "size_diff": 3479
+      "commit_info": "e9f98ac - Add admin duty stash and ox inventory integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9f98ac",
+      "current_size": 75843,
+      "previous_size": 73630,
+      "size_diff": 2213
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "3b59029 - Enhance HRS prop submenu permission checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b59029",
-      "current_size": 251599,
-      "previous_size": 250872,
-      "size_diff": 727
+      "commit_info": "e9f98ac - Add admin duty stash and ox inventory integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9f98ac",
+      "current_size": 254282,
+      "previous_size": 251599,
+      "size_diff": 2683
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "3b59029 - Enhance HRS prop submenu permission checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b59029",
-      "current_size": 262909,
-      "previous_size": 262097,
-      "size_diff": 812
+      "commit_info": "e9f98ac - Add admin duty stash and ox inventory integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9f98ac",
+      "current_size": 266026,
+      "previous_size": 262909,
+      "size_diff": 3117
     },
     {
       "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "3b59029 - Enhance HRS prop submenu permission checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b59029",
-      "current_size": 42831,
-      "previous_size": 34371,
-      "size_diff": 8460
+      "commit_info": "e9f98ac - Add admin duty stash and ox inventory integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9f98ac",
+      "current_size": 43129,
+      "previous_size": 42831,
+      "size_diff": 298
+    },
+    {
+      "file": "server/custom/inventory/ox_inventory_hooks.lua",
+      "commit_info": "e9f98ac - Add admin duty stash and ox inventory integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9f98ac",
+      "current_size": 5872,
+      "previous_size": 0,
+      "size_diff": 5872
     }
   ]
 }
