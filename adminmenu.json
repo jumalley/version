@@ -1,5 +1,5 @@
 {
-  "version": "1.2.360",
+  "version": "1.2.361",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,35 +7,35 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "3cf6190 - Refactor HRS prop admin menu and enhance crew info",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3cf6190",
-      "current_size": 70151,
-      "previous_size": 60737,
-      "size_diff": 9414
+      "commit_info": "3b59029 - Enhance HRS prop submenu permission checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b59029",
+      "current_size": 73630,
+      "previous_size": 70151,
+      "size_diff": 3479
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "3cf6190 - Refactor HRS prop admin menu and enhance crew info",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3cf6190",
-      "current_size": 250872,
-      "previous_size": 250502,
-      "size_diff": 370
+      "commit_info": "3b59029 - Enhance HRS prop submenu permission checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b59029",
+      "current_size": 251599,
+      "previous_size": 250872,
+      "size_diff": 727
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "3cf6190 - Refactor HRS prop admin menu and enhance crew info",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3cf6190",
-      "current_size": 262097,
-      "previous_size": 261674,
-      "size_diff": 423
+      "commit_info": "3b59029 - Enhance HRS prop submenu permission checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b59029",
+      "current_size": 262909,
+      "previous_size": 262097,
+      "size_diff": 812
     },
     {
       "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "3cf6190 - Refactor HRS prop admin menu and enhance crew info",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3cf6190",
-      "current_size": 34371,
-      "previous_size": 30980,
-      "size_diff": 3391
+      "commit_info": "3b59029 - Enhance HRS prop submenu permission checks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3b59029",
+      "current_size": 42831,
+      "previous_size": 34371,
+      "size_diff": 8460
     }
   ]
 }
