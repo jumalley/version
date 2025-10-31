@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.356-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.357-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4284,6 +4284,23 @@ server/utils.lua: Replace print statements with DebugPrint for logging by jumall
 client/modules/doorlock_handlers.lua: Refactor crew management and doorlock handlers by jumalley
 
 client/modules/showdata/crew.lua: Refactor crew management and doorlock handlers by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.357</strong> – 2025-10-31 13:58</summary>
+
+## Changelog for v1.2.357
+
+client/modules/adminduty.lua: Update door controls labels and add crew management FR locale by jumalley
+
+client/modules/doorlock_handlers.lua: Update door controls labels and add crew management FR locale by jumalley
+
+locales/en.lua: Update door controls labels and add crew management FR locale by jumalley
+
+locales/fr.lua: Update door controls labels and add crew management FR locale by jumalley
 
 
 

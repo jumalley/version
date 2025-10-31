@@ -1,25 +1,41 @@
 {
-  "version": "1.2.356",
+  "version": "1.2.357",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "43581cb - Refactor crew management and doorlock handlers",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/43581cb",
-      "current_size": 24195,
-      "previous_size": 24451,
-      "size_diff": -256
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "3811fcf - Update door controls labels and add crew management FR locale",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3811fcf",
+      "current_size": 54941,
+      "previous_size": 54946,
+      "size_diff": -5
     },
     {
-      "file": "client/modules/showdata/crew.lua",
-      "commit_info": "43581cb - Refactor crew management and doorlock handlers",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/43581cb",
-      "current_size": 45278,
-      "previous_size": 47104,
-      "size_diff": -1826
+      "file": "client/modules/doorlock_handlers.lua",
+      "commit_info": "3811fcf - Update door controls labels and add crew management FR locale",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3811fcf",
+      "current_size": 24250,
+      "previous_size": 24195,
+      "size_diff": 55
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "3811fcf - Update door controls labels and add crew management FR locale",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3811fcf",
+      "current_size": 249201,
+      "previous_size": 249206,
+      "size_diff": -5
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "3811fcf - Update door controls labels and add crew management FR locale",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3811fcf",
+      "current_size": 259999,
+      "previous_size": 258771,
+      "size_diff": 1228
     }
   ]
 }
