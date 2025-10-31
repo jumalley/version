@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.358-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.359-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4318,6 +4318,21 @@ client/modules/showdata/crew.lua: Add HRS base building integration and crew mem
 locales/en.lua: Add HRS base building integration and crew member checks by jumalley
 
 locales/fr.lua: Add HRS base building integration and crew member checks by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.359</strong> – 2025-10-31 16:01</summary>
+
+## Changelog for v1.2.359
+
+client/modules/showdata/crew.lua: Refactor crew management UI and enhance debug logging by jumalley
+
+locales/en.lua: Refactor crew management UI and enhance debug logging by jumalley
+
+locales/fr.lua: Refactor crew management UI and enhance debug logging by jumalley
 
 
 

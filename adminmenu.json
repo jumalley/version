@@ -1,41 +1,33 @@
 {
-  "version": "1.2.358",
+  "version": "1.2.359",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "40ba2b9 - Add HRS base building integration and crew member checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/40ba2b9",
-      "current_size": 60737,
-      "previous_size": 54941,
-      "size_diff": 5796
-    },
-    {
       "file": "client/modules/showdata/crew.lua",
-      "commit_info": "40ba2b9 - Add HRS base building integration and crew member checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/40ba2b9",
-      "current_size": 46440,
-      "previous_size": 45278,
-      "size_diff": 1162
+      "commit_info": "58c534c - Refactor crew management UI and enhance debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/58c534c",
+      "current_size": 49223,
+      "previous_size": 46440,
+      "size_diff": 2783
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "40ba2b9 - Add HRS base building integration and crew member checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/40ba2b9",
-      "current_size": 250064,
-      "previous_size": 249201,
-      "size_diff": 863
+      "commit_info": "58c534c - Refactor crew management UI and enhance debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/58c534c",
+      "current_size": 250502,
+      "previous_size": 250064,
+      "size_diff": 438
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "40ba2b9 - Add HRS base building integration and crew member checks",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/40ba2b9",
-      "current_size": 260929,
-      "previous_size": 259999,
-      "size_diff": 930
+      "commit_info": "58c534c - Refactor crew management UI and enhance debug logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/58c534c",
+      "current_size": 261674,
+      "previous_size": 260929,
+      "size_diff": 745
     }
   ]
 }
