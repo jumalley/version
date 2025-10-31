@@ -1,5 +1,5 @@
 {
-  "version": "1.2.355",
+  "version": "1.2.356",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,83 +7,19 @@
   "file_changes": [
     {
       "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 24451,
-      "previous_size": 25655,
-      "size_diff": -1204
-    },
-    {
-      "file": "client/modules/ped_preview.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 24042,
-      "previous_size": 26381,
-      "size_diff": -2339
-    },
-    {
-      "file": "client/modules/showdata/appearance.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 19896,
-      "previous_size": 19832,
-      "size_diff": 64
+      "commit_info": "43581cb - Refactor crew management and doorlock handlers",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/43581cb",
+      "current_size": 24195,
+      "previous_size": 24451,
+      "size_diff": -256
     },
     {
       "file": "client/modules/showdata/crew.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 47104,
-      "previous_size": 43634,
-      "size_diff": 3470
-    },
-    {
-      "file": "config/perms.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 10268,
-      "previous_size": 10193,
-      "size_diff": 75
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 249206,
-      "previous_size": 248308,
-      "size_diff": 898
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 258771,
-      "previous_size": 257713,
-      "size_diff": 1058
-    },
-    {
-      "file": "server/modules/commands.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 29856,
-      "previous_size": 29851,
-      "size_diff": 5
-    },
-    {
-      "file": "server/modules/inventory.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 16009,
-      "previous_size": 16043,
-      "size_diff": -34
-    },
-    {
-      "file": "server/utils.lua",
-      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
-      "current_size": 1830,
-      "previous_size": 1805,
-      "size_diff": 25
+      "commit_info": "43581cb - Refactor crew management and doorlock handlers",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/43581cb",
+      "current_size": 45278,
+      "previous_size": 47104,
+      "size_diff": -1826
     }
   ]
 }

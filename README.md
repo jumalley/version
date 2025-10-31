@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.355-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.356-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4271,6 +4271,19 @@ server/modules/commands.lua: Replace print statements with DebugPrint for loggin
 server/modules/inventory.lua: Replace print statements with DebugPrint for logging by jumalley
 
 server/utils.lua: Replace print statements with DebugPrint for logging by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.356</strong> – 2025-10-31 13:28</summary>
+
+## Changelog for v1.2.356
+
+client/modules/doorlock_handlers.lua: Refactor crew management and doorlock handlers by jumalley
+
+client/modules/showdata/crew.lua: Refactor crew management and doorlock handlers by jumalley
 
 
 
