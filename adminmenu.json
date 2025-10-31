@@ -1,5 +1,5 @@
 {
-  "version": "1.2.354",
+  "version": "1.2.355",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,83 +7,83 @@
   "file_changes": [
     {
       "file": "client/modules/doorlock_handlers.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 25655,
-      "previous_size": 25846,
-      "size_diff": -191
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 24451,
+      "previous_size": 25655,
+      "size_diff": -1204
     },
     {
       "file": "client/modules/ped_preview.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 26381,
-      "previous_size": 27149,
-      "size_diff": -768
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 24042,
+      "previous_size": 26381,
+      "size_diff": -2339
     },
     {
       "file": "client/modules/showdata/appearance.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 19832,
-      "previous_size": 19785,
-      "size_diff": 47
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 19896,
+      "previous_size": 19832,
+      "size_diff": 64
     },
     {
       "file": "client/modules/showdata/crew.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 43634,
-      "previous_size": 43221,
-      "size_diff": 413
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 47104,
+      "previous_size": 43634,
+      "size_diff": 3470
     },
     {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 51180,
-      "previous_size": 48277,
-      "size_diff": 2903
-    },
-    {
-      "file": "client/modules/showdata/permissions.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 29511,
-      "previous_size": 16047,
-      "size_diff": 13464
-    },
-    {
-      "file": "config/options.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 21173,
-      "previous_size": 22615,
-      "size_diff": -1442
+      "file": "config/perms.lua",
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 10268,
+      "previous_size": 10193,
+      "size_diff": 75
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 248308,
-      "previous_size": 248229,
-      "size_diff": 79
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 249206,
+      "previous_size": 248308,
+      "size_diff": 898
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 257713,
-      "previous_size": 256921,
-      "size_diff": 792
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 258771,
+      "previous_size": 257713,
+      "size_diff": 1058
+    },
+    {
+      "file": "server/modules/commands.lua",
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 29856,
+      "previous_size": 29851,
+      "size_diff": 5
     },
     {
       "file": "server/modules/inventory.lua",
-      "commit_info": "c0c774f - Enhance admin menu UI and permissions display",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c0c774f",
-      "current_size": 16043,
-      "previous_size": 15169,
-      "size_diff": 874
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 16009,
+      "previous_size": 16043,
+      "size_diff": -34
+    },
+    {
+      "file": "server/utils.lua",
+      "commit_info": "7cc629e - Replace print statements with DebugPrint for logging",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cc629e",
+      "current_size": 1830,
+      "previous_size": 1805,
+      "size_diff": 25
     }
   ]
 }

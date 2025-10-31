@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.354-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.355-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4242,6 +4242,35 @@ locales/en.lua: Enhance admin menu UI and permissions display by jumalley
 locales/fr.lua: Enhance admin menu UI and permissions display by jumalley
 
 server/modules/inventory.lua: Enhance admin menu UI and permissions display by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.355</strong> – 2025-10-31 00:04</summary>
+
+## Changelog for v1.2.355
+
+client/modules/doorlock_handlers.lua: Replace print statements with DebugPrint for logging by jumalley
+
+client/modules/ped_preview.lua: Replace print statements with DebugPrint for logging by jumalley
+
+client/modules/showdata/appearance.lua: Replace print statements with DebugPrint for logging by jumalley
+
+client/modules/showdata/crew.lua: Replace print statements with DebugPrint for logging by jumalley
+
+config/perms.lua: Replace print statements with DebugPrint for logging by jumalley
+
+locales/en.lua: Replace print statements with DebugPrint for logging by jumalley
+
+locales/fr.lua: Replace print statements with DebugPrint for logging by jumalley
+
+server/modules/commands.lua: Replace print statements with DebugPrint for logging by jumalley
+
+server/modules/inventory.lua: Replace print statements with DebugPrint for logging by jumalley
+
+server/utils.lua: Replace print statements with DebugPrint for logging by jumalley
 
 
 
