@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.359-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.360-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4333,6 +4333,23 @@ client/modules/showdata/crew.lua: Refactor crew management UI and enhance debug 
 locales/en.lua: Refactor crew management UI and enhance debug logging by jumalley
 
 locales/fr.lua: Refactor crew management UI and enhance debug logging by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.360</strong> – 2025-10-31 16:23</summary>
+
+## Changelog for v1.2.360
+
+client/modules/adminduty.lua: Refactor HRS prop admin menu and enhance crew info by jumalley
+
+locales/en.lua: Refactor HRS prop admin menu and enhance crew info by jumalley
+
+locales/fr.lua: Refactor HRS prop admin menu and enhance crew info by jumalley
+
+server/custom/crew/hrs_base_building.lua: Refactor HRS prop admin menu and enhance crew info by jumalley
 
 
 

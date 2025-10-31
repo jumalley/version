@@ -1,33 +1,41 @@
 {
-  "version": "1.2.359",
+  "version": "1.2.360",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/crew.lua",
-      "commit_info": "58c534c - Refactor crew management UI and enhance debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/58c534c",
-      "current_size": 49223,
-      "previous_size": 46440,
-      "size_diff": 2783
+      "file": "client/modules/adminduty.lua",
+      "commit_info": "3cf6190 - Refactor HRS prop admin menu and enhance crew info",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3cf6190",
+      "current_size": 70151,
+      "previous_size": 60737,
+      "size_diff": 9414
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "58c534c - Refactor crew management UI and enhance debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/58c534c",
-      "current_size": 250502,
-      "previous_size": 250064,
-      "size_diff": 438
+      "commit_info": "3cf6190 - Refactor HRS prop admin menu and enhance crew info",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3cf6190",
+      "current_size": 250872,
+      "previous_size": 250502,
+      "size_diff": 370
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "58c534c - Refactor crew management UI and enhance debug logging",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/58c534c",
-      "current_size": 261674,
-      "previous_size": 260929,
-      "size_diff": 745
+      "commit_info": "3cf6190 - Refactor HRS prop admin menu and enhance crew info",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3cf6190",
+      "current_size": 262097,
+      "previous_size": 261674,
+      "size_diff": 423
+    },
+    {
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "3cf6190 - Refactor HRS prop admin menu and enhance crew info",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3cf6190",
+      "current_size": 34371,
+      "previous_size": 30980,
+      "size_diff": 3391
     }
   ]
 }
