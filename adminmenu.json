@@ -1,5 +1,5 @@
 {
-  "version": "1.2.363",
+  "version": "1.2.364",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,75 +7,35 @@
   "file_changes": [
     {
       "file": "client/modules/adminduty.lua",
-      "commit_info": "5b4a70f - Enhance admin duty and HRS prop management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5b4a70f",
-      "current_size": 89865,
-      "previous_size": 75843,
-      "size_diff": 14022
+      "commit_info": "0325c99 - Improve HRS prop detection and update permissions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0325c99",
+      "current_size": 91137,
+      "previous_size": 89865,
+      "size_diff": 1272
     },
     {
-      "file": "client/modules/settings/preferences.lua",
-      "commit_info": "5b4a70f - Enhance admin duty and HRS prop management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5b4a70f",
-      "current_size": 11499,
-      "previous_size": 11193,
-      "size_diff": 306
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "0325c99 - Improve HRS prop detection and update permissions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0325c99",
+      "current_size": 49214,
+      "previous_size": 49223,
+      "size_diff": -9
     },
     {
-      "file": "client/modules/staff_inventory.lua",
-      "commit_info": "5b4a70f - Enhance admin duty and HRS prop management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5b4a70f",
-      "current_size": 11674,
-      "previous_size": 10755,
-      "size_diff": 919
+      "file": "config/config.lua",
+      "commit_info": "0325c99 - Improve HRS prop detection and update permissions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0325c99",
+      "current_size": 28928,
+      "previous_size": 28910,
+      "size_diff": 18
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "5b4a70f - Enhance admin duty and HRS prop management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5b4a70f",
-      "current_size": 10517,
-      "previous_size": 10268,
-      "size_diff": 249
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "5b4a70f - Enhance admin duty and HRS prop management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5b4a70f",
-      "current_size": 254524,
-      "previous_size": 254282,
-      "size_diff": 242
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "5b4a70f - Enhance admin duty and HRS prop management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5b4a70f",
-      "current_size": 266312,
-      "previous_size": 266026,
-      "size_diff": 286
-    },
-    {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "5b4a70f - Enhance admin duty and HRS prop management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5b4a70f",
-      "current_size": 36851,
-      "previous_size": 43129,
-      "size_diff": -6278
-    },
-    {
-      "file": "server/modules/object_gizmo.lua",
-      "commit_info": "5b4a70f - Enhance admin duty and HRS prop management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5b4a70f",
-      "current_size": 17524,
-      "previous_size": 14818,
-      "size_diff": 2706
-    },
-    {
-      "file": "server/modules/staff_inventory.lua",
-      "commit_info": "5b4a70f - Enhance admin duty and HRS prop management features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5b4a70f",
-      "current_size": 42123,
-      "previous_size": 40428,
-      "size_diff": 1695
+      "commit_info": "0325c99 - Improve HRS prop detection and update permissions",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0325c99",
+      "current_size": 10863,
+      "previous_size": 10517,
+      "size_diff": 346
     }
   ]
 }
