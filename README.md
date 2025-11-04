@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.364-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.365-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4434,6 +4434,23 @@ client/modules/showdata/crew.lua: Improve HRS prop detection and update permissi
 config/config.lua: Improve HRS prop detection and update permissions by jumalley
 
 config/perms.lua: Improve HRS prop detection and update permissions by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.365</strong> – 2025-11-04 20:20</summary>
+
+## Changelog for v1.2.365
+
+client/modules/showdata/crew.lua: Improve crew member error handling and add debug tools by jumalley
+
+debug_crew.lua: Improve crew member error handling and add debug tools by jumalley
+
+debug_crew_client.lua: Improve crew member error handling and add debug tools by jumalley
+
+server/custom/crew/hrs_base_building.lua: Improve crew member error handling and add debug tools by jumalley
 
 
 

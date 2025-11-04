@@ -1,41 +1,41 @@
 {
-  "version": "1.2.364",
+  "version": "1.2.365",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "0325c99 - Improve HRS prop detection and update permissions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0325c99",
-      "current_size": 91137,
-      "previous_size": 89865,
-      "size_diff": 1272
-    },
-    {
       "file": "client/modules/showdata/crew.lua",
-      "commit_info": "0325c99 - Improve HRS prop detection and update permissions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0325c99",
-      "current_size": 49214,
-      "previous_size": 49223,
-      "size_diff": -9
+      "commit_info": "02344bb - Improve crew member error handling and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/02344bb",
+      "current_size": 51025,
+      "previous_size": 49214,
+      "size_diff": 1811
     },
     {
-      "file": "config/config.lua",
-      "commit_info": "0325c99 - Improve HRS prop detection and update permissions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0325c99",
-      "current_size": 28928,
-      "previous_size": 28910,
-      "size_diff": 18
+      "file": "debug_crew.lua",
+      "commit_info": "02344bb - Improve crew member error handling and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/02344bb",
+      "current_size": 2709,
+      "previous_size": 0,
+      "size_diff": 2709
     },
     {
-      "file": "config/perms.lua",
-      "commit_info": "0325c99 - Improve HRS prop detection and update permissions",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0325c99",
-      "current_size": 10863,
-      "previous_size": 10517,
-      "size_diff": 346
+      "file": "debug_crew_client.lua",
+      "commit_info": "02344bb - Improve crew member error handling and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/02344bb",
+      "current_size": 1308,
+      "previous_size": 0,
+      "size_diff": 1308
+    },
+    {
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "02344bb - Improve crew member error handling and add debug tools",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/02344bb",
+      "current_size": 38926,
+      "previous_size": 36851,
+      "size_diff": 2075
     }
   ]
 }
