@@ -1,25 +1,33 @@
 {
-  "version": "1.2.366",
+  "version": "1.2.367",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "debug_crew.lua",
-      "commit_info": "25e5852 - Remove debug crew scripts and references",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/25e5852",
-      "current_size": 0,
-      "previous_size": 2709,
-      "size_diff": -2709
+      "file": "server/database.lua",
+      "commit_info": "ead60d7 - Add staff inventory and crash recovery database tables",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead60d7",
+      "current_size": 43471,
+      "previous_size": 42308,
+      "size_diff": 1163
     },
     {
-      "file": "debug_crew_client.lua",
-      "commit_info": "25e5852 - Remove debug crew scripts and references",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/25e5852",
-      "current_size": 0,
-      "previous_size": 1308,
-      "size_diff": -1308
+      "file": "server/modules/staff_inventory.lua",
+      "commit_info": "ead60d7 - Add staff inventory and crash recovery database tables",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead60d7",
+      "current_size": 45290,
+      "previous_size": 42123,
+      "size_diff": 3167
+    },
+    {
+      "file": "sql/adminmenu.sql",
+      "commit_info": "ead60d7 - Add staff inventory and crash recovery database tables",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead60d7",
+      "current_size": 9368,
+      "previous_size": 6836,
+      "size_diff": 2532
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.366-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.367-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4464,6 +4464,21 @@ server/custom/crew/hrs_base_building.lua: Improve crew member error handling and
 debug_crew.lua: Remove debug crew scripts and references by jumalley
 
 debug_crew_client.lua: Remove debug crew scripts and references by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.367</strong> – 2025-11-04 21:36</summary>
+
+## Changelog for v1.2.367
+
+server/database.lua: Add staff inventory and crash recovery database tables by jumalley
+
+server/modules/staff_inventory.lua: Add staff inventory and crash recovery database tables by jumalley
+
+sql/adminmenu.sql: Add staff inventory and crash recovery database tables by jumalley
 
 
 
