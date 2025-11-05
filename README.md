@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.369-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.370-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4503,6 +4503,47 @@ server/custom/crew/hrs_base_building.lua: Add functions to get crew name and mem
 client/modules/showdata/crew.lua: Add new crew member lookup by label and UI option by jumalley
 
 server/custom/crew/fallback.lua: Add new crew member lookup by label and UI option by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.370</strong> – 2025-11-05 21:33</summary>
+
+## Changelog for v1.2.370
+
+client/modules/adminduty.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/adminduty/appearance.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/adminduty/core.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/adminduty/entity_debug.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/adminduty/hrs_integration.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/adminduty/main.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/adminduty/pistol.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/adminduty/preferences.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/integrations/airdrop.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/integrations/crew.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/integrations/doorlock_handlers.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/integrations/rcore_drunk.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/integrations/rcore_integration.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/miscs/bones.lua: Refactor adminduty module into submodules by jumalley
+
+client/modules/onlineplayers.lua: Refactor adminduty module into submodules by jumalley
+
+server/modules/callbacks.lua: Refactor adminduty module into submodules by jumalley
 
 
 
