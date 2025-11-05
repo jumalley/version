@@ -1,33 +1,17 @@
 {
-  "version": "1.2.367",
+  "version": "1.2.368",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/database.lua",
-      "commit_info": "ead60d7 - Add staff inventory and crash recovery database tables",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead60d7",
-      "current_size": 43471,
-      "previous_size": 42308,
-      "size_diff": 1163
-    },
-    {
-      "file": "server/modules/staff_inventory.lua",
-      "commit_info": "ead60d7 - Add staff inventory and crash recovery database tables",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead60d7",
-      "current_size": 45290,
-      "previous_size": 42123,
-      "size_diff": 3167
-    },
-    {
-      "file": "sql/adminmenu.sql",
-      "commit_info": "ead60d7 - Add staff inventory and crash recovery database tables",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead60d7",
-      "current_size": 9368,
-      "previous_size": 6836,
-      "size_diff": 2532
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "8215f7e - Add functions to get crew name and members by identifier",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8215f7e",
+      "current_size": 42353,
+      "previous_size": 38926,
+      "size_diff": 3427
     }
   ]
 }
