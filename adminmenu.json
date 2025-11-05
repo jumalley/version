@@ -1,17 +1,25 @@
 {
-  "version": "1.2.368",
+  "version": "1.2.369",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "8215f7e - Add functions to get crew name and members by identifier",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8215f7e",
-      "current_size": 42353,
-      "previous_size": 38926,
-      "size_diff": 3427
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "9c8d8f7 - Add new crew member lookup by label and UI option",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c8d8f7",
+      "current_size": 57461,
+      "previous_size": 51025,
+      "size_diff": 6436
+    },
+    {
+      "file": "server/custom/crew/fallback.lua",
+      "commit_info": "9c8d8f7 - Add new crew member lookup by label and UI option",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c8d8f7",
+      "current_size": 2079,
+      "previous_size": 2669,
+      "size_diff": -590
     }
   ]
 }

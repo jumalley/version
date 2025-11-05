@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.368-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.369-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4490,6 +4490,19 @@ sql/adminmenu.sql: Add staff inventory and crash recovery database tables by jum
 ## Changelog for v1.2.368
 
 server/custom/crew/hrs_base_building.lua: Add functions to get crew name and members by identifier by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.369</strong> – 2025-11-05 20:24</summary>
+
+## Changelog for v1.2.369
+
+client/modules/showdata/crew.lua: Add new crew member lookup by label and UI option by jumalley
+
+server/custom/crew/fallback.lua: Add new crew member lookup by label and UI option by jumalley
 
 
 
