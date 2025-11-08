@@ -1,137 +1,33 @@
 {
-  "version": "1.2.370",
+  "version": "1.2.371",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/adminduty.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 0,
-      "previous_size": 91137,
-      "size_diff": -91137
-    },
-    {
-      "file": "client/modules/adminduty/appearance.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 2926,
-      "previous_size": 0,
-      "size_diff": 2926
-    },
-    {
-      "file": "client/modules/adminduty/core.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 6825,
-      "previous_size": 0,
-      "size_diff": 6825
-    },
-    {
-      "file": "client/modules/adminduty/entity_debug.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 31856,
-      "previous_size": 0,
-      "size_diff": 31856
-    },
-    {
-      "file": "client/modules/adminduty/hrs_integration.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 31657,
-      "previous_size": 0,
-      "size_diff": 31657
-    },
-    {
-      "file": "client/modules/adminduty/main.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 3253,
-      "previous_size": 0,
-      "size_diff": 3253
+      "file": "client/custom/crew/hrs_crew.lua",
+      "commit_info": "d783c20 - Integrate HRS Base Building with admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d783c20",
+      "current_size": 61911,
+      "previous_size": 54769,
+      "size_diff": 7142
     },
     {
       "file": "client/modules/adminduty/pistol.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 15317,
+      "commit_info": "d783c20 - Integrate HRS Base Building with admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d783c20",
+      "current_size": 36438,
+      "previous_size": 15317,
+      "size_diff": 21121
+    },
+    {
+      "file": "server/custom/crew/hrs_crew.lua",
+      "commit_info": "d783c20 - Integrate HRS Base Building with admin menu",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d783c20",
+      "current_size": 24846,
       "previous_size": 0,
-      "size_diff": 15317
-    },
-    {
-      "file": "client/modules/adminduty/preferences.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 2201,
-      "previous_size": 0,
-      "size_diff": 2201
-    },
-    {
-      "file": "client/modules/integrations/airdrop.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 24187,
-      "previous_size": 0,
-      "size_diff": 24187
-    },
-    {
-      "file": "client/modules/integrations/crew.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 15522,
-      "previous_size": 0,
-      "size_diff": 15522
-    },
-    {
-      "file": "client/modules/integrations/doorlock_handlers.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 24250,
-      "previous_size": 0,
-      "size_diff": 24250
-    },
-    {
-      "file": "client/modules/integrations/rcore_drunk.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 5078,
-      "previous_size": 0,
-      "size_diff": 5078
-    },
-    {
-      "file": "client/modules/integrations/rcore_integration.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 2704,
-      "previous_size": 0,
-      "size_diff": 2704
-    },
-    {
-      "file": "client/modules/miscs/bones.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 11952,
-      "previous_size": 0,
-      "size_diff": 11952
-    },
-    {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 49992,
-      "previous_size": 49450,
-      "size_diff": 542
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "48fabe3 - Refactor adminduty module into submodules",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/48fabe3",
-      "current_size": 123446,
-      "previous_size": 113159,
-      "size_diff": 10287
+      "size_diff": 24846
     }
   ]
 }

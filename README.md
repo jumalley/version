@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.370-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.371-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4544,6 +4544,21 @@ client/modules/miscs/bones.lua: Refactor adminduty module into submodules by jum
 client/modules/onlineplayers.lua: Refactor adminduty module into submodules by jumalley
 
 server/modules/callbacks.lua: Refactor adminduty module into submodules by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.371</strong> – 2025-11-08 11:47</summary>
+
+## Changelog for v1.2.371
+
+client/custom/crew/hrs_crew.lua: Integrate HRS Base Building with admin menu by jumalley
+
+client/modules/adminduty/pistol.lua: Integrate HRS Base Building with admin menu by jumalley
+
+server/custom/crew/hrs_crew.lua: Integrate HRS Base Building with admin menu by jumalley
 
 
 
