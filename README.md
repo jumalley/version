@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.373-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.374-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4597,6 +4597,23 @@ server/modules/staff_inventory.lua: Refactor admin and staff duty exports and st
 ## Changelog for v1.2.373
 
 client/modules/adminduty/core.lua: Remove redundant export for isOnAdminDuty function by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.374</strong> – 2025-11-18 20:22</summary>
+
+## Changelog for v1.2.374
+
+client/custom/inventory/admin_duty_stash.lua: Refactor admin duty and crew modules for clarity by jumalley
+
+client/modules/adminduty/main.lua: Refactor admin duty and crew modules for clarity by jumalley
+
+client/modules/settings/modules.lua: Refactor admin duty and crew modules for clarity by jumalley
+
+client/modules/showdata/crew.lua: Refactor admin duty and crew modules for clarity by jumalley
 
 
 
