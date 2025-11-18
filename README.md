@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.371-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.372-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4559,6 +4559,33 @@ client/custom/crew/hrs_crew.lua: Integrate HRS Base Building with admin menu by 
 client/modules/adminduty/pistol.lua: Integrate HRS Base Building with admin menu by jumalley
 
 server/custom/crew/hrs_crew.lua: Integrate HRS Base Building with admin menu by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.372</strong> – 2025-11-18 20:03</summary>
+
+## Changelog for v1.2.372
+
+client/custom/inventory/admin_duty_stash.lua: Refactor admin and staff duty exports and stash logic by jumalley
+
+client/custom/inventory/ox_inventory_integration.lua: Refactor admin and staff duty exports and stash logic by jumalley
+
+client/modules/adminduty/hrs_integration.lua: Refactor admin and staff duty exports and stash logic by jumalley
+
+client/modules/adminduty/main.lua: Refactor admin and staff duty exports and stash logic by jumalley
+
+client/modules/staff_inventory.lua: Refactor admin and staff duty exports and stash logic by jumalley
+
+client/modules/stinky_troll.lua: Refactor admin and staff duty exports and stash logic by jumalley
+
+client/modules/uniqueid.lua: Refactor admin and staff duty exports and stash logic by jumalley
+
+client/modules/vehiclemodifications.lua: Refactor admin and staff duty exports and stash logic by jumalley
+
+server/modules/staff_inventory.lua: Refactor admin and staff duty exports and stash logic by jumalley
 
 
 

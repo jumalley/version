@@ -1,33 +1,81 @@
 {
-  "version": "1.2.371",
+  "version": "1.2.372",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/crew/hrs_crew.lua",
-      "commit_info": "d783c20 - Integrate HRS Base Building with admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d783c20",
-      "current_size": 61911,
-      "previous_size": 54769,
-      "size_diff": 7142
+      "file": "client/custom/inventory/admin_duty_stash.lua",
+      "commit_info": "22dc051 - Refactor admin and staff duty exports and stash logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22dc051",
+      "current_size": 2182,
+      "previous_size": 2053,
+      "size_diff": 129
     },
     {
-      "file": "client/modules/adminduty/pistol.lua",
-      "commit_info": "d783c20 - Integrate HRS Base Building with admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d783c20",
-      "current_size": 36438,
-      "previous_size": 15317,
-      "size_diff": 21121
+      "file": "client/custom/inventory/ox_inventory_integration.lua",
+      "commit_info": "22dc051 - Refactor admin and staff duty exports and stash logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22dc051",
+      "current_size": 10776,
+      "previous_size": 9298,
+      "size_diff": 1478
     },
     {
-      "file": "server/custom/crew/hrs_crew.lua",
-      "commit_info": "d783c20 - Integrate HRS Base Building with admin menu",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d783c20",
-      "current_size": 24846,
-      "previous_size": 0,
-      "size_diff": 24846
+      "file": "client/modules/adminduty/hrs_integration.lua",
+      "commit_info": "22dc051 - Refactor admin and staff duty exports and stash logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22dc051",
+      "current_size": 29948,
+      "previous_size": 31657,
+      "size_diff": -1709
+    },
+    {
+      "file": "client/modules/adminduty/main.lua",
+      "commit_info": "22dc051 - Refactor admin and staff duty exports and stash logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22dc051",
+      "current_size": 3128,
+      "previous_size": 3253,
+      "size_diff": -125
+    },
+    {
+      "file": "client/modules/staff_inventory.lua",
+      "commit_info": "22dc051 - Refactor admin and staff duty exports and stash logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22dc051",
+      "current_size": 11711,
+      "previous_size": 11674,
+      "size_diff": 37
+    },
+    {
+      "file": "client/modules/stinky_troll.lua",
+      "commit_info": "22dc051 - Refactor admin and staff duty exports and stash logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22dc051",
+      "current_size": 13171,
+      "previous_size": 13124,
+      "size_diff": 47
+    },
+    {
+      "file": "client/modules/uniqueid.lua",
+      "commit_info": "22dc051 - Refactor admin and staff duty exports and stash logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22dc051",
+      "current_size": 7300,
+      "previous_size": 7264,
+      "size_diff": 36
+    },
+    {
+      "file": "client/modules/vehiclemodifications.lua",
+      "commit_info": "22dc051 - Refactor admin and staff duty exports and stash logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22dc051",
+      "current_size": 6316,
+      "previous_size": 6289,
+      "size_diff": 27
+    },
+    {
+      "file": "server/modules/staff_inventory.lua",
+      "commit_info": "22dc051 - Refactor admin and staff duty exports and stash logic",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/22dc051",
+      "current_size": 45048,
+      "previous_size": 45290,
+      "size_diff": -242
     }
   ]
 }
