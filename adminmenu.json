@@ -1,41 +1,41 @@
 {
-  "version": "1.2.374",
+  "version": "1.2.375",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/inventory/admin_duty_stash.lua",
-      "commit_info": "1dcf59c - Refactor admin duty and crew modules for clarity",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1dcf59c",
-      "current_size": 2120,
-      "previous_size": 2182,
-      "size_diff": -62
-    },
-    {
-      "file": "client/modules/adminduty/main.lua",
-      "commit_info": "1dcf59c - Refactor admin duty and crew modules for clarity",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1dcf59c",
-      "current_size": 2886,
-      "previous_size": 3128,
-      "size_diff": -242
-    },
-    {
-      "file": "client/modules/settings/modules.lua",
-      "commit_info": "1dcf59c - Refactor admin duty and crew modules for clarity",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1dcf59c",
-      "current_size": 29096,
-      "previous_size": 28969,
-      "size_diff": 127
-    },
-    {
       "file": "client/modules/showdata/crew.lua",
-      "commit_info": "1dcf59c - Refactor admin duty and crew modules for clarity",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1dcf59c",
-      "current_size": 57661,
-      "previous_size": 57461,
-      "size_diff": 200
+      "commit_info": "ead7f76 - Add resource state checks for crew system integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead7f76",
+      "current_size": 57795,
+      "previous_size": 57661,
+      "size_diff": 134
+    },
+    {
+      "file": "config/config.lua",
+      "commit_info": "ead7f76 - Add resource state checks for crew system integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead7f76",
+      "current_size": 28891,
+      "previous_size": 28928,
+      "size_diff": -37
+    },
+    {
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "ead7f76 - Add resource state checks for crew system integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead7f76",
+      "current_size": 42352,
+      "previous_size": 42353,
+      "size_diff": -1
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "ead7f76 - Add resource state checks for crew system integration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead7f76",
+      "current_size": 35006,
+      "previous_size": 34789,
+      "size_diff": 217
     }
   ]
 }

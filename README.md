@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.374-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.375-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4614,6 +4614,23 @@ client/modules/adminduty/main.lua: Refactor admin duty and crew modules for clar
 client/modules/settings/modules.lua: Refactor admin duty and crew modules for clarity by jumalley
 
 client/modules/showdata/crew.lua: Refactor admin duty and crew modules for clarity by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.375</strong> – 2025-11-18 21:54</summary>
+
+## Changelog for v1.2.375
+
+client/modules/showdata/crew.lua: Add resource state checks for crew system integration by jumalley
+
+config/config.lua: Add resource state checks for crew system integration by jumalley
+
+server/custom/crew/hrs_base_building.lua: Add resource state checks for crew system integration by jumalley
+
+server/functions.lua: Add resource state checks for crew system integration by jumalley
 
 
 
