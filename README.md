@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.376-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.377-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4682,6 +4682,33 @@ demo/server.js: Add interactive demo website and rewrite README by claude
 demo/tools/build_i18n.py: Add interactive demo website and rewrite README by claude
 
 railway.json: Make the demo deploy on Railway with zero configuration by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.377</strong> – 2026-10-11 20:37</summary>
+
+## Changelog for v1.2.377
+
+demo/public/assets/css/style.css: Redesign demo site: separate pages, transitions, new scene, no beta by claude
+
+demo/public/assets/js/app.js: Redesign demo site: separate pages, transitions, new scene, no beta by claude
+
+demo/public/assets/js/docs.js: Redesign demo site: separate pages, transitions, new scene, no beta by claude
+
+demo/public/assets/js/i18n.js: Redesign demo site: separate pages, transitions, new scene, no beta by claude
+
+demo/public/assets/js/menus-core.js: Redesign demo site: separate pages, transitions, new scene, no beta by claude
+
+demo/public/assets/js/menus-player.js: Redesign demo site: separate pages, transitions, new scene, no beta by claude
+
+demo/public/assets/js/menus-settings.js: Redesign demo site: separate pages, transitions, new scene, no beta by claude
+
+demo/public/assets/js/site-data.js: Redesign demo site: separate pages, transitions, new scene, no beta by claude
+
+demo/public/index.html: Redesign demo site: separate pages, transitions, new scene, no beta by claude
 
 
 
