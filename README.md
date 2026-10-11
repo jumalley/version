@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.375-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.376-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4631,6 +4631,57 @@ config/config.lua: Add resource state checks for crew system integration by juma
 server/custom/crew/hrs_base_building.lua: Add resource state checks for crew system integration by jumalley
 
 server/functions.lua: Add resource state checks for crew system integration by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.376</strong> – 2026-10-11 19:19</summary>
+
+## Changelog for v1.2.376
+
+.dockerignore: Make the demo deploy on Railway with zero configuration by claude
+
+demo/Dockerfile: Make the demo deploy on Railway with zero configuration by claude
+
+demo/package.json: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/css/style.css: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/app.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/config.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/docs.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/fr.generated.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/fr.manual.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/i18n.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/menus-core.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/menus-player.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/menus-settings.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/mock.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/oxlib.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/js/site-data.js: Add interactive demo website and rewrite README by claude
+
+demo/public/assets/media/favicon.svg: Add interactive demo website and rewrite README by claude
+
+demo/public/index.html: Add interactive demo website and rewrite README by claude
+
+demo/server.js: Add interactive demo website and rewrite README by claude
+
+demo/tools/build_i18n.py: Add interactive demo website and rewrite README by claude
+
+railway.json: Make the demo deploy on Railway with zero configuration by claude
 
 
 

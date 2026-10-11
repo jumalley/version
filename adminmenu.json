@@ -1,41 +1,177 @@
 {
-  "version": "1.2.375",
+  "version": "1.2.376",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/showdata/crew.lua",
-      "commit_info": "ead7f76 - Add resource state checks for crew system integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead7f76",
-      "current_size": 57795,
-      "previous_size": 57661,
-      "size_diff": 134
+      "file": ".dockerignore",
+      "commit_info": "94b34ae - Make the demo deploy on Railway with zero configuration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94b34ae",
+      "current_size": 21,
+      "previous_size": 0,
+      "size_diff": 21
     },
     {
-      "file": "config/config.lua",
-      "commit_info": "ead7f76 - Add resource state checks for crew system integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead7f76",
-      "current_size": 28891,
-      "previous_size": 28928,
-      "size_diff": -37
+      "file": "demo/Dockerfile",
+      "commit_info": "94b34ae - Make the demo deploy on Railway with zero configuration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94b34ae",
+      "current_size": 237,
+      "previous_size": 0,
+      "size_diff": 237
     },
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "ead7f76 - Add resource state checks for crew system integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead7f76",
-      "current_size": 42352,
-      "previous_size": 42353,
-      "size_diff": -1
+      "file": "demo/package.json",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 350,
+      "previous_size": 0,
+      "size_diff": 350
     },
     {
-      "file": "server/functions.lua",
-      "commit_info": "ead7f76 - Add resource state checks for crew system integration",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ead7f76",
-      "current_size": 35006,
-      "previous_size": 34789,
-      "size_diff": 217
+      "file": "demo/public/assets/css/style.css",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 31694,
+      "previous_size": 0,
+      "size_diff": 31694
+    },
+    {
+      "file": "demo/public/assets/js/app.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 20881,
+      "previous_size": 0,
+      "size_diff": 20881
+    },
+    {
+      "file": "demo/public/assets/js/config.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 1359,
+      "previous_size": 0,
+      "size_diff": 1359
+    },
+    {
+      "file": "demo/public/assets/js/docs.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 43487,
+      "previous_size": 0,
+      "size_diff": 43487
+    },
+    {
+      "file": "demo/public/assets/js/fr.generated.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 40898,
+      "previous_size": 0,
+      "size_diff": 40898
+    },
+    {
+      "file": "demo/public/assets/js/fr.manual.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 26732,
+      "previous_size": 0,
+      "size_diff": 26732
+    },
+    {
+      "file": "demo/public/assets/js/i18n.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 7874,
+      "previous_size": 0,
+      "size_diff": 7874
+    },
+    {
+      "file": "demo/public/assets/js/menus-core.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 38035,
+      "previous_size": 0,
+      "size_diff": 38035
+    },
+    {
+      "file": "demo/public/assets/js/menus-player.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 57801,
+      "previous_size": 0,
+      "size_diff": 57801
+    },
+    {
+      "file": "demo/public/assets/js/menus-settings.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 39017,
+      "previous_size": 0,
+      "size_diff": 39017
+    },
+    {
+      "file": "demo/public/assets/js/mock.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 11398,
+      "previous_size": 0,
+      "size_diff": 11398
+    },
+    {
+      "file": "demo/public/assets/js/oxlib.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 16613,
+      "previous_size": 0,
+      "size_diff": 16613
+    },
+    {
+      "file": "demo/public/assets/js/site-data.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 11571,
+      "previous_size": 0,
+      "size_diff": 11571
+    },
+    {
+      "file": "demo/public/assets/media/favicon.svg",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 287,
+      "previous_size": 0,
+      "size_diff": 287
+    },
+    {
+      "file": "demo/public/index.html",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 10375,
+      "previous_size": 0,
+      "size_diff": 10375
+    },
+    {
+      "file": "demo/server.js",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 2049,
+      "previous_size": 0,
+      "size_diff": 2049
+    },
+    {
+      "file": "demo/tools/build_i18n.py",
+      "commit_info": "8333a0e - Add interactive demo website and rewrite README",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8333a0e",
+      "current_size": 3090,
+      "previous_size": 0,
+      "size_diff": 3090
+    },
+    {
+      "file": "railway.json",
+      "commit_info": "94b34ae - Make the demo deploy on Railway with zero configuration",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94b34ae",
+      "current_size": 352,
+      "previous_size": 0,
+      "size_diff": 352
     }
   ]
 }
