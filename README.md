@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.377-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.378-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4709,6 +4709,273 @@ demo/public/assets/js/menus-settings.js: Redesign demo site: separate pages, tra
 demo/public/assets/js/site-data.js: Redesign demo site: separate pages, transitions, new scene, no beta by claude
 
 demo/public/index.html: Redesign demo site: separate pages, transitions, new scene, no beta by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.378</strong> – 2026-10-12 07:24</summary>
+
+## Changelog for v1.2.378
+
+.dockerignore: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+.gitignore: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/Dockerfile: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/public/assets/css/style.css: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/public/assets/js/app.js: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/public/assets/js/config.js: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/public/assets/js/console-art.js: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/assets/js/docs.js: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/assets/js/guides.js: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/assets/js/i18n.js: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/public/assets/js/media.js: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/js/menus-core.js: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/public/assets/js/oxlib.js: Demo: fix squashed menu options, add videos page and per-feature media by claude
+
+demo/public/assets/js/site-data.js: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/assets/media/features/.gitkeep: Demo: fix squashed menu options, add videos page and per-feature media by claude
+
+demo/public/assets/media/features/aduty-effects.mp4: Demo: attach GitBook GIFs and playlist videos to features by jumalley
+
+demo/public/assets/media/features/aduty-settings.mp4: Demo: attach GitBook GIFs and playlist videos to features by jumalley
+
+demo/public/assets/media/features/invisible.mp4: Demo: attach GitBook GIFs and playlist videos to features by jumalley
+
+demo/public/assets/media/features/locations-manage.mp4: Demo: attach GitBook GIFs and playlist videos to features by jumalley
+
+demo/public/assets/media/features/locations-teleport.mp4: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/media/features/online-players.mp4: Demo: attach GitBook GIFs and playlist videos to features by jumalley
+
+demo/public/assets/media/features/p-appearance.webp: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/media/features/p-health.webp: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/media/features/p-misc.webp: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/media/features/p-money.webp: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/media/features/p-vehicles.webp: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/media/features/p-voice.webp: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/media/features/permissions-add.mp4: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/media/features/permissions-edit.mp4: Demo: attach GitBook GIFs and playlist videos to features by jumalley
+
+demo/public/assets/media/features/permissions-preview.mp4: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/assets/media/features/player-outfits.mp4: Demo: attach GitBook GIFs and playlist videos to features by jumalley
+
+demo/public/assets/media/features/player-vehicle.mp4: Demo: attach GitBook GIFs and playlist videos to features by jumalley
+
+demo/public/assets/media/features/spawncar.mp4: Demo: attach GitBook GIFs and playlist videos to features by jumalley
+
+demo/public/assets/media/features/staff-options.webp: Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition by jumalley
+
+demo/public/index.html: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/public/source/config/cfg/server.cfg.example: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/config.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/detect.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/garages.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/hrs_airdrop.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/indexes.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/options.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/peds.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/perms.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/weapons.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/config/webhooks.lua: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/public/source/locales/en.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/locales/fr.lua: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/public/source/manifest.json: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/server.js: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/tools/build-dist.js: Demo: harden the site against copying/reverse engineering, new header by claude
+
+demo/tools/build-gitbook.js: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+demo/tools/sync_source.py: Demo: harden the site against copying/reverse engineering, new header by claude
+
+gitbook/en/.gitbook.yaml: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/.gitbook/assets/p-appearance.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/.gitbook/assets/p-health.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/.gitbook/assets/p-misc.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/.gitbook/assets/p-money.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/.gitbook/assets/p-vehicles.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/.gitbook/assets/p-voice.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/.gitbook/assets/staff-options.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/SUMMARY.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/features/admin-duty-staff-modes.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/features/developer-tools.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/features/in-game-settings.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/features/inventory-kits.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/features/options-catalog.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/features/player-list-search.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/features/player-management.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/features/sanctions-moderation.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/features/vehicles.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/getting-started/cfx-asset-protection-guide.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/getting-started/installation.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/guides/add-option.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/convars.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/gizmo.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/logs.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/noclip.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/perms-ingame.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/pistol.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/staff-inv.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/staff-look.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/txadmin.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/guides/uid.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/reference/commands-and-keybinds.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/reference/compatibility.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/reference/configuration/config.lua.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/reference/console.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/en/reference/faq.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/reference/permissions.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/en/videos.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/.gitbook.yaml: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/.gitbook/assets/p-appearance.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/.gitbook/assets/p-health.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/.gitbook/assets/p-misc.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/.gitbook/assets/p-money.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/.gitbook/assets/p-vehicles.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/.gitbook/assets/p-voice.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/.gitbook/assets/staff-options.webp: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/SUMMARY.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/features/catalogue-d-options.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/features/gestion-d-un-joueur.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/features/inventaire-kits.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/features/liste-recherche-de-joueurs.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/features/outils-developpeur.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/features/parametres-en-jeu.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/features/sanctions-moderation.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/features/service-admin-modes-staff.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/features/vehicules.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/getting-started/cfx-asset-protection-guide.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/getting-started/installation.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/guides/add-option.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/convars.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/gizmo.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/logs.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/noclip.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/perms-ingame.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/pistol.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/staff-inv.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/staff-look.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/txadmin.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/guides/uid.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/reference/commands-and-keybinds.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/reference/compatibility.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/reference/configuration/config.lua.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/reference/console.md: Demo: console page, tutorials, open-code viewer and performance highlights by claude
+
+gitbook/fr/reference/faq.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/reference/permissions.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+gitbook/fr/videos.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
 
 
 
