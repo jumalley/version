@@ -1,185 +1,281 @@
 {
-  "version": "1.2.380",
+  "version": "1.2.381",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/inventory/codem.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 586,
-      "previous_size": 576,
-      "size_diff": 10
+      "file": "client/custom/framework/qb.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 2596,
+      "previous_size": 2491,
+      "size_diff": 105
     },
     {
-      "file": "client/custom/inventory/core.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 1187,
-      "previous_size": 1177,
-      "size_diff": 10
+      "file": "client/custom/inventory/admin_duty_stash.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 2046,
+      "previous_size": 2120,
+      "size_diff": -74
     },
     {
-      "file": "client/custom/inventory/origen.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 597,
-      "previous_size": 587,
-      "size_diff": 10
+      "file": "client/functions.lua",
+      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
+      "current_size": 137163,
+      "previous_size": 137201,
+      "size_diff": -38
     },
     {
-      "file": "client/custom/inventory/qb.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 593,
-      "previous_size": 583,
-      "size_diff": 10
+      "file": "client/modules/adminduty/core.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 7310,
+      "previous_size": 6757,
+      "size_diff": 553
     },
     {
-      "file": "client/custom/inventory/tgiann.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 597,
-      "previous_size": 587,
-      "size_diff": 10
+      "file": "client/modules/build.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 13052,
+      "previous_size": 12621,
+      "size_diff": 431
     },
     {
-      "file": "config/detect.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 15785,
-      "previous_size": 15050,
-      "size_diff": 735
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 28107,
+      "previous_size": 27884,
+      "size_diff": 223
+    },
+    {
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 50598,
+      "previous_size": 49992,
+      "size_diff": 606
+    },
+    {
+      "file": "client/modules/show.lua",
+      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
+      "current_size": 9122,
+      "previous_size": 8746,
+      "size_diff": 376
+    },
+    {
+      "file": "client/modules/showdata/health.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 13616,
+      "previous_size": 13745,
+      "size_diff": -129
+    },
+    {
+      "file": "client/modules/showdata/main.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 9316,
+      "previous_size": 9186,
+      "size_diff": 130
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 21194,
+      "previous_size": 21173,
+      "size_diff": 21
     },
     {
       "file": "demo/public/assets/css/style.css",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 102541,
-      "previous_size": 97394,
-      "size_diff": 5147
+      "commit_info": "62c2680 - Site: integrate the features category bar as a rounded glass panel",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/62c2680",
+      "current_size": 102702,
+      "previous_size": 102541,
+      "size_diff": 161
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "e44d843 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e44d843",
-      "current_size": 129122,
-      "previous_size": 128664,
-      "size_diff": 458
+      "commit_info": "0b78490 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0b78490",
+      "current_size": 129575,
+      "previous_size": 129122,
+      "size_diff": 453
     },
     {
-      "file": "demo/public/assets/js/app.js",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 84609,
-      "previous_size": 79746,
-      "size_diff": 4863
+      "file": "demo/public/assets/js/docs.js",
+      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
+      "current_size": 49639,
+      "previous_size": 43130,
+      "size_diff": 6509
+    },
+    {
+      "file": "demo/public/assets/js/guides.js",
+      "commit_info": "e36d2b0 - Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e36d2b0",
+      "current_size": 37247,
+      "previous_size": 26086,
+      "size_diff": 11161
     },
     {
       "file": "demo/public/assets/js/i18n.js",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 24226,
-      "previous_size": 21210,
-      "size_diff": 3016
+      "commit_info": "e36d2b0 - Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e36d2b0",
+      "current_size": 24440,
+      "previous_size": 24226,
+      "size_diff": 214
     },
     {
-      "file": "demo/public/assets/js/integrations.js",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 12731,
-      "previous_size": 0,
-      "size_diff": 12731
+      "file": "demo/public/assets/js/menus-player.js",
+      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
+      "current_size": 55101,
+      "previous_size": 55483,
+      "size_diff": -382
     },
     {
       "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 36724,
-      "previous_size": 36548,
-      "size_diff": 176
+      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
+      "current_size": 36592,
+      "previous_size": 36724,
+      "size_diff": -132
     },
     {
       "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 30283,
+      "commit_info": "e36d2b0 - Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e36d2b0",
+      "current_size": 38505,
       "previous_size": 30283,
-      "size_diff": 0
+      "size_diff": 8222
     },
     {
       "file": "demo/public/index.html",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 22817,
-      "previous_size": 22579,
-      "size_diff": 238
+      "commit_info": "e36d2b0 - Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e36d2b0",
+      "current_size": 22842,
+      "previous_size": 22817,
+      "size_diff": 25
     },
     {
-      "file": "demo/public/source/config/detect.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 15308,
-      "previous_size": 14584,
-      "size_diff": 724
+      "file": "demo/public/source/config/options.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 21194,
+      "previous_size": 21173,
+      "size_diff": 21
+    },
+    {
+      "file": "demo/public/source/locales/en.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 250339,
+      "previous_size": 250264,
+      "size_diff": 75
+    },
+    {
+      "file": "demo/public/source/locales/fr.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 262347,
+      "previous_size": 262268,
+      "size_diff": 79
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
       "current_size": 1341,
       "previous_size": 1341,
       "size_diff": 0
     },
     {
-      "file": "server/custom/inventory/codem.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 626,
-      "previous_size": 616,
-      "size_diff": 10
+      "file": "locales/en.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 254600,
+      "previous_size": 254524,
+      "size_diff": 76
     },
     {
-      "file": "server/custom/inventory/core.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 2921,
-      "previous_size": 2911,
-      "size_diff": 10
+      "file": "locales/fr.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 266392,
+      "previous_size": 266312,
+      "size_diff": 80
     },
     {
-      "file": "server/custom/inventory/origen.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 627,
-      "previous_size": 617,
-      "size_diff": 10
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 42381,
+      "previous_size": 42352,
+      "size_diff": 29
     },
     {
-      "file": "server/custom/inventory/tgiann.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 627,
-      "previous_size": 617,
-      "size_diff": 10
+      "file": "server/custom/crew/hrs_crew.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 24875,
+      "previous_size": 24846,
+      "size_diff": 29
     },
     {
-      "file": "server/events.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 11351,
-      "previous_size": 11086,
-      "size_diff": 265
+      "file": "server/custom/framework/qb.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 8174,
+      "previous_size": 8069,
+      "size_diff": 105
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 35035,
+      "previous_size": 35006,
+      "size_diff": 29
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
-      "current_size": 121854,
-      "previous_size": 118599,
-      "size_diff": 3255
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 122867,
+      "previous_size": 121854,
+      "size_diff": 1013
+    },
+    {
+      "file": "server/modules/commands.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 30707,
+      "previous_size": 29856,
+      "size_diff": 851
+    },
+    {
+      "file": "server/modules/sanctions.lua",
+      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
+      "current_size": 25715,
+      "previous_size": 23035,
+      "size_diff": 2680
+    },
+    {
+      "file": "server/modules/staff_inventory.lua",
+      "commit_info": "c6f558a - Fix features found broken by the audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "current_size": 44625,
+      "previous_size": 45048,
+      "size_diff": -423
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.380-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.381-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -5108,6 +5108,83 @@ server/custom/inventory/tgiann.lua: Compatibility: fivestats.io popularity, cust
 server/events.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
 
 server/modules/callbacks.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.381</strong> – 2026-10-18 03:23</summary>
+
+## Changelog for v1.2.381
+
+client/custom/framework/qb.lua: Fix features found broken by the audit by claude
+
+client/custom/inventory/admin_duty_stash.lua: Fix features found broken by the audit by claude
+
+client/functions.lua: Fix show names/blips on duty and sanction history; align feature docs by claude
+
+client/modules/adminduty/core.lua: Fix features found broken by the audit by claude
+
+client/modules/build.lua: Fix features found broken by the audit by claude
+
+client/modules/modes/modes.lua: Fix features found broken by the audit by claude
+
+client/modules/onlineplayers.lua: Fix features found broken by the audit by claude
+
+client/modules/show.lua: Fix show names/blips on duty and sanction history; align feature docs by claude
+
+client/modules/showdata/health.lua: Fix features found broken by the audit by claude
+
+client/modules/showdata/main.lua: Fix features found broken by the audit by claude
+
+config/options.lua: Fix features found broken by the audit by claude
+
+demo/public/assets/css/style.css: Site: integrate the features category bar as a rounded glass panel by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs.js: Fix show names/blips on duty and sanction history; align feature docs by claude
+
+demo/public/assets/js/guides.js: Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated by claude
+
+demo/public/assets/js/i18n.js: Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated by claude
+
+demo/public/assets/js/menus-player.js: Fix show names/blips on duty and sanction history; align feature docs by claude
+
+demo/public/assets/js/menus-settings.js: Fix show names/blips on duty and sanction history; align feature docs by claude
+
+demo/public/assets/js/site-data.js: Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated by claude
+
+demo/public/index.html: Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated by claude
+
+demo/public/source/config/options.lua: Fix features found broken by the audit by claude
+
+demo/public/source/locales/en.lua: Fix features found broken by the audit by claude
+
+demo/public/source/locales/fr.lua: Fix features found broken by the audit by claude
+
+demo/public/source/manifest.json: Fix features found broken by the audit by claude
+
+locales/en.lua: Fix features found broken by the audit by claude
+
+locales/fr.lua: Fix features found broken by the audit by claude
+
+server/custom/crew/hrs_base_building.lua: Fix features found broken by the audit by claude
+
+server/custom/crew/hrs_crew.lua: Fix features found broken by the audit by claude
+
+server/custom/framework/qb.lua: Fix features found broken by the audit by claude
+
+server/functions.lua: Fix features found broken by the audit by claude
+
+server/modules/callbacks.lua: Fix features found broken by the audit by claude
+
+server/modules/commands.lua: Fix features found broken by the audit by claude
+
+server/modules/sanctions.lua: Fix show names/blips on duty and sanction history; align feature docs by claude
+
+server/modules/staff_inventory.lua: Fix features found broken by the audit by claude
 
 
 
