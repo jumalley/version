@@ -1,289 +1,185 @@
 {
-  "version": "1.2.379",
+  "version": "1.2.380",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/perms.lua",
-      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
-      "current_size": 12442,
-      "previous_size": 10863,
-      "size_diff": 1579
+      "file": "client/custom/inventory/codem.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 586,
+      "previous_size": 576,
+      "size_diff": 10
+    },
+    {
+      "file": "client/custom/inventory/core.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 1187,
+      "previous_size": 1177,
+      "size_diff": 10
+    },
+    {
+      "file": "client/custom/inventory/origen.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 597,
+      "previous_size": 587,
+      "size_diff": 10
+    },
+    {
+      "file": "client/custom/inventory/qb.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 593,
+      "previous_size": 583,
+      "size_diff": 10
+    },
+    {
+      "file": "client/custom/inventory/tgiann.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 597,
+      "previous_size": 587,
+      "size_diff": 10
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 15785,
+      "previous_size": 15050,
+      "size_diff": 735
     },
     {
       "file": "demo/public/assets/css/style.css",
-      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
-      "current_size": 97394,
-      "previous_size": 74204,
-      "size_diff": 23190
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 102541,
+      "previous_size": 97394,
+      "size_diff": 5147
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "c60e553 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c60e553",
-      "current_size": 128664,
-      "previous_size": 0,
-      "size_diff": 128664
+      "commit_info": "e44d843 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e44d843",
+      "current_size": 129122,
+      "previous_size": 128664,
+      "size_diff": 458
     },
     {
       "file": "demo/public/assets/js/app.js",
-      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
-      "current_size": 79746,
-      "previous_size": 50732,
-      "size_diff": 29014
-    },
-    {
-      "file": "demo/public/assets/js/config.js",
-      "commit_info": "78d7547 - Demo: changelog page, GitHub version, signature footer, lowercase adminmenu brand",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/78d7547",
-      "current_size": 1862,
-      "previous_size": 1727,
-      "size_diff": 135
-    },
-    {
-      "file": "demo/public/assets/js/guides.js",
-      "commit_info": "78d7547 - Demo: changelog page, GitHub version, signature footer, lowercase adminmenu brand",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/78d7547",
-      "current_size": 26086,
-      "previous_size": 26086,
-      "size_diff": 0
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 84609,
+      "previous_size": 79746,
+      "size_diff": 4863
     },
     {
       "file": "demo/public/assets/js/i18n.js",
-      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
-      "current_size": 21210,
-      "previous_size": 13475,
-      "size_diff": 7735
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 24226,
+      "previous_size": 21210,
+      "size_diff": 3016
     },
     {
-      "file": "demo/public/assets/js/media.js",
-      "commit_info": "4b8ce4a - Demo: the site replaces the GitBook — remove GitBook links",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4b8ce4a",
-      "current_size": 6952,
-      "previous_size": 7004,
-      "size_diff": -52
-    },
-    {
-      "file": "demo/public/assets/js/oxlib.js",
-      "commit_info": "06e5bac - Demo: identifiers wrap only at separators, one badge per permission, stacked tables on mobile",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/06e5bac",
-      "current_size": 17371,
-      "previous_size": 17133,
-      "size_diff": 238
-    },
-    {
-      "file": "demo/public/assets/js/perms-data.js",
-      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
-      "current_size": 13604,
+      "file": "demo/public/assets/js/integrations.js",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 12731,
       "previous_size": 0,
-      "size_diff": 13604
+      "size_diff": 12731
+    },
+    {
+      "file": "demo/public/assets/js/menus-settings.js",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 36724,
+      "previous_size": 36548,
+      "size_diff": 176
     },
     {
       "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
       "current_size": 30283,
-      "previous_size": 16462,
-      "size_diff": 13821
+      "previous_size": 30283,
+      "size_diff": 0
     },
     {
       "file": "demo/public/index.html",
-      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
-      "current_size": 22579,
-      "previous_size": 19757,
-      "size_diff": 2822
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 22817,
+      "previous_size": 22579,
+      "size_diff": 238
     },
     {
-      "file": "demo/public/source/config/perms.lua",
-      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
-      "current_size": 12442,
-      "previous_size": 10863,
-      "size_diff": 1579
+      "file": "demo/public/source/config/detect.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 15308,
+      "previous_size": 14584,
+      "size_diff": 724
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
       "current_size": 1341,
       "previous_size": 1341,
       "size_diff": 0
     },
     {
-      "file": "demo/tools/build_changelog.py",
-      "commit_info": "78d7547 - Demo: changelog page, GitHub version, signature footer, lowercase adminmenu brand",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/78d7547",
-      "current_size": 7118,
-      "previous_size": 0,
-      "size_diff": 7118
+      "file": "server/custom/inventory/codem.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 626,
+      "previous_size": 616,
+      "size_diff": 10
     },
     {
-      "file": "demo/tools/build_perms.py",
-      "commit_info": "144a2a1 - Demo: permissions page shows exactly what each grade can do",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/144a2a1",
-      "current_size": 2576,
-      "previous_size": 0,
-      "size_diff": 2576
+      "file": "server/custom/inventory/core.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 2921,
+      "previous_size": 2911,
+      "size_diff": 10
     },
     {
-      "file": "docs-archive/gitbook-live/config.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 360,
-      "previous_size": 0,
-      "size_diff": 360
+      "file": "server/custom/inventory/origen.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 627,
+      "previous_size": 617,
+      "size_diff": 10
     },
     {
-      "file": "docs-archive/gitbook-live/config_config.lua.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 811,
-      "previous_size": 0,
-      "size_diff": 811
-    },
-    {
-      "file": "docs-archive/gitbook-live/features.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 2084,
-      "previous_size": 0,
-      "size_diff": 2084
-    },
-    {
-      "file": "docs-archive/gitbook-live/features_admin-duty.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 2609,
-      "previous_size": 0,
-      "size_diff": 2609
-    },
-    {
-      "file": "docs-archive/gitbook-live/features_admin-modes.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 1683,
-      "previous_size": 0,
-      "size_diff": 1683
-    },
-    {
-      "file": "docs-archive/gitbook-live/features_keybinds.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 2035,
-      "previous_size": 0,
-      "size_diff": 2035
-    },
-    {
-      "file": "docs-archive/gitbook-live/features_locations.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 3073,
-      "previous_size": 0,
-      "size_diff": 3073
-    },
-    {
-      "file": "docs-archive/gitbook-live/features_online-players.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 2571,
-      "previous_size": 0,
-      "size_diff": 2571
-    },
-    {
-      "file": "docs-archive/gitbook-live/features_permissions.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 2636,
-      "previous_size": 0,
-      "size_diff": 2636
-    },
-    {
-      "file": "docs-archive/gitbook-live/features_player-data.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 4636,
-      "previous_size": 0,
-      "size_diff": 4636
-    },
-    {
-      "file": "docs-archive/gitbook-live/features_vehicle-spawning.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 2093,
-      "previous_size": 0,
-      "size_diff": 2093
-    },
-    {
-      "file": "docs-archive/gitbook-live/installation.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 923,
-      "previous_size": 0,
-      "size_diff": 923
-    },
-    {
-      "file": "docs-archive/gitbook-live/installation_cfx-asset-protection-guide.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 2496,
-      "previous_size": 0,
-      "size_diff": 2496
-    },
-    {
-      "file": "docs-archive/gitbook-live/readme.md",
-      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
-      "current_size": 478,
-      "previous_size": 0,
-      "size_diff": 478
+      "file": "server/custom/inventory/tgiann.lua",
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 627,
+      "previous_size": 617,
+      "size_diff": 10
     },
     {
       "file": "server/events.lua",
-      "commit_info": "c1eb0aa - Security: server-side permission guard on every client-callable entry point",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c1eb0aa",
-      "current_size": 11086,
-      "previous_size": 11378,
-      "size_diff": -292
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 11351,
+      "previous_size": 11086,
+      "size_diff": 265
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "c1eb0aa - Security: server-side permission guard on every client-callable entry point",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c1eb0aa",
-      "current_size": 118599,
-      "previous_size": 123446,
-      "size_diff": -4847
-    },
-    {
-      "file": "server/modules/settings/cfg.lua",
-      "commit_info": "ed3108a - Security (WIP): server guard skeleton, permission editor limited to config/cfg/*.cfg",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed3108a",
-      "current_size": 22455,
-      "previous_size": 22036,
-      "size_diff": 419
-    },
-    {
-      "file": "server/security/guard.lua",
-      "commit_info": "c1eb0aa - Security: server-side permission guard on every client-callable entry point",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c1eb0aa",
-      "current_size": 5585,
-      "previous_size": 0,
-      "size_diff": 5585
-    },
-    {
-      "file": "server/security/policy.lua",
-      "commit_info": "c1eb0aa - Security: server-side permission guard on every client-callable entry point",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c1eb0aa",
-      "current_size": 10445,
-      "previous_size": 0,
-      "size_diff": 10445
+      "commit_info": "f322008 - Compatibility: fivestats.io popularity, custom integration guide, working bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f322008",
+      "current_size": 121854,
+      "previous_size": 118599,
+      "size_diff": 3255
     }
   ]
 }

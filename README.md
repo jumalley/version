@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.379-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.380-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -5055,6 +5055,59 @@ server/modules/settings/cfg.lua: Security (WIP): server guard skeleton, permissi
 server/security/guard.lua: Security: server-side permission guard on every client-callable entry point by claude
 
 server/security/policy.lua: Security: server-side permission guard on every client-callable entry point by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.380</strong> – 2026-10-18 03:00</summary>
+
+## Changelog for v1.2.380
+
+client/custom/inventory/codem.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+client/custom/inventory/core.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+client/custom/inventory/origen.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+client/custom/inventory/qb.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+client/custom/inventory/tgiann.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+config/detect.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+demo/public/assets/css/style.css: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/app.js: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+demo/public/assets/js/i18n.js: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+demo/public/assets/js/integrations.js: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+demo/public/assets/js/menus-settings.js: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+demo/public/assets/js/site-data.js: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+demo/public/index.html: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+demo/public/source/config/detect.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+demo/public/source/manifest.json: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+server/custom/inventory/codem.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+server/custom/inventory/core.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+server/custom/inventory/origen.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+server/custom/inventory/tgiann.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+server/events.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
+
+server/modules/callbacks.lua: Compatibility: fivestats.io popularity, custom integration guide, working bridges by claude
 
 
 
