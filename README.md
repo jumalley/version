@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.378-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.379-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -4976,6 +4976,85 @@ gitbook/fr/reference/faq.md: Docs: generate the GitBook (EN + FR) from the demo 
 gitbook/fr/reference/permissions.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
 
 gitbook/fr/videos.md: Docs: generate the GitBook (EN + FR) from the demo site's data by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.379</strong> – 2026-10-18 02:52</summary>
+
+## Changelog for v1.2.379
+
+config/perms.lua: Permissions: complete defaults, redesigned page with custom roles and .cfg generator by claude
+
+demo/public/assets/css/style.css: Permissions: complete defaults, redesigned page with custom roles and .cfg generator by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/app.js: Permissions: complete defaults, redesigned page with custom roles and .cfg generator by claude
+
+demo/public/assets/js/config.js: Demo: changelog page, GitHub version, signature footer, lowercase adminmenu brand by claude
+
+demo/public/assets/js/guides.js: Demo: changelog page, GitHub version, signature footer, lowercase adminmenu brand by claude
+
+demo/public/assets/js/i18n.js: Permissions: complete defaults, redesigned page with custom roles and .cfg generator by claude
+
+demo/public/assets/js/media.js: Demo: the site replaces the GitBook — remove GitBook links by claude
+
+demo/public/assets/js/oxlib.js: Demo: identifiers wrap only at separators, one badge per permission, stacked tables on mobile by claude
+
+demo/public/assets/js/perms-data.js: Permissions: complete defaults, redesigned page with custom roles and .cfg generator by claude
+
+demo/public/assets/js/site-data.js: Permissions: complete defaults, redesigned page with custom roles and .cfg generator by claude
+
+demo/public/index.html: Permissions: complete defaults, redesigned page with custom roles and .cfg generator by claude
+
+demo/public/source/config/perms.lua: Permissions: complete defaults, redesigned page with custom roles and .cfg generator by claude
+
+demo/public/source/manifest.json: Permissions: complete defaults, redesigned page with custom roles and .cfg generator by claude
+
+demo/tools/build_changelog.py: Demo: changelog page, GitHub version, signature footer, lowercase adminmenu brand by claude
+
+demo/tools/build_perms.py: Demo: permissions page shows exactly what each grade can do by claude
+
+docs-archive/gitbook-live/config.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/config_config.lua.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/features.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/features_admin-duty.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/features_admin-modes.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/features_keybinds.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/features_locations.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/features_online-players.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/features_permissions.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/features_player-data.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/features_vehicle-spawning.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/installation.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/installation_cfx-asset-protection-guide.md: Archive the live GitBook pages for the docs audit by jumalley
+
+docs-archive/gitbook-live/readme.md: Archive the live GitBook pages for the docs audit by jumalley
+
+server/events.lua: Security: server-side permission guard on every client-callable entry point by claude
+
+server/modules/callbacks.lua: Security: server-side permission guard on every client-callable entry point by claude
+
+server/modules/settings/cfg.lua: Security (WIP): server guard skeleton, permission editor limited to config/cfg/*.cfg by claude
+
+server/security/guard.lua: Security: server-side permission guard on every client-callable entry point by claude
+
+server/security/policy.lua: Security: server-side permission guard on every client-callable entry point by claude
 
 
 

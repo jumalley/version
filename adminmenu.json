@@ -1,1041 +1,289 @@
 {
-  "version": "1.2.378",
+  "version": "1.2.379",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": ".dockerignore",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 29,
-      "previous_size": 21,
-      "size_diff": 8
-    },
-    {
-      "file": ".gitignore",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 30,
-      "previous_size": 19,
-      "size_diff": 11
-    },
-    {
-      "file": "demo/Dockerfile",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 692,
-      "previous_size": 237,
-      "size_diff": 455
+      "file": "config/perms.lua",
+      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "current_size": 12442,
+      "previous_size": 10863,
+      "size_diff": 1579
     },
     {
       "file": "demo/public/assets/css/style.css",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 74204,
-      "previous_size": 50049,
-      "size_diff": 24155
+      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "current_size": 97394,
+      "previous_size": 74204,
+      "size_diff": 23190
+    },
+    {
+      "file": "demo/public/assets/data/changelog.json",
+      "commit_info": "c60e553 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c60e553",
+      "current_size": 128664,
+      "previous_size": 0,
+      "size_diff": 128664
     },
     {
       "file": "demo/public/assets/js/app.js",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 50732,
-      "previous_size": 30388,
-      "size_diff": 20344
+      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "current_size": 79746,
+      "previous_size": 50732,
+      "size_diff": 29014
     },
     {
       "file": "demo/public/assets/js/config.js",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 1727,
-      "previous_size": 1359,
-      "size_diff": 368
-    },
-    {
-      "file": "demo/public/assets/js/console-art.js",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 7110,
-      "previous_size": 0,
-      "size_diff": 7110
-    },
-    {
-      "file": "demo/public/assets/js/docs.js",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 43130,
-      "previous_size": 42274,
-      "size_diff": 856
+      "commit_info": "78d7547 - Demo: changelog page, GitHub version, signature footer, lowercase adminmenu brand",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/78d7547",
+      "current_size": 1862,
+      "previous_size": 1727,
+      "size_diff": 135
     },
     {
       "file": "demo/public/assets/js/guides.js",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
+      "commit_info": "78d7547 - Demo: changelog page, GitHub version, signature footer, lowercase adminmenu brand",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/78d7547",
       "current_size": 26086,
-      "previous_size": 0,
-      "size_diff": 26086
-    },
-    {
-      "file": "demo/public/assets/js/i18n.js",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 13475,
-      "previous_size": 8499,
-      "size_diff": 4976
-    },
-    {
-      "file": "demo/public/assets/js/media.js",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 7004,
-      "previous_size": 0,
-      "size_diff": 7004
-    },
-    {
-      "file": "demo/public/assets/js/menus-core.js",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 36032,
-      "previous_size": 36016,
-      "size_diff": 16
-    },
-    {
-      "file": "demo/public/assets/js/oxlib.js",
-      "commit_info": "78a1285 - Demo: fix squashed menu options, add videos page and per-feature media",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/78a1285",
-      "current_size": 17133,
-      "previous_size": 16613,
-      "size_diff": 520
-    },
-    {
-      "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 16462,
-      "previous_size": 14285,
-      "size_diff": 2177
-    },
-    {
-      "file": "demo/public/assets/media/features/.gitkeep",
-      "commit_info": "78a1285 - Demo: fix squashed menu options, add videos page and per-feature media",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/78a1285",
-      "current_size": 0,
-      "previous_size": 0,
+      "previous_size": 26086,
       "size_diff": 0
     },
     {
-      "file": "demo/public/assets/media/features/aduty-effects.mp4",
-      "commit_info": "98ae627 - Demo: attach GitBook GIFs and playlist videos to features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/98ae627",
-      "current_size": 453443,
-      "previous_size": 0,
-      "size_diff": 453443
+      "file": "demo/public/assets/js/i18n.js",
+      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "current_size": 21210,
+      "previous_size": 13475,
+      "size_diff": 7735
     },
     {
-      "file": "demo/public/assets/media/features/aduty-settings.mp4",
-      "commit_info": "98ae627 - Demo: attach GitBook GIFs and playlist videos to features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/98ae627",
-      "current_size": 1050414,
-      "previous_size": 0,
-      "size_diff": 1050414
+      "file": "demo/public/assets/js/media.js",
+      "commit_info": "4b8ce4a - Demo: the site replaces the GitBook — remove GitBook links",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4b8ce4a",
+      "current_size": 6952,
+      "previous_size": 7004,
+      "size_diff": -52
     },
     {
-      "file": "demo/public/assets/media/features/invisible.mp4",
-      "commit_info": "98ae627 - Demo: attach GitBook GIFs and playlist videos to features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/98ae627",
-      "current_size": 417802,
-      "previous_size": 0,
-      "size_diff": 417802
+      "file": "demo/public/assets/js/oxlib.js",
+      "commit_info": "06e5bac - Demo: identifiers wrap only at separators, one badge per permission, stacked tables on mobile",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/06e5bac",
+      "current_size": 17371,
+      "previous_size": 17133,
+      "size_diff": 238
     },
     {
-      "file": "demo/public/assets/media/features/locations-manage.mp4",
-      "commit_info": "98ae627 - Demo: attach GitBook GIFs and playlist videos to features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/98ae627",
-      "current_size": 264574,
+      "file": "demo/public/assets/js/perms-data.js",
+      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "current_size": 13604,
       "previous_size": 0,
-      "size_diff": 264574
+      "size_diff": 13604
     },
     {
-      "file": "demo/public/assets/media/features/locations-teleport.mp4",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 281592,
-      "previous_size": 0,
-      "size_diff": 281592
-    },
-    {
-      "file": "demo/public/assets/media/features/online-players.mp4",
-      "commit_info": "98ae627 - Demo: attach GitBook GIFs and playlist videos to features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/98ae627",
-      "current_size": 168006,
-      "previous_size": 0,
-      "size_diff": 168006
-    },
-    {
-      "file": "demo/public/assets/media/features/p-appearance.webp",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 59522,
-      "previous_size": 0,
-      "size_diff": 59522
-    },
-    {
-      "file": "demo/public/assets/media/features/p-health.webp",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 52644,
-      "previous_size": 0,
-      "size_diff": 52644
-    },
-    {
-      "file": "demo/public/assets/media/features/p-misc.webp",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 49386,
-      "previous_size": 0,
-      "size_diff": 49386
-    },
-    {
-      "file": "demo/public/assets/media/features/p-money.webp",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 39260,
-      "previous_size": 0,
-      "size_diff": 39260
-    },
-    {
-      "file": "demo/public/assets/media/features/p-vehicles.webp",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 63694,
-      "previous_size": 0,
-      "size_diff": 63694
-    },
-    {
-      "file": "demo/public/assets/media/features/p-voice.webp",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 42538,
-      "previous_size": 0,
-      "size_diff": 42538
-    },
-    {
-      "file": "demo/public/assets/media/features/permissions-add.mp4",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 470909,
-      "previous_size": 0,
-      "size_diff": 470909
-    },
-    {
-      "file": "demo/public/assets/media/features/permissions-edit.mp4",
-      "commit_info": "98ae627 - Demo: attach GitBook GIFs and playlist videos to features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/98ae627",
-      "current_size": 270942,
-      "previous_size": 0,
-      "size_diff": 270942
-    },
-    {
-      "file": "demo/public/assets/media/features/permissions-preview.mp4",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 240133,
-      "previous_size": 0,
-      "size_diff": 240133
-    },
-    {
-      "file": "demo/public/assets/media/features/player-outfits.mp4",
-      "commit_info": "98ae627 - Demo: attach GitBook GIFs and playlist videos to features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/98ae627",
-      "current_size": 471751,
-      "previous_size": 0,
-      "size_diff": 471751
-    },
-    {
-      "file": "demo/public/assets/media/features/player-vehicle.mp4",
-      "commit_info": "98ae627 - Demo: attach GitBook GIFs and playlist videos to features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/98ae627",
-      "current_size": 157558,
-      "previous_size": 0,
-      "size_diff": 157558
-    },
-    {
-      "file": "demo/public/assets/media/features/spawncar.mp4",
-      "commit_info": "98ae627 - Demo: attach GitBook GIFs and playlist videos to features",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/98ae627",
-      "current_size": 225085,
-      "previous_size": 0,
-      "size_diff": 225085
-    },
-    {
-      "file": "demo/public/assets/media/features/staff-options.webp",
-      "commit_info": "2bded6b - Demo: every GitBook/YouTube example per feature, keyed cut-outs, new transition",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/2bded6b",
-      "current_size": 22466,
-      "previous_size": 0,
-      "size_diff": 22466
+      "file": "demo/public/assets/js/site-data.js",
+      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "current_size": 30283,
+      "previous_size": 16462,
+      "size_diff": 13821
     },
     {
       "file": "demo/public/index.html",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 19757,
-      "previous_size": 12801,
-      "size_diff": 6956
-    },
-    {
-      "file": "demo/public/source/config/cfg/server.cfg.example",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 3199,
-      "previous_size": 0,
-      "size_diff": 3199
-    },
-    {
-      "file": "demo/public/source/config/config.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 28135,
-      "previous_size": 0,
-      "size_diff": 28135
-    },
-    {
-      "file": "demo/public/source/config/detect.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 14584,
-      "previous_size": 0,
-      "size_diff": 14584
-    },
-    {
-      "file": "demo/public/source/config/garages.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 2890,
-      "previous_size": 0,
-      "size_diff": 2890
-    },
-    {
-      "file": "demo/public/source/config/hrs_airdrop.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 5576,
-      "previous_size": 0,
-      "size_diff": 5576
-    },
-    {
-      "file": "demo/public/source/config/indexes.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1714,
-      "previous_size": 0,
-      "size_diff": 1714
-    },
-    {
-      "file": "demo/public/source/config/options.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 21173,
-      "previous_size": 0,
-      "size_diff": 21173
-    },
-    {
-      "file": "demo/public/source/config/peds.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 61784,
-      "previous_size": 0,
-      "size_diff": 61784
+      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "current_size": 22579,
+      "previous_size": 19757,
+      "size_diff": 2822
     },
     {
       "file": "demo/public/source/config/perms.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 10863,
-      "previous_size": 0,
-      "size_diff": 10863
-    },
-    {
-      "file": "demo/public/source/config/weapons.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 24211,
-      "previous_size": 0,
-      "size_diff": 24211
-    },
-    {
-      "file": "demo/public/source/config/webhooks.lua",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 1394,
-      "previous_size": 0,
-      "size_diff": 1394
-    },
-    {
-      "file": "demo/public/source/locales/en.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 250264,
-      "previous_size": 0,
-      "size_diff": 250264
-    },
-    {
-      "file": "demo/public/source/locales/fr.lua",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 262268,
-      "previous_size": 0,
-      "size_diff": 262268
+      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
+      "current_size": 12442,
+      "previous_size": 10863,
+      "size_diff": 1579
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
+      "commit_info": "f65e6b4 - Permissions: complete defaults, redesigned page with custom roles and .cfg generator",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f65e6b4",
       "current_size": 1341,
-      "previous_size": 0,
-      "size_diff": 1341
-    },
-    {
-      "file": "demo/server.js",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 6787,
-      "previous_size": 2049,
-      "size_diff": 4738
-    },
-    {
-      "file": "demo/tools/build-dist.js",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 3279,
-      "previous_size": 0,
-      "size_diff": 3279
-    },
-    {
-      "file": "demo/tools/build-gitbook.js",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 26101,
-      "previous_size": 0,
-      "size_diff": 26101
-    },
-    {
-      "file": "demo/tools/sync_source.py",
-      "commit_info": "1724dfc - Demo: harden the site against copying/reverse engineering, new header",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1724dfc",
-      "current_size": 4806,
-      "previous_size": 0,
-      "size_diff": 4806
-    },
-    {
-      "file": "gitbook/en/.gitbook.yaml",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 63,
-      "previous_size": 0,
-      "size_diff": 63
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-appearance.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 59522,
-      "previous_size": 0,
-      "size_diff": 59522
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-health.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 52644,
-      "previous_size": 0,
-      "size_diff": 52644
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-misc.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 49386,
-      "previous_size": 0,
-      "size_diff": 49386
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-money.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 39260,
-      "previous_size": 0,
-      "size_diff": 39260
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-vehicles.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 63694,
-      "previous_size": 0,
-      "size_diff": 63694
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-voice.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 42538,
-      "previous_size": 0,
-      "size_diff": 42538
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/staff-options.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 22466,
-      "previous_size": 0,
-      "size_diff": 22466
-    },
-    {
-      "file": "gitbook/en/SUMMARY.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1705,
-      "previous_size": 0,
-      "size_diff": 1705
-    },
-    {
-      "file": "gitbook/en/features/admin-duty-staff-modes.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 4019,
-      "previous_size": 0,
-      "size_diff": 4019
-    },
-    {
-      "file": "gitbook/en/features/developer-tools.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 2938,
-      "previous_size": 0,
-      "size_diff": 2938
-    },
-    {
-      "file": "gitbook/en/features/in-game-settings.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 3294,
-      "previous_size": 0,
-      "size_diff": 3294
-    },
-    {
-      "file": "gitbook/en/features/inventory-kits.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1004,
-      "previous_size": 0,
-      "size_diff": 1004
-    },
-    {
-      "file": "gitbook/en/features/options-catalog.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 5529,
-      "previous_size": 0,
-      "size_diff": 5529
-    },
-    {
-      "file": "gitbook/en/features/player-list-search.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 2297,
-      "previous_size": 0,
-      "size_diff": 2297
-    },
-    {
-      "file": "gitbook/en/features/player-management.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 4898,
-      "previous_size": 0,
-      "size_diff": 4898
-    },
-    {
-      "file": "gitbook/en/features/sanctions-moderation.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1204,
-      "previous_size": 0,
-      "size_diff": 1204
-    },
-    {
-      "file": "gitbook/en/features/vehicles.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1812,
-      "previous_size": 0,
-      "size_diff": 1812
-    },
-    {
-      "file": "gitbook/en/getting-started/cfx-asset-protection-guide.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1443,
-      "previous_size": 0,
-      "size_diff": 1443
-    },
-    {
-      "file": "gitbook/en/getting-started/installation.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1483,
-      "previous_size": 0,
-      "size_diff": 1483
-    },
-    {
-      "file": "gitbook/en/guides/add-option.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1517,
-      "previous_size": 0,
-      "size_diff": 1517
-    },
-    {
-      "file": "gitbook/en/guides/convars.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 734,
-      "previous_size": 0,
-      "size_diff": 734
-    },
-    {
-      "file": "gitbook/en/guides/gizmo.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 683,
-      "previous_size": 0,
-      "size_diff": 683
-    },
-    {
-      "file": "gitbook/en/guides/logs.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 880,
-      "previous_size": 0,
-      "size_diff": 880
-    },
-    {
-      "file": "gitbook/en/guides/noclip.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 737,
-      "previous_size": 0,
-      "size_diff": 737
-    },
-    {
-      "file": "gitbook/en/guides/perms-ingame.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1167,
-      "previous_size": 0,
-      "size_diff": 1167
+      "previous_size": 1341,
+      "size_diff": 0
     },
     {
-      "file": "gitbook/en/guides/pistol.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 607,
+      "file": "demo/tools/build_changelog.py",
+      "commit_info": "78d7547 - Demo: changelog page, GitHub version, signature footer, lowercase adminmenu brand",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/78d7547",
+      "current_size": 7118,
       "previous_size": 0,
-      "size_diff": 607
+      "size_diff": 7118
     },
     {
-      "file": "gitbook/en/guides/staff-inv.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1148,
+      "file": "demo/tools/build_perms.py",
+      "commit_info": "144a2a1 - Demo: permissions page shows exactly what each grade can do",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/144a2a1",
+      "current_size": 2576,
       "previous_size": 0,
-      "size_diff": 1148
+      "size_diff": 2576
     },
     {
-      "file": "gitbook/en/guides/staff-look.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 655,
+      "file": "docs-archive/gitbook-live/config.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 360,
       "previous_size": 0,
-      "size_diff": 655
+      "size_diff": 360
     },
     {
-      "file": "gitbook/en/guides/txadmin.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1024,
+      "file": "docs-archive/gitbook-live/config_config.lua.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 811,
       "previous_size": 0,
-      "size_diff": 1024
+      "size_diff": 811
     },
     {
-      "file": "gitbook/en/guides/uid.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 553,
+      "file": "docs-archive/gitbook-live/features.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 2084,
       "previous_size": 0,
-      "size_diff": 553
+      "size_diff": 2084
     },
     {
-      "file": "gitbook/en/reference/commands-and-keybinds.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 2391,
+      "file": "docs-archive/gitbook-live/features_admin-duty.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 2609,
       "previous_size": 0,
-      "size_diff": 2391
+      "size_diff": 2609
     },
     {
-      "file": "gitbook/en/reference/compatibility.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 2405,
+      "file": "docs-archive/gitbook-live/features_admin-modes.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 1683,
       "previous_size": 0,
-      "size_diff": 2405
+      "size_diff": 1683
     },
     {
-      "file": "gitbook/en/reference/configuration/config.lua.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 24066,
+      "file": "docs-archive/gitbook-live/features_keybinds.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 2035,
       "previous_size": 0,
-      "size_diff": 24066
+      "size_diff": 2035
     },
     {
-      "file": "gitbook/en/reference/console.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 9903,
+      "file": "docs-archive/gitbook-live/features_locations.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 3073,
       "previous_size": 0,
-      "size_diff": 9903
+      "size_diff": 3073
     },
     {
-      "file": "gitbook/en/reference/faq.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1664,
+      "file": "docs-archive/gitbook-live/features_online-players.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 2571,
       "previous_size": 0,
-      "size_diff": 1664
+      "size_diff": 2571
     },
     {
-      "file": "gitbook/en/reference/permissions.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 2911,
+      "file": "docs-archive/gitbook-live/features_permissions.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 2636,
       "previous_size": 0,
-      "size_diff": 2911
+      "size_diff": 2636
     },
     {
-      "file": "gitbook/en/videos.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1147,
+      "file": "docs-archive/gitbook-live/features_player-data.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 4636,
       "previous_size": 0,
-      "size_diff": 1147
+      "size_diff": 4636
     },
     {
-      "file": "gitbook/fr/.gitbook.yaml",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 63,
+      "file": "docs-archive/gitbook-live/features_vehicle-spawning.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 2093,
       "previous_size": 0,
-      "size_diff": 63
+      "size_diff": 2093
     },
     {
-      "file": "gitbook/fr/.gitbook/assets/p-appearance.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 59522,
+      "file": "docs-archive/gitbook-live/installation.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 923,
       "previous_size": 0,
-      "size_diff": 59522
+      "size_diff": 923
     },
     {
-      "file": "gitbook/fr/.gitbook/assets/p-health.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 52644,
+      "file": "docs-archive/gitbook-live/installation_cfx-asset-protection-guide.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 2496,
       "previous_size": 0,
-      "size_diff": 52644
+      "size_diff": 2496
     },
     {
-      "file": "gitbook/fr/.gitbook/assets/p-misc.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 49386,
+      "file": "docs-archive/gitbook-live/readme.md",
+      "commit_info": "29d1f80 - Archive the live GitBook pages for the docs audit",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29d1f80",
+      "current_size": 478,
       "previous_size": 0,
-      "size_diff": 49386
+      "size_diff": 478
     },
     {
-      "file": "gitbook/fr/.gitbook/assets/p-money.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 39260,
-      "previous_size": 0,
-      "size_diff": 39260
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/p-vehicles.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 63694,
-      "previous_size": 0,
-      "size_diff": 63694
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/p-voice.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 42538,
-      "previous_size": 0,
-      "size_diff": 42538
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/staff-options.webp",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 22466,
-      "previous_size": 0,
-      "size_diff": 22466
-    },
-    {
-      "file": "gitbook/fr/SUMMARY.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1818,
-      "previous_size": 0,
-      "size_diff": 1818
-    },
-    {
-      "file": "gitbook/fr/features/catalogue-d-options.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 6080,
-      "previous_size": 0,
-      "size_diff": 6080
-    },
-    {
-      "file": "gitbook/fr/features/gestion-d-un-joueur.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 5444,
-      "previous_size": 0,
-      "size_diff": 5444
-    },
-    {
-      "file": "gitbook/fr/features/inventaire-kits.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1162,
-      "previous_size": 0,
-      "size_diff": 1162
-    },
-    {
-      "file": "gitbook/fr/features/liste-recherche-de-joueurs.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 2557,
-      "previous_size": 0,
-      "size_diff": 2557
-    },
-    {
-      "file": "gitbook/fr/features/outils-developpeur.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 3177,
-      "previous_size": 0,
-      "size_diff": 3177
-    },
-    {
-      "file": "gitbook/fr/features/parametres-en-jeu.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 3590,
-      "previous_size": 0,
-      "size_diff": 3590
-    },
-    {
-      "file": "gitbook/fr/features/sanctions-moderation.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1290,
-      "previous_size": 0,
-      "size_diff": 1290
-    },
-    {
-      "file": "gitbook/fr/features/service-admin-modes-staff.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 4359,
-      "previous_size": 0,
-      "size_diff": 4359
-    },
-    {
-      "file": "gitbook/fr/features/vehicules.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 2013,
-      "previous_size": 0,
-      "size_diff": 2013
-    },
-    {
-      "file": "gitbook/fr/getting-started/cfx-asset-protection-guide.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1667,
-      "previous_size": 0,
-      "size_diff": 1667
-    },
-    {
-      "file": "gitbook/fr/getting-started/installation.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1575,
-      "previous_size": 0,
-      "size_diff": 1575
-    },
-    {
-      "file": "gitbook/fr/guides/add-option.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1630,
-      "previous_size": 0,
-      "size_diff": 1630
-    },
-    {
-      "file": "gitbook/fr/guides/convars.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 798,
-      "previous_size": 0,
-      "size_diff": 798
-    },
-    {
-      "file": "gitbook/fr/guides/gizmo.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 741,
-      "previous_size": 0,
-      "size_diff": 741
-    },
-    {
-      "file": "gitbook/fr/guides/logs.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 955,
-      "previous_size": 0,
-      "size_diff": 955
-    },
-    {
-      "file": "gitbook/fr/guides/noclip.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 803,
-      "previous_size": 0,
-      "size_diff": 803
-    },
-    {
-      "file": "gitbook/fr/guides/perms-ingame.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1330,
-      "previous_size": 0,
-      "size_diff": 1330
-    },
-    {
-      "file": "gitbook/fr/guides/pistol.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 683,
-      "previous_size": 0,
-      "size_diff": 683
+      "file": "server/events.lua",
+      "commit_info": "c1eb0aa - Security: server-side permission guard on every client-callable entry point",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c1eb0aa",
+      "current_size": 11086,
+      "previous_size": 11378,
+      "size_diff": -292
     },
     {
-      "file": "gitbook/fr/guides/staff-inv.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1223,
-      "previous_size": 0,
-      "size_diff": 1223
-    },
-    {
-      "file": "gitbook/fr/guides/staff-look.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 692,
-      "previous_size": 0,
-      "size_diff": 692
-    },
-    {
-      "file": "gitbook/fr/guides/txadmin.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 1089,
-      "previous_size": 0,
-      "size_diff": 1089
-    },
-    {
-      "file": "gitbook/fr/guides/uid.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 619,
-      "previous_size": 0,
-      "size_diff": 619
-    },
-    {
-      "file": "gitbook/fr/reference/commands-and-keybinds.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 2528,
-      "previous_size": 0,
-      "size_diff": 2528
-    },
-    {
-      "file": "gitbook/fr/reference/compatibility.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 2595,
-      "previous_size": 0,
-      "size_diff": 2595
-    },
-    {
-      "file": "gitbook/fr/reference/configuration/config.lua.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 24081,
-      "previous_size": 0,
-      "size_diff": 24081
-    },
-    {
-      "file": "gitbook/fr/reference/console.md",
-      "commit_info": "f40338b - Demo: console page, tutorials, open-code viewer and performance highlights",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f40338b",
-      "current_size": 10312,
-      "previous_size": 0,
-      "size_diff": 10312
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "c1eb0aa - Security: server-side permission guard on every client-callable entry point",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c1eb0aa",
+      "current_size": 118599,
+      "previous_size": 123446,
+      "size_diff": -4847
     },
     {
-      "file": "gitbook/fr/reference/faq.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1856,
-      "previous_size": 0,
-      "size_diff": 1856
+      "file": "server/modules/settings/cfg.lua",
+      "commit_info": "ed3108a - Security (WIP): server guard skeleton, permission editor limited to config/cfg/*.cfg",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ed3108a",
+      "current_size": 22455,
+      "previous_size": 22036,
+      "size_diff": 419
     },
     {
-      "file": "gitbook/fr/reference/permissions.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 3047,
+      "file": "server/security/guard.lua",
+      "commit_info": "c1eb0aa - Security: server-side permission guard on every client-callable entry point",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c1eb0aa",
+      "current_size": 5585,
       "previous_size": 0,
-      "size_diff": 3047
+      "size_diff": 5585
     },
     {
-      "file": "gitbook/fr/videos.md",
-      "commit_info": "4d02724 - Docs: generate the GitBook (EN + FR) from the demo site's data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4d02724",
-      "current_size": 1298,
+      "file": "server/security/policy.lua",
+      "commit_info": "c1eb0aa - Security: server-side permission guard on every client-callable entry point",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c1eb0aa",
+      "current_size": 10445,
       "previous_size": 0,
-      "size_diff": 1298
+      "size_diff": 10445
     }
   ]
 }
