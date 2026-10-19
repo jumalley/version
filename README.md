@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.383-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.384-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -5753,6 +5753,17 @@ server/modules/weather.lua: Integrations round 4 (in progress): weather & time c
 server/security/policy.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
 
 server/startup_manager.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.384</strong> – 2026-10-19 16:24</summary>
+
+## Changelog for v1.2.384
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
 
 
 
