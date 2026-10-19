@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.385-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.386-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -5775,6 +5775,139 @@ demo/public/assets/data/changelog.json: Demo: update changelog and version by gi
 ## Changelog for v1.2.385
 
 demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.386</strong> – 2026-10-19 17:31</summary>
+
+## Changelog for v1.2.386
+
+client/custom/appearance/tgiann-clothing.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/custom/dispatch/cd_dispatch.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/custom/dispatch/origen_police.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/custom/dispatch/qs-dispatch.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/custom/dispatch/rcore_dispatch.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/custom/notify/brutal_notify.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/custom/notify/wasabi_notify.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/custom/weather/esx_weather.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/modules/dispatch.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/modules/heists.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+client/modules/jobduty.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+client/modules/radio.lua: Integrations round 5 (in progress) by claude
+
+client/modules/settings/server.lua: Integrations round 5 (in progress) by claude
+
+client/modules/showdata/cuffs.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/modules/showdata/discord.lua: Integrations round 5 (in progress) by claude
+
+client/modules/showdata/health.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+client/modules/showdata/main.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+client/modules/showdata/multijob.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+client/modules/showdata/vehicles.lua: Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob by claude
+
+client/modules/showdata/voice.lua: Integrations round 5 (in progress) by claude
+
+client/modules/stress.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+config/detect.lua: Integrations round 5 (in progress) by claude
+
+config/options.lua: Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob by claude
+
+config/perms.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs.js: Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources by claude
+
+demo/public/assets/js/integrations.js: Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources by claude
+
+demo/public/assets/js/menus-settings.js: Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob by claude
+
+demo/public/assets/js/perms-data.js: Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources by claude
+
+demo/public/assets/js/site-data.js: Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources by claude
+
+demo/public/index.html: Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources by claude
+
+locales/en.lua: Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob by claude
+
+locales/fr.lua: Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob by claude
+
+server/custom/discord/Badger_Discord_API.lua: Integrations round 5 (in progress) by claude
+
+server/custom/dispatch/redutzu-mdt.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/dispatch/tk_dispatch.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/dispatch/wasabi_mdt.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/garage/esx_garage.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/housing/loaf_housing.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/multijob/ps-multijob.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+server/custom/multijob/qbx_core.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+server/custom/police/esx_policejob.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/police/qb-policejob.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/prison/rcore_prison.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/society/fd_banking.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/society/snipe-banking.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/society/tgg-banking.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/society/wasabi_banking.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/custom/weather/esx_weather.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/functions.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/modules/callbacks.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/modules/cuffs.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+server/modules/discord_roles.lua: Integrations round 5 (in progress) by claude
+
+server/modules/dispatch.lua: Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob by claude
+
+server/modules/heists.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+server/modules/jobduty.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+server/modules/multijob.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+server/modules/radio.lua: Integrations round 5 (in progress) by claude
+
+server/modules/stress.lua: Integrations round 5 (in progress): heists, job duty, multi-job, stress by claude
+
+server/modules/vehicles.lua: Integrations round 5 (in progress) by claude
+
+server/security/policy.lua: Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob by claude
+
+server/startup_manager.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
 
 
 

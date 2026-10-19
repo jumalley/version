@@ -1,17 +1,505 @@
 {
-  "version": "1.2.385",
+  "version": "1.2.386",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/custom/appearance/tgiann-clothing.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1594,
+      "previous_size": 0,
+      "size_diff": 1594
+    },
+    {
+      "file": "client/custom/dispatch/cd_dispatch.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1978,
+      "previous_size": 0,
+      "size_diff": 1978
+    },
+    {
+      "file": "client/custom/dispatch/origen_police.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1340,
+      "previous_size": 0,
+      "size_diff": 1340
+    },
+    {
+      "file": "client/custom/dispatch/qs-dispatch.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1718,
+      "previous_size": 0,
+      "size_diff": 1718
+    },
+    {
+      "file": "client/custom/dispatch/rcore_dispatch.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1861,
+      "previous_size": 0,
+      "size_diff": 1861
+    },
+    {
+      "file": "client/custom/notify/brutal_notify.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 773,
+      "previous_size": 0,
+      "size_diff": 773
+    },
+    {
+      "file": "client/custom/notify/wasabi_notify.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 688,
+      "previous_size": 0,
+      "size_diff": 688
+    },
+    {
+      "file": "client/custom/weather/esx_weather.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 611,
+      "previous_size": 0,
+      "size_diff": 611
+    },
+    {
+      "file": "client/modules/dispatch.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 4662,
+      "previous_size": 4350,
+      "size_diff": 312
+    },
+    {
+      "file": "client/modules/heists.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 16776,
+      "previous_size": 0,
+      "size_diff": 16776
+    },
+    {
+      "file": "client/modules/jobduty.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 7161,
+      "previous_size": 0,
+      "size_diff": 7161
+    },
+    {
+      "file": "client/modules/radio.lua",
+      "commit_info": "29e7220 - Integrations round 5 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29e7220",
+      "current_size": 654,
+      "previous_size": 0,
+      "size_diff": 654
+    },
+    {
+      "file": "client/modules/settings/server.lua",
+      "commit_info": "29e7220 - Integrations round 5 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29e7220",
+      "current_size": 20613,
+      "previous_size": 19593,
+      "size_diff": 1020
+    },
+    {
+      "file": "client/modules/showdata/cuffs.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 3022,
+      "previous_size": 0,
+      "size_diff": 3022
+    },
+    {
+      "file": "client/modules/showdata/discord.lua",
+      "commit_info": "29e7220 - Integrations round 5 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29e7220",
+      "current_size": 4948,
+      "previous_size": 0,
+      "size_diff": 4948
+    },
+    {
+      "file": "client/modules/showdata/health.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 15209,
+      "previous_size": 15060,
+      "size_diff": 149
+    },
+    {
+      "file": "client/modules/showdata/main.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 12391,
+      "previous_size": 10577,
+      "size_diff": 1814
+    },
+    {
+      "file": "client/modules/showdata/multijob.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 6998,
+      "previous_size": 0,
+      "size_diff": 6998
+    },
+    {
+      "file": "client/modules/showdata/vehicles.lua",
+      "commit_info": "8fa0d8c - Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8fa0d8c",
+      "current_size": 25088,
+      "previous_size": 24897,
+      "size_diff": 191
+    },
+    {
+      "file": "client/modules/showdata/voice.lua",
+      "commit_info": "29e7220 - Integrations round 5 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29e7220",
+      "current_size": 10371,
+      "previous_size": 8945,
+      "size_diff": 1426
+    },
+    {
+      "file": "client/modules/stress.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 1726,
+      "previous_size": 0,
+      "size_diff": 1726
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "c2c66f9 - Integrations round 5 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c2c66f9",
+      "current_size": 31989,
+      "previous_size": 26668,
+      "size_diff": 5321
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "8fa0d8c - Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8fa0d8c",
+      "current_size": 24555,
+      "previous_size": 23294,
+      "size_diff": 1261
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 15538,
+      "previous_size": 14622,
+      "size_diff": 916
+    },
+    {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "b77667f - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b77667f",
+      "commit_info": "0f9eba9 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f9eba9",
       "current_size": 136915,
       "previous_size": 136915,
       "size_diff": 0
+    },
+    {
+      "file": "demo/public/assets/js/docs.js",
+      "commit_info": "f82e3be - Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f82e3be",
+      "current_size": 65258,
+      "previous_size": 60830,
+      "size_diff": 4428
+    },
+    {
+      "file": "demo/public/assets/js/integrations.js",
+      "commit_info": "f82e3be - Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f82e3be",
+      "current_size": 235872,
+      "previous_size": 207488,
+      "size_diff": 28384
+    },
+    {
+      "file": "demo/public/assets/js/menus-settings.js",
+      "commit_info": "8fa0d8c - Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8fa0d8c",
+      "current_size": 39386,
+      "previous_size": 38528,
+      "size_diff": 858
+    },
+    {
+      "file": "demo/public/assets/js/perms-data.js",
+      "commit_info": "f82e3be - Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f82e3be",
+      "current_size": 15850,
+      "previous_size": 15119,
+      "size_diff": 731
+    },
+    {
+      "file": "demo/public/assets/js/site-data.js",
+      "commit_info": "f82e3be - Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f82e3be",
+      "current_size": 42534,
+      "previous_size": 41683,
+      "size_diff": 851
+    },
+    {
+      "file": "demo/public/index.html",
+      "commit_info": "f82e3be - Site: round 5 guides (multi-job, job duty, robberies, stress, radio, Discord, handcuffs, esx_garage, new society/dispatch/prison/notify scripts), permission labels, 206 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f82e3be",
+      "current_size": 22845,
+      "previous_size": 22845,
+      "size_diff": 0
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "8fa0d8c - Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8fa0d8c",
+      "current_size": 291339,
+      "previous_size": 281840,
+      "size_diff": 9499
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "8fa0d8c - Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8fa0d8c",
+      "current_size": 306189,
+      "previous_size": 296002,
+      "size_diff": 10187
+    },
+    {
+      "file": "server/custom/discord/Badger_Discord_API.lua",
+      "commit_info": "29e7220 - Integrations round 5 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29e7220",
+      "current_size": 2448,
+      "previous_size": 0,
+      "size_diff": 2448
+    },
+    {
+      "file": "server/custom/dispatch/redutzu-mdt.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 972,
+      "previous_size": 0,
+      "size_diff": 972
+    },
+    {
+      "file": "server/custom/dispatch/tk_dispatch.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1403,
+      "previous_size": 0,
+      "size_diff": 1403
+    },
+    {
+      "file": "server/custom/dispatch/wasabi_mdt.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1140,
+      "previous_size": 0,
+      "size_diff": 1140
+    },
+    {
+      "file": "server/custom/garage/esx_garage.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 4065,
+      "previous_size": 0,
+      "size_diff": 4065
+    },
+    {
+      "file": "server/custom/housing/loaf_housing.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1629,
+      "previous_size": 0,
+      "size_diff": 1629
+    },
+    {
+      "file": "server/custom/multijob/ps-multijob.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 3388,
+      "previous_size": 0,
+      "size_diff": 3388
+    },
+    {
+      "file": "server/custom/multijob/qbx_core.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 2989,
+      "previous_size": 0,
+      "size_diff": 2989
+    },
+    {
+      "file": "server/custom/police/esx_policejob.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1373,
+      "previous_size": 0,
+      "size_diff": 1373
+    },
+    {
+      "file": "server/custom/police/qb-policejob.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1756,
+      "previous_size": 0,
+      "size_diff": 1756
+    },
+    {
+      "file": "server/custom/prison/rcore_prison.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1613,
+      "previous_size": 0,
+      "size_diff": 1613
+    },
+    {
+      "file": "server/custom/society/fd_banking.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1574,
+      "previous_size": 0,
+      "size_diff": 1574
+    },
+    {
+      "file": "server/custom/society/snipe-banking.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1167,
+      "previous_size": 0,
+      "size_diff": 1167
+    },
+    {
+      "file": "server/custom/society/tgg-banking.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1286,
+      "previous_size": 0,
+      "size_diff": 1286
+    },
+    {
+      "file": "server/custom/society/wasabi_banking.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 1428,
+      "previous_size": 0,
+      "size_diff": 1428
+    },
+    {
+      "file": "server/custom/weather/esx_weather.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 2578,
+      "previous_size": 0,
+      "size_diff": 2578
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 37912,
+      "previous_size": 37797,
+      "size_diff": 115
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 123202,
+      "previous_size": 123395,
+      "size_diff": -193
+    },
+    {
+      "file": "server/modules/cuffs.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 2453,
+      "previous_size": 0,
+      "size_diff": 2453
+    },
+    {
+      "file": "server/modules/discord_roles.lua",
+      "commit_info": "29e7220 - Integrations round 5 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29e7220",
+      "current_size": 4355,
+      "previous_size": 0,
+      "size_diff": 4355
+    },
+    {
+      "file": "server/modules/dispatch.lua",
+      "commit_info": "8fa0d8c - Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8fa0d8c",
+      "current_size": 4876,
+      "previous_size": 3833,
+      "size_diff": 1043
+    },
+    {
+      "file": "server/modules/heists.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 2825,
+      "previous_size": 0,
+      "size_diff": 2825
+    },
+    {
+      "file": "server/modules/jobduty.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 6789,
+      "previous_size": 0,
+      "size_diff": 6789
+    },
+    {
+      "file": "server/modules/multijob.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 5413,
+      "previous_size": 0,
+      "size_diff": 5413
+    },
+    {
+      "file": "server/modules/radio.lua",
+      "commit_info": "29e7220 - Integrations round 5 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29e7220",
+      "current_size": 2807,
+      "previous_size": 0,
+      "size_diff": 2807
+    },
+    {
+      "file": "server/modules/stress.lua",
+      "commit_info": "0418eac - Integrations round 5 (in progress): heists, job duty, multi-job, stress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0418eac",
+      "current_size": 2812,
+      "previous_size": 0,
+      "size_diff": 2812
+    },
+    {
+      "file": "server/modules/vehicles.lua",
+      "commit_info": "c2c66f9 - Integrations round 5 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c2c66f9",
+      "current_size": 3964,
+      "previous_size": 2104,
+      "size_diff": 1860
+    },
+    {
+      "file": "server/security/policy.lua",
+      "commit_info": "8fa0d8c - Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8fa0d8c",
+      "current_size": 17135,
+      "previous_size": 15050,
+      "size_diff": 2085
+    },
+    {
+      "file": "server/startup_manager.lua",
+      "commit_info": "f8a4757 - Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f8a4757",
+      "current_size": 14216,
+      "previous_size": 13744,
+      "size_diff": 472
     }
   ]
 }
