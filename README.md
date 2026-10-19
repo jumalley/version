@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.382-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.383-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -5650,6 +5650,109 @@ server/security/policy.lua: City hall ID cards (qb-cityhall), crypto account, di
 server/startup_manager.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
 
 shared/bob74_interiors.lua: Re-verified integrations against vendor docs by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.383</strong> – 2026-10-19 11:55</summary>
+
+## Changelog for v1.2.383
+
+client/custom/phone/roadphone.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+client/modules/settings/server.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+client/modules/showdata/billing.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+client/modules/showdata/general.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+client/modules/showdata/main.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+client/modules/showdata/multicharacter.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+client/modules/showdata/permissions.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+client/modules/showdata/records.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+client/modules/weather.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+config/cfg/adminmenu_main_perms.cfg: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+config/detect.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+config/options.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+config/perms.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs.js: Site: round 4 integration guides (bills, weather & time, police records, phones, characters, ambulance, gangs), new permission labels, 169 detected resources by claude
+
+demo/public/assets/js/integrations.js: Site: round 4 integration guides (bills, weather & time, police records, phones, characters, ambulance, gangs), new permission labels, 169 detected resources by claude
+
+demo/public/assets/js/menus-settings.js: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+demo/public/assets/js/perms-data.js: Site: round 4 integration guides (bills, weather & time, police records, phones, characters, ambulance, gangs), new permission labels, 169 detected resources by claude
+
+demo/public/assets/js/site-data.js: Site: round 4 integration guides (bills, weather & time, police records, phones, characters, ambulance, gangs), new permission labels, 169 detected resources by claude
+
+demo/public/index.html: Site: round 4 integration guides (bills, weather & time, police records, phones, characters, ambulance, gangs), new permission labels, 169 detected resources by claude
+
+locales/en.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+locales/fr.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+server/custom/ambulance/ars_ambulancejob.lua: Bills: list / cancel / create player bills (esx_billing, okokBilling, qs-billing, wasabi_billing, qb-phone invoices) by claude
+
+server/custom/ambulance/osp_ambulance.lua: Bills: list / cancel / create player bills (esx_billing, okokBilling, qs-billing, wasabi_billing, qb-phone invoices) by claude
+
+server/custom/billing/esx_billing.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/billing/okokBilling.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/billing/qb-phone.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/billing/qs-billing.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/billing/wasabi_billing.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/gangs/qb-core.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+server/custom/gangs/rcore_gangs.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+server/custom/mdt/lb-tablet.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+server/custom/mdt/ps-mdt.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+server/custom/multicharacter/multicharacter.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/phone/roadphone.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/phone/sd-phone.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/phone/sky_phone.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/weather/Renewed-Weathersync.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/weather/cd_easytime.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/weather/qb-weathersync.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/custom/weather/vSync.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/modules/billing.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/modules/gangs.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+server/modules/mdt.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+server/modules/weather.lua: Integrations round 4 (in progress): weather & time control, bills, phones, characters, ambulance, gangs, MDT by claude
+
+server/security/policy.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
+
+server/startup_manager.lua: Phones (sd-phone, sky_phone, roadphone), um-multicharacter, osp/ars ambulance, QBCore/Qbox gangs + rcore_gangs, police records (ps-mdt, lb-tablet) by claude
 
 
 
