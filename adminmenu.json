@@ -1,281 +1,1833 @@
 {
-  "version": "1.2.381",
+  "version": "1.2.382",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/framework/qb.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 2596,
-      "previous_size": 2491,
-      "size_diff": 105
+      "file": "client/custom/ambulance/wasabi_ambulance.lua",
+      "commit_info": "27e0259 - Licenses & ID cards, screencapture support, hunger/thirst fixed on ESX/QBCore/Qbox",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/27e0259",
+      "current_size": 459,
+      "previous_size": 0,
+      "size_diff": 459
     },
     {
-      "file": "client/custom/inventory/admin_duty_stash.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 2046,
-      "previous_size": 2120,
-      "size_diff": -74
+      "file": "client/custom/appearance/esx_skin.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 2503,
+      "previous_size": 1554,
+      "size_diff": 949
+    },
+    {
+      "file": "client/custom/appearance/fivem-appearance.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 2343,
+      "previous_size": 740,
+      "size_diff": 1603
+    },
+    {
+      "file": "client/custom/appearance/illenium-appearance.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 3133,
+      "previous_size": 2472,
+      "size_diff": 661
+    },
+    {
+      "file": "client/custom/appearance/native_fallback.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 11013,
+      "previous_size": 0,
+      "size_diff": 11013
+    },
+    {
+      "file": "client/custom/appearance/qb-clothing.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 1196,
+      "previous_size": 565,
+      "size_diff": 631
+    },
+    {
+      "file": "client/custom/appearance/rcore_clothing.lua",
+      "commit_info": "0df44b8 - Re-verified integrations against vendor docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0df44b8",
+      "current_size": 1529,
+      "previous_size": 1044,
+      "size_diff": 485
+    },
+    {
+      "file": "client/custom/dispatch/lb-tablet.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 1783,
+      "previous_size": 0,
+      "size_diff": 1783
+    },
+    {
+      "file": "client/custom/dispatch/ps-dispatch.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 1618,
+      "previous_size": 0,
+      "size_diff": 1618
+    },
+    {
+      "file": "client/custom/doorlock/ox_doorlock.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 3671,
+      "previous_size": 4687,
+      "size_diff": -1016
+    },
+    {
+      "file": "client/custom/doorlock/qb-doorlock.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 2431,
+      "previous_size": 0,
+      "size_diff": 2431
+    },
+    {
+      "file": "client/custom/emotemenu/dpemotes.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 286,
+      "previous_size": 189,
+      "size_diff": 97
+    },
+    {
+      "file": "client/custom/emotemenu/rpemotes-reborn.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 714,
+      "previous_size": 235,
+      "size_diff": 479
+    },
+    {
+      "file": "client/custom/emotemenu/rpemotes.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 406,
+      "previous_size": 204,
+      "size_diff": 202
+    },
+    {
+      "file": "client/custom/emotemenu/scully_emotemenu.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 360,
+      "previous_size": 249,
+      "size_diff": 111
+    },
+    {
+      "file": "client/custom/framework/esx.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 2158,
+      "previous_size": 2585,
+      "size_diff": -427
+    },
+    {
+      "file": "client/custom/framework/qb.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 2243,
+      "previous_size": 2596,
+      "size_diff": -353
+    },
+    {
+      "file": "client/custom/fuel/BigDaddy-Fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 480,
+      "previous_size": 475,
+      "size_diff": 5
+    },
+    {
+      "file": "client/custom/fuel/LegacyFuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 471,
+      "previous_size": 472,
+      "size_diff": -1
+    },
+    {
+      "file": "client/custom/fuel/Renewed-Fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 619,
+      "previous_size": 0,
+      "size_diff": 619
+    },
+    {
+      "file": "client/custom/fuel/cdn-fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 465,
+      "previous_size": 460,
+      "size_diff": 5
+    },
+    {
+      "file": "client/custom/fuel/esx-sna-fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 477,
+      "previous_size": 472,
+      "size_diff": 5
+    },
+    {
+      "file": "client/custom/fuel/hrs_fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 455,
+      "previous_size": 450,
+      "size_diff": 5
+    },
+    {
+      "file": "client/custom/fuel/lc_fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 610,
+      "previous_size": 0,
+      "size_diff": 610
+    },
+    {
+      "file": "client/custom/fuel/lj-fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 462,
+      "previous_size": 457,
+      "size_diff": 5
+    },
+    {
+      "file": "client/custom/fuel/native.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 626,
+      "previous_size": 616,
+      "size_diff": 10
+    },
+    {
+      "file": "client/custom/fuel/okokGasStation.lua",
+      "commit_info": "0df44b8 - Re-verified integrations against vendor docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0df44b8",
+      "current_size": 642,
+      "previous_size": 478,
+      "size_diff": 164
+    },
+    {
+      "file": "client/custom/fuel/ox_fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 641,
+      "previous_size": 213,
+      "size_diff": 428
+    },
+    {
+      "file": "client/custom/fuel/ps-fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 462,
+      "previous_size": 457,
+      "size_diff": 5
+    },
+    {
+      "file": "client/custom/fuel/qb-fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 626,
+      "previous_size": 0,
+      "size_diff": 626
+    },
+    {
+      "file": "client/custom/fuel/qs-fuelstations.lua",
+      "commit_info": "0df44b8 - Re-verified integrations against vendor docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0df44b8",
+      "current_size": 689,
+      "previous_size": 481,
+      "size_diff": 208
+    },
+    {
+      "file": "client/custom/fuel/ti_fuel.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 471,
+      "previous_size": 466,
+      "size_diff": 5
+    },
+    {
+      "file": "client/custom/garage/jg-advancedgarages.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 841,
+      "previous_size": 595,
+      "size_diff": 246
+    },
+    {
+      "file": "client/custom/garage/qs-advancedgarages.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 675,
+      "previous_size": 306,
+      "size_diff": 369
+    },
+    {
+      "file": "client/custom/inventory/ak47.lua",
+      "commit_info": "e5fdabc - Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5fdabc",
+      "current_size": 1330,
+      "previous_size": 0,
+      "size_diff": 1330
+    },
+    {
+      "file": "client/custom/inventory/codem.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 1172,
+      "previous_size": 586,
+      "size_diff": 586
+    },
+    {
+      "file": "client/custom/inventory/common.lua",
+      "commit_info": "e5fdabc - Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5fdabc",
+      "current_size": 3463,
+      "previous_size": 0,
+      "size_diff": 3463
+    },
+    {
+      "file": "client/custom/inventory/core.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 1357,
+      "previous_size": 1187,
+      "size_diff": 170
+    },
+    {
+      "file": "client/custom/inventory/jaksam.lua",
+      "commit_info": "e5fdabc - Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5fdabc",
+      "current_size": 1603,
+      "previous_size": 0,
+      "size_diff": 1603
+    },
+    {
+      "file": "client/custom/inventory/origen.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 1172,
+      "previous_size": 597,
+      "size_diff": 575
+    },
+    {
+      "file": "client/custom/inventory/ox.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 4498,
+      "previous_size": 4239,
+      "size_diff": 259
+    },
+    {
+      "file": "client/custom/inventory/ox_inventory_integration.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 10835,
+      "previous_size": 10776,
+      "size_diff": 59
+    },
+    {
+      "file": "client/custom/inventory/qb.lua",
+      "commit_info": "e5fdabc - Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5fdabc",
+      "current_size": 2602,
+      "previous_size": 593,
+      "size_diff": 2009
+    },
+    {
+      "file": "client/custom/inventory/qs.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 3136,
+      "previous_size": 1409,
+      "size_diff": 1727
+    },
+    {
+      "file": "client/custom/inventory/tgiann.lua",
+      "commit_info": "1497d5b - Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1497d5b",
+      "current_size": 1229,
+      "previous_size": 597,
+      "size_diff": 632
+    },
+    {
+      "file": "client/custom/notify/esx_notify.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 635,
+      "previous_size": 0,
+      "size_diff": 635
+    },
+    {
+      "file": "client/custom/notify/lation_ui.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 771,
+      "previous_size": 0,
+      "size_diff": 771
+    },
+    {
+      "file": "client/custom/notify/mythic_notify.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 896,
+      "previous_size": 0,
+      "size_diff": 896
+    },
+    {
+      "file": "client/custom/notify/okokNotify.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 657,
+      "previous_size": 0,
+      "size_diff": 657
+    },
+    {
+      "file": "client/custom/notify/ox_lib.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 326,
+      "previous_size": 0,
+      "size_diff": 326
+    },
+    {
+      "file": "client/custom/notify/pNotify.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 796,
+      "previous_size": 0,
+      "size_diff": 796
+    },
+    {
+      "file": "client/custom/phone/qs-smartphone.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 625,
+      "previous_size": 0,
+      "size_diff": 625
+    },
+    {
+      "file": "client/custom/screenshot/screenshot.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1558,
+      "previous_size": 0,
+      "size_diff": 1558
+    },
+    {
+      "file": "client/custom/target/ox_target.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 2686,
+      "previous_size": 2256,
+      "size_diff": 430
+    },
+    {
+      "file": "client/custom/target/qb-target.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 315,
+      "previous_size": 0,
+      "size_diff": 315
+    },
+    {
+      "file": "client/custom/textui/cd_drawtextui.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 883,
+      "previous_size": 0,
+      "size_diff": 883
+    },
+    {
+      "file": "client/custom/textui/jg-textui.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 778,
+      "previous_size": 0,
+      "size_diff": 778
+    },
+    {
+      "file": "client/custom/textui/okokTextUI.lua",
+      "commit_info": "0df44b8 - Re-verified integrations against vendor docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0df44b8",
+      "current_size": 1258,
+      "previous_size": 332,
+      "size_diff": 926
+    },
+    {
+      "file": "client/custom/textui/qb-core.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 1232,
+      "previous_size": 0,
+      "size_diff": 1232
+    },
+    {
+      "file": "client/custom/vehiclekeys/MrNewbVehicleKeys.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 368,
+      "previous_size": 0,
+      "size_diff": 368
+    },
+    {
+      "file": "client/custom/vehiclekeys/Renewed-Vehiclekeys.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 348,
+      "previous_size": 0,
+      "size_diff": 348
+    },
+    {
+      "file": "client/custom/vehiclekeys/cd_garage.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 310,
+      "previous_size": 0,
+      "size_diff": 310
+    },
+    {
+      "file": "client/custom/vehiclekeys/default.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 1571,
+      "previous_size": 0,
+      "size_diff": 1571
+    },
+    {
+      "file": "client/custom/vehiclekeys/mono_carkeys.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 392,
+      "previous_size": 270,
+      "size_diff": 122
+    },
+    {
+      "file": "client/custom/vehiclekeys/okokGarage.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 422,
+      "previous_size": 0,
+      "size_diff": 422
+    },
+    {
+      "file": "client/custom/vehiclekeys/qb-vehiclekeys.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 1051,
+      "previous_size": 238,
+      "size_diff": 813
+    },
+    {
+      "file": "client/custom/vehiclekeys/qbx_vehiclekeys.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 1786,
+      "previous_size": 256,
+      "size_diff": 1530
+    },
+    {
+      "file": "client/custom/vehiclekeys/qs-vehiclekeys.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1431,
+      "previous_size": 669,
+      "size_diff": 762
+    },
+    {
+      "file": "client/custom/vehiclekeys/t1ger_keys.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 324,
+      "previous_size": 0,
+      "size_diff": 324
+    },
+    {
+      "file": "client/custom/vehiclekeys/ti_vehicleKeys.lua",
+      "commit_info": "0df44b8 - Re-verified integrations against vendor docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0df44b8",
+      "current_size": 518,
+      "previous_size": 216,
+      "size_diff": 302
+    },
+    {
+      "file": "client/custom/vehiclekeys/vehicles_keys.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 356,
+      "previous_size": 225,
+      "size_diff": 131
+    },
+    {
+      "file": "client/custom/vehiclekeys/wasabi_carlock.lua",
+      "commit_info": "27e0259 - Licenses & ID cards, screencapture support, hunger/thirst fixed on ESX/QBCore/Qbox",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/27e0259",
+      "current_size": 412,
+      "previous_size": 234,
+      "size_diff": 178
+    },
+    {
+      "file": "client/custom/vehiclekeys/xd_locksystem.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 343,
+      "previous_size": 209,
+      "size_diff": 134
+    },
+    {
+      "file": "client/custom/voice/mumble-voip.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 2799,
+      "previous_size": 0,
+      "size_diff": 2799
+    },
+    {
+      "file": "client/custom/voice/pma-voice.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 11270,
+      "previous_size": 11185,
+      "size_diff": 85
+    },
+    {
+      "file": "client/custom/voice/saltychat.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 1999,
+      "previous_size": 0,
+      "size_diff": 1999
+    },
+    {
+      "file": "client/custom/weather/Renewed-Weathersync.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 724,
+      "previous_size": 0,
+      "size_diff": 724
+    },
+    {
+      "file": "client/custom/weather/cd_easytime.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 781,
+      "previous_size": 588,
+      "size_diff": 193
+    },
+    {
+      "file": "client/custom/weather/qb-weathersync.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 571,
+      "previous_size": 601,
+      "size_diff": -30
+    },
+    {
+      "file": "client/custom/weather/vSync.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 739,
+      "previous_size": 1070,
+      "size_diff": -331
+    },
+    {
+      "file": "client/custom/zombies/hrs_zombiesV2.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 6606,
+      "previous_size": 6276,
+      "size_diff": 330
     },
     {
       "file": "client/functions.lua",
-      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
-      "current_size": 137163,
-      "previous_size": 137201,
-      "size_diff": -38
+      "commit_info": "1497d5b - Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1497d5b",
+      "current_size": 138941,
+      "previous_size": 137163,
+      "size_diff": 1778
     },
     {
-      "file": "client/modules/adminduty/core.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 7310,
-      "previous_size": 6757,
-      "size_diff": 553
+      "file": "client/modules/adminduty/hrs_integration.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 30042,
+      "previous_size": 29948,
+      "size_diff": 94
     },
     {
-      "file": "client/modules/build.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 13052,
-      "previous_size": 12621,
-      "size_diff": 431
+      "file": "client/modules/adminduty/pistol.lua",
+      "commit_info": "51349b3 - Add vehicle trunk / glovebox opening for admins",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/51349b3",
+      "current_size": 37029,
+      "previous_size": 36438,
+      "size_diff": 591
     },
     {
-      "file": "client/modules/modes/modes.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 28107,
-      "previous_size": 27884,
-      "size_diff": 223
+      "file": "client/modules/announce.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 11756,
+      "previous_size": 11748,
+      "size_diff": 8
+    },
+    {
+      "file": "client/modules/callbacks.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 11603,
+      "previous_size": 11085,
+      "size_diff": 518
+    },
+    {
+      "file": "client/modules/dev/interiors.lua",
+      "commit_info": "108ea2d - Dev tools: Zone Creator (PolyZone / ox_lib): create poly/box/circle zones in game with live preview, copy as code, save/list/preview/teleport/rename/delete; jail zones fixed (lib.zones)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/108ea2d",
+      "current_size": 30957,
+      "previous_size": 0,
+      "size_diff": 30957
+    },
+    {
+      "file": "client/modules/dev/zones.lua",
+      "commit_info": "108ea2d - Dev tools: Zone Creator (PolyZone / ox_lib): create poly/box/circle zones in game with live preview, copy as code, save/list/preview/teleport/rename/delete; jail zones fixed (lib.zones)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/108ea2d",
+      "current_size": 48683,
+      "previous_size": 0,
+      "size_diff": 48683
+    },
+    {
+      "file": "client/modules/dispatch.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 4350,
+      "previous_size": 0,
+      "size_diff": 4350
+    },
+    {
+      "file": "client/modules/integrations/crew.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 15524,
+      "previous_size": 15522,
+      "size_diff": 2
+    },
+    {
+      "file": "client/modules/integrations/drunk_common.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 643,
+      "previous_size": 0,
+      "size_diff": 643
+    },
+    {
+      "file": "client/modules/integrations/esx_optionalneeds.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 652,
+      "previous_size": 0,
+      "size_diff": 652
+    },
+    {
+      "file": "client/modules/integrations/rcore_drunk.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 4835,
+      "previous_size": 5078,
+      "size_diff": -243
+    },
+    {
+      "file": "client/modules/jail.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 26462,
+      "previous_size": 26098,
+      "size_diff": 364
+    },
+    {
+      "file": "client/modules/notify.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 4694,
+      "previous_size": 0,
+      "size_diff": 4694
     },
     {
       "file": "client/modules/onlineplayers.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 50598,
-      "previous_size": 49992,
-      "size_diff": 606
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 50599,
+      "previous_size": 50598,
+      "size_diff": 1
     },
     {
-      "file": "client/modules/show.lua",
-      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
-      "current_size": 9122,
-      "previous_size": 8746,
-      "size_diff": 376
+      "file": "client/modules/prison.lua",
+      "commit_info": "1497d5b - Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1497d5b",
+      "current_size": 3646,
+      "previous_size": 0,
+      "size_diff": 3646
+    },
+    {
+      "file": "client/modules/reports.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 8071,
+      "previous_size": 7273,
+      "size_diff": 798
+    },
+    {
+      "file": "client/modules/settings/server.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 18869,
+      "previous_size": 18321,
+      "size_diff": 548
+    },
+    {
+      "file": "client/modules/showdata/appearance.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 19916,
+      "previous_size": 19896,
+      "size_diff": 20
     },
     {
       "file": "client/modules/showdata/health.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 13616,
-      "previous_size": 13745,
-      "size_diff": -129
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 15060,
+      "previous_size": 13616,
+      "size_diff": 1444
+    },
+    {
+      "file": "client/modules/showdata/houses.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 16534,
+      "previous_size": 12248,
+      "size_diff": 4286
+    },
+    {
+      "file": "client/modules/showdata/inventory.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 51292,
+      "previous_size": 51180,
+      "size_diff": 112
+    },
+    {
+      "file": "client/modules/showdata/licenses.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 5383,
+      "previous_size": 0,
+      "size_diff": 5383
     },
     {
       "file": "client/modules/showdata/main.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 9316,
-      "previous_size": 9186,
-      "size_diff": 130
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 9933,
+      "previous_size": 9316,
+      "size_diff": 617
+    },
+    {
+      "file": "client/modules/showdata/manage.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 31832,
+      "previous_size": 30954,
+      "size_diff": 878
+    },
+    {
+      "file": "client/modules/showdata/money.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 7126,
+      "previous_size": 5480,
+      "size_diff": 1646
+    },
+    {
+      "file": "client/modules/showdata/multicharacter.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 14398,
+      "previous_size": 12119,
+      "size_diff": 2279
+    },
+    {
+      "file": "client/modules/showdata/permissions.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 30645,
+      "previous_size": 29511,
+      "size_diff": 1134
+    },
+    {
+      "file": "client/modules/showdata/vehicles.lua",
+      "commit_info": "1497d5b - Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1497d5b",
+      "current_size": 24897,
+      "previous_size": 24382,
+      "size_diff": 515
+    },
+    {
+      "file": "client/modules/showdata/voice.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 8945,
+      "previous_size": 8903,
+      "size_diff": 42
+    },
+    {
+      "file": "client/modules/showdata/zombie.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 7092,
+      "previous_size": 7090,
+      "size_diff": 2
+    },
+    {
+      "file": "client/modules/society.lua",
+      "commit_info": "f0d3241 - Integrations round 2 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f0d3241",
+      "current_size": 7298,
+      "previous_size": 5237,
+      "size_diff": 2061
+    },
+    {
+      "file": "client/modules/vehicle_extras.lua",
+      "commit_info": "1497d5b - Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1497d5b",
+      "current_size": 4578,
+      "previous_size": 0,
+      "size_diff": 4578
+    },
+    {
+      "file": "client/modules/vehicle_storage.lua",
+      "commit_info": "51349b3 - Add vehicle trunk / glovebox opening for admins",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/51349b3",
+      "current_size": 3970,
+      "previous_size": 0,
+      "size_diff": 3970
+    },
+    {
+      "file": "client/utils.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 15769,
+      "previous_size": 15757,
+      "size_diff": 12
+    },
+    {
+      "file": "config/cfg/adminmenu_main_perms.cfg",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 5520,
+      "previous_size": 5191,
+      "size_diff": 329
+    },
+    {
+      "file": "config/cfg/server.cfg.example",
+      "commit_info": "04d51d9 - Remove real identifiers and keys; read them from server.cfg convars",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04d51d9",
+      "current_size": 3544,
+      "previous_size": 3199,
+      "size_diff": 345
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 25039,
+      "previous_size": 15785,
+      "size_diff": 9254
     },
     {
       "file": "config/options.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 21194,
-      "previous_size": 21173,
-      "size_diff": 21
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 22777,
+      "previous_size": 21194,
+      "size_diff": 1583
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 14103,
+      "previous_size": 12442,
+      "size_diff": 1661
+    },
+    {
+      "file": "config/webhooks.lua",
+      "commit_info": "04d51d9 - Remove real identifiers and keys; read them from server.cfg convars",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04d51d9",
+      "current_size": 1818,
+      "previous_size": 1511,
+      "size_diff": 307
     },
     {
       "file": "demo/public/assets/css/style.css",
-      "commit_info": "62c2680 - Site: integrate the features category bar as a rounded glass panel",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/62c2680",
-      "current_size": 102702,
-      "previous_size": 102541,
-      "size_diff": 161
+      "commit_info": "eb7847a - Site: per-category integration guides for all 32 categories, grouped tabs, detected list and counts updated",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/eb7847a",
+      "current_size": 104534,
+      "previous_size": 102702,
+      "size_diff": 1832
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "0b78490 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0b78490",
-      "current_size": 129575,
-      "previous_size": 129122,
-      "size_diff": 453
+      "commit_info": "27bf389 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/27bf389",
+      "current_size": 130410,
+      "previous_size": 129575,
+      "size_diff": 835
+    },
+    {
+      "file": "demo/public/assets/js/app.js",
+      "commit_info": "c580035 - Site: fivestats.io top 100 (18 Oct 2026), guides for 43 integration categories, new features (societies, bank history, licenses, prison, mileage, zone creator, interiors), permissions and counts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c580035",
+      "current_size": 86419,
+      "previous_size": 84609,
+      "size_diff": 1810
     },
     {
       "file": "demo/public/assets/js/docs.js",
-      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
-      "current_size": 49639,
-      "previous_size": 43130,
-      "size_diff": 6509
+      "commit_info": "2a03819 - Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a03819",
+      "current_size": 58016,
+      "previous_size": 49639,
+      "size_diff": 8377
+    },
+    {
+      "file": "demo/public/assets/js/fr.manual.js",
+      "commit_info": "c580035 - Site: fivestats.io top 100 (18 Oct 2026), guides for 43 integration categories, new features (societies, bank history, licenses, prison, mileage, zone creator, interiors), permissions and counts",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c580035",
+      "current_size": 27439,
+      "previous_size": 26732,
+      "size_diff": 707
     },
     {
       "file": "demo/public/assets/js/guides.js",
-      "commit_info": "e36d2b0 - Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e36d2b0",
-      "current_size": 37247,
-      "previous_size": 26086,
-      "size_diff": 11161
+      "commit_info": "04d51d9 - Remove real identifiers and keys; read them from server.cfg convars",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04d51d9",
+      "current_size": 42804,
+      "previous_size": 37247,
+      "size_diff": 5557
     },
     {
       "file": "demo/public/assets/js/i18n.js",
-      "commit_info": "e36d2b0 - Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e36d2b0",
-      "current_size": 24440,
-      "previous_size": 24226,
-      "size_diff": 214
+      "commit_info": "2a03819 - Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a03819",
+      "current_size": 24825,
+      "previous_size": 24440,
+      "size_diff": 385
+    },
+    {
+      "file": "demo/public/assets/js/integrations.js",
+      "commit_info": "2a03819 - Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a03819",
+      "current_size": 190025,
+      "previous_size": 12731,
+      "size_diff": 177294
+    },
+    {
+      "file": "demo/public/assets/js/media.js",
+      "commit_info": "2a03819 - Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a03819",
+      "current_size": 7302,
+      "previous_size": 6952,
+      "size_diff": 350
     },
     {
       "file": "demo/public/assets/js/menus-player.js",
-      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
-      "current_size": 55101,
-      "previous_size": 55483,
-      "size_diff": -382
+      "commit_info": "51349b3 - Add vehicle trunk / glovebox opening for admins",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/51349b3",
+      "current_size": 55641,
+      "previous_size": 55101,
+      "size_diff": 540
     },
     {
       "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
-      "current_size": 36592,
-      "previous_size": 36724,
-      "size_diff": -132
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 38296,
+      "previous_size": 36592,
+      "size_diff": 1704
+    },
+    {
+      "file": "demo/public/assets/js/perms-data.js",
+      "commit_info": "2a03819 - Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a03819",
+      "current_size": 14767,
+      "previous_size": 13604,
+      "size_diff": 1163
     },
     {
       "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "e36d2b0 - Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e36d2b0",
-      "current_size": 38505,
-      "previous_size": 30283,
-      "size_diff": 8222
+      "commit_info": "2a03819 - Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a03819",
+      "current_size": 41214,
+      "previous_size": 38505,
+      "size_diff": 2709
     },
     {
       "file": "demo/public/index.html",
-      "commit_info": "e36d2b0 - Docs: install steps, FAQ, guides, console and logs aligned with the code; GitBook content migrated",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e36d2b0",
-      "current_size": 22842,
-      "previous_size": 22817,
-      "size_diff": 25
+      "commit_info": "2a03819 - Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/2a03819",
+      "current_size": 22845,
+      "previous_size": 22842,
+      "size_diff": 3
     },
     {
-      "file": "demo/public/source/config/options.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 21194,
-      "previous_size": 21173,
-      "size_diff": 21
+      "file": "demo/public/source/config/cfg/server.cfg.example",
+      "commit_info": "04d51d9 - Remove real identifiers and keys; read them from server.cfg convars",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04d51d9",
+      "current_size": 3510,
+      "previous_size": 3199,
+      "size_diff": 311
     },
     {
-      "file": "demo/public/source/locales/en.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 250339,
-      "previous_size": 250264,
-      "size_diff": 75
+      "file": "demo/public/source/config/perms.lua",
+      "commit_info": "04d51d9 - Remove real identifiers and keys; read them from server.cfg convars",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04d51d9",
+      "current_size": 12715,
+      "previous_size": 12442,
+      "size_diff": 273
     },
     {
-      "file": "demo/public/source/locales/fr.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 262347,
-      "previous_size": 262268,
-      "size_diff": 79
+      "file": "demo/public/source/config/webhooks.lua",
+      "commit_info": "04d51d9 - Remove real identifiers and keys; read them from server.cfg convars",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04d51d9",
+      "current_size": 1784,
+      "previous_size": 1394,
+      "size_diff": 390
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
+      "commit_info": "04d51d9 - Remove real identifiers and keys; read them from server.cfg convars",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04d51d9",
       "current_size": 1341,
       "previous_size": 1341,
       "size_diff": 0
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 254600,
-      "previous_size": 254524,
-      "size_diff": 76
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 275536,
+      "previous_size": 254600,
+      "size_diff": 20936
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 266392,
-      "previous_size": 266312,
-      "size_diff": 80
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 289346,
+      "previous_size": 266392,
+      "size_diff": 22954
     },
     {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 42381,
-      "previous_size": 42352,
-      "size_diff": 29
+      "file": "server/custom/ambulance/esx_ambulancejob.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 888,
+      "previous_size": 0,
+      "size_diff": 888
     },
     {
-      "file": "server/custom/crew/hrs_crew.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 24875,
-      "previous_size": 24846,
-      "size_diff": 29
+      "file": "server/custom/ambulance/qb-ambulancejob.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 590,
+      "previous_size": 0,
+      "size_diff": 590
+    },
+    {
+      "file": "server/custom/ambulance/qbx_medical.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 437,
+      "previous_size": 0,
+      "size_diff": 437
+    },
+    {
+      "file": "server/custom/ambulance/wasabi_ambulance.lua",
+      "commit_info": "27e0259 - Licenses & ID cards, screencapture support, hunger/thirst fixed on ESX/QBCore/Qbox",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/27e0259",
+      "current_size": 1413,
+      "previous_size": 0,
+      "size_diff": 1413
+    },
+    {
+      "file": "server/custom/appearance/illenium-appearance.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 437,
+      "previous_size": 435,
+      "size_diff": 2
+    },
+    {
+      "file": "server/custom/banking/Renewed-Banking.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1357,
+      "previous_size": 0,
+      "size_diff": 1357
+    },
+    {
+      "file": "server/custom/banking/esx_banking.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 949,
+      "previous_size": 0,
+      "size_diff": 949
+    },
+    {
+      "file": "server/custom/banking/okokBanking.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1138,
+      "previous_size": 0,
+      "size_diff": 1138
+    },
+    {
+      "file": "server/custom/banking/qb-banking.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 966,
+      "previous_size": 0,
+      "size_diff": 966
+    },
+    {
+      "file": "server/custom/doorlock/ox_doorlock.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 10223,
+      "previous_size": 10166,
+      "size_diff": 57
+    },
+    {
+      "file": "server/custom/doorlock/qb-doorlock.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 756,
+      "previous_size": 0,
+      "size_diff": 756
     },
     {
       "file": "server/custom/framework/qb.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 8174,
-      "previous_size": 8069,
-      "size_diff": 105
+      "commit_info": "e9f0452 - Integrations: fix framework, inventory and multicharacter bridges; add ps-inventory and Qbox characters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9f0452",
+      "current_size": 11080,
+      "previous_size": 8174,
+      "size_diff": 2906
+    },
+    {
+      "file": "server/custom/gangs/qs-gangs.lua",
+      "commit_info": "d5de158 - Society funds & player bank history (Renewed-Banking, okokBanking, qb-banking, qb-management, esx_addonaccount, qs/kartik-banking); detection blocks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d5de158",
+      "current_size": 1421,
+      "previous_size": 226,
+      "size_diff": 1195
+    },
+    {
+      "file": "server/custom/garage/default.lua",
+      "commit_info": "ee9d64b - Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ee9d64b",
+      "current_size": 2383,
+      "previous_size": 0,
+      "size_diff": 2383
+    },
+    {
+      "file": "server/custom/garage/qs-advancedgarages.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1189,
+      "previous_size": 376,
+      "size_diff": 813
+    },
+    {
+      "file": "server/custom/housing/bcs_housing.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 1841,
+      "previous_size": 0,
+      "size_diff": 1841
+    },
+    {
+      "file": "server/custom/housing/esx_property.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 3070,
+      "previous_size": 0,
+      "size_diff": 3070
+    },
+    {
+      "file": "server/custom/housing/nolag_properties.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 1669,
+      "previous_size": 0,
+      "size_diff": 1669
+    },
+    {
+      "file": "server/custom/housing/ps-housing.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 3268,
+      "previous_size": 0,
+      "size_diff": 3268
+    },
+    {
+      "file": "server/custom/housing/qb-apartments.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 2759,
+      "previous_size": 0,
+      "size_diff": 2759
+    },
+    {
+      "file": "server/custom/housing/qb-houses.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 2676,
+      "previous_size": 0,
+      "size_diff": 2676
+    },
+    {
+      "file": "server/custom/housing/qbx_properties.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 3409,
+      "previous_size": 0,
+      "size_diff": 3409
+    },
+    {
+      "file": "server/custom/idcard/bl_idcard.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 917,
+      "previous_size": 0,
+      "size_diff": 917
+    },
+    {
+      "file": "server/custom/idcard/qb-cityhall.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 1926,
+      "previous_size": 0,
+      "size_diff": 1926
+    },
+    {
+      "file": "server/custom/idcard/qbx_idcard.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 950,
+      "previous_size": 0,
+      "size_diff": 950
+    },
+    {
+      "file": "server/custom/idcard/um-idcard.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 927,
+      "previous_size": 0,
+      "size_diff": 927
+    },
+    {
+      "file": "server/custom/inventory/ak47.lua",
+      "commit_info": "e5fdabc - Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5fdabc",
+      "current_size": 2701,
+      "previous_size": 0,
+      "size_diff": 2701
+    },
+    {
+      "file": "server/custom/inventory/codem.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 2177,
+      "previous_size": 626,
+      "size_diff": 1551
+    },
+    {
+      "file": "server/custom/inventory/common.lua",
+      "commit_info": "e5fdabc - Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5fdabc",
+      "current_size": 9567,
+      "previous_size": 0,
+      "size_diff": 9567
+    },
+    {
+      "file": "server/custom/inventory/core.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 2168,
+      "previous_size": 2921,
+      "size_diff": -753
+    },
+    {
+      "file": "server/custom/inventory/jaksam.lua",
+      "commit_info": "e5fdabc - Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5fdabc",
+      "current_size": 4646,
+      "previous_size": 0,
+      "size_diff": 4646
+    },
+    {
+      "file": "server/custom/inventory/origen.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 2768,
+      "previous_size": 627,
+      "size_diff": 2141
+    },
+    {
+      "file": "server/custom/inventory/ox.lua",
+      "commit_info": "e5fdabc - Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5fdabc",
+      "current_size": 15213,
+      "previous_size": 13679,
+      "size_diff": 1534
+    },
+    {
+      "file": "server/custom/inventory/ox_inventory_hooks.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 6009,
+      "previous_size": 5872,
+      "size_diff": 137
+    },
+    {
+      "file": "server/custom/inventory/qb.lua",
+      "commit_info": "e5fdabc - Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e5fdabc",
+      "current_size": 8512,
+      "previous_size": 740,
+      "size_diff": 7772
+    },
+    {
+      "file": "server/custom/inventory/qs.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 5253,
+      "previous_size": 4607,
+      "size_diff": 646
+    },
+    {
+      "file": "server/custom/inventory/tgiann.lua",
+      "commit_info": "1497d5b - Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1497d5b",
+      "current_size": 3397,
+      "previous_size": 627,
+      "size_diff": 2770
+    },
+    {
+      "file": "server/custom/licenses/esx_license.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 2970,
+      "previous_size": 0,
+      "size_diff": 2970
+    },
+    {
+      "file": "server/custom/licenses/qb_metadata.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 2546,
+      "previous_size": 0,
+      "size_diff": 2546
+    },
+    {
+      "file": "server/custom/multicharacter/multicharacter.lua",
+      "commit_info": "f0d3241 - Integrations round 2 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f0d3241",
+      "current_size": 10706,
+      "previous_size": 4062,
+      "size_diff": 6644
+    },
+    {
+      "file": "server/custom/phone/_fallback.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 564,
+      "previous_size": 0,
+      "size_diff": 564
+    },
+    {
+      "file": "server/custom/phone/gksphone.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 200,
+      "previous_size": 0,
+      "size_diff": 200
+    },
+    {
+      "file": "server/custom/phone/lb-phone.lua",
+      "commit_info": "93df1bf - Integrations round 2 (in progress): prison, vehicle extras, interiors, zones, re-verification",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/93df1bf",
+      "current_size": 1052,
+      "previous_size": 154,
+      "size_diff": 898
+    },
+    {
+      "file": "server/custom/phone/npwd.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 337,
+      "previous_size": 0,
+      "size_diff": 337
+    },
+    {
+      "file": "server/custom/phone/okokPhone.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 216,
+      "previous_size": 0,
+      "size_diff": 216
+    },
+    {
+      "file": "server/custom/phone/qb-phone.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 850,
+      "previous_size": 0,
+      "size_diff": 850
+    },
+    {
+      "file": "server/custom/phone/qs-smartphone-pro.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1243,
+      "previous_size": 629,
+      "size_diff": 614
+    },
+    {
+      "file": "server/custom/phone/qs-smartphone.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1222,
+      "previous_size": 155,
+      "size_diff": 1067
+    },
+    {
+      "file": "server/custom/phone/yseries.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 691,
+      "previous_size": 0,
+      "size_diff": 691
+    },
+    {
+      "file": "server/custom/prison/esx_jail.lua",
+      "commit_info": "f0d3241 - Integrations round 2 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f0d3241",
+      "current_size": 1687,
+      "previous_size": 0,
+      "size_diff": 1687
+    },
+    {
+      "file": "server/custom/prison/qb-prison.lua",
+      "commit_info": "f0d3241 - Integrations round 2 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f0d3241",
+      "current_size": 1402,
+      "previous_size": 0,
+      "size_diff": 1402
+    },
+    {
+      "file": "server/custom/prison/qbx_prison.lua",
+      "commit_info": "f0d3241 - Integrations round 2 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f0d3241",
+      "current_size": 1031,
+      "previous_size": 0,
+      "size_diff": 1031
+    },
+    {
+      "file": "server/custom/prison/xt-prison.lua",
+      "commit_info": "f0d3241 - Integrations round 2 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f0d3241",
+      "current_size": 1321,
+      "previous_size": 0,
+      "size_diff": 1321
+    },
+    {
+      "file": "server/custom/report/rcore_report.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 1183,
+      "previous_size": 1347,
+      "size_diff": -164
+    },
+    {
+      "file": "server/custom/screenshot/screencapture.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1780,
+      "previous_size": 0,
+      "size_diff": 1780
+    },
+    {
+      "file": "server/custom/society/Renewed-Banking.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1663,
+      "previous_size": 0,
+      "size_diff": 1663
+    },
+    {
+      "file": "server/custom/society/esx_addonaccount.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 3278,
+      "previous_size": 0,
+      "size_diff": 3278
+    },
+    {
+      "file": "server/custom/society/kartik-banking.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1089,
+      "previous_size": 0,
+      "size_diff": 1089
+    },
+    {
+      "file": "server/custom/society/okokBanking.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1216,
+      "previous_size": 0,
+      "size_diff": 1216
+    },
+    {
+      "file": "server/custom/society/qb-banking.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1542,
+      "previous_size": 0,
+      "size_diff": 1542
+    },
+    {
+      "file": "server/custom/society/qb-management.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1665,
+      "previous_size": 0,
+      "size_diff": 1665
+    },
+    {
+      "file": "server/custom/society/qs-banking.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 1479,
+      "previous_size": 0,
+      "size_diff": 1479
+    },
+    {
+      "file": "server/custom/voice/mumble-voip.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 1216,
+      "previous_size": 0,
+      "size_diff": 1216
+    },
+    {
+      "file": "server/custom/voice/saltychat.lua",
+      "commit_info": "290c756 - Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/290c756",
+      "current_size": 3032,
+      "previous_size": 0,
+      "size_diff": 3032
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 11770,
+      "previous_size": 11351,
+      "size_diff": 419
     },
     {
       "file": "server/functions.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 35035,
-      "previous_size": 35006,
-      "size_diff": 29
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 37797,
+      "previous_size": 35035,
+      "size_diff": 2762
     },
     {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 122867,
-      "previous_size": 121854,
-      "size_diff": 1013
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 123395,
+      "previous_size": 122867,
+      "size_diff": 528
     },
     {
-      "file": "server/modules/commands.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 30707,
-      "previous_size": 29856,
-      "size_diff": 851
+      "file": "server/modules/dev/interiors.lua",
+      "commit_info": "108ea2d - Dev tools: Zone Creator (PolyZone / ox_lib): create poly/box/circle zones in game with live preview, copy as code, save/list/preview/teleport/rename/delete; jail zones fixed (lib.zones)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/108ea2d",
+      "current_size": 6301,
+      "previous_size": 0,
+      "size_diff": 6301
+    },
+    {
+      "file": "server/modules/dev/zones.lua",
+      "commit_info": "1497d5b - Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1497d5b",
+      "current_size": 10065,
+      "previous_size": 0,
+      "size_diff": 10065
+    },
+    {
+      "file": "server/modules/discord.lua",
+      "commit_info": "04d51d9 - Remove real identifiers and keys; read them from server.cfg convars",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04d51d9",
+      "current_size": 4385,
+      "previous_size": 4485,
+      "size_diff": -100
+    },
+    {
+      "file": "server/modules/dispatch.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 3833,
+      "previous_size": 0,
+      "size_diff": 3833
+    },
+    {
+      "file": "server/modules/drunk_esx.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 4242,
+      "previous_size": 0,
+      "size_diff": 4242
+    },
+    {
+      "file": "server/modules/housing.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 7012,
+      "previous_size": 0,
+      "size_diff": 7012
+    },
+    {
+      "file": "server/modules/inventory.lua",
+      "commit_info": "51349b3 - Add vehicle trunk / glovebox opening for admins",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/51349b3",
+      "current_size": 18455,
+      "previous_size": 16009,
+      "size_diff": 2446
+    },
+    {
+      "file": "server/modules/jail.lua",
+      "commit_info": "27e0259 - Licenses & ID cards, screencapture support, hunger/thirst fixed on ESX/QBCore/Qbox",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/27e0259",
+      "current_size": 29835,
+      "previous_size": 29758,
+      "size_diff": 77
+    },
+    {
+      "file": "server/modules/licenses.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 4401,
+      "previous_size": 0,
+      "size_diff": 4401
+    },
+    {
+      "file": "server/modules/mail.lua",
+      "commit_info": "f26d0b8 - Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f26d0b8",
+      "current_size": 571,
+      "previous_size": 248,
+      "size_diff": 323
+    },
+    {
+      "file": "server/modules/needs.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 4831,
+      "previous_size": 0,
+      "size_diff": 4831
+    },
+    {
+      "file": "server/modules/prison.lua",
+      "commit_info": "d5de158 - Society funds & player bank history (Renewed-Banking, okokBanking, qb-banking, qb-management, esx_addonaccount, qs/kartik-banking); detection blocks",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d5de158",
+      "current_size": 3116,
+      "previous_size": 0,
+      "size_diff": 3116
     },
     {
       "file": "server/modules/sanctions.lua",
-      "commit_info": "09d27de - Fix show names/blips on duty and sanction history; align feature docs",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/09d27de",
-      "current_size": 25715,
-      "previous_size": 23035,
-      "size_diff": 2680
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 25725,
+      "previous_size": 25715,
+      "size_diff": 10
     },
     {
-      "file": "server/modules/staff_inventory.lua",
-      "commit_info": "c6f558a - Fix features found broken by the audit",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c6f558a",
-      "current_size": 44625,
-      "previous_size": 45048,
-      "size_diff": -423
+      "file": "server/modules/settings/cfg.lua",
+      "commit_info": "04d51d9 - Remove real identifiers and keys; read them from server.cfg convars",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/04d51d9",
+      "current_size": 22845,
+      "previous_size": 22455,
+      "size_diff": 390
+    },
+    {
+      "file": "server/modules/society.lua",
+      "commit_info": "282e4e0 - Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/282e4e0",
+      "current_size": 7448,
+      "previous_size": 0,
+      "size_diff": 7448
+    },
+    {
+      "file": "server/modules/vehicle_extras.lua",
+      "commit_info": "93df1bf - Integrations round 2 (in progress): prison, vehicle extras, interiors, zones, re-verification",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/93df1bf",
+      "current_size": 5841,
+      "previous_size": 0,
+      "size_diff": 5841
+    },
+    {
+      "file": "server/security/policy.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 14129,
+      "previous_size": 10445,
+      "size_diff": 3684
+    },
+    {
+      "file": "server/startup_manager.lua",
+      "commit_info": "94299a7 - City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/94299a7",
+      "current_size": 13672,
+      "previous_size": 12713,
+      "size_diff": 959
+    },
+    {
+      "file": "shared/bob74_interiors.lua",
+      "commit_info": "0df44b8 - Re-verified integrations against vendor docs",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0df44b8",
+      "current_size": 90585,
+      "previous_size": 0,
+      "size_diff": 90585
     }
   ]
 }

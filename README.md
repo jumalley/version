@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.381-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.382-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -5185,6 +5185,471 @@ server/modules/commands.lua: Fix features found broken by the audit by claude
 server/modules/sanctions.lua: Fix show names/blips on duty and sanction history; align feature docs by claude
 
 server/modules/staff_inventory.lua: Fix features found broken by the audit by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.382</strong> – 2026-10-19 06:25</summary>
+
+## Changelog for v1.2.382
+
+client/custom/ambulance/wasabi_ambulance.lua: Licenses & ID cards, screencapture support, hunger/thirst fixed on ESX/QBCore/Qbox by claude
+
+client/custom/appearance/esx_skin.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/appearance/fivem-appearance.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/appearance/illenium-appearance.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/appearance/native_fallback.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/appearance/qb-clothing.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/appearance/rcore_clothing.lua: Re-verified integrations against vendor docs by claude
+
+client/custom/dispatch/lb-tablet.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/dispatch/ps-dispatch.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/doorlock/ox_doorlock.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/doorlock/qb-doorlock.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/emotemenu/dpemotes.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/emotemenu/rpemotes-reborn.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/emotemenu/rpemotes.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/emotemenu/scully_emotemenu.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/framework/esx.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/framework/qb.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/fuel/BigDaddy-Fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/LegacyFuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/Renewed-Fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/cdn-fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/esx-sna-fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/hrs_fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/lc_fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/lj-fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/native.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/okokGasStation.lua: Re-verified integrations against vendor docs by claude
+
+client/custom/fuel/ox_fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/ps-fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/qb-fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/fuel/qs-fuelstations.lua: Re-verified integrations against vendor docs by claude
+
+client/custom/fuel/ti_fuel.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/garage/jg-advancedgarages.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/garage/qs-advancedgarages.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+client/custom/inventory/ak47.lua: Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory by claude
+
+client/custom/inventory/codem.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/inventory/common.lua: Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory by claude
+
+client/custom/inventory/core.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/inventory/jaksam.lua: Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory by claude
+
+client/custom/inventory/origen.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/inventory/ox.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/inventory/ox_inventory_integration.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/inventory/qb.lua: Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory by claude
+
+client/custom/inventory/qs.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+client/custom/inventory/tgiann.lua: Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix by claude
+
+client/custom/notify/esx_notify.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/notify/lation_ui.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/notify/mythic_notify.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/notify/okokNotify.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/notify/ox_lib.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/notify/pNotify.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/custom/phone/qs-smartphone.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+client/custom/screenshot/screenshot.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+client/custom/target/ox_target.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/target/qb-target.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/textui/cd_drawtextui.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/textui/jg-textui.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/textui/okokTextUI.lua: Re-verified integrations against vendor docs by claude
+
+client/custom/textui/qb-core.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/vehiclekeys/MrNewbVehicleKeys.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/Renewed-Vehiclekeys.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/cd_garage.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/default.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/mono_carkeys.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/okokGarage.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/qb-vehiclekeys.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/qbx_vehiclekeys.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/qs-vehiclekeys.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+client/custom/vehiclekeys/t1ger_keys.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/ti_vehicleKeys.lua: Re-verified integrations against vendor docs by claude
+
+client/custom/vehiclekeys/vehicles_keys.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/vehiclekeys/wasabi_carlock.lua: Licenses & ID cards, screencapture support, hunger/thirst fixed on ESX/QBCore/Qbox by claude
+
+client/custom/vehiclekeys/xd_locksystem.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+client/custom/voice/mumble-voip.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/voice/pma-voice.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/voice/saltychat.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/weather/Renewed-Weathersync.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/weather/cd_easytime.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/weather/qb-weathersync.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/weather/vSync.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/custom/zombies/hrs_zombiesV2.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+client/functions.lua: Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix by claude
+
+client/modules/adminduty/hrs_integration.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+client/modules/adminduty/pistol.lua: Add vehicle trunk / glovebox opening for admins by claude
+
+client/modules/announce.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/callbacks.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/dev/interiors.lua: Dev tools: Zone Creator (PolyZone / ox_lib): create poly/box/circle zones in game with live preview, copy as code, save/list/preview/teleport/rename/delete; jail zones fixed (lib.zones) by claude
+
+client/modules/dev/zones.lua: Dev tools: Zone Creator (PolyZone / ox_lib): create poly/box/circle zones in game with live preview, copy as code, save/list/preview/teleport/rename/delete; jail zones fixed (lib.zones) by claude
+
+client/modules/dispatch.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/integrations/crew.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/integrations/drunk_common.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/integrations/esx_optionalneeds.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/integrations/rcore_drunk.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/jail.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/notify.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/onlineplayers.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/prison.lua: Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix by claude
+
+client/modules/reports.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+client/modules/settings/server.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+client/modules/showdata/appearance.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/modules/showdata/health.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/showdata/houses.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/showdata/inventory.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/modules/showdata/licenses.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+client/modules/showdata/main.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+client/modules/showdata/manage.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/showdata/money.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/showdata/multicharacter.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/modules/showdata/permissions.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/showdata/vehicles.lua: Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix by claude
+
+client/modules/showdata/voice.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+client/modules/showdata/zombie.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+client/modules/society.lua: Integrations round 2 (in progress) by claude
+
+client/modules/vehicle_extras.lua: Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix by claude
+
+client/modules/vehicle_storage.lua: Add vehicle trunk / glovebox opening for admins by claude
+
+client/utils.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+config/cfg/adminmenu_main_perms.cfg: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+config/cfg/server.cfg.example: Remove real identifiers and keys; read them from server.cfg convars by claude
+
+config/detect.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+config/options.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+config/perms.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+config/webhooks.lua: Remove real identifiers and keys; read them from server.cfg convars by claude
+
+demo/public/assets/css/style.css: Site: per-category integration guides for all 32 categories, grouped tabs, detected list and counts updated by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/app.js: Site: fivestats.io top 100 (18 Oct 2026), guides for 43 integration categories, new features (societies, bank history, licenses, prison, mileage, zone creator, interiors), permissions and counts by claude
+
+demo/public/assets/js/docs.js: Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources by claude
+
+demo/public/assets/js/fr.manual.js: Site: fivestats.io top 100 (18 Oct 2026), guides for 43 integration categories, new features (societies, bank history, licenses, prison, mileage, zone creator, interiors), permissions and counts by claude
+
+demo/public/assets/js/guides.js: Remove real identifiers and keys; read them from server.cfg convars by claude
+
+demo/public/assets/js/i18n.js: Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources by claude
+
+demo/public/assets/js/integrations.js: Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources by claude
+
+demo/public/assets/js/media.js: Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources by claude
+
+demo/public/assets/js/menus-player.js: Add vehicle trunk / glovebox opening for admins by claude
+
+demo/public/assets/js/menus-settings.js: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+demo/public/assets/js/perms-data.js: Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources by claude
+
+demo/public/assets/js/site-data.js: Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources by claude
+
+demo/public/index.html: Site: fivestats.io top 200, guides for housing / ID cards / dispatch / notifications / drunk, new permissions, 160 detected resources by claude
+
+demo/public/source/config/cfg/server.cfg.example: Remove real identifiers and keys; read them from server.cfg convars by claude
+
+demo/public/source/config/perms.lua: Remove real identifiers and keys; read them from server.cfg convars by claude
+
+demo/public/source/config/webhooks.lua: Remove real identifiers and keys; read them from server.cfg convars by claude
+
+demo/public/source/manifest.json: Remove real identifiers and keys; read them from server.cfg convars by claude
+
+locales/en.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+locales/fr.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/custom/ambulance/esx_ambulancejob.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/ambulance/qb-ambulancejob.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/ambulance/qbx_medical.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/ambulance/wasabi_ambulance.lua: Licenses & ID cards, screencapture support, hunger/thirst fixed on ESX/QBCore/Qbox by claude
+
+server/custom/appearance/illenium-appearance.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+server/custom/banking/Renewed-Banking.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/banking/esx_banking.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/banking/okokBanking.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/banking/qb-banking.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/doorlock/ox_doorlock.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+server/custom/doorlock/qb-doorlock.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+server/custom/framework/qb.lua: Integrations: fix framework, inventory and multicharacter bridges; add ps-inventory and Qbox characters by claude
+
+server/custom/gangs/qs-gangs.lua: Society funds & player bank history (Renewed-Banking, okokBanking, qb-banking, qb-management, esx_addonaccount, qs/kartik-banking); detection blocks by claude
+
+server/custom/garage/default.lua: Integrations: fix fuel, vehicle keys and garage bridges; add qb-fuel, Renewed-Fuel, lc_fuel, Renewed/MrNewb/t1ger/cd_garage/okokGarage keys by claude
+
+server/custom/garage/qs-advancedgarages.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/housing/bcs_housing.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/custom/housing/esx_property.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/custom/housing/nolag_properties.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/custom/housing/ps-housing.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/custom/housing/qb-apartments.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/custom/housing/qb-houses.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/housing/qbx_properties.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/custom/idcard/bl_idcard.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/idcard/qb-cityhall.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/custom/idcard/qbx_idcard.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/idcard/um-idcard.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/inventory/ak47.lua: Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory by claude
+
+server/custom/inventory/codem.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+server/custom/inventory/common.lua: Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory by claude
+
+server/custom/inventory/core.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+server/custom/inventory/jaksam.lua: Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory by claude
+
+server/custom/inventory/origen.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+server/custom/inventory/ox.lua: Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory by claude
+
+server/custom/inventory/ox_inventory_hooks.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+server/custom/inventory/qb.lua: Vehicle trunk/glovebox per inventory; add jaksam_inventory and ak47_inventory by claude
+
+server/custom/inventory/qs.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/inventory/tgiann.lua: Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix by claude
+
+server/custom/licenses/esx_license.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/licenses/qb_metadata.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/multicharacter/multicharacter.lua: Integrations round 2 (in progress) by claude
+
+server/custom/phone/_fallback.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/phone/gksphone.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/phone/lb-phone.lua: Integrations round 2 (in progress): prison, vehicle extras, interiors, zones, re-verification by claude
+
+server/custom/phone/npwd.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/phone/okokPhone.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/phone/qb-phone.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/phone/qs-smartphone-pro.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/phone/qs-smartphone.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/phone/yseries.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/prison/esx_jail.lua: Integrations round 2 (in progress) by claude
+
+server/custom/prison/qb-prison.lua: Integrations round 2 (in progress) by claude
+
+server/custom/prison/qbx_prison.lua: Integrations round 2 (in progress) by claude
+
+server/custom/prison/xt-prison.lua: Integrations round 2 (in progress) by claude
+
+server/custom/report/rcore_report.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/custom/screenshot/screencapture.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/society/Renewed-Banking.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/society/esx_addonaccount.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/society/kartik-banking.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/society/okokBanking.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/society/qb-banking.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/society/qb-management.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/society/qs-banking.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/custom/voice/mumble-voip.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+server/custom/voice/saltychat.lua: Integrations (in progress): framework, inventory, multicharacter, appearance, emotes, text UI, target, doorlock, weather and voice bridges by claude
+
+server/events.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/functions.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/modules/callbacks.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/modules/dev/interiors.lua: Dev tools: Zone Creator (PolyZone / ox_lib): create poly/box/circle zones in game with live preview, copy as code, save/list/preview/teleport/rename/delete; jail zones fixed (lib.zones) by claude
+
+server/modules/dev/zones.lua: Prison scripts (xt-prison, qb-prison, qbx_prison, esx_jail), jg-vehiclemileage, jg-mechanic / qb-mechanicjob servicing; built-in jail save fix by claude
+
+server/modules/discord.lua: Remove real identifiers and keys; read them from server.cfg convars by claude
+
+server/modules/dispatch.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/modules/drunk_esx.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/modules/housing.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/modules/inventory.lua: Add vehicle trunk / glovebox opening for admins by claude
+
+server/modules/jail.lua: Licenses & ID cards, screencapture support, hunger/thirst fixed on ESX/QBCore/Qbox by claude
+
+server/modules/licenses.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/modules/mail.lua: Integrations: fix phone, housing, ambulance, drunk, report, zombies, crew and screenshot integrations; add npwd, qb-phone, gksphone, okokPhone, yseries, ps-housing, qbx_properties, qbx_medical by claude
+
+server/modules/needs.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/modules/prison.lua: Society funds & player bank history (Renewed-Banking, okokBanking, qb-banking, qb-management, esx_addonaccount, qs/kartik-banking); detection blocks by claude
+
+server/modules/sanctions.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/modules/settings/cfg.lua: Remove real identifiers and keys; read them from server.cfg convars by claude
+
+server/modules/society.lua: Integrations round 2 (in progress): re-verified bridges, society/banking, licenses, prison, vehicle extras, interiors, zones by claude
+
+server/modules/vehicle_extras.lua: Integrations round 2 (in progress): prison, vehicle extras, interiors, zones, re-verification by claude
+
+server/security/policy.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+server/startup_manager.lua: City hall ID cards (qb-cityhall), crypto account, dispatch alerts (ps-dispatch, lb-tablet); money menu fixes by claude
+
+shared/bob74_interiors.lua: Re-verified integrations against vendor docs by claude
 
 
 
