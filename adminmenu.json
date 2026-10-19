@@ -1,5 +1,5 @@
 {
-  "version": "1.2.384",
+  "version": "1.2.385",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,11 +7,11 @@
   "file_changes": [
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "c815be7 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c815be7",
+      "commit_info": "b77667f - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b77667f",
       "current_size": 136915,
-      "previous_size": 136191,
-      "size_diff": 724
+      "previous_size": 136915,
+      "size_diff": 0
     }
   ]
 }
