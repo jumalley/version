@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.386-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.387-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -5908,6 +5908,47 @@ server/modules/vehicles.lua: Integrations round 5 (in progress) by claude
 server/security/policy.lua: Society (wasabi/tgg/fd/snipe banking), dispatch (cd, rcore, qs, origen, tk, wasabi_mdt, redutzu-mdt), rcore_prison, wasabi/brutal notify, tgiann-clothing, loaf_housing, esx_weather; detect qbx_ambulancejob by claude
 
 server/startup_manager.lua: Robberies & heists overview, job duty, stress, remove from radio; drop duplicate setPlayerRadio callback by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.387</strong> – 2026-10-21 09:17</summary>
+
+## Changelog for v1.2.387
+
+client/modules/buffs.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+client/modules/showdata/health.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+config/detect.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+config/perms.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs.js: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+demo/public/assets/js/integrations.js: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+demo/public/assets/js/menus-settings.js: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+demo/public/assets/js/perms-data.js: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+demo/public/assets/js/site-data.js: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+demo/public/index.html: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+locales/en.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+locales/fr.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+server/modules/buffs.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+server/security/policy.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+server/startup_manager.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
 
 
 
