@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.389-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.390-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6097,6 +6097,189 @@ server/modules/vehicle_finance.lua: Integrations round 6 (in progress) by claude
 server/security/policy.lua: Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters by claude
 
 server/startup_manager.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.390</strong> – 2026-10-21 21:50</summary>
+
+## Changelog for v1.2.390
+
+client/custom/ambulance/ak47_ambulancejob.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/ambulance/brutal_ambulancejob.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/appearance/17mov_CharacterSystem.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/appearance/ak47_clothing.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/appearance/rcore_clothes.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/appearance/rcore_clothing.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/dispatch/cd_dispatch.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/dispatch/origen_police.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/dispatch/qs-dispatch.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/dispatch/rcore_dispatch.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/doorlock/cd_doorlock.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/fuel/qs-fuelstations.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/fuel/rcore_fuel.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/garage/cd_garage.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/garage/qs-advancedgarages.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/garage/rcore_garage.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/inventory/ak47.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/inventory/origen.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/notify/brutal_notify.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/notify/origen_notify.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/notify/rtx_notify.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/police/brutal_policejob.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/textui/cd_drawtextui.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/vehiclekeys/ak47_vehiclekeys.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/vehiclekeys/brutal_keys.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/vehiclekeys/cd_garage.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/vehiclekeys/qs-vehiclekeys.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/custom/weather/cd_easytime.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/modules/casino.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/modules/settings/modules.lua: Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources by claude
+
+client/modules/settings/server.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/modules/showdata/appearance.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/modules/showdata/cuffs.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/modules/showdata/general.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/modules/showdata/multicharacter.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/modules/showdata/records.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/modules/showdata/vehicles.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+client/modules/tattoos.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+config/detect.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+config/options.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+config/perms.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs.js: Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources by claude
+
+demo/public/assets/js/integrations.js: Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources by claude
+
+demo/public/assets/js/menus-settings.js: Round 7 (in progress) by claude
+
+demo/public/assets/js/perms-data.js: Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources by claude
+
+demo/public/assets/js/site-data.js: Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources by claude
+
+demo/public/index.html: Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources by claude
+
+locales/en.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+locales/fr.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/ambulance/ak47_ambulancejob.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/ambulance/brutal_ambulancejob.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/billing/qs-billing.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/doorlock/cd_doorlock.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/gangs/ak47_gangs.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/gangs/brutal_gangs.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/gangs/op-crime.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/gangs/qs-crime-creator.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/gangs/rcore_gangs.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/garage/ak47_garage.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/garage/op-garages.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/garage/qs-advancedgarages.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/housing/ak47_housing.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/housing/nolag_properties.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/housing/qb-houses.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/housing/vms_housing.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/inventory/ak47.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/inventory/origen.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/inventory/qs.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/licenses/qs-licenses.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/mdt/origen_police.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/multicharacter/multicharacter.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/phone/17mov_Phone.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/phone/qs-smartphone-pro.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/phone/qs-smartphone.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/phone/yseries.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/police/brutal_policejob.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/prison/rcore_prison.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/society/ak47_banking.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/society/qs-banking.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/society/tgg-banking.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/society/vms_bossmenu.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/custom/weather/cd_easytime.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/modules/casino.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/modules/tattoos.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/security/policy.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+server/startup_manager.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
 
 
 

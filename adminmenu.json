@@ -1,321 +1,705 @@
 {
-  "version": "1.2.389",
+  "version": "1.2.390",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/custom/ambulance/ak47_ambulancejob.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 408,
+      "previous_size": 0,
+      "size_diff": 408
+    },
+    {
+      "file": "client/custom/ambulance/brutal_ambulancejob.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 384,
+      "previous_size": 0,
+      "size_diff": 384
+    },
+    {
+      "file": "client/custom/appearance/17mov_CharacterSystem.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1689,
+      "previous_size": 0,
+      "size_diff": 1689
+    },
+    {
+      "file": "client/custom/appearance/ak47_clothing.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 854,
+      "previous_size": 316,
+      "size_diff": 538
+    },
+    {
+      "file": "client/custom/appearance/rcore_clothes.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 338,
+      "previous_size": 135,
+      "size_diff": 203
+    },
+    {
+      "file": "client/custom/appearance/rcore_clothing.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1446,
+      "previous_size": 1529,
+      "size_diff": -83
+    },
+    {
+      "file": "client/custom/dispatch/cd_dispatch.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 2089,
+      "previous_size": 1978,
+      "size_diff": 111
+    },
+    {
+      "file": "client/custom/dispatch/origen_police.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1494,
+      "previous_size": 1340,
+      "size_diff": 154
+    },
+    {
+      "file": "client/custom/dispatch/qs-dispatch.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1934,
+      "previous_size": 1718,
+      "size_diff": 216
+    },
+    {
+      "file": "client/custom/dispatch/rcore_dispatch.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1812,
+      "previous_size": 1861,
+      "size_diff": -49
+    },
+    {
+      "file": "client/custom/doorlock/cd_doorlock.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 3916,
+      "previous_size": 0,
+      "size_diff": 3916
+    },
+    {
+      "file": "client/custom/fuel/qs-fuelstations.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 837,
+      "previous_size": 689,
+      "size_diff": 148
+    },
+    {
       "file": "client/custom/fuel/rcore_fuel.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 1333,
-      "previous_size": 0,
-      "size_diff": 1333
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1493,
+      "previous_size": 1333,
+      "size_diff": 160
     },
     {
-      "file": "client/modules/heists.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 18184,
-      "previous_size": 16979,
-      "size_diff": 1205
+      "file": "client/custom/garage/cd_garage.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1214,
+      "previous_size": 550,
+      "size_diff": 664
     },
     {
-      "file": "client/modules/medical_aids.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 4756,
-      "previous_size": 0,
-      "size_diff": 4756
-    },
-    {
-      "file": "client/modules/radio.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 952,
-      "previous_size": 654,
+      "file": "client/custom/garage/qs-advancedgarages.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 973,
+      "previous_size": 675,
       "size_diff": 298
     },
     {
+      "file": "client/custom/garage/rcore_garage.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 790,
+      "previous_size": 555,
+      "size_diff": 235
+    },
+    {
+      "file": "client/custom/inventory/ak47.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1364,
+      "previous_size": 1330,
+      "size_diff": 34
+    },
+    {
+      "file": "client/custom/inventory/origen.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1415,
+      "previous_size": 1172,
+      "size_diff": 243
+    },
+    {
+      "file": "client/custom/notify/brutal_notify.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 782,
+      "previous_size": 773,
+      "size_diff": 9
+    },
+    {
+      "file": "client/custom/notify/origen_notify.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 848,
+      "previous_size": 0,
+      "size_diff": 848
+    },
+    {
+      "file": "client/custom/notify/rtx_notify.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 825,
+      "previous_size": 0,
+      "size_diff": 825
+    },
+    {
+      "file": "client/custom/police/brutal_policejob.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 763,
+      "previous_size": 0,
+      "size_diff": 763
+    },
+    {
+      "file": "client/custom/textui/cd_drawtextui.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 983,
+      "previous_size": 883,
+      "size_diff": 100
+    },
+    {
+      "file": "client/custom/vehiclekeys/ak47_vehiclekeys.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 814,
+      "previous_size": 0,
+      "size_diff": 814
+    },
+    {
+      "file": "client/custom/vehiclekeys/brutal_keys.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 707,
+      "previous_size": 0,
+      "size_diff": 707
+    },
+    {
+      "file": "client/custom/vehiclekeys/cd_garage.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 530,
+      "previous_size": 310,
+      "size_diff": 220
+    },
+    {
+      "file": "client/custom/vehiclekeys/qs-vehiclekeys.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1658,
+      "previous_size": 1431,
+      "size_diff": 227
+    },
+    {
+      "file": "client/custom/weather/cd_easytime.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 973,
+      "previous_size": 781,
+      "size_diff": 192
+    },
+    {
+      "file": "client/modules/casino.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 7006,
+      "previous_size": 0,
+      "size_diff": 7006
+    },
+    {
+      "file": "client/modules/settings/modules.lua",
+      "commit_info": "5ff04c0 - Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff04c0",
+      "current_size": 32160,
+      "previous_size": 29096,
+      "size_diff": 3064
+    },
+    {
+      "file": "client/modules/settings/server.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 21273,
+      "previous_size": 20720,
+      "size_diff": 553
+    },
+    {
+      "file": "client/modules/showdata/appearance.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 20254,
+      "previous_size": 20028,
+      "size_diff": 226
+    },
+    {
       "file": "client/modules/showdata/cuffs.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 3262,
-      "previous_size": 3022,
-      "size_diff": 240
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 3295,
+      "previous_size": 3262,
+      "size_diff": 33
     },
     {
       "file": "client/modules/showdata/general.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 13878,
-      "previous_size": 13835,
-      "size_diff": 43
-    },
-    {
-      "file": "client/modules/showdata/health.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 15909,
-      "previous_size": 15726,
-      "size_diff": 183
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 14951,
+      "previous_size": 13878,
+      "size_diff": 1073
     },
     {
       "file": "client/modules/showdata/multicharacter.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 15685,
-      "previous_size": 15205,
-      "size_diff": 480
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 16980,
+      "previous_size": 15685,
+      "size_diff": 1295
     },
     {
-      "file": "client/modules/showdata/permissions.lua",
-      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
-      "current_size": 31611,
-      "previous_size": 31357,
-      "size_diff": 254
+      "file": "client/modules/showdata/records.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 5321,
+      "previous_size": 5230,
+      "size_diff": 91
     },
     {
       "file": "client/modules/showdata/vehicles.lua",
-      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
-      "current_size": 25735,
-      "previous_size": 25536,
-      "size_diff": 199
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 25832,
+      "previous_size": 25735,
+      "size_diff": 97
     },
     {
-      "file": "client/modules/vehicle_finance.lua",
-      "commit_info": "e9274c9 - Integrations round 6 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9274c9",
-      "current_size": 1967,
+      "file": "client/modules/tattoos.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 4599,
       "previous_size": 0,
-      "size_diff": 1967
+      "size_diff": 4599
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
-      "current_size": 34334,
-      "previous_size": 32299,
-      "size_diff": 2035
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 37897,
+      "previous_size": 34334,
+      "size_diff": 3563
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 24836,
+      "previous_size": 24766,
+      "size_diff": 70
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
-      "current_size": 15889,
-      "previous_size": 15645,
-      "size_diff": 244
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 16274,
+      "previous_size": 15889,
+      "size_diff": 385
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "91d77d8 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/91d77d8",
-      "current_size": 138836,
-      "previous_size": 138230,
-      "size_diff": 606
+      "commit_info": "a2fb19f - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a2fb19f",
+      "current_size": 139330,
+      "previous_size": 138836,
+      "size_diff": 494
     },
     {
       "file": "demo/public/assets/js/docs.js",
-      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
-      "current_size": 67523,
-      "previous_size": 65474,
-      "size_diff": 2049
+      "commit_info": "5ff04c0 - Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff04c0",
+      "current_size": 69031,
+      "previous_size": 67523,
+      "size_diff": 1508
     },
     {
       "file": "demo/public/assets/js/integrations.js",
-      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
-      "current_size": 243014,
-      "previous_size": 239402,
-      "size_diff": 3612
+      "commit_info": "5ff04c0 - Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff04c0",
+      "current_size": 232492,
+      "previous_size": 243014,
+      "size_diff": -10522
     },
     {
       "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
-      "current_size": 39724,
-      "previous_size": 39434,
-      "size_diff": 290
+      "commit_info": "bedcf1f - Round 7 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bedcf1f",
+      "current_size": 40282,
+      "previous_size": 39724,
+      "size_diff": 558
     },
     {
       "file": "demo/public/assets/js/perms-data.js",
-      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
-      "current_size": 16114,
-      "previous_size": 15937,
-      "size_diff": 177
+      "commit_info": "5ff04c0 - Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff04c0",
+      "current_size": 16397,
+      "previous_size": 16114,
+      "size_diff": 283
     },
     {
       "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
-      "current_size": 42938,
-      "previous_size": 42666,
-      "size_diff": 272
+      "commit_info": "5ff04c0 - Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff04c0",
+      "current_size": 43319,
+      "previous_size": 42938,
+      "size_diff": 381
     },
     {
       "file": "demo/public/index.html",
-      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
+      "commit_info": "5ff04c0 - Resource status lists every detection category (fix Garages / Crew keys); site: round 7 guides, casino / tattoos docs, 246 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5ff04c0",
       "current_size": 22845,
       "previous_size": 22845,
       "size_diff": 0
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
-      "current_size": 294022,
-      "previous_size": 292219,
-      "size_diff": 1803
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 299084,
+      "previous_size": 294022,
+      "size_diff": 5062
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
-      "current_size": 309019,
-      "previous_size": 307081,
-      "size_diff": 1938
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 314408,
+      "previous_size": 309019,
+      "size_diff": 5389
     },
     {
-      "file": "server/custom/ambulance/p_ambulancejob.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 1548,
+      "file": "server/custom/ambulance/ak47_ambulancejob.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 664,
       "previous_size": 0,
-      "size_diff": 1548
+      "size_diff": 664
     },
     {
-      "file": "server/custom/banking/ps-banking.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 1373,
+      "file": "server/custom/ambulance/brutal_ambulancejob.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 699,
       "previous_size": 0,
-      "size_diff": 1373
+      "size_diff": 699
     },
     {
-      "file": "server/custom/billing/ps-banking.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 1916,
-      "previous_size": 0,
-      "size_diff": 1916
+      "file": "server/custom/billing/qs-billing.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 5089,
+      "previous_size": 2027,
+      "size_diff": 3062
     },
     {
-      "file": "server/custom/dispatch/p_mdt.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 1491,
+      "file": "server/custom/doorlock/cd_doorlock.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1859,
       "previous_size": 0,
-      "size_diff": 1491
+      "size_diff": 1859
+    },
+    {
+      "file": "server/custom/gangs/ak47_gangs.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1048,
+      "previous_size": 0,
+      "size_diff": 1048
+    },
+    {
+      "file": "server/custom/gangs/brutal_gangs.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 915,
+      "previous_size": 0,
+      "size_diff": 915
     },
     {
       "file": "server/custom/gangs/op-crime.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 1725,
-      "previous_size": 0,
-      "size_diff": 1725
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 2558,
+      "previous_size": 1725,
+      "size_diff": 833
     },
     {
-      "file": "server/custom/housing/rtx_housing.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 3660,
+      "file": "server/custom/gangs/qs-crime-creator.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 3128,
       "previous_size": 0,
-      "size_diff": 3660
+      "size_diff": 3128
+    },
+    {
+      "file": "server/custom/gangs/rcore_gangs.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1813,
+      "previous_size": 963,
+      "size_diff": 850
+    },
+    {
+      "file": "server/custom/garage/ak47_garage.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 2515,
+      "previous_size": 0,
+      "size_diff": 2515
+    },
+    {
+      "file": "server/custom/garage/op-garages.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 2305,
+      "previous_size": 0,
+      "size_diff": 2305
+    },
+    {
+      "file": "server/custom/garage/qs-advancedgarages.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1214,
+      "previous_size": 1189,
+      "size_diff": 25
+    },
+    {
+      "file": "server/custom/housing/ak47_housing.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1827,
+      "previous_size": 0,
+      "size_diff": 1827
+    },
+    {
+      "file": "server/custom/housing/nolag_properties.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 3952,
+      "previous_size": 1669,
+      "size_diff": 2283
+    },
+    {
+      "file": "server/custom/housing/qb-houses.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 3751,
+      "previous_size": 2676,
+      "size_diff": 1075
     },
     {
       "file": "server/custom/housing/vms_housing.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 4231,
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 4685,
+      "previous_size": 4231,
+      "size_diff": 454
+    },
+    {
+      "file": "server/custom/inventory/ak47.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 3358,
+      "previous_size": 2701,
+      "size_diff": 657
+    },
+    {
+      "file": "server/custom/inventory/origen.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 3479,
+      "previous_size": 2768,
+      "size_diff": 711
+    },
+    {
+      "file": "server/custom/inventory/qs.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 6141,
+      "previous_size": 5253,
+      "size_diff": 888
+    },
+    {
+      "file": "server/custom/licenses/qs-licenses.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 4267,
       "previous_size": 0,
-      "size_diff": 4231
+      "size_diff": 4267
+    },
+    {
+      "file": "server/custom/mdt/origen_police.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 3543,
+      "previous_size": 0,
+      "size_diff": 3543
     },
     {
       "file": "server/custom/multicharacter/multicharacter.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 18937,
-      "previous_size": 11326,
-      "size_diff": 7611
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 22696,
+      "previous_size": 18937,
+      "size_diff": 3759
     },
     {
-      "file": "server/custom/police/p_policejob.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 2092,
+      "file": "server/custom/phone/17mov_Phone.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1435,
       "previous_size": 0,
-      "size_diff": 2092
+      "size_diff": 1435
     },
     {
-      "file": "server/custom/police/qbx_police.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 1856,
+      "file": "server/custom/phone/qs-smartphone-pro.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1485,
+      "previous_size": 1243,
+      "size_diff": 242
+    },
+    {
+      "file": "server/custom/phone/qs-smartphone.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 2482,
+      "previous_size": 1222,
+      "size_diff": 1260
+    },
+    {
+      "file": "server/custom/phone/yseries.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 934,
+      "previous_size": 691,
+      "size_diff": 243
+    },
+    {
+      "file": "server/custom/police/brutal_policejob.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 2164,
       "previous_size": 0,
-      "size_diff": 1856
+      "size_diff": 2164
     },
     {
-      "file": "server/modules/cuffs.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 2827,
-      "previous_size": 2453,
-      "size_diff": 374
+      "file": "server/custom/prison/rcore_prison.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1758,
+      "previous_size": 1613,
+      "size_diff": 145
     },
     {
-      "file": "server/modules/gangs.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 1414,
-      "previous_size": 1404,
-      "size_diff": 10
-    },
-    {
-      "file": "server/modules/medical_aids.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 3912,
+      "file": "server/custom/society/ak47_banking.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1130,
       "previous_size": 0,
-      "size_diff": 3912
+      "size_diff": 1130
     },
     {
-      "file": "server/modules/radio.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 3132,
-      "previous_size": 2807,
-      "size_diff": 325
+      "file": "server/custom/society/qs-banking.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 2065,
+      "previous_size": 1479,
+      "size_diff": 586
     },
     {
-      "file": "server/modules/vehicle_finance.lua",
-      "commit_info": "e9274c9 - Integrations round 6 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9274c9",
-      "current_size": 4747,
+      "file": "server/custom/society/tgg-banking.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1550,
+      "previous_size": 1286,
+      "size_diff": 264
+    },
+    {
+      "file": "server/custom/society/vms_bossmenu.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 1972,
       "previous_size": 0,
-      "size_diff": 4747
+      "size_diff": 1972
+    },
+    {
+      "file": "server/custom/weather/cd_easytime.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 2174,
+      "previous_size": 1827,
+      "size_diff": 347
+    },
+    {
+      "file": "server/modules/casino.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 6348,
+      "previous_size": 0,
+      "size_diff": 6348
+    },
+    {
+      "file": "server/modules/tattoos.lua",
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 6089,
+      "previous_size": 0,
+      "size_diff": 6089
     },
     {
       "file": "server/security/policy.lua",
-      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
-      "current_size": 18299,
-      "previous_size": 17563,
-      "size_diff": 736
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 19411,
+      "previous_size": 18299,
+      "size_diff": 1112
     },
     {
       "file": "server/startup_manager.lua",
-      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
-      "current_size": 14381,
-      "previous_size": 14292,
-      "size_diff": 89
+      "commit_info": "695285e - Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/695285e",
+      "current_size": 14539,
+      "previous_size": 14381,
+      "size_diff": 158
     }
   ]
 }
