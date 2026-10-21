@@ -1,217 +1,321 @@
 {
-  "version": "1.2.388",
+  "version": "1.2.389",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 139168,
-      "previous_size": 138941,
-      "size_diff": 227
-    },
-    {
-      "file": "client/modules/adminduty/hrs_integration.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 30258,
-      "previous_size": 30042,
-      "size_diff": 216
-    },
-    {
-      "file": "client/modules/adminduty/pistol.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 37056,
-      "previous_size": 37029,
-      "size_diff": 27
-    },
-    {
-      "file": "client/modules/build.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 14489,
-      "previous_size": 13052,
-      "size_diff": 1437
+      "file": "client/custom/fuel/rcore_fuel.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 1333,
+      "previous_size": 0,
+      "size_diff": 1333
     },
     {
       "file": "client/modules/heists.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 16979,
-      "previous_size": 16776,
-      "size_diff": 203
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 18184,
+      "previous_size": 16979,
+      "size_diff": 1205
     },
     {
-      "file": "client/modules/jobduty.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 7804,
-      "previous_size": 7161,
-      "size_diff": 643
+      "file": "client/modules/medical_aids.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 4756,
+      "previous_size": 0,
+      "size_diff": 4756
     },
     {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 50885,
-      "previous_size": 50599,
-      "size_diff": 286
+      "file": "client/modules/radio.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 952,
+      "previous_size": 654,
+      "size_diff": 298
     },
     {
-      "file": "client/modules/reports.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 8179,
-      "previous_size": 8071,
-      "size_diff": 108
+      "file": "client/modules/showdata/cuffs.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 3262,
+      "previous_size": 3022,
+      "size_diff": 240
     },
     {
-      "file": "client/modules/settings/server.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 20720,
-      "previous_size": 20613,
-      "size_diff": 107
-    },
-    {
-      "file": "client/modules/showdata/appearance.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 20028,
-      "previous_size": 19916,
-      "size_diff": 112
+      "file": "client/modules/showdata/general.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 13878,
+      "previous_size": 13835,
+      "size_diff": 43
     },
     {
       "file": "client/modules/showdata/health.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 15726,
-      "previous_size": 15340,
-      "size_diff": 386
-    },
-    {
-      "file": "client/modules/showdata/manage.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 32002,
-      "previous_size": 31832,
-      "size_diff": 170
-    },
-    {
-      "file": "client/modules/showdata/miscs.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 4047,
-      "previous_size": 4025,
-      "size_diff": 22
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 15909,
+      "previous_size": 15726,
+      "size_diff": 183
     },
     {
       "file": "client/modules/showdata/multicharacter.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 15205,
-      "previous_size": 14799,
-      "size_diff": 406
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 15685,
+      "previous_size": 15205,
+      "size_diff": 480
+    },
+    {
+      "file": "client/modules/showdata/permissions.lua",
+      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
+      "current_size": 31611,
+      "previous_size": 31357,
+      "size_diff": 254
     },
     {
       "file": "client/modules/showdata/vehicles.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 25536,
-      "previous_size": 25088,
-      "size_diff": 448
+      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
+      "current_size": 25735,
+      "previous_size": 25536,
+      "size_diff": 199
     },
     {
-      "file": "client/modules/showdata/voice.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 10585,
-      "previous_size": 10371,
-      "size_diff": 214
+      "file": "client/modules/vehicle_finance.lua",
+      "commit_info": "e9274c9 - Integrations round 6 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9274c9",
+      "current_size": 1967,
+      "previous_size": 0,
+      "size_diff": 1967
     },
     {
-      "file": "client/modules/stress.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 1864,
-      "previous_size": 1726,
-      "size_diff": 138
+      "file": "config/detect.lua",
+      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
+      "current_size": 34334,
+      "previous_size": 32299,
+      "size_diff": 2035
     },
     {
-      "file": "client/modules/vehicle_storage.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 4490,
-      "previous_size": 3970,
-      "size_diff": 520
-    },
-    {
-      "file": "client/modules/weather.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 8189,
-      "previous_size": 12084,
-      "size_diff": -3895
-    },
-    {
-      "file": "config/options.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 24766,
-      "previous_size": 24555,
-      "size_diff": 211
+      "file": "config/perms.lua",
+      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
+      "current_size": 15889,
+      "previous_size": 15645,
+      "size_diff": 244
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "81a01bf - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/81a01bf",
-      "current_size": 138230,
-      "previous_size": 137762,
-      "size_diff": 468
+      "commit_info": "91d77d8 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/91d77d8",
+      "current_size": 138836,
+      "previous_size": 138230,
+      "size_diff": 606
     },
     {
       "file": "demo/public/assets/js/docs.js",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 65474,
-      "previous_size": 65601,
-      "size_diff": -127
+      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
+      "current_size": 67523,
+      "previous_size": 65474,
+      "size_diff": 2049
     },
     {
       "file": "demo/public/assets/js/integrations.js",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 239402,
-      "previous_size": 239581,
-      "size_diff": -179
+      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
+      "current_size": 243014,
+      "previous_size": 239402,
+      "size_diff": 3612
+    },
+    {
+      "file": "demo/public/assets/js/menus-settings.js",
+      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
+      "current_size": 39724,
+      "previous_size": 39434,
+      "size_diff": 290
+    },
+    {
+      "file": "demo/public/assets/js/perms-data.js",
+      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
+      "current_size": 16114,
+      "previous_size": 15937,
+      "size_diff": 177
+    },
+    {
+      "file": "demo/public/assets/js/site-data.js",
+      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
+      "current_size": 42938,
+      "previous_size": 42666,
+      "size_diff": 272
     },
     {
       "file": "demo/public/index.html",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "commit_info": "34e2e25 - Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/34e2e25",
       "current_size": 22845,
       "previous_size": 22845,
       "size_diff": 0
     },
     {
-      "file": "server/modules/airdrop.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 20186,
-      "previous_size": 20043,
-      "size_diff": 143
+      "file": "locales/en.lua",
+      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
+      "current_size": 294022,
+      "previous_size": 292219,
+      "size_diff": 1803
     },
     {
-      "file": "server/modules/commands.lua",
-      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
-      "current_size": 31075,
-      "previous_size": 30707,
-      "size_diff": 368
+      "file": "locales/fr.lua",
+      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
+      "current_size": 309019,
+      "previous_size": 307081,
+      "size_diff": 1938
+    },
+    {
+      "file": "server/custom/ambulance/p_ambulancejob.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 1548,
+      "previous_size": 0,
+      "size_diff": 1548
+    },
+    {
+      "file": "server/custom/banking/ps-banking.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 1373,
+      "previous_size": 0,
+      "size_diff": 1373
+    },
+    {
+      "file": "server/custom/billing/ps-banking.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 1916,
+      "previous_size": 0,
+      "size_diff": 1916
+    },
+    {
+      "file": "server/custom/dispatch/p_mdt.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 1491,
+      "previous_size": 0,
+      "size_diff": 1491
+    },
+    {
+      "file": "server/custom/gangs/op-crime.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 1725,
+      "previous_size": 0,
+      "size_diff": 1725
+    },
+    {
+      "file": "server/custom/housing/rtx_housing.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 3660,
+      "previous_size": 0,
+      "size_diff": 3660
+    },
+    {
+      "file": "server/custom/housing/vms_housing.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 4231,
+      "previous_size": 0,
+      "size_diff": 4231
+    },
+    {
+      "file": "server/custom/multicharacter/multicharacter.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 18937,
+      "previous_size": 11326,
+      "size_diff": 7611
+    },
+    {
+      "file": "server/custom/police/p_policejob.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 2092,
+      "previous_size": 0,
+      "size_diff": 2092
+    },
+    {
+      "file": "server/custom/police/qbx_police.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 1856,
+      "previous_size": 0,
+      "size_diff": 1856
+    },
+    {
+      "file": "server/modules/cuffs.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 2827,
+      "previous_size": 2453,
+      "size_diff": 374
+    },
+    {
+      "file": "server/modules/gangs.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 1414,
+      "previous_size": 1404,
+      "size_diff": 10
+    },
+    {
+      "file": "server/modules/medical_aids.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 3912,
+      "previous_size": 0,
+      "size_diff": 3912
+    },
+    {
+      "file": "server/modules/radio.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 3132,
+      "previous_size": 2807,
+      "size_diff": 325
+    },
+    {
+      "file": "server/modules/vehicle_finance.lua",
+      "commit_info": "e9274c9 - Integrations round 6 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9274c9",
+      "current_size": 4747,
+      "previous_size": 0,
+      "size_diff": 4747
+    },
+    {
+      "file": "server/security/policy.lua",
+      "commit_info": "ac306af - Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ac306af",
+      "current_size": 18299,
+      "previous_size": 17563,
+      "size_diff": 736
+    },
+    {
+      "file": "server/startup_manager.lua",
+      "commit_info": "dda012a - Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dda012a",
+      "current_size": 14381,
+      "previous_size": 14292,
+      "size_diff": 89
     }
   ]
 }

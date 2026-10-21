@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.388-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.389-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6010,6 +6010,93 @@ demo/public/index.html: Hide every integration option, command and sub-action wh
 server/modules/airdrop.lua: Hide every integration option, command and sub-action when its script is not detected by claude
 
 server/modules/commands.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.389</strong> – 2026-10-21 17:03</summary>
+
+## Changelog for v1.2.389
+
+client/custom/fuel/rcore_fuel.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+client/modules/heists.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+client/modules/medical_aids.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+client/modules/radio.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+client/modules/showdata/cuffs.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+client/modules/showdata/general.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+client/modules/showdata/health.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+client/modules/showdata/multicharacter.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+client/modules/showdata/permissions.lua: Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters by claude
+
+client/modules/showdata/vehicles.lua: Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters by claude
+
+client/modules/vehicle_finance.lua: Integrations round 6 (in progress) by claude
+
+config/detect.lua: Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters by claude
+
+config/perms.lua: Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs.js: Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources by claude
+
+demo/public/assets/js/integrations.js: Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources by claude
+
+demo/public/assets/js/menus-settings.js: Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters by claude
+
+demo/public/assets/js/perms-data.js: Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources by claude
+
+demo/public/assets/js/site-data.js: Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources by claude
+
+demo/public/index.html: Vehicle financing, rtx/vms housing, ps-banking history & bills, rcore_fuel, qbx_vehicleshop; site: round 6 guides and docs, 221 detected resources by claude
+
+locales/en.lua: Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters by claude
+
+locales/fr.lua: Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters by claude
+
+server/custom/ambulance/p_ambulancejob.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/custom/banking/ps-banking.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/custom/billing/ps-banking.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/custom/dispatch/p_mdt.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/custom/gangs/op-crime.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/custom/housing/rtx_housing.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/custom/housing/vms_housing.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/custom/multicharacter/multicharacter.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/custom/police/p_policejob.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/custom/police/qbx_police.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/modules/cuffs.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/modules/gangs.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/modules/medical_aids.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/modules/radio.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
+
+server/modules/vehicle_finance.lua: Integrations round 6 (in progress) by claude
+
+server/security/policy.lua: Handcuffs (p_policejob, qbx_police), p_ambulancejob, p_mdt dispatch, op-crime gangs (read only), 17mov / vms characters by claude
+
+server/startup_manager.lua: Medical aids (wasabi_crutch), lation_247robbery state, zerio-radio removal; round 6 in progress by claude
 
 
 
