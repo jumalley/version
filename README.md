@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.387-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.388-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -5949,6 +5949,67 @@ server/modules/buffs.lua: Buffs (ps-buffs): see a player's buffs, give one for a
 server/security/policy.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
 
 server/startup_manager.lua: Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.388</strong> – 2026-10-21 12:57</summary>
+
+## Changelog for v1.2.388
+
+client/functions.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/adminduty/hrs_integration.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/adminduty/pistol.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/build.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/heists.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/jobduty.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/onlineplayers.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/reports.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/settings/server.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/showdata/appearance.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/showdata/health.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/showdata/manage.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/showdata/miscs.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/showdata/multicharacter.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/showdata/vehicles.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/showdata/voice.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/stress.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/vehicle_storage.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+client/modules/weather.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+config/options.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs.js: Hide every integration option, command and sub-action when its script is not detected by claude
+
+demo/public/assets/js/integrations.js: Hide every integration option, command and sub-action when its script is not detected by claude
+
+demo/public/index.html: Hide every integration option, command and sub-action when its script is not detected by claude
+
+server/modules/airdrop.lua: Hide every integration option, command and sub-action when its script is not detected by claude
+
+server/modules/commands.lua: Hide every integration option, command and sub-action when its script is not detected by claude
 
 
 

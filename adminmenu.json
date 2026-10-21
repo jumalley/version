@@ -1,137 +1,217 @@
 {
-  "version": "1.2.387",
+  "version": "1.2.388",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/buffs.lua",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 4419,
-      "previous_size": 0,
-      "size_diff": 4419
+      "file": "client/functions.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 139168,
+      "previous_size": 138941,
+      "size_diff": 227
     },
     {
-      "file": "client/modules/showdata/health.lua",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 15340,
-      "previous_size": 15209,
-      "size_diff": 131
+      "file": "client/modules/adminduty/hrs_integration.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 30258,
+      "previous_size": 30042,
+      "size_diff": 216
     },
     {
-      "file": "config/detect.lua",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 32299,
-      "previous_size": 31989,
-      "size_diff": 310
+      "file": "client/modules/adminduty/pistol.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 37056,
+      "previous_size": 37029,
+      "size_diff": 27
     },
     {
-      "file": "config/perms.lua",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 15645,
-      "previous_size": 15538,
+      "file": "client/modules/build.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 14489,
+      "previous_size": 13052,
+      "size_diff": 1437
+    },
+    {
+      "file": "client/modules/heists.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 16979,
+      "previous_size": 16776,
+      "size_diff": 203
+    },
+    {
+      "file": "client/modules/jobduty.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 7804,
+      "previous_size": 7161,
+      "size_diff": 643
+    },
+    {
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 50885,
+      "previous_size": 50599,
+      "size_diff": 286
+    },
+    {
+      "file": "client/modules/reports.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 8179,
+      "previous_size": 8071,
+      "size_diff": 108
+    },
+    {
+      "file": "client/modules/settings/server.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 20720,
+      "previous_size": 20613,
       "size_diff": 107
     },
     {
+      "file": "client/modules/showdata/appearance.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 20028,
+      "previous_size": 19916,
+      "size_diff": 112
+    },
+    {
+      "file": "client/modules/showdata/health.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 15726,
+      "previous_size": 15340,
+      "size_diff": 386
+    },
+    {
+      "file": "client/modules/showdata/manage.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 32002,
+      "previous_size": 31832,
+      "size_diff": 170
+    },
+    {
+      "file": "client/modules/showdata/miscs.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 4047,
+      "previous_size": 4025,
+      "size_diff": 22
+    },
+    {
+      "file": "client/modules/showdata/multicharacter.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 15205,
+      "previous_size": 14799,
+      "size_diff": 406
+    },
+    {
+      "file": "client/modules/showdata/vehicles.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 25536,
+      "previous_size": 25088,
+      "size_diff": 448
+    },
+    {
+      "file": "client/modules/showdata/voice.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 10585,
+      "previous_size": 10371,
+      "size_diff": 214
+    },
+    {
+      "file": "client/modules/stress.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 1864,
+      "previous_size": 1726,
+      "size_diff": 138
+    },
+    {
+      "file": "client/modules/vehicle_storage.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 4490,
+      "previous_size": 3970,
+      "size_diff": 520
+    },
+    {
+      "file": "client/modules/weather.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 8189,
+      "previous_size": 12084,
+      "size_diff": -3895
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 24766,
+      "previous_size": 24555,
+      "size_diff": 211
+    },
+    {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "91bf327 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/91bf327",
-      "current_size": 137762,
-      "previous_size": 136915,
-      "size_diff": 847
+      "commit_info": "81a01bf - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/81a01bf",
+      "current_size": 138230,
+      "previous_size": 137762,
+      "size_diff": 468
     },
     {
       "file": "demo/public/assets/js/docs.js",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 65601,
-      "previous_size": 65258,
-      "size_diff": 343
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 65474,
+      "previous_size": 65601,
+      "size_diff": -127
     },
     {
       "file": "demo/public/assets/js/integrations.js",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 239581,
-      "previous_size": 235872,
-      "size_diff": 3709
-    },
-    {
-      "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 39434,
-      "previous_size": 39386,
-      "size_diff": 48
-    },
-    {
-      "file": "demo/public/assets/js/perms-data.js",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 15937,
-      "previous_size": 15850,
-      "size_diff": 87
-    },
-    {
-      "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 42666,
-      "previous_size": 42534,
-      "size_diff": 132
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 239402,
+      "previous_size": 239581,
+      "size_diff": -179
     },
     {
       "file": "demo/public/index.html",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
       "current_size": 22845,
       "previous_size": 22845,
       "size_diff": 0
     },
     {
-      "file": "locales/en.lua",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 292219,
-      "previous_size": 291339,
-      "size_diff": 880
+      "file": "server/modules/airdrop.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 20186,
+      "previous_size": 20043,
+      "size_diff": 143
     },
     {
-      "file": "locales/fr.lua",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 307081,
-      "previous_size": 306189,
-      "size_diff": 892
-    },
-    {
-      "file": "server/modules/buffs.lua",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 6413,
-      "previous_size": 0,
-      "size_diff": 6413
-    },
-    {
-      "file": "server/security/policy.lua",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 17563,
-      "previous_size": 17135,
-      "size_diff": 428
-    },
-    {
-      "file": "server/startup_manager.lua",
-      "commit_info": "df43560 - Buffs (ps-buffs): see a player's buffs, give one for a duration (with its effect) or remove it",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/df43560",
-      "current_size": 14292,
-      "previous_size": 14216,
-      "size_diff": 76
+      "file": "server/modules/commands.lua",
+      "commit_info": "4fbe804 - Hide every integration option, command and sub-action when its script is not detected",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4fbe804",
+      "current_size": 31075,
+      "previous_size": 30707,
+      "size_diff": 368
     }
   ]
 }
