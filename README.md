@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.390-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.391-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6280,6 +6280,145 @@ server/modules/tattoos.lua: Round 7 (in progress): origen / ak47 inventory fixes
 server/security/policy.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
 
 server/startup_manager.lua: Round 7 (in progress): origen / ak47 inventory fixes, ak47 / op garages, brutal & ak47 jobs, gangs, keys, housing, origen records, rtx / origen notify by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.391</strong> – 2026-10-22 06:15</summary>
+
+## Changelog for v1.2.391
+
+client/custom/appearance/qs-appearance.lua: Round 8 (in progress) by claude
+
+client/custom/doorlock/rcore_doorlock.lua: Round 8 (in progress) by claude
+
+client/custom/garage/jg-advancedgarages.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/custom/textui/jg-textui.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/functions.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/backpacks.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/chat.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/owned_vehicles.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/racing.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/settings/modules.lua: Round 8 (in progress): racing, EasyAdmin record, admin menu conflicts, DiscordAcePerms, log forwarding, rcore_doorlock, qs-appearance, vms_tattooshop by claude
+
+client/modules/settings/server.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/showdata/appearance.lua: Skills (rtx / vms / brutal gyms, okokCrafting level), stress for jg-stress-addon / 17mov_Interface, wasabi_backpack viewer, okokChatV2 staff messages by claude
+
+client/modules/showdata/discord.lua: Round 8 (in progress) by claude
+
+client/modules/showdata/easyadmin.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/showdata/health.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/showdata/inventory.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/showdata/main.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/showdata/manage.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/showdata/permissions.lua: Security: owned-vehicle delete / plate / spawn need adminmenu.vehicle.owned.manage, garage moves need adminmenu.vehicle.move by claude
+
+client/modules/showdata/vehicles.lua: Security: owned-vehicle delete / plate / spawn need adminmenu.vehicle.owned.manage, garage moves need adminmenu.vehicle.move by claude
+
+client/modules/skills.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/stress.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/modules/tattoos_vms.lua: Round 8 (in progress) by claude
+
+client/modules/vehicle_extras.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+client/utils.lua: Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table by claude
+
+config/detect.lua: Round 8 (in progress) by claude
+
+config/options.lua: Round 8 (in progress) by claude
+
+config/perms.lua: Skills (rtx / vms / brutal gyms, okokCrafting level), stress for jg-stress-addon / 17mov_Interface, wasabi_backpack viewer, okokChatV2 staff messages by claude
+
+config/webhooks.lua: Round 8 (in progress) by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs.js: Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources by claude
+
+demo/public/assets/js/integrations.js: Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources by claude
+
+demo/public/assets/js/menus-settings.js: Round 8 (in progress): racing, EasyAdmin record, admin menu conflicts, DiscordAcePerms, log forwarding, rcore_doorlock, qs-appearance, vms_tattooshop by claude
+
+demo/public/assets/js/perms-data.js: Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources by claude
+
+demo/public/assets/js/site-data.js: Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources by claude
+
+demo/public/index.html: Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources by claude
+
+locales/en.lua: Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table by claude
+
+locales/fr.lua: Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table by claude
+
+missing.json: Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table by claude
+
+server/custom/ambulance/esx_ambulancejob.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/custom/appearance/qs-appearance.lua: Round 8 (in progress) by claude
+
+server/custom/doorlock/rcore_doorlock.lua: Round 8 (in progress) by claude
+
+server/custom/garage/default.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/custom/garage/qbx_garages.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/functions.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/admin_conflicts.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/backpacks.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/chat.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/commands.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/discord_aceperms.lua: Round 8 (in progress) by claude
+
+server/modules/easyadmin.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/esx_identity.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/logs/forward.lua: Round 8 (in progress) by claude
+
+server/modules/logs/logs.lua: Round 8 (in progress) by claude
+
+server/modules/owned_vehicles_qbx.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/racing.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/skills.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/stress.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/tattoos_vms.lua: Round 8 (in progress) by claude
+
+server/modules/vehicle_extras.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/modules/vehicles.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+server/security/policy.lua: Skills (rtx / vms / brutal gyms, okokCrafting level), stress for jg-stress-addon / 17mov_Interface, wasabi_backpack viewer, okokChatV2 staff messages by claude
+
+server/startup_manager.lua: Round 8 (in progress) by claude
+
+server/utils.lua: Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table by claude
+
+shared/admin_conflicts.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
 
 
 
