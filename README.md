@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.391-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.393-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6419,6 +6419,121 @@ server/startup_manager.lua: Round 8 (in progress) by claude
 server/utils.lua: Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table by claude
 
 shared/admin_conflicts.lua: Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.393</strong> – 2026-10-22 16:46</summary>
+
+## Changelog for v1.2.393
+
+client/custom/police/qs-police-creator.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/custom/vehiclekeys/okokGarage.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/functions.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/build.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/cityhall.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/heists.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/mail.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/settings/modules.lua: Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock by claude
+
+client/modules/settings/server.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/shops_qs.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/showdata/cuffs.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/showdata/licenses.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/showdata/manage.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/showdata/permissions.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/skills.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/stress.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/used_vehicles.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/vehicle_repair.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/vehicle_tuning.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+client/modules/whitelist.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+config/detect.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+config/options.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+config/perms.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs.js: Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources by claude
+
+demo/public/assets/js/integrations.js: Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources by claude
+
+demo/public/assets/js/menus-settings.js: Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock by claude
+
+demo/public/assets/js/perms-data.js: Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources by claude
+
+demo/public/assets/js/site-data.js: Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources by claude
+
+demo/public/index.html: Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources by claude
+
+locales/en.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+locales/fr.lua: Round 10 (in progress) by claude
+
+server/custom/dispatch/qs-police-creator.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/custom/garage/lunar_garage.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/custom/multijob/wasabi_multijob.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/custom/phone/codem-phone.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/custom/phone/gksphone.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/custom/phone/npwd.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/custom/phone/okokPhone.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/custom/phone/sky_phone.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/custom/police/qs-police-creator.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/custom/police/rcore_police.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/modules/cityhall.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/modules/heists.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/modules/mail.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/modules/shops_qs.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/modules/skills.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/modules/stress.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/modules/used_vehicles.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/modules/whitelist.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/security/policy.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+server/startup_manager.lua: Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock by claude
+
+shared/admin_conflicts.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
 
 
 

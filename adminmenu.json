@@ -1,529 +1,433 @@
 {
-  "version": "1.2.391",
+  "version": "1.2.393",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/appearance/qs-appearance.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 4167,
+      "file": "client/custom/police/qs-police-creator.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 574,
       "previous_size": 0,
-      "size_diff": 4167
+      "size_diff": 574
     },
     {
-      "file": "client/custom/doorlock/rcore_doorlock.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 4842,
-      "previous_size": 0,
-      "size_diff": 4842
-    },
-    {
-      "file": "client/custom/garage/jg-advancedgarages.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 1549,
-      "previous_size": 841,
-      "size_diff": 708
-    },
-    {
-      "file": "client/custom/textui/jg-textui.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 915,
-      "previous_size": 778,
-      "size_diff": 137
+      "file": "client/custom/vehiclekeys/okokGarage.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 637,
+      "previous_size": 422,
+      "size_diff": 215
     },
     {
       "file": "client/functions.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 139570,
-      "previous_size": 139168,
-      "size_diff": 402
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 138445,
+      "previous_size": 139760,
+      "size_diff": -1315
     },
     {
-      "file": "client/modules/backpacks.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 2142,
-      "previous_size": 0,
-      "size_diff": 2142
+      "file": "client/modules/build.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 14620,
+      "previous_size": 14489,
+      "size_diff": 131
     },
     {
-      "file": "client/modules/chat.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 1596,
+      "file": "client/modules/cityhall.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 7831,
       "previous_size": 0,
-      "size_diff": 1596
+      "size_diff": 7831
     },
     {
-      "file": "client/modules/owned_vehicles.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 5026,
-      "previous_size": 0,
-      "size_diff": 5026
+      "file": "client/modules/heists.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 23866,
+      "previous_size": 19575,
+      "size_diff": 4291
     },
     {
-      "file": "client/modules/racing.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 8080,
+      "file": "client/modules/mail.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 2477,
       "previous_size": 0,
-      "size_diff": 8080
+      "size_diff": 2477
     },
     {
       "file": "client/modules/settings/modules.lua",
-      "commit_info": "57ed1b7 - Round 8 (in progress): racing, EasyAdmin record, admin menu conflicts, DiscordAcePerms, log forwarding, rcore_doorlock, qs-appearance, vms_tattooshop",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/57ed1b7",
-      "current_size": 33903,
-      "previous_size": 32160,
-      "size_diff": 1743
+      "commit_info": "b119de7 - Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b119de7",
+      "current_size": 34645,
+      "previous_size": 34332,
+      "size_diff": 313
     },
     {
       "file": "client/modules/settings/server.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 22349,
-      "previous_size": 21273,
-      "size_diff": 1076
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 25714,
+      "previous_size": 23965,
+      "size_diff": 1749
     },
     {
-      "file": "client/modules/showdata/appearance.lua",
-      "commit_info": "4b6c938 - Skills (rtx / vms / brutal gyms, okokCrafting level), stress for jg-stress-addon / 17mov_Interface, wasabi_backpack viewer, okokChatV2 staff messages",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4b6c938",
-      "current_size": 20367,
-      "previous_size": 20254,
-      "size_diff": 113
-    },
-    {
-      "file": "client/modules/showdata/discord.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 6991,
-      "previous_size": 4948,
-      "size_diff": 2043
-    },
-    {
-      "file": "client/modules/showdata/easyadmin.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 2873,
+      "file": "client/modules/shops_qs.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 7057,
       "previous_size": 0,
-      "size_diff": 2873
+      "size_diff": 7057
     },
     {
-      "file": "client/modules/showdata/health.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 16073,
-      "previous_size": 15909,
-      "size_diff": 164
+      "file": "client/modules/showdata/cuffs.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 3444,
+      "previous_size": 3295,
+      "size_diff": 149
     },
     {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 51478,
-      "previous_size": 51292,
-      "size_diff": 186
-    },
-    {
-      "file": "client/modules/showdata/main.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 12961,
-      "previous_size": 12391,
-      "size_diff": 570
+      "file": "client/modules/showdata/licenses.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 5564,
+      "previous_size": 5383,
+      "size_diff": 181
     },
     {
       "file": "client/modules/showdata/manage.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 32526,
-      "previous_size": 32002,
-      "size_diff": 524
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 33059,
+      "previous_size": 32526,
+      "size_diff": 533
     },
     {
       "file": "client/modules/showdata/permissions.lua",
-      "commit_info": "3f0f8cf - Security: owned-vehicle delete / plate / spawn need adminmenu.vehicle.owned.manage, garage moves need adminmenu.vehicle.move",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f0f8cf",
-      "current_size": 32364,
-      "previous_size": 31611,
-      "size_diff": 753
-    },
-    {
-      "file": "client/modules/showdata/vehicles.lua",
-      "commit_info": "3f0f8cf - Security: owned-vehicle delete / plate / spawn need adminmenu.vehicle.owned.manage, garage moves need adminmenu.vehicle.move",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/3f0f8cf",
-      "current_size": 22385,
-      "previous_size": 25832,
-      "size_diff": -3447
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 33210,
+      "previous_size": 33177,
+      "size_diff": 33
     },
     {
       "file": "client/modules/skills.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 7953,
-      "previous_size": 0,
-      "size_diff": 7953
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 11573,
+      "previous_size": 7953,
+      "size_diff": 3620
     },
     {
       "file": "client/modules/stress.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 2513,
-      "previous_size": 1864,
-      "size_diff": 649
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 2634,
+      "previous_size": 2513,
+      "size_diff": 121
     },
     {
-      "file": "client/modules/tattoos_vms.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 1825,
+      "file": "client/modules/used_vehicles.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 5251,
       "previous_size": 0,
-      "size_diff": 1825
+      "size_diff": 5251
     },
     {
-      "file": "client/modules/vehicle_extras.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 5757,
-      "previous_size": 4578,
-      "size_diff": 1179
+      "file": "client/modules/vehicle_repair.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 3166,
+      "previous_size": 1687,
+      "size_diff": 1479
     },
     {
-      "file": "client/utils.lua",
-      "commit_info": "4a17c7c - Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4a17c7c",
-      "current_size": 16205,
-      "previous_size": 15769,
-      "size_diff": 436
+      "file": "client/modules/vehicle_tuning.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 3939,
+      "previous_size": 3141,
+      "size_diff": 798
+    },
+    {
+      "file": "client/modules/whitelist.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 6211,
+      "previous_size": 0,
+      "size_diff": 6211
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 43783,
-      "previous_size": 37897,
-      "size_diff": 5886
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 50784,
+      "previous_size": 46988,
+      "size_diff": 3796
     },
     {
       "file": "config/options.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 24855,
-      "previous_size": 24836,
-      "size_diff": 19
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 26338,
+      "previous_size": 25993,
+      "size_diff": 345
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "4b6c938 - Skills (rtx / vms / brutal gyms, okokCrafting level), stress for jg-stress-addon / 17mov_Interface, wasabi_backpack viewer, okokChatV2 staff messages",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4b6c938",
-      "current_size": 17305,
-      "previous_size": 16274,
-      "size_diff": 1031
-    },
-    {
-      "file": "config/webhooks.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 2790,
-      "previous_size": 1818,
-      "size_diff": 972
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 20497,
+      "previous_size": 19119,
+      "size_diff": 1378
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "ceb66b4 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ceb66b4",
-      "current_size": 139769,
-      "previous_size": 139330,
-      "size_diff": 439
+      "commit_info": "55c0661 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/55c0661",
+      "current_size": 142850,
+      "previous_size": 141403,
+      "size_diff": 1447
     },
     {
       "file": "demo/public/assets/js/docs.js",
-      "commit_info": "cb0d552 - Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cb0d552",
-      "current_size": 73220,
-      "previous_size": 69031,
-      "size_diff": 4189
+      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
+      "current_size": 81426,
+      "previous_size": 78468,
+      "size_diff": 2958
     },
     {
       "file": "demo/public/assets/js/integrations.js",
-      "commit_info": "cb0d552 - Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cb0d552",
-      "current_size": 248506,
-      "previous_size": 232492,
-      "size_diff": 16014
+      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
+      "current_size": 278773,
+      "previous_size": 262612,
+      "size_diff": 16161
     },
     {
       "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "57ed1b7 - Round 8 (in progress): racing, EasyAdmin record, admin menu conflicts, DiscordAcePerms, log forwarding, rcore_doorlock, qs-appearance, vms_tattooshop",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/57ed1b7",
-      "current_size": 41182,
-      "previous_size": 40282,
-      "size_diff": 900
+      "commit_info": "b119de7 - Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b119de7",
+      "current_size": 42179,
+      "previous_size": 41650,
+      "size_diff": 529
     },
     {
       "file": "demo/public/assets/js/perms-data.js",
-      "commit_info": "cb0d552 - Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cb0d552",
-      "current_size": 17216,
-      "previous_size": 16397,
-      "size_diff": 819
+      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
+      "current_size": 19495,
+      "previous_size": 18581,
+      "size_diff": 914
     },
     {
       "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "cb0d552 - Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cb0d552",
-      "current_size": 44399,
-      "previous_size": 43319,
-      "size_diff": 1080
+      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
+      "current_size": 47328,
+      "previous_size": 46032,
+      "size_diff": 1296
     },
     {
       "file": "demo/public/index.html",
-      "commit_info": "cb0d552 - Site: round 8 guides (skills, racing, backpacks, staff chat, EasyAdmin, admin menu conflicts, log forwarding, handling), permission labels, 275 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cb0d552",
+      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
       "current_size": 22845,
       "previous_size": 22845,
       "size_diff": 0
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "4a17c7c - Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4a17c7c",
-      "current_size": 320042,
-      "previous_size": 299084,
-      "size_diff": 20958
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 344304,
+      "previous_size": 335227,
+      "size_diff": 9077
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "4a17c7c - Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4a17c7c",
-      "current_size": 356639,
-      "previous_size": 314408,
-      "size_diff": 42231
+      "commit_info": "5f1f4df - Round 10 (in progress)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5f1f4df",
+      "current_size": 382993,
+      "previous_size": 373073,
+      "size_diff": 9920
     },
     {
-      "file": "missing.json",
-      "commit_info": "4a17c7c - Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4a17c7c",
-      "current_size": 45,
+      "file": "server/custom/dispatch/qs-police-creator.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 1982,
       "previous_size": 0,
-      "size_diff": 45
+      "size_diff": 1982
     },
     {
-      "file": "server/custom/ambulance/esx_ambulancejob.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 1344,
-      "previous_size": 888,
-      "size_diff": 456
-    },
-    {
-      "file": "server/custom/appearance/qs-appearance.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 445,
+      "file": "server/custom/garage/lunar_garage.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 3118,
       "previous_size": 0,
-      "size_diff": 445
+      "size_diff": 3118
     },
     {
-      "file": "server/custom/doorlock/rcore_doorlock.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 2457,
+      "file": "server/custom/multijob/wasabi_multijob.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 3308,
       "previous_size": 0,
-      "size_diff": 2457
+      "size_diff": 3308
     },
     {
-      "file": "server/custom/garage/default.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 3479,
-      "previous_size": 2383,
-      "size_diff": 1096
-    },
-    {
-      "file": "server/custom/garage/qbx_garages.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 3817,
+      "file": "server/custom/phone/codem-phone.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 1881,
       "previous_size": 0,
-      "size_diff": 3817
+      "size_diff": 1881
     },
     {
-      "file": "server/functions.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 38482,
-      "previous_size": 37912,
-      "size_diff": 570
+      "file": "server/custom/phone/gksphone.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 1712,
+      "previous_size": 200,
+      "size_diff": 1512
     },
     {
-      "file": "server/modules/admin_conflicts.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 1919,
+      "file": "server/custom/phone/npwd.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 2124,
+      "previous_size": 337,
+      "size_diff": 1787
+    },
+    {
+      "file": "server/custom/phone/okokPhone.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 2243,
+      "previous_size": 216,
+      "size_diff": 2027
+    },
+    {
+      "file": "server/custom/phone/sky_phone.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 894,
+      "previous_size": 818,
+      "size_diff": 76
+    },
+    {
+      "file": "server/custom/police/qs-police-creator.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 1579,
       "previous_size": 0,
-      "size_diff": 1919
+      "size_diff": 1579
     },
     {
-      "file": "server/modules/backpacks.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 3804,
+      "file": "server/custom/police/rcore_police.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 1867,
       "previous_size": 0,
-      "size_diff": 3804
+      "size_diff": 1867
     },
     {
-      "file": "server/modules/chat.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 3173,
+      "file": "server/modules/cityhall.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 8549,
       "previous_size": 0,
-      "size_diff": 3173
+      "size_diff": 8549
     },
     {
-      "file": "server/modules/commands.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 31633,
-      "previous_size": 31075,
-      "size_diff": 558
+      "file": "server/modules/heists.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 5585,
+      "previous_size": 2825,
+      "size_diff": 2760
     },
     {
-      "file": "server/modules/discord_aceperms.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 3411,
+      "file": "server/modules/mail.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 4803,
+      "previous_size": 571,
+      "size_diff": 4232
+    },
+    {
+      "file": "server/modules/shops_qs.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 4754,
       "previous_size": 0,
-      "size_diff": 3411
-    },
-    {
-      "file": "server/modules/easyadmin.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 4267,
-      "previous_size": 0,
-      "size_diff": 4267
-    },
-    {
-      "file": "server/modules/esx_identity.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 3877,
-      "previous_size": 0,
-      "size_diff": 3877
-    },
-    {
-      "file": "server/modules/logs/forward.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 3459,
-      "previous_size": 0,
-      "size_diff": 3459
-    },
-    {
-      "file": "server/modules/logs/logs.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 12092,
-      "previous_size": 11917,
-      "size_diff": 175
-    },
-    {
-      "file": "server/modules/owned_vehicles_qbx.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 10689,
-      "previous_size": 0,
-      "size_diff": 10689
-    },
-    {
-      "file": "server/modules/racing.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 9418,
-      "previous_size": 0,
-      "size_diff": 9418
+      "size_diff": 4754
     },
     {
       "file": "server/modules/skills.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 13891,
-      "previous_size": 0,
-      "size_diff": 13891
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 18891,
+      "previous_size": 13891,
+      "size_diff": 5000
     },
     {
       "file": "server/modules/stress.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 5550,
-      "previous_size": 2812,
-      "size_diff": 2738
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 6103,
+      "previous_size": 5550,
+      "size_diff": 553
     },
     {
-      "file": "server/modules/tattoos_vms.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 1747,
+      "file": "server/modules/used_vehicles.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 5897,
       "previous_size": 0,
-      "size_diff": 1747
+      "size_diff": 5897
     },
     {
-      "file": "server/modules/vehicle_extras.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 5889,
-      "previous_size": 5841,
-      "size_diff": 48
-    },
-    {
-      "file": "server/modules/vehicles.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 6537,
-      "previous_size": 3964,
-      "size_diff": 2573
+      "file": "server/modules/whitelist.lua",
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 8453,
+      "previous_size": 0,
+      "size_diff": 8453
     },
     {
       "file": "server/security/policy.lua",
-      "commit_info": "4b6c938 - Skills (rtx / vms / brutal gyms, okokCrafting level), stress for jg-stress-addon / 17mov_Interface, wasabi_backpack viewer, okokChatV2 staff messages",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4b6c938",
-      "current_size": 22363,
-      "previous_size": 19411,
-      "size_diff": 2952
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 28515,
+      "previous_size": 26058,
+      "size_diff": 2457
     },
     {
       "file": "server/startup_manager.lua",
-      "commit_info": "1817666 - Round 8 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1817666",
-      "current_size": 15473,
-      "previous_size": 14539,
-      "size_diff": 934
-    },
-    {
-      "file": "server/utils.lua",
-      "commit_info": "4a17c7c - Locales: add the ~200 texts missing in both languages and ~230 missing in French; Lang fills %{name} from a table",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4a17c7c",
-      "current_size": 2204,
-      "previous_size": 1830,
-      "size_diff": 374
+      "commit_info": "b119de7 - Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b119de7",
+      "current_size": 16395,
+      "previous_size": 15982,
+      "size_diff": 413
     },
     {
       "file": "shared/admin_conflicts.lua",
-      "commit_info": "c4e731a - Round 8 (in progress): qbx_vehicles / qbx_garages, esx_identity, jg-handling / jg-vehiclestudio / jg-advancedgarages v4, kq_wheeldamage",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c4e731a",
-      "current_size": 3695,
-      "previous_size": 0,
-      "size_diff": 3695
+      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
+      "current_size": 4628,
+      "previous_size": 4176,
+      "size_diff": 452
     }
   ]
 }
