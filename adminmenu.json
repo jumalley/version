@@ -1,657 +1,177 @@
 {
-  "version": "1.2.394",
+  "version": "1.2.395",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": ".gitignore",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 45,
-      "previous_size": 30,
-      "size_diff": 15
-    },
-    {
-      "file": "client/custom/inventory/ox_inventory_integration.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 10945,
-      "previous_size": 10835,
-      "size_diff": 110
-    },
-    {
-      "file": "client/custom/screenshot/screenshot.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 1064,
-      "previous_size": 1558,
-      "size_diff": -494
-    },
-    {
-      "file": "client/functions.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 139677,
-      "previous_size": 138445,
-      "size_diff": 1232
-    },
-    {
-      "file": "client/modules/adminduty/entity_debug.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 32156,
-      "previous_size": 31856,
-      "size_diff": 300
-    },
-    {
-      "file": "client/modules/adminduty/hrs_integration.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 30262,
-      "previous_size": 30258,
-      "size_diff": 4
-    },
-    {
       "file": "client/modules/adminduty/pistol.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 37100,
-      "previous_size": 37056,
-      "size_diff": 44
-    },
-    {
-      "file": "client/modules/callbacks.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 10837,
-      "previous_size": 11603,
-      "size_diff": -766
-    },
-    {
-      "file": "client/modules/car.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 8816,
-      "previous_size": 8844,
-      "size_diff": -28
-    },
-    {
-      "file": "client/modules/coords.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 4605,
-      "previous_size": 4530,
-      "size_diff": 75
-    },
-    {
-      "file": "client/modules/integrations/crew.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 15688,
-      "previous_size": 15524,
-      "size_diff": 164
-    },
-    {
-      "file": "client/modules/integrations/doorlock_handlers.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 24384,
-      "previous_size": 24250,
-      "size_diff": 134
-    },
-    {
-      "file": "client/modules/jail.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 27485,
-      "previous_size": 26462,
-      "size_diff": 1023
-    },
-    {
-      "file": "client/modules/mail.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 2897,
-      "previous_size": 2477,
-      "size_diff": 420
-    },
-    {
-      "file": "client/modules/main.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 4533,
-      "previous_size": 4454,
-      "size_diff": 79
-    },
-    {
-      "file": "client/modules/object_gizmo.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 29974,
-      "previous_size": 30178,
-      "size_diff": -204
-    },
-    {
-      "file": "client/modules/offlineplayers.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 11531,
-      "previous_size": 11448,
-      "size_diff": 83
-    },
-    {
-      "file": "client/modules/onlineplayers.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 50880,
-      "previous_size": 50885,
-      "size_diff": -5
-    },
-    {
-      "file": "client/modules/reports.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 12952,
-      "previous_size": 13411,
-      "size_diff": -459
-    },
-    {
-      "file": "client/modules/settings/main.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 11949,
-      "previous_size": 11742,
-      "size_diff": 207
-    },
-    {
-      "file": "client/modules/settings/permissions.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 28776,
-      "previous_size": 28436,
-      "size_diff": 340
-    },
-    {
-      "file": "client/modules/showdata/crew.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 57583,
-      "previous_size": 57795,
-      "size_diff": -212
-    },
-    {
-      "file": "client/modules/showdata/discord.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 7414,
-      "previous_size": 6991,
-      "size_diff": 423
-    },
-    {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 53480,
-      "previous_size": 52168,
-      "size_diff": 1312
-    },
-    {
-      "file": "client/modules/showdata/multicharacter.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 17089,
-      "previous_size": 16980,
-      "size_diff": 109
-    },
-    {
-      "file": "client/modules/showdata/permissions.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 18238,
-      "previous_size": 33210,
-      "size_diff": -14972
-    },
-    {
-      "file": "client/modules/staff_inventory.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 11678,
-      "previous_size": 11711,
-      "size_diff": -33
-    },
-    {
-      "file": "config/cfg/adminmenu_main_perms.cfg",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 1102,
-      "previous_size": 5571,
-      "size_diff": -4469
-    },
-    {
-      "file": "config/cfg/server.cfg.example",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 3575,
-      "previous_size": 3544,
-      "size_diff": 31
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 38607,
+      "previous_size": 37100,
+      "size_diff": 1507
     },
     {
       "file": "config/config.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 29337,
-      "previous_size": 28966,
-      "size_diff": 371
-    },
-    {
-      "file": "config/perms.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 24962,
-      "previous_size": 20497,
-      "size_diff": 4465
-    },
-    {
-      "file": "config/webhooks.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 2844,
-      "previous_size": 2790,
-      "size_diff": 54
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 29598,
+      "previous_size": 29337,
+      "size_diff": 261
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "747415f - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/747415f",
-      "current_size": 143385,
-      "previous_size": 142850,
-      "size_diff": 535
+      "commit_info": "196ab10 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/196ab10",
+      "current_size": 143831,
+      "previous_size": 143385,
+      "size_diff": 446
     },
     {
       "file": "demo/public/assets/js/guides.js",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 43808,
-      "previous_size": 42804,
-      "size_diff": 1004
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 44071,
+      "previous_size": 43808,
+      "size_diff": 263
     },
     {
       "file": "demo/public/assets/js/integrations.js",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 279084,
-      "previous_size": 278773,
-      "size_diff": 311
-    },
-    {
-      "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 42935,
-      "previous_size": 42179,
-      "size_diff": 756
-    },
-    {
-      "file": "demo/public/assets/js/perms-data.js",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 20442,
-      "previous_size": 19495,
-      "size_diff": 947
-    },
-    {
-      "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 48145,
-      "previous_size": 47328,
-      "size_diff": 817
-    },
-    {
-      "file": "demo/public/source/config/cfg/server.cfg.example",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 3541,
-      "previous_size": 3510,
-      "size_diff": 31
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 278718,
+      "previous_size": 279084,
+      "size_diff": -366
     },
     {
       "file": "demo/public/source/config/config.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 28576,
-      "previous_size": 28135,
-      "size_diff": 441
-    },
-    {
-      "file": "demo/public/source/config/detect.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 49596,
-      "previous_size": 15308,
-      "size_diff": 34288
-    },
-    {
-      "file": "demo/public/source/config/options.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 26338,
-      "previous_size": 21194,
-      "size_diff": 5144
-    },
-    {
-      "file": "demo/public/source/config/perms.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 24962,
-      "previous_size": 12715,
-      "size_diff": 12247
-    },
-    {
-      "file": "demo/public/source/config/webhooks.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 2810,
-      "previous_size": 1784,
-      "size_diff": 1026
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 28834,
+      "previous_size": 28576,
+      "size_diff": 258
     },
     {
       "file": "demo/public/source/locales/en.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 339143,
-      "previous_size": 250339,
-      "size_diff": 88804
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 339324,
+      "previous_size": 339143,
+      "size_diff": 181
     },
     {
       "file": "demo/public/source/locales/fr.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 377891,
-      "previous_size": 262347,
-      "size_diff": 115544
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 378103,
+      "previous_size": 377891,
+      "size_diff": 212
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
       "current_size": 1342,
-      "previous_size": 1341,
-      "size_diff": 1
+      "previous_size": 1342,
+      "size_diff": 0
     },
     {
-      "file": "demo/tools/build_perms.py",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 2802,
-      "previous_size": 2576,
-      "size_diff": 226
+      "file": "gitbook/en/guides/staff-inv.md",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 1250,
+      "previous_size": 1148,
+      "size_diff": 102
     },
     {
-      "file": "gitbook/en/guides/perms-ingame.md",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 1383,
-      "previous_size": 1167,
-      "size_diff": 216
+      "file": "gitbook/en/reference/configuration/config.lua.md",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 23951,
+      "previous_size": 24066,
+      "size_diff": -115
     },
     {
-      "file": "gitbook/fr/guides/perms-ingame.md",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 1575,
-      "previous_size": 1330,
-      "size_diff": 245
+      "file": "gitbook/fr/guides/staff-inv.md",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 1353,
+      "previous_size": 1223,
+      "size_diff": 130
+    },
+    {
+      "file": "gitbook/fr/reference/configuration/config.lua.md",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 23966,
+      "previous_size": 24081,
+      "size_diff": -115
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 344733,
-      "previous_size": 344304,
-      "size_diff": 429
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 383507,
-      "previous_size": 382993,
-      "size_diff": 514
-    },
-    {
-      "file": "server/custom/crew/hrs_base_building.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 41969,
-      "previous_size": 42381,
-      "size_diff": -412
-    },
-    {
-      "file": "server/custom/crew/hrs_crew.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 25297,
-      "previous_size": 24875,
-      "size_diff": 422
-    },
-    {
-      "file": "server/custom/inventory/ox.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 15828,
-      "previous_size": 15213,
-      "size_diff": 615
-    },
-    {
-      "file": "server/custom/inventory/tgiann.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 3618,
-      "previous_size": 3397,
-      "size_diff": 221
-    },
-    {
-      "file": "server/custom/screenshot/screencapture.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 0,
-      "previous_size": 1780,
-      "size_diff": -1780
-    },
-    {
-      "file": "server/custom/screenshot/screenshot.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 5553,
-      "previous_size": 0,
-      "size_diff": 5553
-    },
-    {
-      "file": "server/events.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 11530,
-      "previous_size": 11770,
-      "size_diff": -240
-    },
-    {
-      "file": "server/functions.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 38681,
-      "previous_size": 38482,
-      "size_diff": 199
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 123929,
-      "previous_size": 123202,
-      "size_diff": 727
-    },
-    {
-      "file": "server/modules/commands.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 31757,
-      "previous_size": 31672,
-      "size_diff": 85
-    },
-    {
-      "file": "server/modules/crew.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 11059,
-      "previous_size": 10877,
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 344915,
+      "previous_size": 344733,
       "size_diff": 182
     },
     {
-      "file": "server/modules/discord_aceperms.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 4333,
-      "previous_size": 3411,
-      "size_diff": 922
+      "file": "locales/fr.lua",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 383720,
+      "previous_size": 383507,
+      "size_diff": 213
     },
     {
-      "file": "server/modules/discord_roles.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 6831,
-      "previous_size": 4355,
-      "size_diff": 2476
+      "file": "server/database.lua",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 43523,
+      "previous_size": 43471,
+      "size_diff": 52
     },
     {
-      "file": "server/modules/inventory.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 19524,
-      "previous_size": 18455,
-      "size_diff": 1069
+      "file": "server/functions.lua",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 37045,
+      "previous_size": 38681,
+      "size_diff": -1636
     },
     {
-      "file": "server/modules/jail.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 28525,
-      "previous_size": 29959,
-      "size_diff": -1434
-    },
-    {
-      "file": "server/modules/mail.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 5447,
-      "previous_size": 4803,
-      "size_diff": 644
-    },
-    {
-      "file": "server/modules/menu_tables.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 3130,
+      "file": "server/modules/admin_weapon.lua",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 8030,
       "previous_size": 0,
-      "size_diff": 3130
+      "size_diff": 8030
     },
     {
-      "file": "server/modules/object_gizmo.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 17893,
-      "previous_size": 17524,
-      "size_diff": 369
-    },
-    {
-      "file": "server/modules/permissions.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 5838,
-      "previous_size": 4899,
-      "size_diff": 939
-    },
-    {
-      "file": "server/modules/reports.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 13890,
-      "previous_size": 13602,
-      "size_diff": 288
-    },
-    {
-      "file": "server/modules/sanctions.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 25785,
-      "previous_size": 25725,
-      "size_diff": 60
-    },
-    {
-      "file": "server/modules/settings/cfg.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 30619,
-      "previous_size": 22845,
-      "size_diff": 7774
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 110957,
+      "previous_size": 123929,
+      "size_diff": -12972
     },
     {
       "file": "server/modules/staff_inventory.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 45991,
-      "previous_size": 44625,
-      "size_diff": 1366
-    },
-    {
-      "file": "server/modules/stash.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 10168,
-      "previous_size": 9317,
-      "size_diff": 851
-    },
-    {
-      "file": "server/modules/teleport.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 1759,
-      "previous_size": 1377,
-      "size_diff": 382
-    },
-    {
-      "file": "server/modules/wipe.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 3375,
-      "previous_size": 3469,
-      "size_diff": -94
-    },
-    {
-      "file": "server/security/policy.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 29664,
-      "previous_size": 28515,
-      "size_diff": 1149
-    },
-    {
-      "file": "shared/permissions.lua",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 6199,
-      "previous_size": 0,
-      "size_diff": 6199
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 47159,
+      "previous_size": 45991,
+      "size_diff": 1168
     },
     {
       "file": "sql/adminmenu.sql",
-      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
-      "current_size": 10287,
-      "previous_size": 9368,
-      "size_diff": 919
+      "commit_info": "66b2146 - Staff pistol and staff inventory for every inventory script (#35)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/66b2146",
+      "current_size": 10313,
+      "previous_size": 10287,
+      "size_diff": 26
     }
   ]
 }

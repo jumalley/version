@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.394-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.395-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6705,6 +6705,57 @@ server/security/policy.lua: Permissions rewrite, runtime and export audits, secu
 shared/permissions.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
 
 sql/adminmenu.sql: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.395</strong> – 2026-10-28 09:45</summary>
+
+## Changelog for v1.2.395
+
+client/modules/adminduty/pistol.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+config/config.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/guides.js: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+demo/public/assets/js/integrations.js: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+demo/public/source/config/config.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+demo/public/source/locales/en.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+demo/public/source/locales/fr.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+demo/public/source/manifest.json: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+gitbook/en/guides/staff-inv.md: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+gitbook/en/reference/configuration/config.lua.md: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+gitbook/fr/guides/staff-inv.md: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+gitbook/fr/reference/configuration/config.lua.md: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+locales/en.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+locales/fr.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+server/database.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+server/functions.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+server/modules/admin_weapon.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+server/modules/callbacks.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+server/modules/staff_inventory.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+sql/adminmenu.sql: Staff pistol and staff inventory for every inventory script (#35) by jumalley
 
 
 
