@@ -1,433 +1,657 @@
 {
-  "version": "1.2.393",
+  "version": "1.2.394",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/custom/police/qs-police-creator.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 574,
-      "previous_size": 0,
-      "size_diff": 574
+      "file": ".gitignore",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 45,
+      "previous_size": 30,
+      "size_diff": 15
     },
     {
-      "file": "client/custom/vehiclekeys/okokGarage.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 637,
-      "previous_size": 422,
-      "size_diff": 215
+      "file": "client/custom/inventory/ox_inventory_integration.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 10945,
+      "previous_size": 10835,
+      "size_diff": 110
+    },
+    {
+      "file": "client/custom/screenshot/screenshot.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 1064,
+      "previous_size": 1558,
+      "size_diff": -494
     },
     {
       "file": "client/functions.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 138445,
-      "previous_size": 139760,
-      "size_diff": -1315
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 139677,
+      "previous_size": 138445,
+      "size_diff": 1232
     },
     {
-      "file": "client/modules/build.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 14620,
-      "previous_size": 14489,
-      "size_diff": 131
+      "file": "client/modules/adminduty/entity_debug.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 32156,
+      "previous_size": 31856,
+      "size_diff": 300
     },
     {
-      "file": "client/modules/cityhall.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 7831,
-      "previous_size": 0,
-      "size_diff": 7831
+      "file": "client/modules/adminduty/hrs_integration.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 30262,
+      "previous_size": 30258,
+      "size_diff": 4
     },
     {
-      "file": "client/modules/heists.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 23866,
-      "previous_size": 19575,
-      "size_diff": 4291
+      "file": "client/modules/adminduty/pistol.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 37100,
+      "previous_size": 37056,
+      "size_diff": 44
+    },
+    {
+      "file": "client/modules/callbacks.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 10837,
+      "previous_size": 11603,
+      "size_diff": -766
+    },
+    {
+      "file": "client/modules/car.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 8816,
+      "previous_size": 8844,
+      "size_diff": -28
+    },
+    {
+      "file": "client/modules/coords.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 4605,
+      "previous_size": 4530,
+      "size_diff": 75
+    },
+    {
+      "file": "client/modules/integrations/crew.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 15688,
+      "previous_size": 15524,
+      "size_diff": 164
+    },
+    {
+      "file": "client/modules/integrations/doorlock_handlers.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 24384,
+      "previous_size": 24250,
+      "size_diff": 134
+    },
+    {
+      "file": "client/modules/jail.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 27485,
+      "previous_size": 26462,
+      "size_diff": 1023
     },
     {
       "file": "client/modules/mail.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 2477,
-      "previous_size": 0,
-      "size_diff": 2477
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 2897,
+      "previous_size": 2477,
+      "size_diff": 420
     },
     {
-      "file": "client/modules/settings/modules.lua",
-      "commit_info": "b119de7 - Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b119de7",
-      "current_size": 34645,
-      "previous_size": 34332,
-      "size_diff": 313
+      "file": "client/modules/main.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 4533,
+      "previous_size": 4454,
+      "size_diff": 79
     },
     {
-      "file": "client/modules/settings/server.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 25714,
-      "previous_size": 23965,
-      "size_diff": 1749
+      "file": "client/modules/object_gizmo.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 29974,
+      "previous_size": 30178,
+      "size_diff": -204
     },
     {
-      "file": "client/modules/shops_qs.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 7057,
-      "previous_size": 0,
-      "size_diff": 7057
+      "file": "client/modules/offlineplayers.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 11531,
+      "previous_size": 11448,
+      "size_diff": 83
     },
     {
-      "file": "client/modules/showdata/cuffs.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 3444,
-      "previous_size": 3295,
-      "size_diff": 149
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 50880,
+      "previous_size": 50885,
+      "size_diff": -5
     },
     {
-      "file": "client/modules/showdata/licenses.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 5564,
-      "previous_size": 5383,
-      "size_diff": 181
+      "file": "client/modules/reports.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 12952,
+      "previous_size": 13411,
+      "size_diff": -459
     },
     {
-      "file": "client/modules/showdata/manage.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 33059,
-      "previous_size": 32526,
-      "size_diff": 533
+      "file": "client/modules/settings/main.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 11949,
+      "previous_size": 11742,
+      "size_diff": 207
+    },
+    {
+      "file": "client/modules/settings/permissions.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 28776,
+      "previous_size": 28436,
+      "size_diff": 340
+    },
+    {
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 57583,
+      "previous_size": 57795,
+      "size_diff": -212
+    },
+    {
+      "file": "client/modules/showdata/discord.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 7414,
+      "previous_size": 6991,
+      "size_diff": 423
+    },
+    {
+      "file": "client/modules/showdata/inventory.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 53480,
+      "previous_size": 52168,
+      "size_diff": 1312
+    },
+    {
+      "file": "client/modules/showdata/multicharacter.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 17089,
+      "previous_size": 16980,
+      "size_diff": 109
     },
     {
       "file": "client/modules/showdata/permissions.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 33210,
-      "previous_size": 33177,
-      "size_diff": 33
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 18238,
+      "previous_size": 33210,
+      "size_diff": -14972
     },
     {
-      "file": "client/modules/skills.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 11573,
-      "previous_size": 7953,
-      "size_diff": 3620
+      "file": "client/modules/staff_inventory.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 11678,
+      "previous_size": 11711,
+      "size_diff": -33
     },
     {
-      "file": "client/modules/stress.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 2634,
-      "previous_size": 2513,
-      "size_diff": 121
+      "file": "config/cfg/adminmenu_main_perms.cfg",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 1102,
+      "previous_size": 5571,
+      "size_diff": -4469
     },
     {
-      "file": "client/modules/used_vehicles.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 5251,
-      "previous_size": 0,
-      "size_diff": 5251
+      "file": "config/cfg/server.cfg.example",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 3575,
+      "previous_size": 3544,
+      "size_diff": 31
     },
     {
-      "file": "client/modules/vehicle_repair.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 3166,
-      "previous_size": 1687,
-      "size_diff": 1479
-    },
-    {
-      "file": "client/modules/vehicle_tuning.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 3939,
-      "previous_size": 3141,
-      "size_diff": 798
-    },
-    {
-      "file": "client/modules/whitelist.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 6211,
-      "previous_size": 0,
-      "size_diff": 6211
-    },
-    {
-      "file": "config/detect.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 50784,
-      "previous_size": 46988,
-      "size_diff": 3796
-    },
-    {
-      "file": "config/options.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 26338,
-      "previous_size": 25993,
-      "size_diff": 345
+      "file": "config/config.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 29337,
+      "previous_size": 28966,
+      "size_diff": 371
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 20497,
-      "previous_size": 19119,
-      "size_diff": 1378
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 24962,
+      "previous_size": 20497,
+      "size_diff": 4465
+    },
+    {
+      "file": "config/webhooks.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 2844,
+      "previous_size": 2790,
+      "size_diff": 54
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "55c0661 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/55c0661",
-      "current_size": 142850,
-      "previous_size": 141403,
-      "size_diff": 1447
+      "commit_info": "747415f - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/747415f",
+      "current_size": 143385,
+      "previous_size": 142850,
+      "size_diff": 535
     },
     {
-      "file": "demo/public/assets/js/docs.js",
-      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
-      "current_size": 81426,
-      "previous_size": 78468,
-      "size_diff": 2958
+      "file": "demo/public/assets/js/guides.js",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 43808,
+      "previous_size": 42804,
+      "size_diff": 1004
     },
     {
       "file": "demo/public/assets/js/integrations.js",
-      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
-      "current_size": 278773,
-      "previous_size": 262612,
-      "size_diff": 16161
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 279084,
+      "previous_size": 278773,
+      "size_diff": 311
     },
     {
       "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "b119de7 - Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b119de7",
-      "current_size": 42179,
-      "previous_size": 41650,
-      "size_diff": 529
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 42935,
+      "previous_size": 42179,
+      "size_diff": 756
     },
     {
       "file": "demo/public/assets/js/perms-data.js",
-      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
-      "current_size": 19495,
-      "previous_size": 18581,
-      "size_diff": 914
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 20442,
+      "previous_size": 19495,
+      "size_diff": 947
     },
     {
       "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
-      "current_size": 47328,
-      "previous_size": 46032,
-      "size_diff": 1296
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 48145,
+      "previous_size": 47328,
+      "size_diff": 817
     },
     {
-      "file": "demo/public/index.html",
-      "commit_info": "b0908bc - Site: round 10 guides (mail, used vehicles, XP, whitelist, city hall, shop stock), permission labels, 305 detected resources",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b0908bc",
-      "current_size": 22845,
-      "previous_size": 22845,
-      "size_diff": 0
+      "file": "demo/public/source/config/cfg/server.cfg.example",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 3541,
+      "previous_size": 3510,
+      "size_diff": 31
+    },
+    {
+      "file": "demo/public/source/config/config.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 28576,
+      "previous_size": 28135,
+      "size_diff": 441
+    },
+    {
+      "file": "demo/public/source/config/detect.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 49596,
+      "previous_size": 15308,
+      "size_diff": 34288
+    },
+    {
+      "file": "demo/public/source/config/options.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 26338,
+      "previous_size": 21194,
+      "size_diff": 5144
+    },
+    {
+      "file": "demo/public/source/config/perms.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 24962,
+      "previous_size": 12715,
+      "size_diff": 12247
+    },
+    {
+      "file": "demo/public/source/config/webhooks.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 2810,
+      "previous_size": 1784,
+      "size_diff": 1026
+    },
+    {
+      "file": "demo/public/source/locales/en.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 339143,
+      "previous_size": 250339,
+      "size_diff": 88804
+    },
+    {
+      "file": "demo/public/source/locales/fr.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 377891,
+      "previous_size": 262347,
+      "size_diff": 115544
+    },
+    {
+      "file": "demo/public/source/manifest.json",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 1342,
+      "previous_size": 1341,
+      "size_diff": 1
+    },
+    {
+      "file": "demo/tools/build_perms.py",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 2802,
+      "previous_size": 2576,
+      "size_diff": 226
+    },
+    {
+      "file": "gitbook/en/guides/perms-ingame.md",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 1383,
+      "previous_size": 1167,
+      "size_diff": 216
+    },
+    {
+      "file": "gitbook/fr/guides/perms-ingame.md",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 1575,
+      "previous_size": 1330,
+      "size_diff": 245
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 344304,
-      "previous_size": 335227,
-      "size_diff": 9077
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 344733,
+      "previous_size": 344304,
+      "size_diff": 429
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "5f1f4df - Round 10 (in progress)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5f1f4df",
-      "current_size": 382993,
-      "previous_size": 373073,
-      "size_diff": 9920
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 383507,
+      "previous_size": 382993,
+      "size_diff": 514
     },
     {
-      "file": "server/custom/dispatch/qs-police-creator.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 1982,
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 41969,
+      "previous_size": 42381,
+      "size_diff": -412
+    },
+    {
+      "file": "server/custom/crew/hrs_crew.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 25297,
+      "previous_size": 24875,
+      "size_diff": 422
+    },
+    {
+      "file": "server/custom/inventory/ox.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 15828,
+      "previous_size": 15213,
+      "size_diff": 615
+    },
+    {
+      "file": "server/custom/inventory/tgiann.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 3618,
+      "previous_size": 3397,
+      "size_diff": 221
+    },
+    {
+      "file": "server/custom/screenshot/screencapture.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 0,
+      "previous_size": 1780,
+      "size_diff": -1780
+    },
+    {
+      "file": "server/custom/screenshot/screenshot.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 5553,
       "previous_size": 0,
-      "size_diff": 1982
+      "size_diff": 5553
     },
     {
-      "file": "server/custom/garage/lunar_garage.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 3118,
-      "previous_size": 0,
-      "size_diff": 3118
+      "file": "server/events.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 11530,
+      "previous_size": 11770,
+      "size_diff": -240
     },
     {
-      "file": "server/custom/multijob/wasabi_multijob.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 3308,
-      "previous_size": 0,
-      "size_diff": 3308
+      "file": "server/functions.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 38681,
+      "previous_size": 38482,
+      "size_diff": 199
     },
     {
-      "file": "server/custom/phone/codem-phone.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 1881,
-      "previous_size": 0,
-      "size_diff": 1881
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 123929,
+      "previous_size": 123202,
+      "size_diff": 727
     },
     {
-      "file": "server/custom/phone/gksphone.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 1712,
-      "previous_size": 200,
-      "size_diff": 1512
+      "file": "server/modules/commands.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 31757,
+      "previous_size": 31672,
+      "size_diff": 85
     },
     {
-      "file": "server/custom/phone/npwd.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 2124,
-      "previous_size": 337,
-      "size_diff": 1787
+      "file": "server/modules/crew.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 11059,
+      "previous_size": 10877,
+      "size_diff": 182
     },
     {
-      "file": "server/custom/phone/okokPhone.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 2243,
-      "previous_size": 216,
-      "size_diff": 2027
+      "file": "server/modules/discord_aceperms.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 4333,
+      "previous_size": 3411,
+      "size_diff": 922
     },
     {
-      "file": "server/custom/phone/sky_phone.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 894,
-      "previous_size": 818,
-      "size_diff": 76
+      "file": "server/modules/discord_roles.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 6831,
+      "previous_size": 4355,
+      "size_diff": 2476
     },
     {
-      "file": "server/custom/police/qs-police-creator.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 1579,
-      "previous_size": 0,
-      "size_diff": 1579
+      "file": "server/modules/inventory.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 19524,
+      "previous_size": 18455,
+      "size_diff": 1069
     },
     {
-      "file": "server/custom/police/rcore_police.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 1867,
-      "previous_size": 0,
-      "size_diff": 1867
-    },
-    {
-      "file": "server/modules/cityhall.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 8549,
-      "previous_size": 0,
-      "size_diff": 8549
-    },
-    {
-      "file": "server/modules/heists.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 5585,
-      "previous_size": 2825,
-      "size_diff": 2760
+      "file": "server/modules/jail.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 28525,
+      "previous_size": 29959,
+      "size_diff": -1434
     },
     {
       "file": "server/modules/mail.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 4803,
-      "previous_size": 571,
-      "size_diff": 4232
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 5447,
+      "previous_size": 4803,
+      "size_diff": 644
     },
     {
-      "file": "server/modules/shops_qs.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 4754,
+      "file": "server/modules/menu_tables.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 3130,
       "previous_size": 0,
-      "size_diff": 4754
+      "size_diff": 3130
     },
     {
-      "file": "server/modules/skills.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 18891,
-      "previous_size": 13891,
-      "size_diff": 5000
+      "file": "server/modules/object_gizmo.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 17893,
+      "previous_size": 17524,
+      "size_diff": 369
     },
     {
-      "file": "server/modules/stress.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 6103,
-      "previous_size": 5550,
-      "size_diff": 553
+      "file": "server/modules/permissions.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 5838,
+      "previous_size": 4899,
+      "size_diff": 939
     },
     {
-      "file": "server/modules/used_vehicles.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 5897,
-      "previous_size": 0,
-      "size_diff": 5897
+      "file": "server/modules/reports.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 13890,
+      "previous_size": 13602,
+      "size_diff": 288
     },
     {
-      "file": "server/modules/whitelist.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 8453,
-      "previous_size": 0,
-      "size_diff": 8453
+      "file": "server/modules/sanctions.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 25785,
+      "previous_size": 25725,
+      "size_diff": 60
+    },
+    {
+      "file": "server/modules/settings/cfg.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 30619,
+      "previous_size": 22845,
+      "size_diff": 7774
+    },
+    {
+      "file": "server/modules/staff_inventory.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 45991,
+      "previous_size": 44625,
+      "size_diff": 1366
+    },
+    {
+      "file": "server/modules/stash.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 10168,
+      "previous_size": 9317,
+      "size_diff": 851
+    },
+    {
+      "file": "server/modules/teleport.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 1759,
+      "previous_size": 1377,
+      "size_diff": 382
+    },
+    {
+      "file": "server/modules/wipe.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 3375,
+      "previous_size": 3469,
+      "size_diff": -94
     },
     {
       "file": "server/security/policy.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 28515,
-      "previous_size": 26058,
-      "size_diff": 2457
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 29664,
+      "previous_size": 28515,
+      "size_diff": 1149
     },
     {
-      "file": "server/startup_manager.lua",
-      "commit_info": "b119de7 - Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/b119de7",
-      "current_size": 16395,
-      "previous_size": 15982,
-      "size_diff": 413
+      "file": "shared/permissions.lua",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 6199,
+      "previous_size": 0,
+      "size_diff": 6199
     },
     {
-      "file": "shared/admin_conflicts.lua",
-      "commit_info": "f58dc5b - Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/f58dc5b",
-      "current_size": 4628,
-      "previous_size": 4176,
-      "size_diff": 452
+      "file": "sql/adminmenu.sql",
+      "commit_info": "8d40488 - Permissions rewrite, runtime and export audits, security fixes (#34)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8d40488",
+      "current_size": 10287,
+      "previous_size": 9368,
+      "size_diff": 919
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.393-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.394-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6534,6 +6534,177 @@ server/security/policy.lua: Round 10 (in progress): VehicleDeformation repair, o
 server/startup_manager.lua: Round 10 (in progress): pickle_xp / qs-crafting skills, esx_whitelist, qs-robberies-creator, vms_cityhall, vms_hud stress, qs-shops-creator stock by claude
 
 shared/admin_conflicts.lua: Round 10 (in progress): VehicleDeformation repair, okokTuning, lunar_garage, used vehicles (qb/qbx_vehiclesales, jg-usedvehicles) by claude
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.394</strong> – 2026-10-28 09:34</summary>
+
+## Changelog for v1.2.394
+
+.gitignore: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/custom/inventory/ox_inventory_integration.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/custom/screenshot/screenshot.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/functions.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/adminduty/entity_debug.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/adminduty/hrs_integration.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/adminduty/pistol.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/callbacks.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/car.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/coords.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/integrations/crew.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/integrations/doorlock_handlers.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/jail.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/mail.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/main.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/object_gizmo.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/offlineplayers.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/onlineplayers.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/reports.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/settings/main.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/settings/permissions.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/showdata/crew.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/showdata/discord.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/showdata/inventory.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/showdata/multicharacter.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/showdata/permissions.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+client/modules/staff_inventory.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+config/cfg/adminmenu_main_perms.cfg: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+config/cfg/server.cfg.example: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+config/config.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+config/perms.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+config/webhooks.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/guides.js: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/assets/js/integrations.js: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/assets/js/menus-settings.js: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/assets/js/perms-data.js: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/assets/js/site-data.js: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/source/config/cfg/server.cfg.example: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/source/config/config.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/source/config/detect.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/source/config/options.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/source/config/perms.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/source/config/webhooks.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/source/locales/en.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/source/locales/fr.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/public/source/manifest.json: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+demo/tools/build_perms.py: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+gitbook/en/guides/perms-ingame.md: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+gitbook/fr/guides/perms-ingame.md: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+locales/en.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+locales/fr.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/custom/crew/hrs_base_building.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/custom/crew/hrs_crew.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/custom/inventory/ox.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/custom/inventory/tgiann.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/custom/screenshot/screencapture.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/custom/screenshot/screenshot.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/events.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/functions.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/callbacks.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/commands.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/crew.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/discord_aceperms.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/discord_roles.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/inventory.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/jail.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/mail.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/menu_tables.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/object_gizmo.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/permissions.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/reports.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/sanctions.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/settings/cfg.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/staff_inventory.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/stash.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/teleport.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/modules/wipe.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+server/security/policy.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+shared/permissions.lua: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
+
+sql/adminmenu.sql: Permissions rewrite, runtime and export audits, security fixes (#34) by jumalley
 
 
 
