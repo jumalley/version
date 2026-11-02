@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.398-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.399-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6901,6 +6901,201 @@ server/modules/purchase_tracking.lua: Event hooks: declarative interception of o
 server/modules/vehicle_history.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
 
 server/security/policy.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.399</strong> – 2026-11-02 15:12</summary>
+
+## Changelog for v1.2.399
+
+config/hooks.lua: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/public/assets/css/style.css: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/app.js: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/public/assets/js/docs-pages.js: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/public/assets/js/hooks-data.js: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/public/assets/js/i18n.js: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/public/index.html: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/public/source/config/hooks.lua: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/public/source/manifest.json: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/tools/build-gitbook.js: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/tools/build_changelog.py: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+demo/tools/build_hooks.py: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/.gitbook.yaml: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/.gitbook/assets/p-appearance.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/.gitbook/assets/p-health.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/.gitbook/assets/p-misc.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/.gitbook/assets/p-money.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/.gitbook/assets/p-vehicles.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/.gitbook/assets/p-voice.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/.gitbook/assets/staff-options.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/SUMMARY.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/features/admin-duty-staff-modes.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/features/developer-tools.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/features/in-game-settings.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/features/inventory-kits.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/features/options-catalog.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/features/player-list-search.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/features/player-management.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/features/sanctions-moderation.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/features/vehicles.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/getting-started/cfx-asset-protection-guide.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/getting-started/installation.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/add-option.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/convars.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/gizmo.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/item-history.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/logs.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/noclip.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/perms-ingame.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/pistol.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/staff-inv.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/staff-look.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/txadmin.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/guides/uid.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/reference/commands-and-keybinds.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/reference/compatibility.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/reference/configuration/config.lua.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/reference/console.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/reference/faq.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/reference/permissions.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/en/videos.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/.gitbook.yaml: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/.gitbook/assets/p-appearance.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/.gitbook/assets/p-health.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/.gitbook/assets/p-misc.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/.gitbook/assets/p-money.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/.gitbook/assets/p-vehicles.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/.gitbook/assets/p-voice.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/.gitbook/assets/staff-options.webp: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/SUMMARY.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/features/catalogue-d-options.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/features/gestion-d-un-joueur.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/features/inventaire-kits.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/features/liste-recherche-de-joueurs.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/features/outils-developpeur.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/features/parametres-en-jeu.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/features/sanctions-moderation.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/features/service-admin-modes-staff.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/features/vehicules.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/getting-started/cfx-asset-protection-guide.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/getting-started/installation.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/add-option.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/convars.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/gizmo.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/item-history.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/logs.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/noclip.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/perms-ingame.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/pistol.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/staff-inv.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/staff-look.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/txadmin.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/guides/uid.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/reference/commands-and-keybinds.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/reference/compatibility.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/reference/configuration/config.lua.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/reference/console.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/reference/faq.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/reference/permissions.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+gitbook/fr/videos.md: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+server/modules/event_hooks.lua: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+server/modules/vehicle_history.lua: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
 
 
 
