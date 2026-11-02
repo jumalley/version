@@ -1,137 +1,121 @@
 {
-  "version": "1.2.397",
+  "version": "1.2.398",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/item_history.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 16134,
-      "previous_size": 15786,
-      "size_diff": 348
+      "file": "config/config.lua",
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 31298,
+      "previous_size": 31659,
+      "size_diff": -361
     },
     {
-      "file": "config/config.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 31659,
-      "previous_size": 31298,
-      "size_diff": 361
+      "file": "config/hooks.lua",
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 7689,
+      "previous_size": 0,
+      "size_diff": 7689
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "29889b0 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/29889b0",
-      "current_size": 144715,
-      "previous_size": 144277,
-      "size_diff": 438
+      "commit_info": "9badf0e - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/9badf0e",
+      "current_size": 145164,
+      "previous_size": 144715,
+      "size_diff": 449
     },
     {
       "file": "demo/public/assets/js/guides.js",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 48870,
-      "previous_size": 47865,
-      "size_diff": 1005
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 49824,
+      "previous_size": 48870,
+      "size_diff": 954
     },
     {
       "file": "demo/public/source/config/config.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 30853,
-      "previous_size": 30499,
-      "size_diff": 354
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 30499,
+      "previous_size": 30853,
+      "size_diff": -354
     },
     {
-      "file": "demo/public/source/locales/en.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 345352,
-      "previous_size": 345150,
-      "size_diff": 202
-    },
-    {
-      "file": "demo/public/source/locales/fr.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 384540,
-      "previous_size": 384331,
-      "size_diff": 209
+      "file": "demo/public/source/config/hooks.lua",
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 7571,
+      "previous_size": 0,
+      "size_diff": 7571
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 1342,
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 1437,
       "previous_size": 1342,
-      "size_diff": 0
+      "size_diff": 95
     },
     {
       "file": "gitbook/en/guides/item-history.md",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 3134,
-      "previous_size": 2629,
-      "size_diff": 505
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 4317,
+      "previous_size": 3134,
+      "size_diff": 1183
     },
     {
       "file": "gitbook/fr/guides/item-history.md",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 3607,
-      "previous_size": 3013,
-      "size_diff": 594
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 4948,
+      "previous_size": 3607,
+      "size_diff": 1341
     },
     {
-      "file": "locales/en.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 351027,
-      "previous_size": 350822,
-      "size_diff": 205
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 390241,
-      "previous_size": 390029,
-      "size_diff": 212
+      "file": "server/modules/event_hooks.lua",
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 18962,
+      "previous_size": 0,
+      "size_diff": 18962
     },
     {
       "file": "server/modules/item_history.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 18432,
-      "previous_size": 17741,
-      "size_diff": 691
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 18444,
+      "previous_size": 18432,
+      "size_diff": 12
     },
     {
       "file": "server/modules/purchase_tracking.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 16416,
-      "previous_size": 0,
-      "size_diff": 16416
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 0,
+      "previous_size": 16416,
+      "size_diff": -16416
     },
     {
       "file": "server/modules/vehicle_history.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 9645,
-      "previous_size": 6972,
-      "size_diff": 2673
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 9657,
+      "previous_size": 9645,
+      "size_diff": 12
     },
     {
       "file": "server/security/policy.lua",
-      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
-      "current_size": 31085,
-      "previous_size": 30478,
-      "size_diff": 607
+      "commit_info": "dc444a5 - Event hooks: declarative interception of other scripts' events and callbacks (#38)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/dc444a5",
+      "current_size": 30636,
+      "previous_size": 31085,
+      "size_diff": -449
     }
   ]
 }

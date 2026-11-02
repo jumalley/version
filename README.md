@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.397-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.398-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6864,6 +6864,43 @@ server/modules/purchase_tracking.lua: Log dealership and shop purchases from the
 server/modules/vehicle_history.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
 
 server/security/policy.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.398</strong> – 2026-11-02 07:49</summary>
+
+## Changelog for v1.2.398
+
+config/config.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+config/hooks.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/guides.js: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+demo/public/source/config/config.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+demo/public/source/config/hooks.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+demo/public/source/manifest.json: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+gitbook/en/guides/item-history.md: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+gitbook/fr/guides/item-history.md: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+server/modules/event_hooks.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+server/modules/item_history.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+server/modules/purchase_tracking.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+server/modules/vehicle_history.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
+
+server/security/policy.lua: Event hooks: declarative interception of other scripts' events and callbacks (#38) by jumalley
 
 
 
