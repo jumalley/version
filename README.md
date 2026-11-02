@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.400-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.401-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7137,6 +7137,17 @@ server/modules/event_hooks.lua: Automatic configuration: hooks from detect.lua, 
 server/modules/settings/cfg.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
 
 shared/autoconfig/resolve.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.401</strong> – 2026-11-02 15:38</summary>
+
+## Changelog for v1.2.401
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
 
 
 

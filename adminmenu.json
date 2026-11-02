@@ -1,137 +1,17 @@
 {
-  "version": "1.2.400",
+  "version": "1.2.401",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/config.lua",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 31397,
-      "previous_size": 31298,
-      "size_diff": 99
-    },
-    {
-      "file": "config/hooks.lua",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 2911,
-      "previous_size": 18016,
-      "size_diff": -15105
-    },
-    {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "6d2c91b - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6d2c91b",
-      "current_size": 146075,
+      "commit_info": "6be39e0 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6be39e0",
+      "current_size": 146518,
       "previous_size": 146075,
-      "size_diff": 0
-    },
-    {
-      "file": "demo/public/assets/js/app.js",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 93035,
-      "previous_size": 92924,
-      "size_diff": 111
-    },
-    {
-      "file": "demo/public/assets/js/docs-pages.js",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 20797,
-      "previous_size": 16838,
-      "size_diff": 3959
-    },
-    {
-      "file": "demo/public/assets/js/guides.js",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 49893,
-      "previous_size": 49824,
-      "size_diff": 69
-    },
-    {
-      "file": "demo/public/assets/js/hooks-data.js",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 19129,
-      "previous_size": 17993,
-      "size_diff": 1136
-    },
-    {
-      "file": "demo/public/assets/js/i18n.js",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 25986,
-      "previous_size": 25913,
-      "size_diff": 73
-    },
-    {
-      "file": "demo/public/source/config/config.lua",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 30599,
-      "previous_size": 30499,
-      "size_diff": 100
-    },
-    {
-      "file": "demo/public/source/config/hooks.lua",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 2911,
-      "previous_size": 17746,
-      "size_diff": -14835
-    },
-    {
-      "file": "demo/public/source/manifest.json",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 1436,
-      "previous_size": 1438,
-      "size_diff": -2
-    },
-    {
-      "file": "demo/tools/build_hooks.py",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 12509,
-      "previous_size": 11842,
-      "size_diff": 667
-    },
-    {
-      "file": "server/custom/hooks/builtin.lua",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 15270,
-      "previous_size": 0,
-      "size_diff": 15270
-    },
-    {
-      "file": "server/modules/event_hooks.lua",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 24068,
-      "previous_size": 20934,
-      "size_diff": 3134
-    },
-    {
-      "file": "server/modules/settings/cfg.lua",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 30962,
-      "previous_size": 30619,
-      "size_diff": 343
-    },
-    {
-      "file": "shared/autoconfig/resolve.lua",
-      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
-      "current_size": 2086,
-      "previous_size": 0,
-      "size_diff": 2086
+      "size_diff": 443
     }
   ]
 }
