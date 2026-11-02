@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.395-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.396-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6756,6 +6756,73 @@ server/modules/callbacks.lua: Staff pistol and staff inventory for every invento
 server/modules/staff_inventory.lua: Staff pistol and staff inventory for every inventory script (#35) by jumalley
 
 sql/adminmenu.sql: Staff pistol and staff inventory for every inventory script (#35) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.396</strong> – 2026-11-02 07:16</summary>
+
+## Changelog for v1.2.396
+
+client/modules/item_history.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+client/modules/showdata/inventory.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+client/modules/showdata/vehicles.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+client/modules/vehicle_extras.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+config/config.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+config/perms.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/guides.js: Item history, inventory backups and vehicle history (#36) by jumalley
+
+demo/public/assets/js/perms-data.js: Item history, inventory backups and vehicle history (#36) by jumalley
+
+demo/public/assets/js/site-data.js: Item history, inventory backups and vehicle history (#36) by jumalley
+
+demo/public/source/config/config.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+demo/public/source/config/perms.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+demo/public/source/locales/en.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+demo/public/source/locales/fr.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+demo/public/source/manifest.json: Item history, inventory backups and vehicle history (#36) by jumalley
+
+gitbook/en/SUMMARY.md: Item history, inventory backups and vehicle history (#36) by jumalley
+
+gitbook/en/guides/item-history.md: Item history, inventory backups and vehicle history (#36) by jumalley
+
+gitbook/fr/SUMMARY.md: Item history, inventory backups and vehicle history (#36) by jumalley
+
+gitbook/fr/guides/item-history.md: Item history, inventory backups and vehicle history (#36) by jumalley
+
+locales/en.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+locales/fr.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+server/modules/inventory.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+server/modules/inventory_backups.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+server/modules/item_history.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+server/modules/menu_tables.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+server/modules/vehicle_history.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+server/modules/vehiclemodifications.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+server/security/policy.lua: Item history, inventory backups and vehicle history (#36) by jumalley
+
+sql/adminmenu.sql: Item history, inventory backups and vehicle history (#36) by jumalley
 
 
 
