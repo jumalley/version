@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.396-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.397-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -6823,6 +6823,47 @@ server/modules/vehiclemodifications.lua: Item history, inventory backups and veh
 server/security/policy.lua: Item history, inventory backups and vehicle history (#36) by jumalley
 
 sql/adminmenu.sql: Item history, inventory backups and vehicle history (#36) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.397</strong> – 2026-11-02 07:38</summary>
+
+## Changelog for v1.2.397
+
+client/modules/item_history.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+config/config.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/guides.js: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+demo/public/source/config/config.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+demo/public/source/locales/en.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+demo/public/source/locales/fr.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+demo/public/source/manifest.json: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+gitbook/en/guides/item-history.md: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+gitbook/fr/guides/item-history.md: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+locales/en.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+locales/fr.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+server/modules/item_history.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+server/modules/purchase_tracking.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+server/modules/vehicle_history.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
+
+server/security/policy.lua: Log dealership and shop purchases from the scripts' own events (#37) by jumalley
 
 
 

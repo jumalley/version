@@ -1,5 +1,5 @@
 {
-  "version": "1.2.396",
+  "version": "1.2.397",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,235 +7,131 @@
   "file_changes": [
     {
       "file": "client/modules/item_history.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 15786,
-      "previous_size": 0,
-      "size_diff": 15786
-    },
-    {
-      "file": "client/modules/showdata/inventory.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 53655,
-      "previous_size": 53480,
-      "size_diff": 175
-    },
-    {
-      "file": "client/modules/showdata/vehicles.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 22835,
-      "previous_size": 22577,
-      "size_diff": 258
-    },
-    {
-      "file": "client/modules/vehicle_extras.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 7929,
-      "previous_size": 7782,
-      "size_diff": 147
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 16134,
+      "previous_size": 15786,
+      "size_diff": 348
     },
     {
       "file": "config/config.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 31298,
-      "previous_size": 29598,
-      "size_diff": 1700
-    },
-    {
-      "file": "config/perms.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 25692,
-      "previous_size": 24962,
-      "size_diff": 730
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 31659,
+      "previous_size": 31298,
+      "size_diff": 361
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "7cfb4e7 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7cfb4e7",
-      "current_size": 144277,
-      "previous_size": 143831,
-      "size_diff": 446
+      "commit_info": "29889b0 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/29889b0",
+      "current_size": 144715,
+      "previous_size": 144277,
+      "size_diff": 438
     },
     {
       "file": "demo/public/assets/js/guides.js",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 47865,
-      "previous_size": 44071,
-      "size_diff": 3794
-    },
-    {
-      "file": "demo/public/assets/js/perms-data.js",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 21123,
-      "previous_size": 20442,
-      "size_diff": 681
-    },
-    {
-      "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 49074,
-      "previous_size": 48145,
-      "size_diff": 929
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 48870,
+      "previous_size": 47865,
+      "size_diff": 1005
     },
     {
       "file": "demo/public/source/config/config.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 30499,
-      "previous_size": 28834,
-      "size_diff": 1665
-    },
-    {
-      "file": "demo/public/source/config/perms.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 25692,
-      "previous_size": 24962,
-      "size_diff": 730
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 30853,
+      "previous_size": 30499,
+      "size_diff": 354
     },
     {
       "file": "demo/public/source/locales/en.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 345150,
-      "previous_size": 339324,
-      "size_diff": 5826
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 345352,
+      "previous_size": 345150,
+      "size_diff": 202
     },
     {
       "file": "demo/public/source/locales/fr.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 384331,
-      "previous_size": 378103,
-      "size_diff": 6228
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 384540,
+      "previous_size": 384331,
+      "size_diff": 209
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
       "current_size": 1342,
       "previous_size": 1342,
       "size_diff": 0
     },
     {
-      "file": "gitbook/en/SUMMARY.md",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 1775,
-      "previous_size": 1705,
-      "size_diff": 70
-    },
-    {
       "file": "gitbook/en/guides/item-history.md",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 2629,
-      "previous_size": 0,
-      "size_diff": 2629
-    },
-    {
-      "file": "gitbook/fr/SUMMARY.md",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 1895,
-      "previous_size": 1818,
-      "size_diff": 77
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 3134,
+      "previous_size": 2629,
+      "size_diff": 505
     },
     {
       "file": "gitbook/fr/guides/item-history.md",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 3013,
-      "previous_size": 0,
-      "size_diff": 3013
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 3607,
+      "previous_size": 3013,
+      "size_diff": 594
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 350822,
-      "previous_size": 344915,
-      "size_diff": 5907
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 351027,
+      "previous_size": 350822,
+      "size_diff": 205
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 390029,
-      "previous_size": 383720,
-      "size_diff": 6309
-    },
-    {
-      "file": "server/modules/inventory.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 20651,
-      "previous_size": 19524,
-      "size_diff": 1127
-    },
-    {
-      "file": "server/modules/inventory_backups.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 6598,
-      "previous_size": 0,
-      "size_diff": 6598
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 390241,
+      "previous_size": 390029,
+      "size_diff": 212
     },
     {
       "file": "server/modules/item_history.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 17741,
-      "previous_size": 0,
-      "size_diff": 17741
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 18432,
+      "previous_size": 17741,
+      "size_diff": 691
     },
     {
-      "file": "server/modules/menu_tables.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 7831,
-      "previous_size": 3130,
-      "size_diff": 4701
+      "file": "server/modules/purchase_tracking.lua",
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 16416,
+      "previous_size": 0,
+      "size_diff": 16416
     },
     {
       "file": "server/modules/vehicle_history.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 6972,
-      "previous_size": 0,
-      "size_diff": 6972
-    },
-    {
-      "file": "server/modules/vehiclemodifications.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 11071,
-      "previous_size": 9150,
-      "size_diff": 1921
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 9645,
+      "previous_size": 6972,
+      "size_diff": 2673
     },
     {
       "file": "server/security/policy.lua",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 30478,
-      "previous_size": 29664,
-      "size_diff": 814
-    },
-    {
-      "file": "sql/adminmenu.sql",
-      "commit_info": "0f14775 - Item history, inventory backups and vehicle history (#36)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f14775",
-      "current_size": 12268,
-      "previous_size": 10313,
-      "size_diff": 1955
+      "commit_info": "20130d4 - Log dealership and shop purchases from the scripts' own events (#37)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/20130d4",
+      "current_size": 31085,
+      "previous_size": 30478,
+      "size_diff": 607
     }
   ]
 }
