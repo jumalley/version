@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.401-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.402-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7148,6 +7148,23 @@ shared/autoconfig/resolve.lua: Automatic configuration: hooks from detect.lua, '
 ## Changelog for v1.2.401
 
 demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.402</strong> – 2026-11-02 20:08</summary>
+
+## Changelog for v1.2.402
+
+client/modules/devtools.lua: Security: permissions on 69 staff actions, remove misplaced client callbacks (#42) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+server/modules/callbacks.lua: Security: permissions on 69 staff actions, remove misplaced client callbacks (#42) by jumalley
+
+server/security/policy.lua: Security: permissions on 69 staff actions, remove misplaced client callbacks (#42) by jumalley
 
 
 

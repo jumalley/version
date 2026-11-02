@@ -1,17 +1,41 @@
 {
-  "version": "1.2.401",
+  "version": "1.2.402",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": "client/modules/devtools.lua",
+      "commit_info": "0f90350 - Security: permissions on 69 staff actions, remove misplaced client callbacks (#42)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f90350",
+      "current_size": 20749,
+      "previous_size": 20384,
+      "size_diff": 365
+    },
+    {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "6be39e0 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6be39e0",
+      "commit_info": "6850ae2 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6850ae2",
       "current_size": 146518,
-      "previous_size": 146075,
-      "size_diff": 443
+      "previous_size": 146518,
+      "size_diff": 0
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "0f90350 - Security: permissions on 69 staff actions, remove misplaced client callbacks (#42)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f90350",
+      "current_size": 104265,
+      "previous_size": 110957,
+      "size_diff": -6692
+    },
+    {
+      "file": "server/security/policy.lua",
+      "commit_info": "0f90350 - Security: permissions on 69 staff actions, remove misplaced client callbacks (#42)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f90350",
+      "current_size": 36442,
+      "previous_size": 30636,
+      "size_diff": 5806
     }
   ]
 }
