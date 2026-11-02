@@ -1,753 +1,137 @@
 {
-  "version": "1.2.399",
+  "version": "1.2.400",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/hooks.lua",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 18016,
-      "previous_size": 7689,
-      "size_diff": 10327
+      "file": "config/config.lua",
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 31397,
+      "previous_size": 31298,
+      "size_diff": 99
     },
     {
-      "file": "demo/public/assets/css/style.css",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 108504,
-      "previous_size": 104534,
-      "size_diff": 3970
+      "file": "config/hooks.lua",
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 2911,
+      "previous_size": 18016,
+      "size_diff": -15105
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "d1f0d47 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/d1f0d47",
+      "commit_info": "6d2c91b - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6d2c91b",
       "current_size": 146075,
-      "previous_size": 145164,
-      "size_diff": 911
+      "previous_size": 146075,
+      "size_diff": 0
     },
     {
       "file": "demo/public/assets/js/app.js",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 92924,
-      "previous_size": 86419,
-      "size_diff": 6505
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 93035,
+      "previous_size": 92924,
+      "size_diff": 111
     },
     {
       "file": "demo/public/assets/js/docs-pages.js",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 16838,
-      "previous_size": 0,
-      "size_diff": 16838
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 20797,
+      "previous_size": 16838,
+      "size_diff": 3959
+    },
+    {
+      "file": "demo/public/assets/js/guides.js",
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 49893,
+      "previous_size": 49824,
+      "size_diff": 69
     },
     {
       "file": "demo/public/assets/js/hooks-data.js",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 17993,
-      "previous_size": 0,
-      "size_diff": 17993
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 19129,
+      "previous_size": 17993,
+      "size_diff": 1136
     },
     {
       "file": "demo/public/assets/js/i18n.js",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 25913,
-      "previous_size": 24825,
-      "size_diff": 1088
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 25986,
+      "previous_size": 25913,
+      "size_diff": 73
     },
     {
-      "file": "demo/public/index.html",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 23639,
-      "previous_size": 22845,
-      "size_diff": 794
+      "file": "demo/public/source/config/config.lua",
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 30599,
+      "previous_size": 30499,
+      "size_diff": 100
     },
     {
       "file": "demo/public/source/config/hooks.lua",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 17746,
-      "previous_size": 7571,
-      "size_diff": 10175
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 2911,
+      "previous_size": 17746,
+      "size_diff": -14835
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 1438,
-      "previous_size": 1437,
-      "size_diff": 1
-    },
-    {
-      "file": "demo/tools/build-gitbook.js",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 26101,
-      "size_diff": -26101
-    },
-    {
-      "file": "demo/tools/build_changelog.py",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 7128,
-      "previous_size": 7118,
-      "size_diff": 10
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 1436,
+      "previous_size": 1438,
+      "size_diff": -2
     },
     {
       "file": "demo/tools/build_hooks.py",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 11842,
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 12509,
+      "previous_size": 11842,
+      "size_diff": 667
+    },
+    {
+      "file": "server/custom/hooks/builtin.lua",
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 15270,
       "previous_size": 0,
-      "size_diff": 11842
-    },
-    {
-      "file": "gitbook/en/.gitbook.yaml",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 63,
-      "size_diff": -63
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-appearance.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 59522,
-      "size_diff": -59522
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-health.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 52644,
-      "size_diff": -52644
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-misc.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 49386,
-      "size_diff": -49386
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-money.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 39260,
-      "size_diff": -39260
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-vehicles.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 63694,
-      "size_diff": -63694
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/p-voice.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 42538,
-      "size_diff": -42538
-    },
-    {
-      "file": "gitbook/en/.gitbook/assets/staff-options.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 22466,
-      "size_diff": -22466
-    },
-    {
-      "file": "gitbook/en/SUMMARY.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1775,
-      "size_diff": -1775
-    },
-    {
-      "file": "gitbook/en/features/admin-duty-staff-modes.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 4019,
-      "size_diff": -4019
-    },
-    {
-      "file": "gitbook/en/features/developer-tools.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 2938,
-      "size_diff": -2938
-    },
-    {
-      "file": "gitbook/en/features/in-game-settings.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 3294,
-      "size_diff": -3294
-    },
-    {
-      "file": "gitbook/en/features/inventory-kits.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1004,
-      "size_diff": -1004
-    },
-    {
-      "file": "gitbook/en/features/options-catalog.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 5529,
-      "size_diff": -5529
-    },
-    {
-      "file": "gitbook/en/features/player-list-search.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 2297,
-      "size_diff": -2297
-    },
-    {
-      "file": "gitbook/en/features/player-management.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 4898,
-      "size_diff": -4898
-    },
-    {
-      "file": "gitbook/en/features/sanctions-moderation.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1204,
-      "size_diff": -1204
-    },
-    {
-      "file": "gitbook/en/features/vehicles.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1812,
-      "size_diff": -1812
-    },
-    {
-      "file": "gitbook/en/getting-started/cfx-asset-protection-guide.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1443,
-      "size_diff": -1443
-    },
-    {
-      "file": "gitbook/en/getting-started/installation.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1483,
-      "size_diff": -1483
-    },
-    {
-      "file": "gitbook/en/guides/add-option.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1517,
-      "size_diff": -1517
-    },
-    {
-      "file": "gitbook/en/guides/convars.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 734,
-      "size_diff": -734
-    },
-    {
-      "file": "gitbook/en/guides/gizmo.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 683,
-      "size_diff": -683
-    },
-    {
-      "file": "gitbook/en/guides/item-history.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 4317,
-      "size_diff": -4317
-    },
-    {
-      "file": "gitbook/en/guides/logs.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 880,
-      "size_diff": -880
-    },
-    {
-      "file": "gitbook/en/guides/noclip.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 737,
-      "size_diff": -737
-    },
-    {
-      "file": "gitbook/en/guides/perms-ingame.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1383,
-      "size_diff": -1383
-    },
-    {
-      "file": "gitbook/en/guides/pistol.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 607,
-      "size_diff": -607
-    },
-    {
-      "file": "gitbook/en/guides/staff-inv.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1250,
-      "size_diff": -1250
-    },
-    {
-      "file": "gitbook/en/guides/staff-look.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 655,
-      "size_diff": -655
-    },
-    {
-      "file": "gitbook/en/guides/txadmin.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1024,
-      "size_diff": -1024
-    },
-    {
-      "file": "gitbook/en/guides/uid.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 553,
-      "size_diff": -553
-    },
-    {
-      "file": "gitbook/en/reference/commands-and-keybinds.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 2391,
-      "size_diff": -2391
-    },
-    {
-      "file": "gitbook/en/reference/compatibility.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 2405,
-      "size_diff": -2405
-    },
-    {
-      "file": "gitbook/en/reference/configuration/config.lua.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 23951,
-      "size_diff": -23951
-    },
-    {
-      "file": "gitbook/en/reference/console.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 9903,
-      "size_diff": -9903
-    },
-    {
-      "file": "gitbook/en/reference/faq.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1664,
-      "size_diff": -1664
-    },
-    {
-      "file": "gitbook/en/reference/permissions.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 2911,
-      "size_diff": -2911
-    },
-    {
-      "file": "gitbook/en/videos.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1147,
-      "size_diff": -1147
-    },
-    {
-      "file": "gitbook/fr/.gitbook.yaml",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 63,
-      "size_diff": -63
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/p-appearance.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 59522,
-      "size_diff": -59522
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/p-health.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 52644,
-      "size_diff": -52644
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/p-misc.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 49386,
-      "size_diff": -49386
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/p-money.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 39260,
-      "size_diff": -39260
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/p-vehicles.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 63694,
-      "size_diff": -63694
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/p-voice.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 42538,
-      "size_diff": -42538
-    },
-    {
-      "file": "gitbook/fr/.gitbook/assets/staff-options.webp",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 22466,
-      "size_diff": -22466
-    },
-    {
-      "file": "gitbook/fr/SUMMARY.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1895,
-      "size_diff": -1895
-    },
-    {
-      "file": "gitbook/fr/features/catalogue-d-options.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 6080,
-      "size_diff": -6080
-    },
-    {
-      "file": "gitbook/fr/features/gestion-d-un-joueur.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 5444,
-      "size_diff": -5444
-    },
-    {
-      "file": "gitbook/fr/features/inventaire-kits.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1162,
-      "size_diff": -1162
-    },
-    {
-      "file": "gitbook/fr/features/liste-recherche-de-joueurs.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 2557,
-      "size_diff": -2557
-    },
-    {
-      "file": "gitbook/fr/features/outils-developpeur.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 3177,
-      "size_diff": -3177
-    },
-    {
-      "file": "gitbook/fr/features/parametres-en-jeu.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 3590,
-      "size_diff": -3590
-    },
-    {
-      "file": "gitbook/fr/features/sanctions-moderation.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1290,
-      "size_diff": -1290
-    },
-    {
-      "file": "gitbook/fr/features/service-admin-modes-staff.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 4359,
-      "size_diff": -4359
-    },
-    {
-      "file": "gitbook/fr/features/vehicules.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 2013,
-      "size_diff": -2013
-    },
-    {
-      "file": "gitbook/fr/getting-started/cfx-asset-protection-guide.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1667,
-      "size_diff": -1667
-    },
-    {
-      "file": "gitbook/fr/getting-started/installation.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1575,
-      "size_diff": -1575
-    },
-    {
-      "file": "gitbook/fr/guides/add-option.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1630,
-      "size_diff": -1630
-    },
-    {
-      "file": "gitbook/fr/guides/convars.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 798,
-      "size_diff": -798
-    },
-    {
-      "file": "gitbook/fr/guides/gizmo.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 741,
-      "size_diff": -741
-    },
-    {
-      "file": "gitbook/fr/guides/item-history.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 4948,
-      "size_diff": -4948
-    },
-    {
-      "file": "gitbook/fr/guides/logs.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 955,
-      "size_diff": -955
-    },
-    {
-      "file": "gitbook/fr/guides/noclip.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 803,
-      "size_diff": -803
-    },
-    {
-      "file": "gitbook/fr/guides/perms-ingame.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1575,
-      "size_diff": -1575
-    },
-    {
-      "file": "gitbook/fr/guides/pistol.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 683,
-      "size_diff": -683
-    },
-    {
-      "file": "gitbook/fr/guides/staff-inv.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1353,
-      "size_diff": -1353
-    },
-    {
-      "file": "gitbook/fr/guides/staff-look.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 692,
-      "size_diff": -692
-    },
-    {
-      "file": "gitbook/fr/guides/txadmin.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1089,
-      "size_diff": -1089
-    },
-    {
-      "file": "gitbook/fr/guides/uid.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 619,
-      "size_diff": -619
-    },
-    {
-      "file": "gitbook/fr/reference/commands-and-keybinds.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 2528,
-      "size_diff": -2528
-    },
-    {
-      "file": "gitbook/fr/reference/compatibility.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 2595,
-      "size_diff": -2595
-    },
-    {
-      "file": "gitbook/fr/reference/configuration/config.lua.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 23966,
-      "size_diff": -23966
-    },
-    {
-      "file": "gitbook/fr/reference/console.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 10312,
-      "size_diff": -10312
-    },
-    {
-      "file": "gitbook/fr/reference/faq.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1856,
-      "size_diff": -1856
-    },
-    {
-      "file": "gitbook/fr/reference/permissions.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 3047,
-      "size_diff": -3047
-    },
-    {
-      "file": "gitbook/fr/videos.md",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 0,
-      "previous_size": 1298,
-      "size_diff": -1298
+      "size_diff": 15270
     },
     {
       "file": "server/modules/event_hooks.lua",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 20934,
-      "previous_size": 18962,
-      "size_diff": 1972
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 24068,
+      "previous_size": 20934,
+      "size_diff": 3134
     },
     {
-      "file": "server/modules/vehicle_history.lua",
-      "commit_info": "0c95336 - Docs page on the site, hooks per integration, GitBook retired (#39)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0c95336",
-      "current_size": 10651,
-      "previous_size": 9657,
-      "size_diff": 994
+      "file": "server/modules/settings/cfg.lua",
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 30962,
+      "previous_size": 30619,
+      "size_diff": 343
+    },
+    {
+      "file": "shared/autoconfig/resolve.lua",
+      "commit_info": "d3d6c78 - Automatic configuration: hooks from detect.lua, 'auto' settings (#40)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d3d6c78",
+      "current_size": 2086,
+      "previous_size": 0,
+      "size_diff": 2086
     }
   ]
 }

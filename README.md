@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.399-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.400-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7096,6 +7096,47 @@ gitbook/fr/videos.md: Docs page on the site, hooks per integration, GitBook reti
 server/modules/event_hooks.lua: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
 
 server/modules/vehicle_history.lua: Docs page on the site, hooks per integration, GitBook retired (#39) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.400</strong> – 2026-11-02 15:25</summary>
+
+## Changelog for v1.2.400
+
+config/config.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+config/hooks.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/app.js: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+demo/public/assets/js/docs-pages.js: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+demo/public/assets/js/guides.js: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+demo/public/assets/js/hooks-data.js: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+demo/public/assets/js/i18n.js: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+demo/public/source/config/config.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+demo/public/source/config/hooks.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+demo/public/source/manifest.json: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+demo/tools/build_hooks.py: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+server/custom/hooks/builtin.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+server/modules/event_hooks.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+server/modules/settings/cfg.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
+
+shared/autoconfig/resolve.lua: Automatic configuration: hooks from detect.lua, 'auto' settings (#40) by jumalley
 
 
 
