@@ -1,41 +1,249 @@
 {
-  "version": "1.2.402",
+  "version": "1.2.403",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/devtools.lua",
-      "commit_info": "0f90350 - Security: permissions on 69 staff actions, remove misplaced client callbacks (#42)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f90350",
-      "current_size": 20749,
-      "previous_size": 20384,
-      "size_diff": 365
+      "file": "client/utils.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 11161,
+      "previous_size": 16205,
+      "size_diff": -5044
+    },
+    {
+      "file": "config/cfg/server.cfg.example",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 3804,
+      "previous_size": 3575,
+      "size_diff": 229
+    },
+    {
+      "file": "config/webhooks.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 2792,
+      "previous_size": 2844,
+      "size_diff": -52
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "6850ae2 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6850ae2",
-      "current_size": 146518,
+      "commit_info": "7c7e9a0 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7c7e9a0",
+      "current_size": 146968,
       "previous_size": 146518,
+      "size_diff": 450
+    },
+    {
+      "file": "demo/public/assets/js/guides.js",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 50661,
+      "previous_size": 49893,
+      "size_diff": 768
+    },
+    {
+      "file": "demo/public/assets/js/site-data.js",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 49062,
+      "previous_size": 49074,
+      "size_diff": -12
+    },
+    {
+      "file": "demo/public/source/config/cfg/server.cfg.example",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 3752,
+      "previous_size": 3541,
+      "size_diff": 211
+    },
+    {
+      "file": "demo/public/source/config/webhooks.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 2765,
+      "previous_size": 2810,
+      "size_diff": -45
+    },
+    {
+      "file": "demo/public/source/manifest.json",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 1436,
+      "previous_size": 1436,
       "size_diff": 0
     },
     {
+      "file": "server/custom/doorlock/ox_doorlock.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 10181,
+      "previous_size": 10223,
+      "size_diff": -42
+    },
+    {
+      "file": "server/custom/framework/esx.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 10985,
+      "previous_size": 11033,
+      "size_diff": -48
+    },
+    {
+      "file": "server/custom/framework/qb.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 11030,
+      "previous_size": 11080,
+      "size_diff": -50
+    },
+    {
+      "file": "server/custom/garage/default.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 3452,
+      "previous_size": 3479,
+      "size_diff": -27
+    },
+    {
+      "file": "server/custom/garage/esx_garage.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 4059,
+      "previous_size": 4065,
+      "size_diff": -6
+    },
+    {
+      "file": "server/custom/inventory/common.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 9565,
+      "previous_size": 9567,
+      "size_diff": -2
+    },
+    {
+      "file": "server/database.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 43507,
+      "previous_size": 43523,
+      "size_diff": -16
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 10997,
+      "previous_size": 11530,
+      "size_diff": -533
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 37005,
+      "previous_size": 37045,
+      "size_diff": -40
+    },
+    {
       "file": "server/modules/callbacks.lua",
-      "commit_info": "0f90350 - Security: permissions on 69 staff actions, remove misplaced client callbacks (#42)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f90350",
-      "current_size": 104265,
-      "previous_size": 110957,
-      "size_diff": -6692
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 103782,
+      "previous_size": 104265,
+      "size_diff": -483
+    },
+    {
+      "file": "server/modules/commands.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 31736,
+      "previous_size": 31757,
+      "size_diff": -21
+    },
+    {
+      "file": "server/modules/crew.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 10984,
+      "previous_size": 11059,
+      "size_diff": -75
+    },
+    {
+      "file": "server/modules/jail.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 28472,
+      "previous_size": 28525,
+      "size_diff": -53
+    },
+    {
+      "file": "server/modules/logs/logs.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 12283,
+      "previous_size": 12092,
+      "size_diff": 191
+    },
+    {
+      "file": "server/modules/logs/webhooks.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 5167,
+      "previous_size": 0,
+      "size_diff": 5167
+    },
+    {
+      "file": "server/modules/settings/resources.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 2808,
+      "previous_size": 2824,
+      "size_diff": -16
+    },
+    {
+      "file": "server/modules/staff_inventory.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 47097,
+      "previous_size": 47159,
+      "size_diff": -62
+    },
+    {
+      "file": "server/modules/stash.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 10120,
+      "previous_size": 10168,
+      "size_diff": -48
+    },
+    {
+      "file": "server/modules/vehicles.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 6530,
+      "previous_size": 6537,
+      "size_diff": -7
+    },
+    {
+      "file": "server/modules/wipe.lua",
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 3343,
+      "previous_size": 3375,
+      "size_diff": -32
     },
     {
       "file": "server/security/policy.lua",
-      "commit_info": "0f90350 - Security: permissions on 69 staff actions, remove misplaced client callbacks (#42)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0f90350",
-      "current_size": 36442,
-      "previous_size": 30636,
-      "size_diff": 5806
+      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
+      "current_size": 41873,
+      "previous_size": 36442,
+      "size_diff": 5431
     }
   ]
 }

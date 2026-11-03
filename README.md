@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.402-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.403-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7165,6 +7165,75 @@ demo/public/assets/data/changelog.json: Demo: update changelog and version by gi
 server/modules/callbacks.lua: Security: permissions on 69 staff actions, remove misplaced client callbacks (#42) by jumalley
 
 server/security/policy.lua: Security: permissions on 69 staff actions, remove misplaced client callbacks (#42) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.403</strong> – 2026-11-03 06:22</summary>
+
+## Changelog for v1.2.403
+
+client/utils.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+config/cfg/server.cfg.example: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+config/webhooks.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/guides.js: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+demo/public/assets/js/site-data.js: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+demo/public/source/config/cfg/server.cfg.example: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+demo/public/source/config/webhooks.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+demo/public/source/manifest.json: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/custom/doorlock/ox_doorlock.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/custom/framework/esx.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/custom/framework/qb.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/custom/garage/default.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/custom/garage/esx_garage.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/custom/inventory/common.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/database.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/events.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/functions.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/callbacks.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/commands.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/crew.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/jail.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/logs/logs.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/logs/webhooks.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/settings/resources.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/staff_inventory.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/stash.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/vehicles.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/modules/wipe.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+server/security/policy.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
 
 
 
