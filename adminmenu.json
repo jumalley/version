@@ -1,193 +1,361 @@
 {
-  "version": "1.2.407",
+  "version": "1.2.408",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
+      "file": ".github/scripts/stamp_configs.py",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 2458,
+      "previous_size": 0,
+      "size_diff": 2458
+    },
+    {
       "file": "client/modules/settings/config_menu.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 18893,
-      "previous_size": 15827,
-      "size_diff": 3066
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 19105,
+      "previous_size": 18893,
+      "size_diff": 212
+    },
+    {
+      "file": "config/config.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 21870,
+      "previous_size": 21781,
+      "size_diff": 89
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 52044,
+      "previous_size": 51955,
+      "size_diff": 89
+    },
+    {
+      "file": "config/garages.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 3953,
+      "previous_size": 3864,
+      "size_diff": 89
+    },
+    {
+      "file": "config/hooks.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 4532,
+      "previous_size": 4443,
+      "size_diff": 89
+    },
+    {
+      "file": "config/hrs_airdrop.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 6591,
+      "previous_size": 6502,
+      "size_diff": 89
+    },
+    {
+      "file": "config/indexes.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 2793,
+      "previous_size": 2704,
+      "size_diff": 89
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 27384,
+      "previous_size": 27295,
+      "size_diff": 89
+    },
+    {
+      "file": "config/peds.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 63791,
+      "previous_size": 63702,
+      "size_diff": 89
+    },
+    {
+      "file": "config/perms.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 27423,
+      "previous_size": 27334,
+      "size_diff": 89
+    },
+    {
+      "file": "config/weapons.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 26026,
+      "previous_size": 25937,
+      "size_diff": 89
+    },
+    {
+      "file": "config/webhooks.lua",
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 4523,
+      "previous_size": 4434,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/config.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 21781,
-      "previous_size": 0,
-      "size_diff": 21781
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 21870,
+      "previous_size": 21781,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/detect.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 51955,
-      "previous_size": 0,
-      "size_diff": 51955
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 52044,
+      "previous_size": 51955,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/garages.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 3864,
-      "previous_size": 0,
-      "size_diff": 3864
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 3953,
+      "previous_size": 3864,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/hooks.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 4443,
-      "previous_size": 0,
-      "size_diff": 4443
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 4532,
+      "previous_size": 4443,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/hrs_airdrop.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 6502,
-      "previous_size": 0,
-      "size_diff": 6502
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 6591,
+      "previous_size": 6502,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/indexes.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 2704,
-      "previous_size": 0,
-      "size_diff": 2704
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 2793,
+      "previous_size": 2704,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/options.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 27295,
-      "previous_size": 0,
-      "size_diff": 27295
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 27384,
+      "previous_size": 27295,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/peds.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 63702,
-      "previous_size": 0,
-      "size_diff": 63702
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 63791,
+      "previous_size": 63702,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/perms.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 27334,
-      "previous_size": 0,
-      "size_diff": 27334
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 27423,
+      "previous_size": 27334,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/weapons.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 25937,
-      "previous_size": 0,
-      "size_diff": 25937
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 26026,
+      "previous_size": 25937,
+      "size_diff": 89
     },
     {
       "file": "defaults/config/webhooks.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 4434,
-      "previous_size": 0,
-      "size_diff": 4434
+      "commit_info": "b42fcc4 - 🔖 Automatically increment version to v1.2.408",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b42fcc4",
+      "current_size": 4523,
+      "previous_size": 4434,
+      "size_diff": 89
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "ef61fbc - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ef61fbc",
-      "current_size": 148794,
-      "previous_size": 148344,
-      "size_diff": 450
+      "commit_info": "3ba4ae7 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3ba4ae7",
+      "current_size": 149260,
+      "previous_size": 148794,
+      "size_diff": 466
     },
     {
       "file": "demo/public/assets/js/docs-pages.js",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 31444,
-      "previous_size": 27539,
-      "size_diff": 3905
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 33474,
+      "previous_size": 31444,
+      "size_diff": 2030
     },
     {
       "file": "demo/public/assets/js/fr.generated.js",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 42397,
-      "previous_size": 41582,
-      "size_diff": 815
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 42337,
+      "previous_size": 42397,
+      "size_diff": -60
     },
     {
-      "file": "demo/public/assets/js/fr.manual.js",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 28517,
-      "previous_size": 28188,
-      "size_diff": 329
+      "file": "demo/public/source/config/config.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 21387,
+      "previous_size": 21298,
+      "size_diff": 89
     },
     {
-      "file": "demo/public/assets/js/guides.js",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 52540,
-      "previous_size": 51778,
-      "size_diff": 762
+      "file": "demo/public/source/config/detect.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 50840,
+      "previous_size": 50751,
+      "size_diff": 89
     },
     {
-      "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 50853,
-      "previous_size": 49801,
-      "size_diff": 1052
+      "file": "demo/public/source/config/garages.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 3953,
+      "previous_size": 3864,
+      "size_diff": 89
+    },
+    {
+      "file": "demo/public/source/config/hooks.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 4532,
+      "previous_size": 4443,
+      "size_diff": 89
+    },
+    {
+      "file": "demo/public/source/config/hrs_airdrop.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 6591,
+      "previous_size": 6502,
+      "size_diff": 89
+    },
+    {
+      "file": "demo/public/source/config/indexes.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 2793,
+      "previous_size": 2704,
+      "size_diff": 89
+    },
+    {
+      "file": "demo/public/source/config/options.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 27384,
+      "previous_size": 27295,
+      "size_diff": 89
+    },
+    {
+      "file": "demo/public/source/config/peds.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 62762,
+      "previous_size": 62673,
+      "size_diff": 89
+    },
+    {
+      "file": "demo/public/source/config/perms.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 27423,
+      "previous_size": 27334,
+      "size_diff": 89
+    },
+    {
+      "file": "demo/public/source/config/weapons.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 25237,
+      "previous_size": 25148,
+      "size_diff": 89
+    },
+    {
+      "file": "demo/public/source/config/webhooks.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 4496,
+      "previous_size": 4407,
+      "size_diff": 89
+    },
+    {
+      "file": "demo/public/source/locales/en.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 357766,
+      "previous_size": 356332,
+      "size_diff": 1434
+    },
+    {
+      "file": "demo/public/source/locales/fr.lua",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 396063,
+      "previous_size": 394447,
+      "size_diff": 1616
+    },
+    {
+      "file": "demo/public/source/manifest.json",
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 1436,
+      "previous_size": 1436,
+      "size_diff": 0
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 363332,
-      "previous_size": 362179,
-      "size_diff": 1153
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 363633,
+      "previous_size": 363332,
+      "size_diff": 301
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 401597,
-      "previous_size": 400292,
-      "size_diff": 1305
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 401928,
+      "previous_size": 401597,
+      "size_diff": 331
     },
     {
       "file": "server/modules/settings/config_update.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 11998,
-      "previous_size": 0,
-      "size_diff": 11998
-    },
-    {
-      "file": "server/security/policy.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 41738,
-      "previous_size": 41599,
-      "size_diff": 139
-    },
-    {
-      "file": "shared/autoconfig/defaults.lua",
-      "commit_info": "176a2ef - Updates keep the config files: new options filled and written, obsolete ones listed (#47)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/176a2ef",
-      "current_size": 7238,
-      "previous_size": 0,
-      "size_diff": 7238
+      "commit_info": "5c383ea - Config headers: version, checksum and original / modified status (#48)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5c383ea",
+      "current_size": 17640,
+      "previous_size": 11998,
+      "size_diff": 5642
     }
   ]
 }

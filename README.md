@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.407-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.408-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7612,6 +7612,103 @@ server/modules/settings/config_update.lua: Updates keep the config files: new op
 server/security/policy.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
 
 shared/autoconfig/defaults.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.408</strong> – 2026-11-03 10:52</summary>
+
+## Changelog for v1.2.408
+
+.github/scripts/stamp_configs.py: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+client/modules/settings/config_menu.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/config.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/detect.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/garages.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/hooks.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/hrs_airdrop.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/indexes.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/options.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/peds.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/perms.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/weapons.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+config/webhooks.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/config.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/detect.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/garages.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/hooks.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/hrs_airdrop.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/indexes.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/options.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/peds.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/perms.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/weapons.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+defaults/config/webhooks.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs-pages.js: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/assets/js/fr.generated.js: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/config.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/detect.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/garages.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/hooks.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/hrs_airdrop.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/indexes.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/options.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/peds.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/perms.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/weapons.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/config/webhooks.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/locales/en.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/locales/fr.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+demo/public/source/manifest.json: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+locales/en.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+locales/fr.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+server/modules/settings/config_update.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
 
 
 
