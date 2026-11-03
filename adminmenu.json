@@ -1,249 +1,601 @@
 {
-  "version": "1.2.403",
+  "version": "1.2.404",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/utils.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 11161,
-      "previous_size": 16205,
-      "size_diff": -5044
+      "file": "client/custom/crew/hrs_crew.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 54611,
+      "previous_size": 61911,
+      "size_diff": -7300
     },
     {
-      "file": "config/cfg/server.cfg.example",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 3804,
-      "previous_size": 3575,
-      "size_diff": 229
+      "file": "client/custom/framework/esx.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 2161,
+      "previous_size": 2158,
+      "size_diff": 3
     },
     {
-      "file": "config/webhooks.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 2792,
-      "previous_size": 2844,
-      "size_diff": -52
+      "file": "client/custom/framework/qb.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 2246,
+      "previous_size": 2243,
+      "size_diff": 3
     },
     {
-      "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "7c7e9a0 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7c7e9a0",
-      "current_size": 146968,
-      "previous_size": 146518,
-      "size_diff": 450
-    },
-    {
-      "file": "demo/public/assets/js/guides.js",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 50661,
-      "previous_size": 49893,
-      "size_diff": 768
-    },
-    {
-      "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 49062,
-      "previous_size": 49074,
-      "size_diff": -12
-    },
-    {
-      "file": "demo/public/source/config/cfg/server.cfg.example",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 3752,
-      "previous_size": 3541,
-      "size_diff": 211
-    },
-    {
-      "file": "demo/public/source/config/webhooks.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 2765,
-      "previous_size": 2810,
-      "size_diff": -45
-    },
-    {
-      "file": "demo/public/source/manifest.json",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 1436,
-      "previous_size": 1436,
-      "size_diff": 0
-    },
-    {
-      "file": "server/custom/doorlock/ox_doorlock.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 10181,
-      "previous_size": 10223,
-      "size_diff": -42
-    },
-    {
-      "file": "server/custom/framework/esx.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 10985,
-      "previous_size": 11033,
-      "size_diff": -48
-    },
-    {
-      "file": "server/custom/framework/qb.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 11030,
-      "previous_size": 11080,
-      "size_diff": -50
-    },
-    {
-      "file": "server/custom/garage/default.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 3452,
-      "previous_size": 3479,
-      "size_diff": -27
-    },
-    {
-      "file": "server/custom/garage/esx_garage.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 4059,
-      "previous_size": 4065,
-      "size_diff": -6
-    },
-    {
-      "file": "server/custom/inventory/common.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 9565,
-      "previous_size": 9567,
-      "size_diff": -2
-    },
-    {
-      "file": "server/database.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 43507,
-      "previous_size": 43523,
-      "size_diff": -16
-    },
-    {
-      "file": "server/events.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 10997,
-      "previous_size": 11530,
-      "size_diff": -533
-    },
-    {
-      "file": "server/functions.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 37005,
-      "previous_size": 37045,
-      "size_diff": -40
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 103782,
-      "previous_size": 104265,
-      "size_diff": -483
-    },
-    {
-      "file": "server/modules/commands.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 31736,
-      "previous_size": 31757,
-      "size_diff": -21
-    },
-    {
-      "file": "server/modules/crew.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 10984,
-      "previous_size": 11059,
-      "size_diff": -75
-    },
-    {
-      "file": "server/modules/jail.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 28472,
-      "previous_size": 28525,
-      "size_diff": -53
-    },
-    {
-      "file": "server/modules/logs/logs.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 12283,
-      "previous_size": 12092,
-      "size_diff": 191
-    },
-    {
-      "file": "server/modules/logs/webhooks.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 5167,
-      "previous_size": 0,
-      "size_diff": 5167
-    },
-    {
-      "file": "server/modules/settings/resources.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 2808,
-      "previous_size": 2824,
-      "size_diff": -16
-    },
-    {
-      "file": "server/modules/staff_inventory.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 47097,
-      "previous_size": 47159,
+      "file": "client/custom/inventory/admin_duty_stash.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 1984,
+      "previous_size": 2046,
       "size_diff": -62
     },
     {
-      "file": "server/modules/stash.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 10120,
-      "previous_size": 10168,
-      "size_diff": -48
+      "file": "client/custom/inventory/ox.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 4430,
+      "previous_size": 4498,
+      "size_diff": -68
     },
     {
-      "file": "server/modules/vehicles.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 6530,
-      "previous_size": 6537,
-      "size_diff": -7
+      "file": "client/custom/inventory/ox_inventory_integration.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 10715,
+      "previous_size": 10945,
+      "size_diff": -230
     },
     {
-      "file": "server/modules/wipe.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 3343,
-      "previous_size": 3375,
-      "size_diff": -32
+      "file": "client/functions.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 129292,
+      "previous_size": 139677,
+      "size_diff": -10385
+    },
+    {
+      "file": "client/modules/adminduty/entity_debug.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 31762,
+      "previous_size": 32156,
+      "size_diff": -394
+    },
+    {
+      "file": "client/modules/adminduty/hrs_integration.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 28575,
+      "previous_size": 30262,
+      "size_diff": -1687
+    },
+    {
+      "file": "client/modules/adminduty/main.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 2889,
+      "previous_size": 2886,
+      "size_diff": 3
+    },
+    {
+      "file": "client/modules/adminduty/pistol.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 39212,
+      "previous_size": 38607,
+      "size_diff": 605
+    },
+    {
+      "file": "client/modules/announce.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 11759,
+      "previous_size": 11756,
+      "size_diff": 3
+    },
+    {
+      "file": "client/modules/build.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 14629,
+      "previous_size": 14620,
+      "size_diff": 9
+    },
+    {
+      "file": "client/modules/camera.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 0,
+      "previous_size": 1140,
+      "size_diff": -1140
+    },
+    {
+      "file": "client/modules/car.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 6564,
+      "previous_size": 8816,
+      "size_diff": -2252
+    },
+    {
+      "file": "client/modules/integrations/airdrop.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 23583,
+      "previous_size": 24187,
+      "size_diff": -604
+    },
+    {
+      "file": "client/modules/integrations/doorlock_handlers.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 24360,
+      "previous_size": 24384,
+      "size_diff": -24
+    },
+    {
+      "file": "client/modules/integrations/drunk_common.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 582,
+      "previous_size": 643,
+      "size_diff": -61
+    },
+    {
+      "file": "client/modules/integrations/rcore_integration.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 2716,
+      "previous_size": 2704,
+      "size_diff": 12
+    },
+    {
+      "file": "client/modules/jail.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 27605,
+      "previous_size": 27485,
+      "size_diff": 120
+    },
+    {
+      "file": "client/modules/logs/death.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 8252,
+      "previous_size": 9943,
+      "size_diff": -1691
+    },
+    {
+      "file": "client/modules/modes/modes.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 27936,
+      "previous_size": 28107,
+      "size_diff": -171
+    },
+    {
+      "file": "client/modules/modes/spectate.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 38281,
+      "previous_size": 38263,
+      "size_diff": 18
+    },
+    {
+      "file": "client/modules/modes/utils.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 22262,
+      "previous_size": 24422,
+      "size_diff": -2160
+    },
+    {
+      "file": "client/modules/notify.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 4674,
+      "previous_size": 4694,
+      "size_diff": -20
+    },
+    {
+      "file": "client/modules/object_gizmo.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 29991,
+      "previous_size": 29974,
+      "size_diff": 17
+    },
+    {
+      "file": "client/modules/offlineplayers.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 11534,
+      "previous_size": 11531,
+      "size_diff": 3
+    },
+    {
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 50116,
+      "previous_size": 50880,
+      "size_diff": -764
+    },
+    {
+      "file": "client/modules/ped_preview.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 23639,
+      "previous_size": 24042,
+      "size_diff": -403
+    },
+    {
+      "file": "client/modules/settings/admins.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 12855,
+      "previous_size": 12837,
+      "size_diff": 18
+    },
+    {
+      "file": "client/modules/settings/modules.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 34648,
+      "previous_size": 34645,
+      "size_diff": 3
+    },
+    {
+      "file": "client/modules/settings/permissions.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 28804,
+      "previous_size": 28776,
+      "size_diff": 28
+    },
+    {
+      "file": "client/modules/settings/server.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 25748,
+      "previous_size": 25714,
+      "size_diff": 34
+    },
+    {
+      "file": "client/modules/show.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 9063,
+      "previous_size": 9122,
+      "size_diff": -59
+    },
+    {
+      "file": "client/modules/showdata/crew.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 51742,
+      "previous_size": 57583,
+      "size_diff": -5841
+    },
+    {
+      "file": "client/modules/showdata/health.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 15895,
+      "previous_size": 16073,
+      "size_diff": -178
+    },
+    {
+      "file": "client/modules/showdata/inventory.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 51603,
+      "previous_size": 53655,
+      "size_diff": -2052
+    },
+    {
+      "file": "client/modules/showdata/manage.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 32651,
+      "previous_size": 33059,
+      "size_diff": -408
+    },
+    {
+      "file": "client/modules/showdata/money.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 9249,
+      "previous_size": 9678,
+      "size_diff": -429
+    },
+    {
+      "file": "client/modules/showdata/vehicles.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 22838,
+      "previous_size": 22835,
+      "size_diff": 3
+    },
+    {
+      "file": "client/modules/showdata/zombie.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 6437,
+      "previous_size": 7092,
+      "size_diff": -655
+    },
+    {
+      "file": "client/modules/staff_inventory.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 11723,
+      "previous_size": 11678,
+      "size_diff": 45
+    },
+    {
+      "file": "client/modules/vehiclepresets.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 12547,
+      "previous_size": 12541,
+      "size_diff": 6
+    },
+    {
+      "file": "client/utils.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 8921,
+      "previous_size": 11161,
+      "size_diff": -2240
+    },
+    {
+      "file": "demo/public/assets/data/changelog.json",
+      "commit_info": "3582bef - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/3582bef",
+      "current_size": 147428,
+      "previous_size": 146968,
+      "size_diff": 460
+    },
+    {
+      "file": "locales/en.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 355562,
+      "previous_size": 351027,
+      "size_diff": 4535
+    },
+    {
+      "file": "locales/fr.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 395112,
+      "previous_size": 390241,
+      "size_diff": 4871
+    },
+    {
+      "file": "server/custom/crew/fallback.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 1374,
+      "previous_size": 2079,
+      "size_diff": -705
+    },
+    {
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 40626,
+      "previous_size": 41969,
+      "size_diff": -1343
+    },
+    {
+      "file": "server/custom/doorlock/ox_doorlock.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 8503,
+      "previous_size": 10181,
+      "size_diff": -1678
+    },
+    {
+      "file": "server/custom/target/ox_target.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 1637,
+      "previous_size": 1850,
+      "size_diff": -213
+    },
+    {
+      "file": "server/custom/voice/pma-voice.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 5688,
+      "previous_size": 5679,
+      "size_diff": 9
+    },
+    {
+      "file": "server/database.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 42743,
+      "previous_size": 43507,
+      "size_diff": -764
+    },
+    {
+      "file": "server/events.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 11000,
+      "previous_size": 10997,
+      "size_diff": 3
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 31033,
+      "previous_size": 37005,
+      "size_diff": -5972
+    },
+    {
+      "file": "server/modules/admin_conflicts.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 1922,
+      "previous_size": 1919,
+      "size_diff": 3
+    },
+    {
+      "file": "server/modules/airdrop.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 19363,
+      "previous_size": 20186,
+      "size_diff": -823
+    },
+    {
+      "file": "server/modules/callbacks.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 101239,
+      "previous_size": 103782,
+      "size_diff": -2543
+    },
+    {
+      "file": "server/modules/commands.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 31245,
+      "previous_size": 31736,
+      "size_diff": -491
+    },
+    {
+      "file": "server/modules/crew.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 10655,
+      "previous_size": 10984,
+      "size_diff": -329
+    },
+    {
+      "file": "server/modules/jail.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 27760,
+      "previous_size": 28472,
+      "size_diff": -712
+    },
+    {
+      "file": "server/modules/logs/logs.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 12092,
+      "previous_size": 12283,
+      "size_diff": -191
+    },
+    {
+      "file": "server/modules/mail.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 5222,
+      "previous_size": 5447,
+      "size_diff": -225
+    },
+    {
+      "file": "server/modules/modes/spectate.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 3566,
+      "previous_size": 3542,
+      "size_diff": 24
+    },
+    {
+      "file": "server/modules/object_gizmo.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 16080,
+      "previous_size": 17893,
+      "size_diff": -1813
+    },
+    {
+      "file": "server/modules/prison.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 3119,
+      "previous_size": 3116,
+      "size_diff": 3
+    },
+    {
+      "file": "server/modules/sanctions.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 21270,
+      "previous_size": 25785,
+      "size_diff": -4515
+    },
+    {
+      "file": "server/modules/settings/cfg.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 30765,
+      "previous_size": 30962,
+      "size_diff": -197
+    },
+    {
+      "file": "server/modules/staff_inventory.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 47100,
+      "previous_size": 47097,
+      "size_diff": 3
+    },
+    {
+      "file": "server/modules/stinky_troll.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 6442,
+      "previous_size": 7330,
+      "size_diff": -888
+    },
+    {
+      "file": "server/modules/uniqueid.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 6912,
+      "previous_size": 6906,
+      "size_diff": 6
     },
     {
       "file": "server/security/policy.lua",
-      "commit_info": "60ee221 - Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/60ee221",
-      "current_size": 41873,
-      "previous_size": 36442,
-      "size_diff": 5431
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 41049,
+      "previous_size": 41873,
+      "size_diff": -824
+    },
+    {
+      "file": "server/utils.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 1117,
+      "previous_size": 2204,
+      "size_diff": -1087
+    },
+    {
+      "file": "shared/logger.lua",
+      "commit_info": "7304837 - Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/7304837",
+      "current_size": 8622,
+      "previous_size": 8465,
+      "size_diff": 157
     }
   ]
 }

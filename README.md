@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.403-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.404-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7234,6 +7234,163 @@ server/modules/vehicles.lua: Audit step 1: Discord webhooks server-only, oxmysql
 server/modules/wipe.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
 
 server/security/policy.lua: Audit step 1: Discord webhooks server-only, oxmysql API, read permissions (#43) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.404</strong> – 2026-11-03 07:40</summary>
+
+## Changelog for v1.2.404
+
+client/custom/crew/hrs_crew.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/custom/framework/esx.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/custom/framework/qb.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/custom/inventory/admin_duty_stash.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/custom/inventory/ox.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/custom/inventory/ox_inventory_integration.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/functions.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/adminduty/entity_debug.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/adminduty/hrs_integration.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/adminduty/main.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/adminduty/pistol.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/announce.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/build.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/camera.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/car.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/integrations/airdrop.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/integrations/doorlock_handlers.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/integrations/drunk_common.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/integrations/rcore_integration.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/jail.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/logs/death.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/modes/modes.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/modes/spectate.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/modes/utils.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/notify.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/object_gizmo.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/offlineplayers.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/onlineplayers.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/ped_preview.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/settings/admins.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/settings/modules.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/settings/permissions.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/settings/server.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/show.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/showdata/crew.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/showdata/health.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/showdata/inventory.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/showdata/manage.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/showdata/money.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/showdata/vehicles.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/showdata/zombie.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/staff_inventory.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/modules/vehiclepresets.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+client/utils.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+locales/en.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+locales/fr.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/custom/crew/fallback.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/custom/crew/hrs_base_building.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/custom/doorlock/ox_doorlock.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/custom/target/ox_target.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/custom/voice/pma-voice.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/database.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/events.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/functions.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/admin_conflicts.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/airdrop.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/callbacks.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/commands.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/crew.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/jail.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/logs/logs.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/mail.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/modes/spectate.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/object_gizmo.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/prison.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/sanctions.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/settings/cfg.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/staff_inventory.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/stinky_troll.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/modules/uniqueid.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/security/policy.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+server/utils.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+shared/logger.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
 
 
 
