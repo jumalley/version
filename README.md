@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.409-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.410-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7774,6 +7774,69 @@ server/modules/commands_extra.lua: Command registry, /ahelp and quick staff comm
 server/security/policy.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
 
 server/startup_manager.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.410</strong> – 2026-11-03 11:21</summary>
+
+## Changelog for v1.2.410
+
+client/modules/alerts.lua: Staff alerts configurable in game (#50) by jumalley
+
+client/modules/settings/config_menu.lua: Staff alerts configurable in game (#50) by jumalley
+
+config/config.lua: Staff alerts configurable in game (#50) by jumalley
+
+defaults/config/config.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs-pages.js: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/config.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/detect.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/garages.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/hooks.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/hrs_airdrop.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/indexes.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/options.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/peds.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/perms.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/weapons.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/config/webhooks.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/locales/en.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/locales/fr.lua: Staff alerts configurable in game (#50) by jumalley
+
+demo/public/source/manifest.json: Staff alerts configurable in game (#50) by jumalley
+
+locales/en.lua: Staff alerts configurable in game (#50) by jumalley
+
+locales/fr.lua: Staff alerts configurable in game (#50) by jumalley
+
+server/functions.lua: Staff alerts configurable in game (#50) by jumalley
+
+server/modules/alerts.lua: Staff alerts configurable in game (#50) by jumalley
+
+server/modules/reports.lua: Staff alerts configurable in game (#50) by jumalley
+
+server/modules/uniqueid.lua: Staff alerts configurable in game (#50) by jumalley
+
+shared/settings_schema.lua: Staff alerts configurable in game (#50) by jumalley
 
 
 

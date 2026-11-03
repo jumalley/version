@@ -1,409 +1,385 @@
 {
-  "version": "1.2.409",
+  "version": "1.2.410",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/command_help.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 7740,
+      "file": "client/modules/alerts.lua",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 608,
       "previous_size": 0,
-      "size_diff": 7740
+      "size_diff": 608
+    },
+    {
+      "file": "client/modules/settings/config_menu.lua",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 19591,
+      "previous_size": 19105,
+      "size_diff": 486
     },
     {
       "file": "config/config.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
-      "current_size": 21870,
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
+      "current_size": 22804,
       "previous_size": 21870,
-      "size_diff": 0
+      "size_diff": 934
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "config/garages.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "config/hooks.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "config/hrs_airdrop.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "config/indexes.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "config/options.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "config/peds.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 27423,
       "previous_size": 27423,
       "size_diff": 0
     },
     {
       "file": "config/weapons.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "config/webhooks.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "defaults/config/config.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
-      "current_size": 21870,
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
+      "current_size": 22804,
       "previous_size": 21870,
-      "size_diff": 0
+      "size_diff": 934
     },
     {
       "file": "defaults/config/detect.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "defaults/config/garages.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hooks.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hrs_airdrop.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "defaults/config/indexes.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "defaults/config/options.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "defaults/config/peds.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "defaults/config/perms.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 27423,
       "previous_size": 27423,
       "size_diff": 0
     },
     {
       "file": "defaults/config/weapons.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "defaults/config/webhooks.lua",
-      "commit_info": "7a47c5b - 🔖 Automatically increment version to v1.2.409",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7a47c5b",
+      "commit_info": "b3b8527 - 🔖 Automatically increment version to v1.2.410",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b3b8527",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "cf837cd - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf837cd",
-      "current_size": 149711,
-      "previous_size": 149260,
-      "size_diff": 451
+      "commit_info": "bcaebf0 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/bcaebf0",
+      "current_size": 150147,
+      "previous_size": 149711,
+      "size_diff": 436
     },
     {
-      "file": "demo/public/assets/js/app.js",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 93745,
-      "previous_size": 93035,
-      "size_diff": 710
-    },
-    {
-      "file": "demo/public/assets/js/commands-data.js",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 11485,
-      "previous_size": 0,
-      "size_diff": 11485
-    },
-    {
-      "file": "demo/public/assets/js/guides.js",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 52891,
-      "previous_size": 52540,
-      "size_diff": 351
-    },
-    {
-      "file": "demo/public/index.html",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 23697,
-      "previous_size": 23639,
-      "size_diff": 58
+      "file": "demo/public/assets/js/docs-pages.js",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 34130,
+      "previous_size": 33474,
+      "size_diff": 656
     },
     {
       "file": "demo/public/source/config/config.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 21387,
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 22311,
       "previous_size": 21387,
-      "size_diff": 0
+      "size_diff": 924
     },
     {
       "file": "demo/public/source/config/detect.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 50840,
       "previous_size": 50840,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/garages.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/hooks.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/hrs_airdrop.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/indexes.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/options.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/peds.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 62762,
       "previous_size": 62762,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/perms.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 27423,
       "previous_size": 27423,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/weapons.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 25237,
       "previous_size": 25237,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/webhooks.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 4496,
       "previous_size": 4496,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/locales/en.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 360169,
-      "previous_size": 357766,
-      "size_diff": 2403
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 361241,
+      "previous_size": 360169,
+      "size_diff": 1072
     },
     {
       "file": "demo/public/source/locales/fr.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 398672,
-      "previous_size": 396063,
-      "size_diff": 2609
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 399825,
+      "previous_size": 398672,
+      "size_diff": 1153
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
       "current_size": 1436,
       "previous_size": 1436,
       "size_diff": 0
     },
     {
-      "file": "demo/tools/build_commands.py",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 4305,
-      "previous_size": 0,
-      "size_diff": 4305
-    },
-    {
       "file": "locales/en.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 366080,
-      "previous_size": 363633,
-      "size_diff": 2447
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 367169,
+      "previous_size": 366080,
+      "size_diff": 1089
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 404581,
-      "previous_size": 401928,
-      "size_diff": 2653
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 405751,
+      "previous_size": 404581,
+      "size_diff": 1170
     },
     {
-      "file": "server/command_registry.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 7131,
+      "file": "server/functions.lua",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 30543,
+      "previous_size": 31033,
+      "size_diff": -490
+    },
+    {
+      "file": "server/modules/alerts.lua",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 5400,
       "previous_size": 0,
-      "size_diff": 7131
+      "size_diff": 5400
     },
     {
-      "file": "server/modules/commands.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 31548,
-      "previous_size": 31245,
-      "size_diff": 303
+      "file": "server/modules/reports.lua",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 14154,
+      "previous_size": 13890,
+      "size_diff": 264
     },
     {
-      "file": "server/modules/commands_extra.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 6301,
-      "previous_size": 0,
-      "size_diff": 6301
+      "file": "server/modules/uniqueid.lua",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 7016,
+      "previous_size": 6912,
+      "size_diff": 104
     },
     {
-      "file": "server/security/policy.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 41857,
-      "previous_size": 41738,
-      "size_diff": 119
-    },
-    {
-      "file": "server/startup_manager.lua",
-      "commit_info": "e1b7d5b - Command registry, /ahelp and quick staff commands (#49)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e1b7d5b",
-      "current_size": 19402,
-      "previous_size": 19385,
-      "size_diff": 17
+      "file": "shared/settings_schema.lua",
+      "commit_info": "ade75eb - Staff alerts configurable in game (#50)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ade75eb",
+      "current_size": 13009,
+      "previous_size": 11299,
+      "size_diff": 1710
     }
   ]
 }
