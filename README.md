@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.408-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.409-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7709,6 +7709,71 @@ locales/en.lua: Config headers: version, checksum and original / modified status
 locales/fr.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
 
 server/modules/settings/config_update.lua: Config headers: version, checksum and original / modified status (#48) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.409</strong> – 2026-11-03 11:09</summary>
+
+## Changelog for v1.2.409
+
+client/modules/command_help.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/app.js: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/assets/js/commands-data.js: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/assets/js/guides.js: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/index.html: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/config.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/detect.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/garages.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/hooks.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/hrs_airdrop.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/indexes.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/options.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/peds.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/perms.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/weapons.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/config/webhooks.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/locales/en.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/locales/fr.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/public/source/manifest.json: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+demo/tools/build_commands.py: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+locales/en.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+locales/fr.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+server/command_registry.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+server/modules/commands.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+server/modules/commands_extra.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+server/security/policy.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
+
+server/startup_manager.lua: Command registry, /ahelp and quick staff commands (#49) by jumalley
 
 
 
