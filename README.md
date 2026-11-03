@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.405-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.406-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7444,6 +7444,119 @@ server/security/policy.lua: In-game configuration: settings saved in the databas
 shared/autoconfig/settings.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
 
 shared/settings_schema.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.406</strong> – 2026-11-03 10:00</summary>
+
+## Changelog for v1.2.406
+
+client/modules/adminduty/main.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+client/modules/integrations/doorlock_handlers.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+client/modules/integrations/rcore_integration.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/config.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/detect.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/garages.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/hooks.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/hrs_airdrop.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/indexes.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/options.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/peds.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/perms.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/weapons.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+config/webhooks.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/guides.js: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/config.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/detect.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/garages.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/hooks.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/hrs_airdrop.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/indexes.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/options.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/peds.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/perms.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/weapons.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/config/webhooks.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/locales/en.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/locales/fr.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+demo/public/source/manifest.json: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+locales/en.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+locales/fr.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/custom/crew/hrs_base_building.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/custom/crew/hrs_crew.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/custom/framework/qb.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/custom/inventory/ox_inventory_hooks.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/functions.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/backpacks.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/buffs.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/chat.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/event_hooks.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/gangs.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/jobduty.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/logs/forward.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/mdt.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/medical_aids.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/radio.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/reports.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/settings/store.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/skills.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/modules/stress.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+server/startup_manager.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
 
 
 

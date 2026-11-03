@@ -1,185 +1,425 @@
 {
-  "version": "1.2.405",
+  "version": "1.2.406",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/settings/config_menu.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 15827,
-      "previous_size": 0,
-      "size_diff": 15827
+      "file": "client/modules/adminduty/main.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 2889,
+      "previous_size": 2889,
+      "size_diff": 0
     },
     {
-      "file": "client/modules/settings/main.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 12221,
-      "previous_size": 11949,
-      "size_diff": 272
+      "file": "client/modules/integrations/doorlock_handlers.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 24360,
+      "previous_size": 24360,
+      "size_diff": 0
+    },
+    {
+      "file": "client/modules/integrations/rcore_integration.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 2716,
+      "previous_size": 2716,
+      "size_diff": 0
+    },
+    {
+      "file": "config/config.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 21781,
+      "previous_size": 31397,
+      "size_diff": -9616
+    },
+    {
+      "file": "config/detect.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 51955,
+      "previous_size": 50784,
+      "size_diff": 1171
+    },
+    {
+      "file": "config/garages.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 3864,
+      "previous_size": 2890,
+      "size_diff": 974
+    },
+    {
+      "file": "config/hooks.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 4443,
+      "previous_size": 2911,
+      "size_diff": 1532
+    },
+    {
+      "file": "config/hrs_airdrop.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 6502,
+      "previous_size": 5576,
+      "size_diff": 926
+    },
+    {
+      "file": "config/indexes.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 2704,
+      "previous_size": 1714,
+      "size_diff": 990
+    },
+    {
+      "file": "config/options.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 27295,
+      "previous_size": 26338,
+      "size_diff": 957
+    },
+    {
+      "file": "config/peds.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 63702,
+      "previous_size": 62799,
+      "size_diff": 903
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 25816,
-      "previous_size": 25692,
-      "size_diff": 124
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 27334,
+      "previous_size": 25816,
+      "size_diff": 1518
+    },
+    {
+      "file": "config/weapons.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 25937,
+      "previous_size": 24986,
+      "size_diff": 951
+    },
+    {
+      "file": "config/webhooks.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 4434,
+      "previous_size": 2792,
+      "size_diff": 1642
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "0202f75 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/0202f75",
-      "current_size": 147882,
-      "previous_size": 147428,
-      "size_diff": 454
+      "commit_info": "e9e1840 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e9e1840",
+      "current_size": 148344,
+      "previous_size": 147882,
+      "size_diff": 462
     },
     {
-      "file": "demo/public/assets/js/docs-pages.js",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 27539,
-      "previous_size": 20797,
-      "size_diff": 6742
+      "file": "demo/public/assets/js/guides.js",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 51778,
+      "previous_size": 50661,
+      "size_diff": 1117
     },
     {
-      "file": "demo/public/assets/js/docs.js",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 81917,
-      "previous_size": 81426,
-      "size_diff": 491
+      "file": "demo/public/source/config/config.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 21298,
+      "previous_size": 30599,
+      "size_diff": -9301
     },
     {
-      "file": "demo/public/assets/js/fr.generated.js",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 41582,
-      "previous_size": 40898,
-      "size_diff": 684
+      "file": "demo/public/source/config/detect.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 50751,
+      "previous_size": 49596,
+      "size_diff": 1155
     },
     {
-      "file": "demo/public/assets/js/fr.manual.js",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 28188,
-      "previous_size": 27439,
-      "size_diff": 749
+      "file": "demo/public/source/config/garages.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 3864,
+      "previous_size": 2890,
+      "size_diff": 974
     },
     {
-      "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 49801,
-      "previous_size": 42935,
-      "size_diff": 6866
+      "file": "demo/public/source/config/hooks.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 4443,
+      "previous_size": 2911,
+      "size_diff": 1532
     },
     {
-      "file": "demo/public/assets/js/perms-data.js",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 21217,
-      "previous_size": 21123,
-      "size_diff": 94
+      "file": "demo/public/source/config/hrs_airdrop.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 6502,
+      "previous_size": 5576,
+      "size_diff": 926
     },
     {
-      "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 49201,
-      "previous_size": 49062,
-      "size_diff": 139
+      "file": "demo/public/source/config/indexes.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 2704,
+      "previous_size": 1714,
+      "size_diff": 990
+    },
+    {
+      "file": "demo/public/source/config/options.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 27295,
+      "previous_size": 26338,
+      "size_diff": 957
+    },
+    {
+      "file": "demo/public/source/config/peds.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 62673,
+      "previous_size": 61784,
+      "size_diff": 889
     },
     {
       "file": "demo/public/source/config/perms.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 25816,
-      "previous_size": 25692,
-      "size_diff": 124
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 27334,
+      "previous_size": 25816,
+      "size_diff": 1518
+    },
+    {
+      "file": "demo/public/source/config/weapons.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 25148,
+      "previous_size": 24211,
+      "size_diff": 937
+    },
+    {
+      "file": "demo/public/source/config/webhooks.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 4407,
+      "previous_size": 2765,
+      "size_diff": 1642
     },
     {
       "file": "demo/public/source/locales/en.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 356501,
-      "previous_size": 345352,
-      "size_diff": 11149
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 356332,
+      "previous_size": 356501,
+      "size_diff": -169
     },
     {
       "file": "demo/public/source/locales/fr.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 396803,
-      "previous_size": 384540,
-      "size_diff": 12263
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 394447,
+      "previous_size": 396803,
+      "size_diff": -2356
     },
     {
       "file": "demo/public/source/manifest.json",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
       "current_size": 1436,
       "previous_size": 1436,
       "size_diff": 0
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 362350,
-      "previous_size": 355562,
-      "size_diff": 6788
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 362179,
+      "previous_size": 362350,
+      "size_diff": -171
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 402678,
-      "previous_size": 395112,
-      "size_diff": 7566
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 400292,
+      "previous_size": 402678,
+      "size_diff": -2386
+    },
+    {
+      "file": "server/custom/crew/hrs_base_building.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 40626,
+      "previous_size": 40626,
+      "size_diff": 0
+    },
+    {
+      "file": "server/custom/crew/hrs_crew.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 25257,
+      "previous_size": 25297,
+      "size_diff": -40
+    },
+    {
+      "file": "server/custom/framework/qb.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 11030,
+      "previous_size": 11030,
+      "size_diff": 0
+    },
+    {
+      "file": "server/custom/inventory/ox_inventory_hooks.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 6161,
+      "previous_size": 6160,
+      "size_diff": 1
+    },
+    {
+      "file": "server/functions.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 31033,
+      "previous_size": 31033,
+      "size_diff": 0
+    },
+    {
+      "file": "server/modules/backpacks.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 3804,
+      "previous_size": 3804,
+      "size_diff": 0
+    },
+    {
+      "file": "server/modules/buffs.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 6413,
+      "previous_size": 6413,
+      "size_diff": 0
+    },
+    {
+      "file": "server/modules/chat.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 3173,
+      "previous_size": 3173,
+      "size_diff": 0
     },
     {
       "file": "server/modules/event_hooks.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 24997,
-      "previous_size": 24068,
-      "size_diff": 929
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 24961,
+      "previous_size": 24997,
+      "size_diff": -36
+    },
+    {
+      "file": "server/modules/gangs.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 1414,
+      "previous_size": 1414,
+      "size_diff": 0
+    },
+    {
+      "file": "server/modules/jobduty.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 6789,
+      "previous_size": 6789,
+      "size_diff": 0
+    },
+    {
+      "file": "server/modules/logs/forward.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 3449,
+      "previous_size": 3459,
+      "size_diff": -10
+    },
+    {
+      "file": "server/modules/mdt.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 895,
+      "previous_size": 895,
+      "size_diff": 0
+    },
+    {
+      "file": "server/modules/medical_aids.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 3912,
+      "previous_size": 3912,
+      "size_diff": 0
+    },
+    {
+      "file": "server/modules/radio.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 3132,
+      "previous_size": 3132,
+      "size_diff": 0
+    },
+    {
+      "file": "server/modules/reports.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 13890,
+      "previous_size": 13890,
+      "size_diff": 0
     },
     {
       "file": "server/modules/settings/store.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 11359,
-      "previous_size": 0,
-      "size_diff": 11359
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 11417,
+      "previous_size": 11359,
+      "size_diff": 58
     },
     {
-      "file": "server/security/policy.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 41599,
-      "previous_size": 41049,
-      "size_diff": 550
+      "file": "server/modules/skills.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 18891,
+      "previous_size": 18891,
+      "size_diff": 0
     },
     {
-      "file": "shared/autoconfig/settings.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 4265,
-      "previous_size": 0,
-      "size_diff": 4265
+      "file": "server/modules/stress.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 6103,
+      "previous_size": 6103,
+      "size_diff": 0
     },
     {
-      "file": "shared/settings_schema.lua",
-      "commit_info": "7e76c3b - In-game configuration: settings saved in the database over the config files (#45)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/7e76c3b",
-      "current_size": 11299,
-      "previous_size": 0,
-      "size_diff": 11299
+      "file": "server/startup_manager.lua",
+      "commit_info": "d126e6e - Sale-ready configs, harmonized startup console, locales in sync (#46)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/d126e6e",
+      "current_size": 19385,
+      "previous_size": 16395,
+      "size_diff": 2990
     }
   ]
 }
