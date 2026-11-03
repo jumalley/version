@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.411-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.412-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7866,6 +7866,65 @@ demo/public/assets/js/site-data.js: Keyboard layouts, real key names and custom 
 locales/en.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
 
 locales/fr.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.412</strong> – 2026-11-03 11:59</summary>
+
+## Changelog for v1.2.412
+
+client/modules/onlineplayers.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+config/cfg/server.cfg.example: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+config/config.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+defaults/config/config.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/guides.js: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/cfg/server.cfg.example: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/config.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/detect.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/garages.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/hooks.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/hrs_airdrop.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/indexes.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/options.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/peds.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/perms.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/weapons.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/config/webhooks.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/locales/en.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/locales/fr.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+demo/public/source/manifest.json: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+locales/en.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+locales/fr.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+server/modules/discord_avatar.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+shared/settings_schema.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
 
 
 

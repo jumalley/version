@@ -1,265 +1,369 @@
 {
-  "version": "1.2.411",
+  "version": "1.2.412",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/build.lua",
-      "commit_info": "49fcfef - Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/49fcfef",
-      "current_size": 14624,
-      "previous_size": 14629,
-      "size_diff": -5
+      "file": "client/modules/onlineplayers.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 51241,
+      "previous_size": 50116,
+      "size_diff": 1125
     },
     {
-      "file": "client/modules/coords.lua",
-      "commit_info": "49fcfef - Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/49fcfef",
-      "current_size": 4619,
-      "previous_size": 4605,
-      "size_diff": 14
-    },
-    {
-      "file": "client/modules/devtools.lua",
-      "commit_info": "49fcfef - Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/49fcfef",
-      "current_size": 20763,
-      "previous_size": 20749,
-      "size_diff": 14
-    },
-    {
-      "file": "client/modules/keyboard.lua",
-      "commit_info": "49fcfef - Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/49fcfef",
-      "current_size": 7867,
-      "previous_size": 0,
-      "size_diff": 7867
-    },
-    {
-      "file": "client/modules/settings/preferences.lua",
-      "commit_info": "49fcfef - Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/49fcfef",
-      "current_size": 11786,
-      "previous_size": 11499,
-      "size_diff": 287
-    },
-    {
-      "file": "client/utils.lua",
-      "commit_info": "49fcfef - Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/49fcfef",
-      "current_size": 9480,
-      "previous_size": 8921,
-      "size_diff": 559
+      "file": "config/cfg/server.cfg.example",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 3922,
+      "previous_size": 3804,
+      "size_diff": 118
     },
     {
       "file": "config/config.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
-      "current_size": 22804,
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
+      "current_size": 23067,
       "previous_size": 22804,
-      "size_diff": 0
+      "size_diff": 263
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "config/garages.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "config/hooks.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "config/hrs_airdrop.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "config/indexes.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "config/options.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "config/peds.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 27423,
       "previous_size": 27423,
       "size_diff": 0
     },
     {
       "file": "config/weapons.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "config/webhooks.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "defaults/config/config.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
-      "current_size": 22804,
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
+      "current_size": 23067,
       "previous_size": 22804,
-      "size_diff": 0
+      "size_diff": 263
     },
     {
       "file": "defaults/config/detect.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "defaults/config/garages.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hooks.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hrs_airdrop.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "defaults/config/indexes.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "defaults/config/options.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "defaults/config/peds.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "defaults/config/perms.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 27423,
       "previous_size": 27423,
       "size_diff": 0
     },
     {
       "file": "defaults/config/weapons.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "defaults/config/webhooks.lua",
-      "commit_info": "e608bf4 - 🔖 Automatically increment version to v1.2.411",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e608bf4",
+      "commit_info": "97dba0e - 🔖 Automatically increment version to v1.2.412",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/97dba0e",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "6ba1e94 - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/6ba1e94",
-      "current_size": 150567,
-      "previous_size": 150147,
-      "size_diff": 420
+      "commit_info": "30835ed - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/30835ed",
+      "current_size": 151032,
+      "previous_size": 150567,
+      "size_diff": 465
     },
     {
-      "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "49fcfef - Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/49fcfef",
-      "current_size": 50030,
-      "previous_size": 49201,
-      "size_diff": 829
+      "file": "demo/public/assets/js/guides.js",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 53769,
+      "previous_size": 52891,
+      "size_diff": 878
+    },
+    {
+      "file": "demo/public/source/config/cfg/server.cfg.example",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 3870,
+      "previous_size": 3752,
+      "size_diff": 118
+    },
+    {
+      "file": "demo/public/source/config/config.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 22571,
+      "previous_size": 22311,
+      "size_diff": 260
+    },
+    {
+      "file": "demo/public/source/config/detect.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 50840,
+      "previous_size": 50840,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/config/garages.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 3953,
+      "previous_size": 3953,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/config/hooks.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 4532,
+      "previous_size": 4532,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/config/hrs_airdrop.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 6591,
+      "previous_size": 6591,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/config/indexes.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 2793,
+      "previous_size": 2793,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/config/options.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 27384,
+      "previous_size": 27384,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/config/peds.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 62762,
+      "previous_size": 62762,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/config/perms.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 27423,
+      "previous_size": 27423,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/config/weapons.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 25237,
+      "previous_size": 25237,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/config/webhooks.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 4496,
+      "previous_size": 4496,
+      "size_diff": 0
+    },
+    {
+      "file": "demo/public/source/locales/en.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 362516,
+      "previous_size": 361241,
+      "size_diff": 1275
+    },
+    {
+      "file": "demo/public/source/locales/fr.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 401292,
+      "previous_size": 399825,
+      "size_diff": 1467
+    },
+    {
+      "file": "demo/public/source/manifest.json",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 1436,
+      "previous_size": 1436,
+      "size_diff": 0
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "49fcfef - Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/49fcfef",
-      "current_size": 368322,
-      "previous_size": 367169,
-      "size_diff": 1153
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 368462,
+      "previous_size": 368322,
+      "size_diff": 140
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "49fcfef - Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/49fcfef",
-      "current_size": 407085,
-      "previous_size": 405751,
-      "size_diff": 1334
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 407236,
+      "previous_size": 407085,
+      "size_diff": 151
+    },
+    {
+      "file": "server/modules/discord_avatar.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 3670,
+      "previous_size": 0,
+      "size_diff": 3670
+    },
+    {
+      "file": "shared/settings_schema.lua",
+      "commit_info": "1a98900 - Discord avatars in the players list; players list tolerates group tables (#52)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/1a98900",
+      "current_size": 13079,
+      "previous_size": 13009,
+      "size_diff": 70
     }
   ]
 }
