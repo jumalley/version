@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.404-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.405-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7391,6 +7391,59 @@ server/security/policy.lua: Cleanup: dead code, Lang fallbacks, debug prints, ha
 server/utils.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
 
 shared/logger.lua: Cleanup: dead code, Lang fallbacks, debug prints, hardcoded strings (#44) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.405</strong> – 2026-11-03 09:40</summary>
+
+## Changelog for v1.2.405
+
+client/modules/settings/config_menu.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+client/modules/settings/main.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+config/perms.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs-pages.js: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/assets/js/docs.js: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/assets/js/fr.generated.js: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/assets/js/fr.manual.js: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/assets/js/menus-settings.js: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/assets/js/perms-data.js: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/assets/js/site-data.js: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/source/config/perms.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/source/locales/en.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/source/locales/fr.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+demo/public/source/manifest.json: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+locales/en.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+locales/fr.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+server/modules/event_hooks.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+server/modules/settings/store.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+server/security/policy.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+shared/autoconfig/settings.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
+
+shared/settings_schema.lua: In-game configuration: settings saved in the database over the config files (#45) by jumalley
 
 
 
