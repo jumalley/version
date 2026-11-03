@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.410-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.411-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7837,6 +7837,35 @@ server/modules/reports.lua: Staff alerts configurable in game (#50) by jumalley
 server/modules/uniqueid.lua: Staff alerts configurable in game (#50) by jumalley
 
 shared/settings_schema.lua: Staff alerts configurable in game (#50) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.411</strong> – 2026-11-03 11:33</summary>
+
+## Changelog for v1.2.411
+
+client/modules/build.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
+
+client/modules/coords.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
+
+client/modules/devtools.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
+
+client/modules/keyboard.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
+
+client/modules/settings/preferences.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
+
+client/utils.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/site-data.js: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
+
+locales/en.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
+
+locales/fr.lua: Keyboard layouts, real key names and custom keybinds; fix the options menu grade check (#51) by jumalley
 
 
 
