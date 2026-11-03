@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.412-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.413-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7925,6 +7925,91 @@ locales/fr.lua: Discord avatars in the players list; players list tolerates grou
 server/modules/discord_avatar.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
 
 shared/settings_schema.lua: Discord avatars in the players list; players list tolerates group tables (#52) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.413</strong> – 2026-11-03 15:41</summary>
+
+## Changelog for v1.2.413
+
+client/functions.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_01_selection.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_02_locations.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_03_vehicle_info.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_04_groups_animations.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_05_vehicle_actions.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_06_player_status.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_07_permissions.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_08_appearance.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_09_health_nearby.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_10_entities.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/functions_11_actions.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+client/modules/logs/death.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/integrations.js: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+demo/public/assets/js/menus-core.js: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+demo/public/assets/js/menus-settings.js: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/custom/ambulance/wasabi_ambulance.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/custom/screenshot/screenshot.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/custom/voice/saltychat.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/01_locations_favorites.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/02_players_groups.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/03_database.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/04_player_lists.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/05_clothing.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/06_preferences.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/07_world_tools.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/08_money_entities.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/09_appearance_zombie.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/10_cfg_health_modes.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/callbacks/11_presets_spectate.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/menu_tables.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/needs.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/permissions.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/settings/cfg.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/modules/vehicle_extras.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+server/security/policy.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
 
 
 
