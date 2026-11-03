@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.406-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.407-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -7557,6 +7557,61 @@ server/modules/skills.lua: Sale-ready configs, harmonized startup console, local
 server/modules/stress.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
 
 server/startup_manager.lua: Sale-ready configs, harmonized startup console, locales in sync (#46) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.407</strong> – 2026-11-03 10:33</summary>
+
+## Changelog for v1.2.407
+
+client/modules/settings/config_menu.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/config.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/detect.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/garages.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/hooks.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/hrs_airdrop.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/indexes.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/options.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/peds.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/perms.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/weapons.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+defaults/config/webhooks.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/docs-pages.js: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+demo/public/assets/js/fr.generated.js: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+demo/public/assets/js/fr.manual.js: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+demo/public/assets/js/guides.js: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+demo/public/assets/js/menus-settings.js: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+locales/en.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+locales/fr.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+server/modules/settings/config_update.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+server/security/policy.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
+
+shared/autoconfig/defaults.lua: Updates keep the config files: new options filled and written, obsolete ones listed (#47) by jumalley
 
 
 
