@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.413-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.414-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8010,6 +8010,35 @@ server/modules/settings/cfg.lua: Split client/functions.lua and server callbacks
 server/modules/vehicle_extras.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
 
 server/security/policy.lua: Split client/functions.lua and server callbacks by topic; deaths from the game event (#53) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.414</strong> – 2026-11-04 06:26</summary>
+
+## Changelog for v1.2.414
+
+client/modules/diagnostics.lua: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog and version by github-actions[bot]
+
+demo/public/assets/js/commands-data.js: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
+
+demo/public/assets/js/config.js: Site: Buy buttons point to the Tebex store (#54) by jumalley
+
+demo/public/assets/js/guides.js: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
+
+locales/en.lua: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
+
+locales/fr.lua: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
+
+server/modules/diagnostics.lua: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
+
+server/security/policy.lua: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
+
+shared/logger.lua: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
 
 
 

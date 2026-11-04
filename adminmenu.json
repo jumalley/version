@@ -1,489 +1,265 @@
 {
-  "version": "1.2.413",
+  "version": "1.2.414",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/functions.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 0,
-      "previous_size": 129292,
-      "size_diff": -129292
-    },
-    {
-      "file": "client/functions_01_selection.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 13912,
+      "file": "client/modules/diagnostics.lua",
+      "commit_info": "a868df4 - Bug report (/adminbug) and client debug mode (/admindebug) (#55)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a868df4",
+      "current_size": 3540,
       "previous_size": 0,
-      "size_diff": 13912
-    },
-    {
-      "file": "client/functions_02_locations.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 17917,
-      "previous_size": 0,
-      "size_diff": 17917
-    },
-    {
-      "file": "client/functions_03_vehicle_info.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 37052,
-      "previous_size": 0,
-      "size_diff": 37052
-    },
-    {
-      "file": "client/functions_04_groups_animations.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 19274,
-      "previous_size": 0,
-      "size_diff": 19274
-    },
-    {
-      "file": "client/functions_05_vehicle_actions.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 8644,
-      "previous_size": 0,
-      "size_diff": 8644
-    },
-    {
-      "file": "client/functions_06_player_status.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 3853,
-      "previous_size": 0,
-      "size_diff": 3853
-    },
-    {
-      "file": "client/functions_07_permissions.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 3728,
-      "previous_size": 0,
-      "size_diff": 3728
-    },
-    {
-      "file": "client/functions_08_appearance.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 10240,
-      "previous_size": 0,
-      "size_diff": 10240
-    },
-    {
-      "file": "client/functions_09_health_nearby.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 3099,
-      "previous_size": 0,
-      "size_diff": 3099
-    },
-    {
-      "file": "client/functions_10_entities.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 7858,
-      "previous_size": 0,
-      "size_diff": 7858
-    },
-    {
-      "file": "client/functions_11_actions.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 5024,
-      "previous_size": 0,
-      "size_diff": 5024
-    },
-    {
-      "file": "client/modules/logs/death.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 9092,
-      "previous_size": 8252,
-      "size_diff": 840
+      "size_diff": 3540
     },
     {
       "file": "config/config.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "config/garages.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "config/hooks.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "config/hrs_airdrop.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "config/indexes.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "config/options.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "config/peds.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 27423,
       "previous_size": 27423,
       "size_diff": 0
     },
     {
       "file": "config/weapons.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "config/webhooks.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "defaults/config/config.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "defaults/config/detect.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "defaults/config/garages.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hooks.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hrs_airdrop.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "defaults/config/indexes.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "defaults/config/options.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "defaults/config/peds.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "defaults/config/perms.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 27423,
       "previous_size": 27423,
       "size_diff": 0
     },
     {
       "file": "defaults/config/weapons.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "defaults/config/webhooks.lua",
-      "commit_info": "e7ae37f - 🔖 Automatically increment version to v1.2.413",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e7ae37f",
+      "commit_info": "84cfb1d - 🔖 Automatically increment version to v1.2.414",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/84cfb1d",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "afcaaeb - Demo: update changelog and version",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/afcaaeb",
-      "current_size": 151491,
-      "previous_size": 151032,
-      "size_diff": 459
+      "commit_info": "99e3235 - Demo: update changelog and version",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/99e3235",
+      "current_size": 151945,
+      "previous_size": 151491,
+      "size_diff": 454
     },
     {
-      "file": "demo/public/assets/js/integrations.js",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 278906,
-      "previous_size": 278718,
-      "size_diff": 188
+      "file": "demo/public/assets/js/commands-data.js",
+      "commit_info": "a868df4 - Bug report (/adminbug) and client debug mode (/admindebug) (#55)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a868df4",
+      "current_size": 12306,
+      "previous_size": 11485,
+      "size_diff": 821
     },
     {
-      "file": "demo/public/assets/js/menus-core.js",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 36045,
-      "previous_size": 36032,
-      "size_diff": 13
+      "file": "demo/public/assets/js/config.js",
+      "commit_info": "8fed0af - Site: Buy buttons point to the Tebex store (#54)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/8fed0af",
+      "current_size": 1968,
+      "previous_size": 1862,
+      "size_diff": 106
     },
     {
-      "file": "demo/public/assets/js/menus-settings.js",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 50869,
-      "previous_size": 50853,
-      "size_diff": 16
+      "file": "demo/public/assets/js/guides.js",
+      "commit_info": "a868df4 - Bug report (/adminbug) and client debug mode (/admindebug) (#55)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a868df4",
+      "current_size": 54612,
+      "previous_size": 53769,
+      "size_diff": 843
     },
     {
-      "file": "server/custom/ambulance/wasabi_ambulance.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 1433,
-      "previous_size": 1413,
-      "size_diff": 20
+      "file": "locales/en.lua",
+      "commit_info": "a868df4 - Bug report (/adminbug) and client debug mode (/admindebug) (#55)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a868df4",
+      "current_size": 368993,
+      "previous_size": 368462,
+      "size_diff": 531
     },
     {
-      "file": "server/custom/screenshot/screenshot.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 5581,
-      "previous_size": 5553,
-      "size_diff": 28
+      "file": "locales/fr.lua",
+      "commit_info": "a868df4 - Bug report (/adminbug) and client debug mode (/admindebug) (#55)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a868df4",
+      "current_size": 407837,
+      "previous_size": 407236,
+      "size_diff": 601
     },
     {
-      "file": "server/custom/voice/saltychat.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 3047,
-      "previous_size": 3032,
-      "size_diff": 15
-    },
-    {
-      "file": "server/modules/callbacks.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 0,
-      "previous_size": 101239,
-      "size_diff": -101239
-    },
-    {
-      "file": "server/modules/callbacks/01_locations_favorites.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 8107,
+      "file": "server/modules/diagnostics.lua",
+      "commit_info": "a868df4 - Bug report (/adminbug) and client debug mode (/admindebug) (#55)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a868df4",
+      "current_size": 4160,
       "previous_size": 0,
-      "size_diff": 8107
-    },
-    {
-      "file": "server/modules/callbacks/02_players_groups.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 6226,
-      "previous_size": 0,
-      "size_diff": 6226
-    },
-    {
-      "file": "server/modules/callbacks/03_database.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 7714,
-      "previous_size": 0,
-      "size_diff": 7714
-    },
-    {
-      "file": "server/modules/callbacks/04_player_lists.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 24033,
-      "previous_size": 0,
-      "size_diff": 24033
-    },
-    {
-      "file": "server/modules/callbacks/05_clothing.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 9661,
-      "previous_size": 0,
-      "size_diff": 9661
-    },
-    {
-      "file": "server/modules/callbacks/06_preferences.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 5568,
-      "previous_size": 0,
-      "size_diff": 5568
-    },
-    {
-      "file": "server/modules/callbacks/07_world_tools.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 8305,
-      "previous_size": 0,
-      "size_diff": 8305
-    },
-    {
-      "file": "server/modules/callbacks/08_money_entities.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 5374,
-      "previous_size": 0,
-      "size_diff": 5374
-    },
-    {
-      "file": "server/modules/callbacks/09_appearance_zombie.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 7478,
-      "previous_size": 0,
-      "size_diff": 7478
-    },
-    {
-      "file": "server/modules/callbacks/10_cfg_health_modes.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 6447,
-      "previous_size": 0,
-      "size_diff": 6447
-    },
-    {
-      "file": "server/modules/callbacks/11_presets_spectate.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 13145,
-      "previous_size": 0,
-      "size_diff": 13145
-    },
-    {
-      "file": "server/modules/menu_tables.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 7828,
-      "previous_size": 7831,
-      "size_diff": -3
-    },
-    {
-      "file": "server/modules/needs.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 4844,
-      "previous_size": 4831,
-      "size_diff": 13
-    },
-    {
-      "file": "server/modules/permissions.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 5853,
-      "previous_size": 5838,
-      "size_diff": 15
-    },
-    {
-      "file": "server/modules/settings/cfg.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 30780,
-      "previous_size": 30765,
-      "size_diff": 15
-    },
-    {
-      "file": "server/modules/vehicle_extras.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 9085,
-      "previous_size": 9069,
-      "size_diff": 16
+      "size_diff": 4160
     },
     {
       "file": "server/security/policy.lua",
-      "commit_info": "52baf6b - Split client/functions.lua and server callbacks by topic; deaths from the game event (#53)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/52baf6b",
-      "current_size": 41882,
-      "previous_size": 41857,
-      "size_diff": 25
+      "commit_info": "a868df4 - Bug report (/adminbug) and client debug mode (/admindebug) (#55)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a868df4",
+      "current_size": 41989,
+      "previous_size": 41882,
+      "size_diff": 107
+    },
+    {
+      "file": "shared/logger.lua",
+      "commit_info": "a868df4 - Bug report (/adminbug) and client debug mode (/admindebug) (#55)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/a868df4",
+      "current_size": 9188,
+      "previous_size": 8622,
+      "size_diff": 566
     }
   ]
 }
