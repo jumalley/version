@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.417-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.419-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8294,6 +8294,87 @@ html/vendor/fontawesome/webfonts/fa-solid-900.woff2: NUI panel: instant long lis
 html/vendor/fontawesome/webfonts/fa-v4compatibility.woff2: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
 
 tests/ui_bridge.lua: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.419</strong> – 2026-11-17 21:07</summary>
+
+## Changelog for v1.2.419
+
+client/ui/web.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+config/perms.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+defaults/config/perms.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/assets/js/commands-data.js: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/assets/js/docs-pages.js: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+demo/public/assets/js/perms-data.js: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/config.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/detect.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/garages.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/hooks.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/hrs_airdrop.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/indexes.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/options.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/peds.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/perms.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/weapons.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/webhooks.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/locales/en.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/locales/fr.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/manifest.json: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/tools/build_sql.py: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+locales/en.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+locales/fr.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+server/database.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+server/modules/live_console.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+server/web/api.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+server/web/auth.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+server/web/crypto.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+server/web/http.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+tests/lib/json.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+tests/lib/webmock.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+tests/web_panel.lua: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+web/app.css: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+web/app.js: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+web/index.html: Web panel served by the resource (like txAdmin) (#63) by jumalley
 
 
 
