@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.415-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.416-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8146,6 +8146,93 @@ tests/run.sh: Database docs and fixes, regression tests in CI, game builds, staf
 tests/settings.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
 
 tests/store.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.416</strong> – 2026-11-17 19:10</summary>
+
+## Changelog for v1.2.416
+
+client/modules/settings/preferences.lua: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
+
+client/ui/bridge.lua: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
+
+demo/Dockerfile: Site: admin area with 2FA, visit stats and health (#58) by jumalley
+
+demo/admin/api.js: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/admin/auth.js: Site: admin area with 2FA, visit stats and health (#58) by jumalley
+
+demo/admin/db.js: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/admin/setup.js: Site: admin area with 2FA, visit stats and health (#58) by jumalley
+
+demo/admin/support/index.html: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/admin/support/support.css: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/admin/support/support.js: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/admin/tickets.js: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/admin/ui/admin.css: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/admin/ui/admin.js: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/admin/ui/index.html: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/package-lock.json: Site: admin area with 2FA, visit stats and health (#58) by jumalley
+
+demo/package.json: Site: admin area with 2FA, visit stats and health (#58) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/assets/js/app.js: Site: admin area with 2FA, visit stats and health (#58) by jumalley
+
+demo/public/assets/js/docs-pages.js: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
+
+demo/public/assets/js/guides.js: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/public/index.html: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+demo/public/source/config/config.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/detect.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/garages.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/hooks.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/hrs_airdrop.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/indexes.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/options.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/peds.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/perms.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/weapons.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/webhooks.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/server.js: Site: support tickets (bugs, questions, purchases, integrations) (#59) by jumalley
+
+html/index.html: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
+
+html/ui.css: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
+
+html/ui.js: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
+
+locales/en.lua: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
+
+locales/fr.lua: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
+
+tests/ui_bridge.lua: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
 
 
 

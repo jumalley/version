@@ -1,561 +1,497 @@
 {
-  "version": "1.2.415",
+  "version": "1.2.416",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/diagnostics.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 3711,
-      "previous_size": 3540,
-      "size_diff": 171
+      "file": "client/modules/settings/preferences.lua",
+      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
+      "current_size": 13412,
+      "previous_size": 11786,
+      "size_diff": 1626
     },
     {
-      "file": "client/modules/settings/config_menu.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 19604,
-      "previous_size": 19591,
-      "size_diff": 13
-    },
-    {
-      "file": "client/modules/showdata/general.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 15496,
-      "previous_size": 14951,
-      "size_diff": 545
-    },
-    {
-      "file": "config/cfg/server.cfg.example",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 4043,
-      "previous_size": 3922,
-      "size_diff": 121
+      "file": "client/ui/bridge.lua",
+      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
+      "current_size": 12462,
+      "previous_size": 0,
+      "size_diff": 12462
     },
     {
       "file": "config/config.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "config/garages.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "config/hooks.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "config/hrs_airdrop.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "config/indexes.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "config/options.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "config/peds.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 28666,
-      "previous_size": 27423,
-      "size_diff": 1243
+      "previous_size": 28666,
+      "size_diff": 0
     },
     {
       "file": "config/weapons.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "config/webhooks.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "defaults/config/config.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "defaults/config/detect.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "defaults/config/garages.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hooks.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hrs_airdrop.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "defaults/config/indexes.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "defaults/config/options.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "defaults/config/peds.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "defaults/config/perms.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 28666,
-      "previous_size": 27423,
-      "size_diff": 1243
+      "previous_size": 28666,
+      "size_diff": 0
     },
     {
       "file": "defaults/config/weapons.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "defaults/config/webhooks.lua",
-      "commit_info": "46ae04b - 🔖 Automatically increment version to v1.2.415",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/46ae04b",
+      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
+      "file": "demo/Dockerfile",
+      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
+      "current_size": 807,
+      "previous_size": 692,
+      "size_diff": 115
+    },
+    {
+      "file": "demo/admin/api.js",
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 10125,
+      "previous_size": 0,
+      "size_diff": 10125
+    },
+    {
+      "file": "demo/admin/auth.js",
+      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
+      "current_size": 4724,
+      "previous_size": 0,
+      "size_diff": 4724
+    },
+    {
+      "file": "demo/admin/db.js",
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 2718,
+      "previous_size": 0,
+      "size_diff": 2718
+    },
+    {
+      "file": "demo/admin/setup.js",
+      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
+      "current_size": 2207,
+      "previous_size": 0,
+      "size_diff": 2207
+    },
+    {
+      "file": "demo/admin/support/index.html",
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 4364,
+      "previous_size": 0,
+      "size_diff": 4364
+    },
+    {
+      "file": "demo/admin/support/support.css",
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 2791,
+      "previous_size": 0,
+      "size_diff": 2791
+    },
+    {
+      "file": "demo/admin/support/support.js",
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 12116,
+      "previous_size": 0,
+      "size_diff": 12116
+    },
+    {
+      "file": "demo/admin/tickets.js",
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 7815,
+      "previous_size": 0,
+      "size_diff": 7815
+    },
+    {
+      "file": "demo/admin/ui/admin.css",
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 3328,
+      "previous_size": 0,
+      "size_diff": 3328
+    },
+    {
+      "file": "demo/admin/ui/admin.js",
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 9884,
+      "previous_size": 0,
+      "size_diff": 9884
+    },
+    {
+      "file": "demo/admin/ui/index.html",
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 4915,
+      "previous_size": 0,
+      "size_diff": 4915
+    },
+    {
+      "file": "demo/package-lock.json",
+      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
+      "current_size": 5293,
+      "previous_size": 0,
+      "size_diff": 5293
+    },
+    {
+      "file": "demo/package.json",
+      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
+      "current_size": 394,
+      "previous_size": 350,
+      "size_diff": 44
+    },
+    {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "c726a88 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c726a88",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 152854,
-      "previous_size": 151945,
-      "size_diff": 909
+      "previous_size": 152854,
+      "size_diff": 0
     },
     {
       "file": "demo/public/assets/js/app.js",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 95633,
-      "previous_size": 93745,
-      "size_diff": 1888
+      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
+      "current_size": 96309,
+      "previous_size": 95633,
+      "size_diff": 676
     },
     {
       "file": "demo/public/assets/js/docs-pages.js",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 42698,
-      "previous_size": 34130,
-      "size_diff": 8568
+      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
+      "current_size": 47093,
+      "previous_size": 42698,
+      "size_diff": 4395
     },
     {
       "file": "demo/public/assets/js/guides.js",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 56582,
-      "previous_size": 54612,
-      "size_diff": 1970
-    },
-    {
-      "file": "demo/public/assets/js/sql-data.js",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 32121,
-      "previous_size": 0,
-      "size_diff": 32121
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 56742,
+      "previous_size": 56582,
+      "size_diff": 160
     },
     {
       "file": "demo/public/index.html",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 23750,
-      "previous_size": 23697,
-      "size_diff": 53
-    },
-    {
-      "file": "demo/public/source/config/cfg/server.cfg.example",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 3991,
-      "previous_size": 3870,
-      "size_diff": 121
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 23882,
+      "previous_size": 23750,
+      "size_diff": 132
     },
     {
       "file": "demo/public/source/config/config.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 22571,
       "previous_size": 22571,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/detect.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 50840,
       "previous_size": 50840,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/garages.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/hooks.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/hrs_airdrop.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/indexes.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/options.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/peds.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 62762,
       "previous_size": 62762,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/perms.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 28666,
-      "previous_size": 27423,
-      "size_diff": 1243
+      "previous_size": 28666,
+      "size_diff": 0
     },
     {
       "file": "demo/public/source/config/weapons.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 25237,
       "previous_size": 25237,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/webhooks.lua",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
+      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
       "current_size": 4496,
       "previous_size": 4496,
       "size_diff": 0
     },
     {
-      "file": "demo/public/source/locales/en.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 363647,
-      "previous_size": 362516,
-      "size_diff": 1131
-    },
-    {
-      "file": "demo/public/source/locales/fr.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 402543,
-      "previous_size": 401292,
-      "size_diff": 1251
-    },
-    {
-      "file": "demo/public/source/manifest.json",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 1436,
-      "previous_size": 1436,
-      "size_diff": 0
-    },
-    {
       "file": "demo/server.js",
-      "commit_info": "1536f36 - Site follows every release: live changelog / version and regenerated site data (#56)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/1536f36",
-      "current_size": 8898,
-      "previous_size": 6787,
-      "size_diff": 2111
+      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
+      "current_size": 10663,
+      "previous_size": 8898,
+      "size_diff": 1765
     },
     {
-      "file": "demo/tools/build_sql.py",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 11334,
+      "file": "html/index.html",
+      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
+      "current_size": 1577,
       "previous_size": 0,
-      "size_diff": 11334
+      "size_diff": 1577
+    },
+    {
+      "file": "html/ui.css",
+      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
+      "current_size": 6861,
+      "previous_size": 0,
+      "size_diff": 6861
+    },
+    {
+      "file": "html/ui.js",
+      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
+      "current_size": 16687,
+      "previous_size": 0,
+      "size_diff": 16687
     },
     {
       "file": "locales/en.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 369606,
-      "previous_size": 368993,
-      "size_diff": 613
+      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
+      "current_size": 370499,
+      "previous_size": 369606,
+      "size_diff": 893
     },
     {
       "file": "locales/fr.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 408500,
-      "previous_size": 407837,
-      "size_diff": 663
+      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
+      "current_size": 409464,
+      "previous_size": 408500,
+      "size_diff": 964
     },
     {
-      "file": "server/database.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 43529,
-      "previous_size": 42743,
-      "size_diff": 786
-    },
-    {
-      "file": "server/modules/diagnostics.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 5275,
-      "previous_size": 4160,
-      "size_diff": 1115
-    },
-    {
-      "file": "server/modules/discord_grades.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 6196,
+      "file": "tests/ui_bridge.lua",
+      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
+      "current_size": 7661,
       "previous_size": 0,
-      "size_diff": 6196
-    },
-    {
-      "file": "shared/autoconfig/defaults.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 7278,
-      "previous_size": 7238,
-      "size_diff": 40
-    },
-    {
-      "file": "shared/settings_schema.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 13379,
-      "previous_size": 13079,
-      "size_diff": 300
-    },
-    {
-      "file": "sql/adminmenu.sql",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 19195,
-      "previous_size": 12268,
-      "size_diff": 6927
-    },
-    {
-      "file": "tests/alerts.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 3059,
-      "previous_size": 0,
-      "size_diff": 3059
-    },
-    {
-      "file": "tests/avatar.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 2044,
-      "previous_size": 0,
-      "size_diff": 2044
-    },
-    {
-      "file": "tests/commands.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 4414,
-      "previous_size": 0,
-      "size_diff": 4414
-    },
-    {
-      "file": "tests/config_menu.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 5062,
-      "previous_size": 0,
-      "size_diff": 5062
-    },
-    {
-      "file": "tests/config_update.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 7024,
-      "previous_size": 0,
-      "size_diff": 7024
-    },
-    {
-      "file": "tests/death.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 2035,
-      "previous_size": 0,
-      "size_diff": 2035
-    },
-    {
-      "file": "tests/diag.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 2176,
-      "previous_size": 0,
-      "size_diff": 2176
-    },
-    {
-      "file": "tests/discord_grades.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 2733,
-      "previous_size": 0,
-      "size_diff": 2733
-    },
-    {
-      "file": "tests/keyboard.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 2898,
-      "previous_size": 0,
-      "size_diff": 2898
-    },
-    {
-      "file": "tests/run.sh",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 913,
-      "previous_size": 0,
-      "size_diff": 913
-    },
-    {
-      "file": "tests/settings.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 3971,
-      "previous_size": 0,
-      "size_diff": 3971
-    },
-    {
-      "file": "tests/store.lua",
-      "commit_info": "c47baef - Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c47baef",
-      "current_size": 3637,
-      "previous_size": 0,
-      "size_diff": 3637
+      "size_diff": 7661
     }
   ]
 }
