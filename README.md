@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.414-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.415-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8039,6 +8039,113 @@ server/modules/diagnostics.lua: Bug report (/adminbug) and client debug mode (/a
 server/security/policy.lua: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
 
 shared/logger.lua: Bug report (/adminbug) and client debug mode (/admindebug) (#55) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.415</strong> – 2026-11-17 18:46</summary>
+
+## Changelog for v1.2.415
+
+client/modules/diagnostics.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+client/modules/settings/config_menu.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+client/modules/showdata/general.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+config/cfg/server.cfg.example: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+config/perms.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+defaults/config/perms.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/assets/data/changelog.json: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/assets/js/app.js: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/assets/js/docs-pages.js: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/assets/js/guides.js: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/assets/js/sql-data.js: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/index.html: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/source/config/cfg/server.cfg.example: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/source/config/config.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/config/detect.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/config/garages.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/config/hooks.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/config/hrs_airdrop.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/config/indexes.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/config/options.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/config/peds.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/config/perms.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/source/config/weapons.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/config/webhooks.lua: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/public/source/locales/en.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/source/locales/fr.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/public/source/manifest.json: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+demo/server.js: Site follows every release: live changelog / version and regenerated site data (#56) by jumalley
+
+demo/tools/build_sql.py: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+locales/en.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+locales/fr.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+server/database.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+server/modules/diagnostics.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+server/modules/discord_grades.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+shared/autoconfig/defaults.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+shared/settings_schema.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+sql/adminmenu.sql: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/alerts.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/avatar.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/commands.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/config_menu.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/config_update.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/death.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/diag.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/discord_grades.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/keyboard.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/run.sh: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/settings.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
+
+tests/store.lua: Database docs and fixes, regression tests in CI, game builds, staff grades from Discord roles (#57) by jumalley
 
 
 
