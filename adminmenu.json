@@ -1,497 +1,393 @@
 {
-  "version": "1.2.416",
+  "version": "1.2.417",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "client/modules/settings/preferences.lua",
-      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
-      "current_size": 13412,
-      "previous_size": 11786,
-      "size_diff": 1626
-    },
-    {
       "file": "client/ui/bridge.lua",
-      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
-      "current_size": 12462,
-      "previous_size": 0,
-      "size_diff": 12462
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 13399,
+      "previous_size": 12462,
+      "size_diff": 937
     },
     {
       "file": "config/config.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "config/garages.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "config/hooks.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "config/hrs_airdrop.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "config/indexes.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "config/options.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "config/peds.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 28666,
       "previous_size": 28666,
       "size_diff": 0
     },
     {
       "file": "config/weapons.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "config/webhooks.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "defaults/config/config.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "defaults/config/detect.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "defaults/config/garages.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hooks.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hrs_airdrop.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "defaults/config/indexes.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "defaults/config/options.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "defaults/config/peds.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "defaults/config/perms.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 28666,
       "previous_size": 28666,
       "size_diff": 0
     },
     {
       "file": "defaults/config/weapons.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "defaults/config/webhooks.lua",
-      "commit_info": "5441b30 - 🔖 Automatically increment version to v1.2.416",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/5441b30",
+      "commit_info": "b5c011f - 🔖 Automatically increment version to v1.2.417",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/b5c011f",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
-      "file": "demo/Dockerfile",
-      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
-      "current_size": 807,
-      "previous_size": 692,
-      "size_diff": 115
-    },
-    {
-      "file": "demo/admin/api.js",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 10125,
-      "previous_size": 0,
-      "size_diff": 10125
-    },
-    {
-      "file": "demo/admin/auth.js",
-      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
-      "current_size": 4724,
-      "previous_size": 0,
-      "size_diff": 4724
-    },
-    {
-      "file": "demo/admin/db.js",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 2718,
-      "previous_size": 0,
-      "size_diff": 2718
-    },
-    {
-      "file": "demo/admin/setup.js",
-      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
-      "current_size": 2207,
-      "previous_size": 0,
-      "size_diff": 2207
-    },
-    {
-      "file": "demo/admin/support/index.html",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 4364,
-      "previous_size": 0,
-      "size_diff": 4364
-    },
-    {
-      "file": "demo/admin/support/support.css",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 2791,
-      "previous_size": 0,
-      "size_diff": 2791
-    },
-    {
-      "file": "demo/admin/support/support.js",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 12116,
-      "previous_size": 0,
-      "size_diff": 12116
-    },
-    {
-      "file": "demo/admin/tickets.js",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 7815,
-      "previous_size": 0,
-      "size_diff": 7815
-    },
-    {
-      "file": "demo/admin/ui/admin.css",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 3328,
-      "previous_size": 0,
-      "size_diff": 3328
-    },
-    {
-      "file": "demo/admin/ui/admin.js",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 9884,
-      "previous_size": 0,
-      "size_diff": 9884
-    },
-    {
-      "file": "demo/admin/ui/index.html",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 4915,
-      "previous_size": 0,
-      "size_diff": 4915
-    },
-    {
-      "file": "demo/package-lock.json",
-      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
-      "current_size": 5293,
-      "previous_size": 0,
-      "size_diff": 5293
-    },
-    {
-      "file": "demo/package.json",
-      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
-      "current_size": 394,
-      "previous_size": 350,
-      "size_diff": 44
-    },
-    {
       "file": "demo/public/assets/data/changelog.json",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
-      "current_size": 152854,
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
+      "current_size": 153306,
       "previous_size": 152854,
-      "size_diff": 0
-    },
-    {
-      "file": "demo/public/assets/js/app.js",
-      "commit_info": "ad32050 - Site: admin area with 2FA, visit stats and health (#58)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/ad32050",
-      "current_size": 96309,
-      "previous_size": 95633,
-      "size_diff": 676
-    },
-    {
-      "file": "demo/public/assets/js/docs-pages.js",
-      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
-      "current_size": 47093,
-      "previous_size": 42698,
-      "size_diff": 4395
-    },
-    {
-      "file": "demo/public/assets/js/guides.js",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 56742,
-      "previous_size": 56582,
-      "size_diff": 160
-    },
-    {
-      "file": "demo/public/index.html",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 23882,
-      "previous_size": 23750,
-      "size_diff": 132
+      "size_diff": 452
     },
     {
       "file": "demo/public/source/config/config.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 22571,
       "previous_size": 22571,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/detect.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 50840,
       "previous_size": 50840,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/garages.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/hooks.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/hrs_airdrop.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/indexes.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/options.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/peds.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 62762,
       "previous_size": 62762,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/perms.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 28666,
       "previous_size": 28666,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/weapons.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 25237,
       "previous_size": 25237,
       "size_diff": 0
     },
     {
       "file": "demo/public/source/config/webhooks.lua",
-      "commit_info": "e2ec7a7 - Demo: update changelog, version and site data",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e2ec7a7",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
       "current_size": 4496,
       "previous_size": 4496,
       "size_diff": 0
     },
     {
-      "file": "demo/server.js",
-      "commit_info": "daf5261 - Site: support tickets (bugs, questions, purchases, integrations) (#59)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/daf5261",
-      "current_size": 10663,
-      "previous_size": 8898,
-      "size_diff": 1765
+      "file": "demo/public/source/locales/en.lua",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
+      "current_size": 364522,
+      "previous_size": 363647,
+      "size_diff": 875
+    },
+    {
+      "file": "demo/public/source/locales/fr.lua",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
+      "current_size": 403489,
+      "previous_size": 402543,
+      "size_diff": 946
+    },
+    {
+      "file": "demo/public/source/manifest.json",
+      "commit_info": "cf4ad4d - Demo: update changelog, version and site data",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/cf4ad4d",
+      "current_size": 1436,
+      "previous_size": 1436,
+      "size_diff": 0
     },
     {
       "file": "html/index.html",
-      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
-      "current_size": 1577,
-      "previous_size": 0,
-      "size_diff": 1577
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 1600,
+      "previous_size": 1577,
+      "size_diff": 23
     },
     {
       "file": "html/ui.css",
-      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
-      "current_size": 6861,
-      "previous_size": 0,
-      "size_diff": 6861
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 7375,
+      "previous_size": 6861,
+      "size_diff": 514
     },
     {
       "file": "html/ui.js",
-      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
-      "current_size": 16687,
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 18213,
+      "previous_size": 16687,
+      "size_diff": 1526
+    },
+    {
+      "file": "html/vendor/fontawesome/LICENSE.txt",
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 7427,
       "previous_size": 0,
-      "size_diff": 16687
+      "size_diff": 7427
     },
     {
-      "file": "locales/en.lua",
-      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
-      "current_size": 370499,
-      "previous_size": 369606,
-      "size_diff": 893
+      "file": "html/vendor/fontawesome/css/all.min.css",
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 102096,
+      "previous_size": 0,
+      "size_diff": 102096
     },
     {
-      "file": "locales/fr.lua",
-      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
-      "current_size": 409464,
-      "previous_size": 408500,
-      "size_diff": 964
+      "file": "html/vendor/fontawesome/webfonts/fa-brands-400.woff2",
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 117372,
+      "previous_size": 0,
+      "size_diff": 117372
+    },
+    {
+      "file": "html/vendor/fontawesome/webfonts/fa-regular-400.woff2",
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 25452,
+      "previous_size": 0,
+      "size_diff": 25452
+    },
+    {
+      "file": "html/vendor/fontawesome/webfonts/fa-solid-900.woff2",
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 156496,
+      "previous_size": 0,
+      "size_diff": 156496
+    },
+    {
+      "file": "html/vendor/fontawesome/webfonts/fa-v4compatibility.woff2",
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 4792,
+      "previous_size": 0,
+      "size_diff": 4792
     },
     {
       "file": "tests/ui_bridge.lua",
-      "commit_info": "c7ebacb - Hybrid interface: each staff member picks ox_lib or the NUI panel (#60)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c7ebacb",
-      "current_size": 7661,
-      "previous_size": 0,
-      "size_diff": 7661
+      "commit_info": "5fc0d51 - NUI panel: instant long lists, bundled icons, spinner while an action runs (#61)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5fc0d51",
+      "current_size": 9222,
+      "previous_size": 7661,
+      "size_diff": 1561
     }
   ]
 }

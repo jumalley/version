@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.416-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.417-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8233,6 +8233,67 @@ locales/en.lua: Hybrid interface: each staff member picks ox_lib or the NUI pane
 locales/fr.lua: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
 
 tests/ui_bridge.lua: Hybrid interface: each staff member picks ox_lib or the NUI panel (#60) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.417</strong> – 2026-11-17 19:29</summary>
+
+## Changelog for v1.2.417
+
+client/ui/bridge.lua: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+demo/public/assets/data/changelog.json: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/config.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/detect.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/garages.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/hooks.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/hrs_airdrop.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/indexes.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/options.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/peds.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/perms.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/weapons.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/config/webhooks.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/locales/en.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/locales/fr.lua: Demo: update changelog, version and site data by github-actions[bot]
+
+demo/public/source/manifest.json: Demo: update changelog, version and site data by github-actions[bot]
+
+html/index.html: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+html/ui.css: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+html/ui.js: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+html/vendor/fontawesome/LICENSE.txt: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+html/vendor/fontawesome/css/all.min.css: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+html/vendor/fontawesome/webfonts/fa-brands-400.woff2: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+html/vendor/fontawesome/webfonts/fa-regular-400.woff2: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+html/vendor/fontawesome/webfonts/fa-solid-900.woff2: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+html/vendor/fontawesome/webfonts/fa-v4compatibility.woff2: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
+
+tests/ui_bridge.lua: NUI panel: instant long lists, bundled icons, spinner while an action runs (#61) by jumalley
 
 
 
