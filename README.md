@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.422-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.423-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8538,6 +8538,33 @@ tests/web_panel.lua: Node 24 workflows, resource command rights, Windows local t
 testserver/.gitignore: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
 
 testserver/start-test-server.bat: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.423</strong> – 2026-11-18 20:10</summary>
+
+## Changelog for v1.2.423
+
+demo/Dockerfile: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
+
+demo/public/assets/js/commands-data.js: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
+
+demo/public/assets/js/fxconsole.js: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
+
+demo/public/assets/js/guides.js: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
+
+demo/public/assets/js/i18n.js: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
+
+demo/server.js: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
+
+demo/tools/build_commands.py: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
+
+server/command_registry.lua: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
+
+tests/commands.lua: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
 
 
 

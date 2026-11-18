@@ -1,465 +1,257 @@
 {
-  "version": "1.2.422",
+  "version": "1.2.423",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
   ],
   "file_changes": [
     {
-      "file": "config/cfg/adminmenu_main_perms.cfg",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 1248,
-      "previous_size": 1102,
-      "size_diff": 146
-    },
-    {
       "file": "config/config.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "config/garages.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "config/hooks.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "config/hrs_airdrop.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "config/indexes.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "config/options.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "config/peds.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 29653,
       "previous_size": 29653,
       "size_diff": 0
     },
     {
       "file": "config/weapons.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "config/webhooks.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "defaults/config/config.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "defaults/config/detect.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "defaults/config/garages.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hooks.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hrs_airdrop.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "defaults/config/indexes.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "defaults/config/options.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "defaults/config/peds.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "defaults/config/perms.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 29653,
       "previous_size": 29653,
       "size_diff": 0
     },
     {
       "file": "defaults/config/weapons.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "defaults/config/webhooks.lua",
-      "commit_info": "9c6f0c5 - 🔖 Automatically increment version to v1.2.422",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/9c6f0c5",
+      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "demo/Dockerfile",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 1902,
-      "previous_size": 1621,
-      "size_diff": 281
+      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
+      "current_size": 1975,
+      "previous_size": 1902,
+      "size_diff": 73
     },
     {
-      "file": "demo/admin/paneldemo/demo-api.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 15984,
-      "previous_size": 0,
-      "size_diff": 15984
-    },
-    {
-      "file": "demo/admin/paneldemo/demo-launcher.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 6765,
-      "previous_size": 0,
-      "size_diff": 6765
-    },
-    {
-      "file": "demo/public/assets/css/style.css",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 117904,
-      "previous_size": 108504,
-      "size_diff": 9400
-    },
-    {
-      "file": "demo/public/assets/js/app.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 98664,
-      "previous_size": 96349,
-      "size_diff": 2315
-    },
-    {
-      "file": "demo/public/assets/js/config.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 1968,
-      "previous_size": 1968,
-      "size_diff": 0
-    },
-    {
-      "file": "demo/public/assets/js/docs-pages.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 65014,
-      "previous_size": 60514,
-      "size_diff": 4500
+      "file": "demo/public/assets/js/commands-data.js",
+      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
+      "current_size": 13931,
+      "previous_size": 12758,
+      "size_diff": 1173
     },
     {
       "file": "demo/public/assets/js/fxconsole.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 16371,
-      "previous_size": 0,
-      "size_diff": 16371
+      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
+      "current_size": 20419,
+      "previous_size": 16371,
+      "size_diff": 4048
     },
     {
       "file": "demo/public/assets/js/guides.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 56700,
-      "previous_size": 56742,
-      "size_diff": -42
+      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
+      "current_size": 56876,
+      "previous_size": 56700,
+      "size_diff": 176
     },
     {
       "file": "demo/public/assets/js/i18n.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 27846,
-      "previous_size": 25986,
-      "size_diff": 1860
-    },
-    {
-      "file": "demo/public/assets/js/videoplayer.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 18264,
-      "previous_size": 0,
-      "size_diff": 18264
-    },
-    {
-      "file": "demo/public/index.html",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 24003,
-      "previous_size": 23882,
-      "size_diff": 121
+      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
+      "current_size": 27856,
+      "previous_size": 27846,
+      "size_diff": 10
     },
     {
       "file": "demo/server.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 14694,
-      "previous_size": 11770,
-      "size_diff": 2924
+      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
+      "current_size": 14950,
+      "previous_size": 14694,
+      "size_diff": 256
     },
     {
-      "file": "launcher/archive_test.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 2009,
-      "previous_size": 0,
-      "size_diff": 2009
+      "file": "demo/tools/build_commands.py",
+      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
+      "current_size": 4422,
+      "previous_size": 4305,
+      "size_diff": 117
     },
     {
-      "file": "launcher/console_other.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 58,
-      "previous_size": 0,
-      "size_diff": 58
+      "file": "server/command_registry.lua",
+      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
+      "current_size": 7631,
+      "previous_size": 7131,
+      "size_diff": 500
     },
     {
-      "file": "launcher/console_windows.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 476,
-      "previous_size": 0,
-      "size_diff": 476
-    },
-    {
-      "file": "launcher/find_test.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 649,
-      "previous_size": 0,
-      "size_diff": 649
-    },
-    {
-      "file": "launcher/go.mod",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 734,
-      "previous_size": 136,
-      "size_diff": 598
-    },
-    {
-      "file": "launcher/go.sum",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 26229,
-      "previous_size": 308,
-      "size_diff": 25921
-    },
-    {
-      "file": "launcher/launcher_test.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 10118,
-      "previous_size": 9767,
-      "size_diff": 351
-    },
-    {
-      "file": "launcher/main.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 2648,
-      "previous_size": 2375,
-      "size_diff": 273
-    },
-    {
-      "file": "launcher/recipe.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 11585,
-      "previous_size": 0,
-      "size_diff": 11585
-    },
-    {
-      "file": "launcher/recipe_test.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 6389,
-      "previous_size": 0,
-      "size_diff": 6389
-    },
-    {
-      "file": "launcher/server.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 7646,
-      "previous_size": 7095,
-      "size_diff": 551
-    },
-    {
-      "file": "launcher/testserver.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 23938,
-      "previous_size": 0,
-      "size_diff": 23938
-    },
-    {
-      "file": "launcher/web.go",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 8284,
-      "previous_size": 8249,
-      "size_diff": 35
-    },
-    {
-      "file": "railway.json",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 406,
-      "previous_size": 385,
-      "size_diff": 21
-    },
-    {
-      "file": "server/database.lua",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 46859,
-      "previous_size": 46090,
-      "size_diff": 769
-    },
-    {
-      "file": "server/modules/live_console.lua",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 9689,
-      "previous_size": 8750,
-      "size_diff": 939
-    },
-    {
-      "file": "server/startup_manager.lua",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 19875,
-      "previous_size": 19402,
-      "size_diff": 473
-    },
-    {
-      "file": "tests/server/e2e.js",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 13578,
-      "previous_size": 11321,
-      "size_diff": 2257
-    },
-    {
-      "file": "tests/web_panel.lua",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 15064,
-      "previous_size": 14760,
-      "size_diff": 304
-    },
-    {
-      "file": "testserver/.gitignore",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 51,
-      "previous_size": 0,
-      "size_diff": 51
-    },
-    {
-      "file": "testserver/start-test-server.bat",
-      "commit_info": "03eff30 - Node 24 workflows, resource command rights, Windows local test server (#66)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/03eff30",
-      "current_size": 1485,
-      "previous_size": 0,
-      "size_diff": 1485
+      "file": "tests/commands.lua",
+      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
+      "current_size": 4862,
+      "previous_size": 4414,
+      "size_diff": 448
     }
   ]
 }
