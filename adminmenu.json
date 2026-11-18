@@ -1,5 +1,5 @@
 {
-  "version": "1.2.420",
+  "version": "1.2.421",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,395 +7,211 @@
   "file_changes": [
     {
       "file": "config/config.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "config/garages.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "config/hooks.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "config/hrs_airdrop.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "config/indexes.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "config/options.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "config/peds.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 29653,
-      "previous_size": 29525,
-      "size_diff": 128
+      "previous_size": 29653,
+      "size_diff": 0
     },
     {
       "file": "config/weapons.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "config/webhooks.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "defaults/config/config.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "defaults/config/detect.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "defaults/config/garages.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hooks.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hrs_airdrop.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "defaults/config/indexes.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "defaults/config/options.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "defaults/config/peds.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "defaults/config/perms.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 29653,
-      "previous_size": 29525,
-      "size_diff": 128
+      "previous_size": 29653,
+      "size_diff": 0
     },
     {
       "file": "defaults/config/weapons.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "defaults/config/webhooks.lua",
-      "commit_info": "c297363 - 🔖 Automatically increment version to v1.2.420",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/c297363",
+      "commit_info": "00eb4c3 - 🔖 Automatically increment version to v1.2.421",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/00eb4c3",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
-      "file": "demo/Dockerfile",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 1621,
-      "previous_size": 807,
-      "size_diff": 814
-    },
-    {
-      "file": "demo/public/assets/js/app.js",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 96349,
-      "previous_size": 96309,
-      "size_diff": 40
-    },
-    {
-      "file": "demo/public/assets/js/docs-pages.js",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 60514,
-      "previous_size": 56270,
-      "size_diff": 4244
-    },
-    {
-      "file": "demo/public/assets/js/oxlib.js",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 17495,
-      "previous_size": 17371,
-      "size_diff": 124
-    },
-    {
-      "file": "demo/public/assets/js/perms-data.js",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 21798,
-      "previous_size": 21471,
-      "size_diff": 327
-    },
-    {
-      "file": "demo/public/assets/js/site-data.js",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 51324,
-      "previous_size": 50030,
-      "size_diff": 1294
-    },
-    {
-      "file": "demo/server.js",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 11770,
-      "previous_size": 10663,
-      "size_diff": 1107
-    },
-    {
-      "file": "launcher/auth.go",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 5107,
-      "previous_size": 0,
-      "size_diff": 5107
-    },
-    {
-      "file": "launcher/config.go",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 5539,
-      "previous_size": 0,
-      "size_diff": 5539
-    },
-    {
-      "file": "launcher/go.mod",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 136,
-      "previous_size": 0,
-      "size_diff": 136
-    },
-    {
-      "file": "launcher/go.sum",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 308,
-      "previous_size": 0,
-      "size_diff": 308
-    },
-    {
-      "file": "launcher/launcher_test.go",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 9767,
-      "previous_size": 0,
-      "size_diff": 9767
-    },
-    {
-      "file": "launcher/main.go",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 2375,
-      "previous_size": 0,
-      "size_diff": 2375
-    },
-    {
-      "file": "launcher/server.go",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 7095,
-      "previous_size": 0,
-      "size_diff": 7095
-    },
-    {
-      "file": "launcher/ui/app.css",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 3328,
-      "previous_size": 0,
-      "size_diff": 3328
-    },
-    {
-      "file": "launcher/ui/app.js",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 7433,
-      "previous_size": 0,
-      "size_diff": 7433
-    },
-    {
-      "file": "launcher/ui/index.html",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 2190,
-      "previous_size": 0,
-      "size_diff": 2190
-    },
-    {
-      "file": "launcher/web.go",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 8249,
-      "previous_size": 0,
-      "size_diff": 8249
-    },
-    {
-      "file": "locales/en.lua",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 373415,
-      "previous_size": 373115,
-      "size_diff": 300
-    },
-    {
-      "file": "locales/fr.lua",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 412780,
-      "previous_size": 412432,
-      "size_diff": 348
-    },
-    {
-      "file": "railway.json",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 385,
-      "previous_size": 352,
-      "size_diff": 33
-    },
-    {
-      "file": "server/web/api.lua",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 14261,
-      "previous_size": 10828,
-      "size_diff": 3433
+      "file": "server/web/auth.lua",
+      "commit_info": "6a6519a - Test server on GitHub Actions: a real FiveM server, tested end to end (#65)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6a6519a",
+      "current_size": 11703,
+      "previous_size": 10279,
+      "size_diff": 1424
     },
     {
       "file": "tests/lib/webmock.lua",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 9474,
-      "previous_size": 9313,
-      "size_diff": 161
+      "commit_info": "6a6519a - Test server on GitHub Actions: a real FiveM server, tested end to end (#65)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6a6519a",
+      "current_size": 9559,
+      "previous_size": 9474,
+      "size_diff": 85
+    },
+    {
+      "file": "tests/server/e2e.js",
+      "commit_info": "6a6519a - Test server on GitHub Actions: a real FiveM server, tested end to end (#65)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6a6519a",
+      "current_size": 11321,
+      "previous_size": 0,
+      "size_diff": 11321
     },
     {
       "file": "tests/web_panel.lua",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 13866,
-      "previous_size": 11659,
-      "size_diff": 2207
-    },
-    {
-      "file": "web/app.css",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 7369,
-      "previous_size": 7068,
-      "size_diff": 301
-    },
-    {
-      "file": "web/app.js",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 26767,
-      "previous_size": 23051,
-      "size_diff": 3716
-    },
-    {
-      "file": "web/index.html",
-      "commit_info": "e08e693 - Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e08e693",
-      "current_size": 7207,
-      "previous_size": 6247,
-      "size_diff": 960
+      "commit_info": "6a6519a - Test server on GitHub Actions: a real FiveM server, tested end to end (#65)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/6a6519a",
+      "current_size": 14760,
+      "previous_size": 13866,
+      "size_diff": 894
     }
   ]
 }

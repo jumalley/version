@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.420-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.421-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8442,6 +8442,23 @@ web/app.css: Start a stopped server from the web: txAdmin integration + adminmen
 web/app.js: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
 
 web/index.html: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.421</strong> – 2026-11-18 18:44</summary>
+
+## Changelog for v1.2.421
+
+server/web/auth.lua: Test server on GitHub Actions: a real FiveM server, tested end to end (#65) by jumalley
+
+tests/lib/webmock.lua: Test server on GitHub Actions: a real FiveM server, tested end to end (#65) by jumalley
+
+tests/server/e2e.js: Test server on GitHub Actions: a real FiveM server, tested end to end (#65) by jumalley
+
+tests/web_panel.lua: Test server on GitHub Actions: a real FiveM server, tested end to end (#65) by jumalley
 
 
 
