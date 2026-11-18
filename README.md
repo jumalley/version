@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.421-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.422-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8459,6 +8459,85 @@ tests/lib/webmock.lua: Test server on GitHub Actions: a real FiveM server, teste
 tests/server/e2e.js: Test server on GitHub Actions: a real FiveM server, tested end to end (#65) by jumalley
 
 tests/web_panel.lua: Test server on GitHub Actions: a real FiveM server, tested end to end (#65) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.422</strong> – 2026-11-18 19:48</summary>
+
+## Changelog for v1.2.422
+
+config/cfg/adminmenu_main_perms.cfg: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/Dockerfile: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/admin/paneldemo/demo-api.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/admin/paneldemo/demo-launcher.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/public/assets/css/style.css: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/public/assets/js/app.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/public/assets/js/config.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/public/assets/js/docs-pages.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/public/assets/js/fxconsole.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/public/assets/js/guides.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/public/assets/js/i18n.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/public/assets/js/videoplayer.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/public/index.html: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+demo/server.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/archive_test.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/console_other.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/console_windows.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/find_test.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/go.mod: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/go.sum: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/launcher_test.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/main.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/recipe.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/recipe_test.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/server.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/testserver.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+launcher/web.go: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+railway.json: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+server/database.lua: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+server/modules/live_console.lua: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+server/startup_manager.lua: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+tests/server/e2e.js: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+tests/web_panel.lua: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+testserver/.gitignore: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
+
+testserver/start-test-server.bat: Node 24 workflows, resource command rights, Windows local test server (#66) by jumalley
 
 
 
