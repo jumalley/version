@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.419-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.420-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8375,6 +8375,73 @@ web/app.css: Web panel served by the resource (like txAdmin) (#63) by jumalley
 web/app.js: Web panel served by the resource (like txAdmin) (#63) by jumalley
 
 web/index.html: Web panel served by the resource (like txAdmin) (#63) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.420</strong> – 2026-11-18 07:24</summary>
+
+## Changelog for v1.2.420
+
+config/perms.lua: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+defaults/config/perms.lua: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+demo/Dockerfile: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+demo/public/assets/js/app.js: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+demo/public/assets/js/docs-pages.js: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+demo/public/assets/js/oxlib.js: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+demo/public/assets/js/perms-data.js: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+demo/public/assets/js/site-data.js: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+demo/server.js: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/auth.go: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/config.go: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/go.mod: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/go.sum: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/launcher_test.go: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/main.go: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/server.go: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/ui/app.css: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/ui/app.js: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/ui/index.html: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+launcher/web.go: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+locales/en.lua: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+locales/fr.lua: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+railway.json: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+server/web/api.lua: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+tests/lib/webmock.lua: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+tests/web_panel.lua: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+web/app.css: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+web/app.js: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
+
+web/index.html: Start a stopped server from the web: txAdmin integration + adminmenu launcher (#64) by jumalley
 
 
 
