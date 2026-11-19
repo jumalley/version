@@ -1,5 +1,5 @@
 {
-  "version": "1.2.423",
+  "version": "1.2.424",
   "descriptions": [
     "pistol staff adjustements",
     "changelog"
@@ -7,251 +7,251 @@
   "file_changes": [
     {
       "file": "config/config.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "config/detect.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "config/garages.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "config/hooks.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "config/hrs_airdrop.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "config/indexes.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "config/options.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "config/peds.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "config/perms.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 29653,
       "previous_size": 29653,
       "size_diff": 0
     },
     {
       "file": "config/weapons.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "config/webhooks.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
       "file": "defaults/config/config.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 23067,
       "previous_size": 23067,
       "size_diff": 0
     },
     {
       "file": "defaults/config/detect.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 52044,
       "previous_size": 52044,
       "size_diff": 0
     },
     {
       "file": "defaults/config/garages.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 3953,
       "previous_size": 3953,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hooks.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 4532,
       "previous_size": 4532,
       "size_diff": 0
     },
     {
       "file": "defaults/config/hrs_airdrop.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 6591,
       "previous_size": 6591,
       "size_diff": 0
     },
     {
       "file": "defaults/config/indexes.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 2793,
       "previous_size": 2793,
       "size_diff": 0
     },
     {
       "file": "defaults/config/options.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 27384,
       "previous_size": 27384,
       "size_diff": 0
     },
     {
       "file": "defaults/config/peds.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 63791,
       "previous_size": 63791,
       "size_diff": 0
     },
     {
       "file": "defaults/config/perms.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 29653,
       "previous_size": 29653,
       "size_diff": 0
     },
     {
       "file": "defaults/config/weapons.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 26026,
       "previous_size": 26026,
       "size_diff": 0
     },
     {
       "file": "defaults/config/webhooks.lua",
-      "commit_info": "e3d0f1c - 🔖 Automatically increment version to v1.2.423",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/e3d0f1c",
+      "commit_info": "18dcb4f - 🔖 Automatically increment version to v1.2.424",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/18dcb4f",
       "current_size": 4523,
       "previous_size": 4523,
       "size_diff": 0
     },
     {
-      "file": "demo/Dockerfile",
-      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
-      "current_size": 1975,
-      "previous_size": 1902,
-      "size_diff": 73
-    },
-    {
-      "file": "demo/public/assets/js/commands-data.js",
-      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
-      "current_size": 13931,
-      "previous_size": 12758,
-      "size_diff": 1173
-    },
-    {
-      "file": "demo/public/assets/js/fxconsole.js",
-      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
-      "current_size": 20419,
-      "previous_size": 16371,
-      "size_diff": 4048
+      "file": "demo/public/assets/js/app.js",
+      "commit_info": "5db440d - Startup console: one line per step, nothing printed twice (#68)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5db440d",
+      "current_size": 98663,
+      "previous_size": 98664,
+      "size_diff": -1
     },
     {
       "file": "demo/public/assets/js/guides.js",
-      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
-      "current_size": 56876,
-      "previous_size": 56700,
-      "size_diff": 176
+      "commit_info": "5db440d - Startup console: one line per step, nothing printed twice (#68)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5db440d",
+      "current_size": 55016,
+      "previous_size": 56876,
+      "size_diff": -1860
     },
     {
       "file": "demo/public/assets/js/i18n.js",
-      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
-      "current_size": 27856,
-      "previous_size": 27846,
-      "size_diff": 10
+      "commit_info": "5db440d - Startup console: one line per step, nothing printed twice (#68)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5db440d",
+      "current_size": 27954,
+      "previous_size": 27856,
+      "size_diff": 98
     },
     {
-      "file": "demo/server.js",
-      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
-      "current_size": 14950,
-      "previous_size": 14694,
-      "size_diff": 256
+      "file": "server/database.lua",
+      "commit_info": "5db440d - Startup console: one line per step, nothing printed twice (#68)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5db440d",
+      "current_size": 46798,
+      "previous_size": 46859,
+      "size_diff": -61
     },
     {
-      "file": "demo/tools/build_commands.py",
-      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
-      "current_size": 4422,
-      "previous_size": 4305,
-      "size_diff": 117
+      "file": "server/modules/settings/config_update.lua",
+      "commit_info": "5db440d - Startup console: one line per step, nothing printed twice (#68)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5db440d",
+      "current_size": 17626,
+      "previous_size": 17640,
+      "size_diff": -14
     },
     {
-      "file": "server/command_registry.lua",
-      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
-      "current_size": 7631,
-      "previous_size": 7131,
-      "size_diff": 500
+      "file": "server/startup_manager.lua",
+      "commit_info": "5db440d - Startup console: one line per step, nothing printed twice (#68)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5db440d",
+      "current_size": 18750,
+      "previous_size": 19875,
+      "size_diff": -1125
     },
     {
-      "file": "tests/commands.lua",
-      "commit_info": "4476052 - adminmenu_commands filter; site console shows the real menu commands (#67)",
-      "commit_url": "https://github.com/jumalley/adminmenu/commit/4476052",
-      "current_size": 4862,
-      "previous_size": 4414,
-      "size_diff": 448
+      "file": "shared/logger.lua",
+      "commit_info": "5db440d - Startup console: one line per step, nothing printed twice (#68)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5db440d",
+      "current_size": 9658,
+      "previous_size": 9188,
+      "size_diff": 470
+    },
+    {
+      "file": "tests/config_update.lua",
+      "commit_info": "5db440d - Startup console: one line per step, nothing printed twice (#68)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5db440d",
+      "current_size": 7167,
+      "previous_size": 7024,
+      "size_diff": 143
+    },
+    {
+      "file": "tests/startup.lua",
+      "commit_info": "5db440d - Startup console: one line per step, nothing printed twice (#68)",
+      "commit_url": "https://github.com/jumalley/adminmenu/commit/5db440d",
+      "current_size": 3942,
+      "previous_size": 0,
+      "size_diff": 3942
     }
   ]
 }

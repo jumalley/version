@@ -2,7 +2,7 @@
 
 This repository is auto-updated from [adminmenu](https://github.com/jumalley/adminmenu) using GitHub Actions.
 
-![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.423-brightgreen)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-v1.2.424-brightgreen)
 ![Auto Updated](https://img.shields.io/badge/Status-Auto%20Updated-blue)
 
 Each push to the `main` branch:
@@ -8565,6 +8565,33 @@ demo/tools/build_commands.py: adminmenu_commands filter; site console shows the 
 server/command_registry.lua: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
 
 tests/commands.lua: adminmenu_commands filter; site console shows the real menu commands (#67) by jumalley
+
+
+
+</details>
+
+<details>
+<summary><strong>v1.2.424</strong> – 2026-11-19 18:26</summary>
+
+## Changelog for v1.2.424
+
+demo/public/assets/js/app.js: Startup console: one line per step, nothing printed twice (#68) by jumalley
+
+demo/public/assets/js/guides.js: Startup console: one line per step, nothing printed twice (#68) by jumalley
+
+demo/public/assets/js/i18n.js: Startup console: one line per step, nothing printed twice (#68) by jumalley
+
+server/database.lua: Startup console: one line per step, nothing printed twice (#68) by jumalley
+
+server/modules/settings/config_update.lua: Startup console: one line per step, nothing printed twice (#68) by jumalley
+
+server/startup_manager.lua: Startup console: one line per step, nothing printed twice (#68) by jumalley
+
+shared/logger.lua: Startup console: one line per step, nothing printed twice (#68) by jumalley
+
+tests/config_update.lua: Startup console: one line per step, nothing printed twice (#68) by jumalley
+
+tests/startup.lua: Startup console: one line per step, nothing printed twice (#68) by jumalley
 
 
 
